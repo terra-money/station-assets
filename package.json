@@ -1,0 +1,22 @@
+{
+  "name": "station-assets",
+  "version": "1.0.0",
+  "description": "🛰️ Assets for Station",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terra-money/station-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terra-money/station-assets/issues"
+  },
+  "homepage": "https://github.com/terra-money/station-assets#readme",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
