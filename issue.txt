@@ -1,0 +1,67 @@
+### What's the name of the chain?
+greg
+
+### Is greg a mainnet or a testnet?
+testnet
+
+### Great, now we need the greg logo.
+![greg](https://example.com)
+
+### What's the greg testnet chain ID?
+greg-1
+
+### What's the URL to a public LCD?
+https://example.com
+
+### What are the IBC channels?
+- From Terra: channel-1
+- To Terra: channel-1
+
+### What's the Bech32 address prefix?
+greg
+
+### Which coinType do you prefer to use for the bech32 address generation?
+118
+
+### What's the on-chain token?
+uluna
+
+### What's the token name?
+greg
+
+### What's the token symbol?
+greg
+
+### What's the token logo?
+![greg](https://example.com)
+
+### What's the minimum gas-price for greg on greg?
+1
+
+### What's your email?
+gregnuj@gmail.com
+
+### What's your Telegram?
+gregnuj
+
+### Chain file:
+```js
+module.exports = {
+  chainID: 'greg-1',
+  lcd: 'https://example.com',
+  gasAdjustment: 1.75,
+  gasPrices: { uluna: 1 },
+  prefix: 'greg',
+  coinType: '118',
+  baseAsset: 'uluna',
+  name: 'greg',
+  icon: 'https://example.com',
+  ibc: {
+    fromTerra: 'channel-1',
+    toTerra: 'channel-1',
+  }
+}
+```
+
+<!-- IMPORTANT: this text was automatically generated, DO NOT change anything -->
+    
