@@ -11,9 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Checkout new branch
-        run: git checkout -b issue/1
-
       - name: Make changes to pull request
         run: date +%s > report.txt
         
@@ -25,7 +22,8 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: issue/1
+          branch: issue/
+          branch-suffix: random
           delete-branch: true
           title: '[Example] Update report'
           body: |
