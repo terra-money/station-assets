@@ -22,8 +22,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: issues/issue
-          branch-suffix: ${{ github.issue.event.id }}
+          branch: issues/issue-${{ github.issue.event.id }}
           delete-branch: true
           title: '[Example] Update report'
           body: |
@@ -39,5 +38,4 @@ jobs:
           team-reviewers: |
             owners
             maintainers
-          milestone: 1
           draft: false
