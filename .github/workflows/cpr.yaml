@@ -3,7 +3,6 @@ name: Create Pull Request
 on:
   issues:
     opened:
-  workflow_dispatch:
 
 jobs:
   createPullRequest:
