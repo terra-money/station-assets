@@ -3,7 +3,6 @@ name: Create Pull Request
 on:
   issues:
     opened:
-  workflow_dispatch:
 
 jobs:
   createPullRequest:
@@ -13,7 +12,14 @@ jobs:
 
       - name: Make changes to pull request
         run: echo "${{ github.issue.event.body }}" > issue.txt
-        
+
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -22,6 +28,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
+
           branch: issues/issue-${{ github.issue.event.number }}
           delete-branch: true
           title: '[Example] Update report'
