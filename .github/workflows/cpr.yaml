@@ -10,14 +10,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Make changes to pull request
-        run: echo "${{ github.event.issue.body }}" > issue.txt
+
 
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
           echo "$GITHUB_CONTEXT"
+
+      - name: Make changes to pull request
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: echo "$ISSUE_BODY" > issue.txt
 
       - name: Create Pull Request
         id: cpr
@@ -27,7 +31,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: issues/issue-${{ github.event.issue.number }}
+          branch: ${{ github.event_name}}/${{ github.event.action }}-${{ github.event.issue.number }}
           delete-branch: true
           title: '[Example] Update report'
           body: |
