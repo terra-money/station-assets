@@ -13,7 +13,13 @@ jobs:
 
       - name: Make changes to pull request
         run: echo "${{ github.event.issue.body }}" > issue.txt
-        
+
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
