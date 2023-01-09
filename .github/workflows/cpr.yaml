@@ -1,4 +1,4 @@
-name: deploy
+name: Create Pull Request
 
 on:
   issues:
@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Make changes to pull request
-        run: date +%s > report.txt
-
+        run: echo "${{ github.issue.event.body }}" > issue.txt
+        
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -22,7 +22,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: main
+          branch: issues/issue-${{ github.issue.event.number }}
           delete-branch: true
           title: '[Example] Update report'
           body: |
@@ -38,5 +38,4 @@ jobs:
           team-reviewers: |
             owners
             maintainers
-          milestone: 1
           draft: false
