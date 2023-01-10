@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/terra-money/station-assets#readme",
   "dependencies": {
-    "glob": "^8.0.3"
+    "@keplr-wallet/crypto": "^0.11.32",
+    "buffer": "^6.0.3",
+    "glob": "^8.0.3",
+    "glob-promise": "^6.0.1"
   }
 }
