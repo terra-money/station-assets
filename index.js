@@ -54,7 +54,13 @@ const fs = require('fs').promises
           chains[network][chainID].ibc.toTerra,
           coinData.token,
         )
-        ibcDenomMapOut[network][ibcDenomOnTerra] = coinData.token
+
+        ibcDenomMapOut[network][ibcDenomOnTerra] = {
+          token: coinData.token,
+          chainID: Object.values(chains[network]).find(
+            ({ prefix }) => prefix === 'terra',
+          )?.chainID,
+        }
 
         // add IBC denom on other chains
         Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
@@ -64,7 +70,10 @@ const fs = require('fs').promises
             chains[network][chainID2].ibc.fromTerra,
             ibcDenomOnTerra,
           )
-          ibcDenomMapOut[network][ibcDenomOnOther] = coinData.token
+          ibcDenomMapOut[network][ibcDenomOnOther] = {
+            token: coinData.token,
+            chainID: chainID2,
+          }
         })
       } else if (chains[network][chainID].prefix === 'terra') {
         // add IBC denom on other chains
@@ -75,7 +84,10 @@ const fs = require('fs').promises
             chains[network][chainID2].ibc.fromTerra,
             coinData.token,
           )
-          ibcDenomMapOut[network][ibcDenomOnOther] = coinData.token
+          ibcDenomMapOut[network][ibcDenomOnOther] = {
+            token: coinData.token,
+            chainID: chainID2,
+          }
         })
       }
     })
