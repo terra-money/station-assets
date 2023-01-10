@@ -25,4 +25,25 @@ const fs = require('fs').promises
     const jsonList = JSON.stringify(chainsOut, null, 2)
     await fs.writeFile(chainsOutPath, jsonList)
   })
+
+    // convert coins to json
+    glob('./coins/*/*.js', async (_, files) => {
+      const coinsOutPath = './build/coins.json'
+      const coinsOut = {}
+  
+      files.forEach((file) => {
+        const [_, folder, network, fileName] = file.split('/')
+  
+        if (typeof coinsOut[network] === 'undefined') {
+          coinsOut[network] = {}
+        }
+  
+        const fullPath = `./${file}`
+        const coinData = require(fullPath)
+        coinsOut[network][coinData.token] = coinData
+      })
+      // Format the JSON with indentions before writing.
+      const jsonList = JSON.stringify(coinsOut, null, 2)
+      await fs.writeFile(coinsOutPath, jsonList)
+    })
 })()
