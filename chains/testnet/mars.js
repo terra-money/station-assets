@@ -7,9 +7,9 @@ module.exports = {
   coinType: '118',
   baseAsset: 'umars',
   name: 'Mars',
-  icon: 'https://marsprotocol.io/mars_logo_colored.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Mars.svg',
   ibc: {
-      toTerra: 'channel-1',
-      fromTerra: 'channel-66'
-  }
+    toTerra: 'channel-1',
+    fromTerra: 'channel-66',
+  },
 }

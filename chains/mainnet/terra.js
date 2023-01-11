@@ -7,6 +7,6 @@ module.exports = {
   coinType: '330',
   baseAsset: 'uluna',
   name: 'Terra',
-  icon: 'https://assets.terra.money/icon/svg/Terra.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
   // doesn't require IBC channels since it's already on all the other chains
 }

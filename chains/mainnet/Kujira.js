@@ -2,8 +2,9 @@ module.exports = {
   chainID: 'kaiyo-1',
   lcd: 'https://lcd.kaiyo.kujira.setten.io',
   gasAdjustment: 1.75,
-  gasPrices: { 
+  gasPrices: {
     ukuji: 0.00119,
+    /*
     'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F': 0.00150,
     'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2': 0.000125,
     'ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23': 0.00126,
@@ -15,14 +16,15 @@ module.exports = {
     'ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602': 0.0488,
     'ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2': 78492936,
     'ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7': 964351
- },
+    */
+  },
   prefix: 'kujira',
   coinType: '118',
   baseAsset: 'ukuji',
   name: 'Kujira',
-  icon: 'https://3949068434-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyPeco0BDFBM85kKY4Hkl%2Fuploads%2F2G4YGL2kmmBzpPrtVnCe%2Fkujira-text.png?alt=media&token=5b8757c2-caf7-4374-80aa-688ca00b2d94',
+  icon: 'https://station-assets.terra.money/img/chains/Kujira.png',
   ibc: {
     fromTerra: 'channel-10',
     toTerra: 'channel-5',
-  }
+  },
 }

@@ -1,4 +1,5 @@
 const glob = require('glob-promise')
+const path = require('path')
 const { Buffer } = require('buffer')
 const { Hash } = require('@keplr-wallet/crypto')
 const fs = require('fs').promises
@@ -100,6 +101,16 @@ const fs = require('fs').promises
   await fs.writeFile(coinsOutPath, coinsList)
   const ibcList = JSON.stringify(ibcDenomMapOut, null, 2)
   await fs.writeFile(ibcDenomMapOutPath, ibcList)
+
+  // copy images inside ./build
+  const images = await glob('./img/*/*.{png,svg}')
+
+  await Promise.all(
+    images.map(async (file) => {
+      await fs.mkdir(`./build/${path.dirname(file).replace('./', '')}`, { recursive: true })
+      await fs.copyFile(file, `./build/${file.replace('./', '')}`)
+    }),
+  )
 })()
 
 function calculateIBCDenom(sourceChannel, denom) {

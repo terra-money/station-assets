@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uosmo',
   name: 'Osmosis',
-  icon: 'https://assets.terra.money/icon/svg/ibc/OSMO.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Osmosis.svg',
   ibc: {
     toTerra: 'channel-251',
     fromTerra: 'channel-1',

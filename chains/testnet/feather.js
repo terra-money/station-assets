@@ -7,5 +7,5 @@ module.exports = {
   coinType: '330',
   baseAsset: 'stake',
   name: 'Feather',
-  icon: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/microsoft/319/feather_1fab6.png',
+  icon: 'https://station-assets.terra.money/img/chains/Feather.png',
 }

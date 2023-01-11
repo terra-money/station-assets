@@ -1,11 +1,11 @@
 module.exports = {
-  baseAsset: 'ujunox',
   chainID: 'uni-5',
-  coinType: '118',
+  lcd: 'https://juno-testnet-api.polkachu.com',
   gasAdjustment: 1.75,
   gasPrices: { ujunox: 0.015 },
-  icon: 'https://user-images.githubusercontent.com/545047/184516834-4b8190b0-0721-4778-b4fb-fa19ed3f9279.svg',
-  lcd: 'https://juno-testnet-api.polkachu.com',
-  name: 'Juno',
   prefix: 'juno',
+  coinType: '118',
+  baseAsset: 'ujunox',
+  name: 'Juno',
+  icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
 }
