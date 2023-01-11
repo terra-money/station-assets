@@ -52,7 +52,7 @@ const fs = require('fs').promises
     coinData.chains.map((chainID) => {
       if (chains[network][chainID].ibc) {
         const ibcDenomOnTerra = calculateIBCDenom(
-          chains[network][chainID].ibc.toTerra,
+          chains[network][chainID].ibc.fromTerra,
           coinData.token,
         )
 
@@ -68,7 +68,7 @@ const fs = require('fs').promises
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
 
           const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.fromTerra,
+            chains[network][chainID2].ibc.toTerra,
             ibcDenomOnTerra,
           )
           ibcDenomMapOut[network][ibcDenomOnOther] = {
@@ -82,7 +82,7 @@ const fs = require('fs').promises
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
 
           const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.fromTerra,
+            chains[network][chainID2].ibc.toTerra,
             coinData.token,
           )
           ibcDenomMapOut[network][ibcDenomOnOther] = {
@@ -113,10 +113,10 @@ const fs = require('fs').promises
   )
 })()
 
-function calculateIBCDenom(sourceChannel, denom) {
+function calculateIBCDenom(channel, denom) {
   return (
     'ibc/' +
-    Buffer.from(Hash.sha256(Buffer.from(`transfer/${sourceChannel}/${denom}`)))
+    Buffer.from(Hash.sha256(Buffer.from(`transfer/${channel}/${denom}`)))
       .toString('hex')
       .toUpperCase()
   )
