@@ -2,7 +2,7 @@ module.exports = {
   token: 'umars',
   symbol: 'Mars',
   name: 'Mars',
-  icon: 'https://marsprotocol.io/MARSTokenMini.svg',
+  icon: 'https://station-assets.terra.money/img/coins/Mars.svg',
   chains: ['ares-1'],
   decimals: 6,
 }
