@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'juno-1',
-  lcd: 'lcd-juno.mib.tech',
+  lcd: 'https://lcd-juno.mib.tech/',
   gasAdjustment: 1.75,
   gasPrices: { ujuno: 0.0025 },
   prefix: 'juno',
