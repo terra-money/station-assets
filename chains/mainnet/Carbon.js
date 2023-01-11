@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'swth',
   name: 'Carbon',
-  icon: 'https://drive.google.com/drive/folders/1I7PWM_IJPzddjV9tOkHwpVkEl0xMvXBE',
+  icon: 'https://station-assets.terra.money/img/chains/Carbon.png',
   ibc: {
     fromTerra: 'channel-36',
     toTerra: 'channel-12',
