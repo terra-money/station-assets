@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'mars',
   coinType: '330',
   baseAsset: 'umars',
-  name: 'Mars Hub',
+  name: 'MarsHub',
   icon: 'https://marsprotocol.io/mars_logo_colored.svg',
   ibc: {
     fromTerra: '123',
