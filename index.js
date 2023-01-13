@@ -2,6 +2,7 @@ const glob = require('glob-promise')
 const path = require('path')
 const { Buffer } = require('buffer')
 const { Hash } = require('@keplr-wallet/crypto')
+const { AccAddress } = require('@terra-money/feather.js')
 const fs = require('fs').promises
 
 ;(async () => {
@@ -50,7 +51,9 @@ const fs = require('fs').promises
 
     // add IBC denom on Terra
     coinData.chains.map((chainID) => {
-      if (chains[network][chainID].ibc) {
+      const isICS = AccAddress.validate(coinData.token)
+
+      if (!isICS && chains[network][chainID].ibc) {
         const ibcDenomOnTerra = calculateIBCDenom(
           chains[network][chainID].ibc.fromTerra,
           coinData.token,
@@ -61,6 +64,34 @@ const fs = require('fs').promises
           chainID: Object.values(chains[network]).find(
             ({ prefix }) => prefix === 'terra',
           ).chainID,
+        }
+
+        // add IBC denom on other chains
+        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
+          if (!chains[network][chainID2].ibc || chainID === chainID2) return
+
+          const ibcDenomOnOther = calculateIBCDenom(
+            chains[network][chainID2].ibc.toTerra,
+            ibcDenomOnTerra,
+          )
+          ibcDenomMapOut[network][ibcDenomOnOther] = {
+            token: coinData.token,
+            chainID: chainID2,
+          }
+        })
+      } if (isICS && chains[network][chainID]?.ibc?.ics) {
+        const ibcDenomOnTerra = calculateIBCDenom(
+          chains[network][chainID].ibc.ics.fromTerra,
+          `cw20:${coinData.token}`,
+        )
+
+        ibcDenomMapOut[network][ibcDenomOnTerra] = {
+          token: coinData.token,
+          chainID: Object.values(chains[network]).find(
+            ({ prefix }) => prefix === 'terra',
+          ).chainID,
+          // to send it back on the original chain
+          icsChannel: chains[network][chainID].ibc.ics.fromTerra,
         }
 
         // add IBC denom on other chains
