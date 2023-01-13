@@ -9,7 +9,7 @@ module.exports = {
   name: 'Mars',
   icon: 'https://station-assets.terra.money/img/chains/Mars.svg',
   ibc: {
-    toTerra: 'channel-1',
-    fromTerra: 'channel-66',
+    toTerra: 'channel-0',
+    fromTerra: 'channel-189',
   },
 }
