@@ -6,8 +6,8 @@ module.exports = {
   prefix: 'chihuahua',
   coinType: '118',
   baseAsset: 'uhuahua',
-  name: 'Chihuahua Chain',
-  icon: 'https://app.osmosis.zone/_next/image?url=%2Ftokens%2Fhuahua.png&w=48&q=75',
+  name: 'Chihuahua',
+  icon: 'https://station-assets.terra.money/img/chains/Huahua.png',
   ibc: {
     fromTerra: 'channel-44',
     toTerra: 'channel-34',
