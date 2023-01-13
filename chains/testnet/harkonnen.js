@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'harkonnen-1',
   lcd: 'https://harkonnen-lcd.candeago.dev/',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2.5,
   gasPrices: { uhar: 0.0 },
   prefix: 'harkonnen',
   coinType: '118',
