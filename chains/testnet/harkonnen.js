@@ -4,7 +4,7 @@ module.exports = {
   gasAdjustment: 1.75,
   gasPrices: { uhar: 0.0 },
   prefix: 'harkonnen',
-  coinType: '330',
+  coinType: '118',
   baseAsset: 'uhar',
   name: 'Harkonnen',
   icon: 'https://station-assets.terra.money/img/chains/Harkonnen.png',
