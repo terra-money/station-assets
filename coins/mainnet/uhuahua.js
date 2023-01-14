@@ -4,5 +4,5 @@ module.exports = {
   name: 'Huahua',
   icon: 'https://station-assets.terra.money/img/coins/Huahua.png',
   chains: ['chihuahua-1'],
-  decimals: 8,
+  decimals: 6,
 }
