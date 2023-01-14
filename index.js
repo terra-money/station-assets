@@ -54,10 +54,12 @@ const fs = require('fs').promises
       const isICS = AccAddress.validate(coinData.token)
 
       if (!isICS && chains[network][chainID].ibc) {
+        const channel = chains[network][chainID].ibc.fromTerra
         const ibcDenomOnTerra = calculateIBCDenom(
-          chains[network][chainID].ibc.fromTerra,
+          channel,
           coinData.token,
         )
+        const nonHashedDenom = `transfer/${channel}/${coinData.token}`
 
         ibcDenomMapOut[network][ibcDenomOnTerra] = {
           token: coinData.token,
@@ -70,20 +72,22 @@ const fs = require('fs').promises
         Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
 
+          const channel = chains[network][chainID2].ibc.toTerra
           const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.toTerra,
-            ibcDenomOnTerra,
+            channel,
+            nonHashedDenom,
           )
           ibcDenomMapOut[network][ibcDenomOnOther] = {
             token: coinData.token,
             chainID: chainID2,
           }
         })
-      } if (isICS && chains[network][chainID]?.ibc?.ics) {
-        const ibcDenomOnTerra = calculateIBCDenom(
-          chains[network][chainID].ibc.ics.fromTerra,
-          `cw20:${coinData.token}`,
-        )
+      }
+      if (isICS && chains[network][chainID]?.ibc?.ics) {
+        const channel = chains[network][chainID].ibc.ics.fromTerra
+        const denom = `cw20:${coinData.token}`
+        const ibcDenomOnTerra = calculateIBCDenom(channel, denom)
+        const nonHashedDenom = `transfer/${channel}/${denom}`
 
         ibcDenomMapOut[network][ibcDenomOnTerra] = {
           token: coinData.token,
@@ -91,16 +95,16 @@ const fs = require('fs').promises
             ({ prefix }) => prefix === 'terra',
           ).chainID,
           // to send it back on the original chain
-          icsChannel: chains[network][chainID].ibc.ics.fromTerra,
+          icsChannel: channel,
         }
 
         // add IBC denom on other chains
         Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
-
+          const channel = chains[network][chainID2].ibc.toTerra
           const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.toTerra,
-            ibcDenomOnTerra,
+            channel,
+            nonHashedDenom,
           )
           ibcDenomMapOut[network][ibcDenomOnOther] = {
             token: coinData.token,
@@ -138,7 +142,9 @@ const fs = require('fs').promises
 
   await Promise.all(
     images.map(async (file) => {
-      await fs.mkdir(`./build/${path.dirname(file).replace('./', '')}`, { recursive: true })
+      await fs.mkdir(`./build/${path.dirname(file).replace('./', '')}`, {
+        recursive: true,
+      })
       await fs.copyFile(file, `./build/${file.replace('./', '')}`)
     }),
   )
