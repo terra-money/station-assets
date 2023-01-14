@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'pisco-1',
   lcd: 'https://pisco-lcd.terra.dev',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2,
   gasPrices: { uluna: 0.015 },
   prefix: 'terra',
   coinType: '330',

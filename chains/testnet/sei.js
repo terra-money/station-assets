@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'atlantic-1',
   lcd: 'https://sei-chain-incentivized.com/sei-chain-app',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2,
   gasPrices: { usei: 0.01 },
   prefix: 'sei',
   coinType: '118',

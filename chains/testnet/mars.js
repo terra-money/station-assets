@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'ares-1',
   lcd: 'https://testnet-rest.marsprotocol.io',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2,
   gasPrices: { umars: 0.0 },
   prefix: 'mars',
   coinType: '330',
