@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'osmosis-1',
-  lcd: 'https://lcd-osmosis.keplr.app',
+  lcd: 'https://osmosis.feather.network',
   gasAdjustment: 1.75,
   gasPrices: { uosmo: 0.025 },
   prefix: 'osmo',
