@@ -21,7 +21,7 @@ module.exports = {
        contract:
         "terra12havy0g3svy6jlnc0je3z4f0lujhkp8h79ux5myhy4ujufeczpzsr5w7lz",
       toTerra: "channel-1",
-      fromTerra: "channel-4",
+      fromTerra: "channel-202",
     }
   },
 };
