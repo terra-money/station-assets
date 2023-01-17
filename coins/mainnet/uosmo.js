@@ -1,6 +1,6 @@
 module.exports = {
   token: 'uosmo',
-  symbol: 'Osmo',
+  symbol: 'OSMO',
   name: 'Osmosis',
   icon: 'https://station-assets.terra.money/img/coins/Osmo.svg',
   chains: ['osmosis-1'],
