@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'chihuahua-1',
-  lcd: 'https://api.chihuahua.wtf:443/',
+  lcd: 'https://api.chihuahua.wtf',
   gasAdjustment: 1.75,
   gasPrices: { uhuahua: 1 },
   prefix: 'chihuahua',
@@ -11,5 +11,5 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-44',
     toTerra: 'channel-34',
-  }
+  },
 }

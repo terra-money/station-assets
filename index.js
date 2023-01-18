@@ -24,6 +24,12 @@ const fs = require('fs').promises
 
     const fullPath = `./${file}`
     const chainData = require(fullPath)
+
+    if (network !== 'localterra' && !isValidUrl(chainData.lcd)) {
+      console.log(`${chainData.chainID}: Invalid LCD URL: ${chainData.lcd}`)
+      return
+    }
+
     chains[network][chainData.chainID] = chainData
   })
 
@@ -51,14 +57,17 @@ const fs = require('fs').promises
 
     // add IBC denom on Terra
     coinData.chains.map((chainID) => {
+      // chain is disabled
+      if (!chains[network][chainID]) {
+        console.log(`${chainID} used by ${coinData.token} is disabled.`)
+        return
+      }
+
       const isICS = AccAddress.validate(coinData.token)
 
       if (!isICS && chains[network][chainID].ibc) {
         const channel = chains[network][chainID].ibc.fromTerra
-        const ibcDenomOnTerra = calculateIBCDenom(
-          channel,
-          coinData.token,
-        )
+        const ibcDenomOnTerra = calculateIBCDenom(channel, coinData.token)
         const nonHashedDenom = `transfer/${channel}/${coinData.token}`
 
         ibcDenomMapOut[network][ibcDenomOnTerra] = {
@@ -73,17 +82,13 @@ const fs = require('fs').promises
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
 
           const channel = chains[network][chainID2].ibc.toTerra
-          const ibcDenomOnOther = calculateIBCDenom(
-            channel,
-            nonHashedDenom,
-          )
+          const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
           ibcDenomMapOut[network][ibcDenomOnOther] = {
             token: coinData.token,
             chainID: chainID2,
           }
         })
-      }
-      if (isICS && chains[network][chainID]?.ibc?.ics) {
+      } else if (isICS && chains[network][chainID]?.ibc?.ics) {
         const channel = chains[network][chainID].ibc.ics.fromTerra
         const denom = `cw20:${coinData.token}`
         const ibcDenomOnTerra = calculateIBCDenom(channel, denom)
@@ -102,10 +107,7 @@ const fs = require('fs').promises
         Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
           if (!chains[network][chainID2].ibc || chainID === chainID2) return
           const channel = chains[network][chainID2].ibc.toTerra
-          const ibcDenomOnOther = calculateIBCDenom(
-            channel,
-            nonHashedDenom,
-          )
+          const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
           ibcDenomMapOut[network][ibcDenomOnOther] = {
             token: coinData.token,
             chainID: chainID2,
@@ -113,18 +115,37 @@ const fs = require('fs').promises
         })
       } else if (chains[network][chainID].prefix === 'terra') {
         // add IBC denom on other chains
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (!chains[network][chainID2].ibc || chainID === chainID2) return
+        if (!isICS) {
+          Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
+            if (!chains[network][chainID2].ibc || chainID === chainID2) return
 
-          const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.toTerra,
-            coinData.token,
-          )
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: coinData.token,
-            chainID: chainID2,
-          }
-        })
+            const ibcDenomOnOther = calculateIBCDenom(
+              chains[network][chainID2].ibc.toTerra,
+              coinData.token,
+            )
+            ibcDenomMapOut[network][ibcDenomOnOther] = {
+              token: coinData.token,
+              chainID: chainID2,
+            }
+          })
+        } else {
+          Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
+            if (
+              !chains[network][chainID2].ibc?.icsFromTerra ||
+              chainID === chainID2
+            )
+              return
+            const denom = `cw20:${coinData.token}`
+            const channel = chains[network][chainID2].ibc.icsFromTerra.toTerra
+
+            const ibcDenomOnOther = calculateIBCDenom(channel, denom)
+            ibcDenomMapOut[network][ibcDenomOnOther] = {
+              token: coinData.token,
+              chainID: chainID2,
+              icsChannel: channel,
+            }
+          })
+        }
       }
     })
   })
@@ -157,4 +178,12 @@ function calculateIBCDenom(channel, denom) {
       .toString('hex')
       .toUpperCase()
   )
+}
+
+function isValidUrl(url) {
+  try {
+    return new URL(url).protocol === 'https:'
+  } catch (e) {
+    return false
+  }
 }

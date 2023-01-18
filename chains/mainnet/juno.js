@@ -11,5 +11,5 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-2',
     toTerra: 'channel-86',
-  }
+  },
 }

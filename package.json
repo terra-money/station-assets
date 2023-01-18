@@ -4,7 +4,8 @@
   "description": "🛰️ Assets for Station",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "prettier": "prettier --write './**/*.js'"
   },
   "repository": {
     "type": "git",
