@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'akash',
   coinType: '118',
   baseAsset: 'uakt',
-  name: 'Akash Network',
+  name: 'Akash',
   icon: 'https://station-assets.terra.money/img/chains/Akash.svg',
   ibc: {
     fromTerra: 'channel-45',
