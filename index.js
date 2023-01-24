@@ -168,6 +168,11 @@ const axelar = require('./axelar.js')
   await fs.writeFile(coinsOutPath, coinsList)
   const ibcList = JSON.stringify(ibcDenomMapOut, null, 2)
   await fs.writeFile(ibcDenomMapOutPath, ibcList)
+  const currenciesList = require('./currencies.js')
+  await fs.writeFile(
+    './build/currencies.json',
+    JSON.stringify(currenciesList, null, 2),
+  )
 
   // copy images inside ./build
   const images = await glob('./img/*/*.{png,svg}')
