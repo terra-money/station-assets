@@ -3,7 +3,7 @@ module.exports = {
   lcd: 'https://alliance-lcd.candeago.dev',
   gasAdjustment: 2.5,
   gasPrices: { stake: 0.0 },
-  prefix: 'alliance',
+  prefix: 'ally',
   coinType: '118',
   baseAsset: 'stake',
   name: 'Alliance',
