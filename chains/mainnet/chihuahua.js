@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'chihuahua-1',
   lcd: 'https://api.chihuahua.wtf',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2,
   gasPrices: { uhuahua: 1 },
   prefix: 'chihuahua',
   coinType: '118',
