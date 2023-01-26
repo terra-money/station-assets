@@ -12,4 +12,6 @@ module.exports = {
     toTerra: 'channel-0',
     fromTerra: 'channel-189',
   },
+  // used by Station to decide which endpoint to use
+  version: '0.46',
 }
