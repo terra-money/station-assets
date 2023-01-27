@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ustrd',
   name: 'Stride',
-  icon: 'https://drive.google.com/file/d/112q1-5p2fP8aXnrpri2QCnMWGt4OIQ28/view?usp=sharing',
+  icon: 'https://station-assets.terra.money/img/chains/Stride.png',
   ibc: {
     fromTerra: 'channel-46',
     toTerra: 'channel-52',
