@@ -12,4 +12,5 @@ module.exports = {
     fromTerra: 'channel-20',
     toTerra: 'channel-27',
   },
+  isClassic: true,
 }
