@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uaxl',
   name: 'Axelar',
-  icon: 'https://drive.google.com/drive/u/1/folders/1FrYCAfilOWkunf3-l0MAwJYbfkcxYc9h',
+  icon: 'https://station-assets.terra.money/img/chains/Axelar.svg',
   ibc: {
     fromTerra: 'channel-6',
     toTerra: 'channel-11',
