@@ -8,8 +8,4 @@ module.exports = {
   baseAsset: 'umars',
   name: 'Mars Hub',
   icon: 'https://marsprotocol.io/mars_logo_colored.svg',
-  ibc: {
-    fromTerra: 'Will be created post launch, IBC disabled for ~3 days from genesis',
-    toTerra: 'Will be created post launch, IBC disabled for ~3 days from genesis',
-  }
 }
