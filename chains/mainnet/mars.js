@@ -8,4 +8,6 @@ module.exports = {
   baseAsset: 'umars',
   name: 'Mars',
   icon: 'https://marsprotocol.io/mars_logo_colored.svg',
+  // used by Station to decide which endpoint to use
+  version: '0.46',
 }
