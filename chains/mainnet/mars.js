@@ -10,4 +10,8 @@ module.exports = {
   icon: 'https://marsprotocol.io/mars_logo_colored.svg',
   // used by Station to decide which endpoint to use
   version: '0.46',
+  ibc: {
+    fromTerra: 'channel-78',
+    toTerra: 'channel-2',
+  },
 }
