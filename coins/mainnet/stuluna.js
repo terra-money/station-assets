@@ -1,8 +1,8 @@
 module.exports = {
   token: 'stuluna',
   symbol: 'stLUNA',
-  name: 'stLUNA',
-  icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png',
+  name: 'Stride LUNA',
+  icon: 'https://station-assets.terra.money/img/coins/stLUNA.svg',
   chains: ['stride-1'],
   decimals: 6,
 }
