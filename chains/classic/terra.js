@@ -30,7 +30,7 @@ module.exports = {
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
-  name: 'Classic',
+  name: 'Terra Classic',
   icon: 'https://assets.terra.money/icon/svg/TerraClassic.svg',
   isClassic: true,
 }
