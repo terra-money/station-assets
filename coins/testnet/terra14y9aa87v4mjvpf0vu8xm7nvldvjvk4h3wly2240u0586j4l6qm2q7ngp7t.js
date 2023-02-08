@@ -1,5 +1,5 @@
 module.exports = {
-  token: 'terra18qhkuytnnmz6mdue2tgc7ydava563m99a8887q6v4m42l86eqneqdcprxc',
+  token: 'terra14y9aa87v4mjvpf0vu8xm7nvldvjvk4h3wly2240u0586j4l6qm2q7ngp7t',
   symbol: 'sHAR',
   name: 'Staked Harkonnen Token',
   icon: 'https://station-assets.terra.money/img/coins/sHarkonnen.png',
