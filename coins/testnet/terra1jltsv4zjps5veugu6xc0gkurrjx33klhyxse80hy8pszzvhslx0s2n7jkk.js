@@ -1,5 +1,5 @@
 module.exports = {
-  token: 'terra10fmzzn92ac32jzkq7afdj345jwz72uch9ksun633dxyf8d5jnh9q3fg6vc',
+  token: 'terra1jltsv4zjps5veugu6xc0gkurrjx33klhyxse80hy8pszzvhslx0s2n7jkk',
   symbol: 'sORD',
   name: 'Staked Ordos Token',
   icon: 'https://station-assets.terra.money/img/coins/sOrdos.png',
