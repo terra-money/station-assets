@@ -7,7 +7,7 @@ module.exports = {
   coinType: '60',
   baseAsset: 'aacre',
   name: 'Acrechain',
-  icon: 'https://drive.google.com/file/d/1L34mBMHrfsCRyuu3XYQYZK6-rA8PG4qn/view',
+  icon: 'https://station-assets.terra.money/img/chains/Acre.svg',
   ibc: {
     fromTerra: 'channel-77',
     toTerra: 'channel-9',
