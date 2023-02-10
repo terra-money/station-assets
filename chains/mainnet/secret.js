@@ -7,7 +7,7 @@ module.exports = {
     coinType: '529',
     baseAsset: 'uscrt',
     name: 'Secret Network',
-    icon: 'https://drive.google.com/drive/u/0/folders/1oK-Rt-y8iZWB-WdTsfxWBRQwUOFoiCqZ',
+    icon: 'https://station-assets.terra.money/img/chains/Secret.svg',
     ibc: {
       fromTerra: 'channel-3',
       toTerra: 'channel-17',
