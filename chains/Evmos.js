@@ -7,7 +7,7 @@ module.exports = {
   coinType: 'null',
   baseAsset: 'aevmos',
   name: 'Evmos',
-  icon: 'ttps://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg',
+  icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg',
   ibc: {
     fromTerra: 'channel-51',
     toTerra: 'channel-6',
