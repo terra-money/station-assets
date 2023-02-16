@@ -7,9 +7,9 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uwhale',
   name: 'Migaloo',
-  icon: 'https://whitewhale.money/migaloo.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Migaloo.svg',
   ibc: {
     fromTerra: 'channel-86',
-    toTerra: 'Channel-0',
+    toTerra: 'channel-0',
   }
 }
