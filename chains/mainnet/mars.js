@@ -7,7 +7,7 @@ module.exports = {
   coinType: '330',
   baseAsset: 'umars',
   name: 'Mars',
-  icon: 'https://marsprotocol.io/mars_logo_colored.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Mars.svg',
   // used by Station to decide which endpoint to use
   version: '0.46',
   ibc: {
