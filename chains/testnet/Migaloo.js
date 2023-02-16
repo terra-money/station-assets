@@ -9,7 +9,7 @@ module.exports = {
   name: 'Migaloo',
   icon: 'https://whitewhale.money/migaloo.svg',
   ibc: {
-    fromTerra: 'channel-86',
-    toTerra: 'Channel-0',
+    fromTerra: '',
+    toTerra: '',
   }
 }
