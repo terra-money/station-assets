@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'migaloo-1',
-  lcd: 'https://ww-whitewhale-rest.polkachu.com',
+  lcd: 'https://ww-migaloo-rest.polkachu.com',
   gasAdjustment: 1.75,
   gasPrices: { uwhale: 0 },
   prefix: 'migaloo',
