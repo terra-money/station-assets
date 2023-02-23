@@ -3,7 +3,7 @@ module.exports = {
   lcd: 'https://rest.comdex.one',
   gasAdjustment: 1.75,
   gasPrices: { ucmdx: 0.0025 },
-  prefix: 'cmdx',
+  prefix: 'comdex',
   coinType: '118',
   baseAsset: 'ucmdx',
   name: 'Comdex',
