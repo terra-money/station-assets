@@ -26,5 +26,11 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-10',
     toTerra: 'channel-5',
+    icsFromTerra: {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      toTerra: 'channel-36',
+      fromTerra: 'channel-28',
+    },
   },
 }
