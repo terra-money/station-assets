@@ -5,7 +5,7 @@ module.exports = {
   gasPrices: { uatom: 0.025 },
   prefix: 'cosmos',
   coinType: '118',
-  baseAsset: 'ATOM',
+  baseAsset: 'uatom',
   name: 'Cosmos Hub',
   icon: 'https://station-assets.terra.money/img/chains/Cosmos.svg',
   ibc: {
