@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'osmosis-1',
-  lcd: 'https://osmosis-1.terra.dev:1317/node_info',
+  lcd: 'https://osmosis-1.terra.dev:1317',
   gasAdjustment: 1.75,
   gasPrices: { uosmo: 0.025 },
   prefix: 'osmo',
