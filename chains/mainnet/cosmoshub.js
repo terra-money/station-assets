@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ATOM',
   name: 'Cosmos Hub',
-  icon: '',
+  icon: 'https://station-assets.terra.money/img/chains/Cosmos.svg',
   ibc: {
     toTerra: 'channel-339',
     fromTerra: 'channel-0',
