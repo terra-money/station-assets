@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'cheqd-mainnet-1',
-  lcd: 'https://api.cheqd.network',
+  lcd: 'https://api.cheqd.net',
   gasAdjustment: 1.75,
   gasPrices: { ncheq: 50 },
   prefix: 'cheqd',
