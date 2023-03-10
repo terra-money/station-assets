@@ -11,5 +11,11 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-45',
     toTerra: 'channel-56',
+  },
+  explorer: {
+    address: "https://www.mintscan.io/akash/account/{}",
+    tx: "https://www.mintscan.io/akash/txs/{}",
+    validator: "https://www.mintscan.io/akash/validators/{}",
+    block: "https://www.mintscan.io/akash/blocks/id/{}",
   }
 }

@@ -11,5 +11,11 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-36',
     toTerra: 'channel-12',
+  },
+  explorer: {
+    address: "https://scan.carbon.network/account/{}?net=main",
+    tx: "https://scan.carbon.network/transaction/{}?net=main",
+    validator: "https://scan.carbon.network/validator/{}?net=main",
+    block: "https://scan.carbon.network/block/{}?net=main",
   }
 }

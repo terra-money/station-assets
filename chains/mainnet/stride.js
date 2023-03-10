@@ -11,5 +11,11 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-46',
     toTerra: 'channel-52',
+  },
+  explorer: {
+    address: "https://www.mintscan.io/stride/account/{}",
+    tx: "https://www.mintscan.io/stride/txs/{}",
+    validator: "https://www.mintscan.io/stride/validators/{}",
+    block: "https://www.mintscan.io/stride/blocks/id/{}",
   }
 }

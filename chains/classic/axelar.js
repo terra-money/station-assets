@@ -12,5 +12,10 @@ module.exports = {
     fromTerra: 'channel-19',
     toTerra: 'channel-0',
   },
-  isClassic: true,
+  explorer: {
+    address: "https://www.mintscan.io/axelar/account/{}",
+    tx: "https://www.mintscan.io/axelar/txs/{}",
+    validator: "https://www.mintscan.io/axelar/validators/{}",
+    block: "https://www.mintscan.io/axelar/blocks/id/{}",
+  }
 }

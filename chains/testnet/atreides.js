@@ -24,4 +24,5 @@ module.exports = {
       fromTerra: 'channel-233',
     },
   },
+  explorer: {}
 }

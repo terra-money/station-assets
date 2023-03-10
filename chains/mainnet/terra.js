@@ -9,4 +9,10 @@ module.exports = {
   name: 'Terra',
   icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
   // doesn't require IBC channels since it's already on all the other chains
+  explorer: {
+    address: "https://terrasco.pe/mainnet/address/{}",
+    tx: "https://terrasco.pe/mainnet/tx/{}",
+    validator: "https://terrasco.pe/mainnet/validator/{}",
+    block: "https://terrasco.pe/mainnet/block/{}",
+  }
 }

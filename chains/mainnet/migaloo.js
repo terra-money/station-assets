@@ -18,4 +18,10 @@ module.exports = {
       fromTerra: 'channel-87',
     },
   },
+  explorer: {
+    address: "https://ping.pub/migaloo/account/{}",
+    tx: "https://ping.pub/migaloo/txs/{}",
+    validator: "https://ping.pub/migaloo/validators/{}",
+    block: "https://ping.pub/migaloo/blocks/id/{}",
+  }
 }

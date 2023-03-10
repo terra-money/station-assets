@@ -33,4 +33,10 @@ module.exports = {
       fromTerra: 'channel-28',
     },
   },
+  explorer: {
+    address: "https://www.mintscan.io/kujira/account/{}",
+    tx: "https://www.mintscan.io/kujira/txs/{}",
+    validator: "https://www.mintscan.io/kujira/validators/{}",
+    block: "https://www.mintscan.io/kujira/blocks/id/{}",
+  }
 }

@@ -33,4 +33,10 @@ module.exports = {
   name: 'Terra Classic',
   icon: 'https://assets.terra.money/icon/svg/TerraClassic.svg',
   isClassic: true,
+  explorer: {
+    address: "https://finder.terra.money/classic/address/{}",
+    tx: "https://finder.terra.money/classic/tx/{}",
+    validator: "https://finder.terra.money/classic/validator/{}",
+    block: "https://finder.terra.money/classic/block/{}",
+  }
 }

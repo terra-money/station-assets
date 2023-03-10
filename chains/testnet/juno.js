@@ -8,4 +8,5 @@ module.exports = {
   baseAsset: 'ujunox',
   name: 'Juno',
   icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
+  explorer: {}
 }

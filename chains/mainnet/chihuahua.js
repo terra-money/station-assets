@@ -12,4 +12,10 @@ module.exports = {
     fromTerra: 'channel-44',
     toTerra: 'channel-34',
   },
+  explorer: {
+    address: "https://www.mintscan.io/chihuahua/account/{}",
+    tx: "https://www.mintscan.io/chihuahua/txs/{}",
+    validator: "https://www.mintscan.io/chihuahua/validators/{}",
+    block: "https://www.mintscan.io/chihuahua/blocks/id/{}",
+  }
 }

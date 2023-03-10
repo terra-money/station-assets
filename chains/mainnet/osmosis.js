@@ -18,4 +18,10 @@ module.exports = {
       fromTerra: 'channel-26',
     },
   },
+  explorer: {
+    address: "https://www.mintscan.io/osmosis/account/{}",
+    tx: "https://www.mintscan.io/osmosis/txs/{}",
+    validator: "https://www.mintscan.io/osmosis/validators/{}",
+    block: "https://www.mintscan.io/osmosis/blocks/id/{}",
+  }
 }

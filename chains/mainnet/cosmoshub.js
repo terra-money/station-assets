@@ -12,4 +12,10 @@ module.exports = {
     toTerra: 'channel-339',
     fromTerra: 'channel-0',
   },
+  explorer: {
+    address: "https://www.mintscan.io/cosmos/account/{}",
+    tx: "https://www.mintscan.io/cosmos/txs/{}",
+    validator: "https://www.mintscan.io/cosmos/validators/{}",
+    block: "https://www.mintscan.io/cosmos/blocks/id/{}",
+  }
 }

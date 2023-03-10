@@ -24,4 +24,10 @@ module.exports = {
       fromTerra: 'channel-32',
     },
   },
+  explorer: {
+    address: "https://www.mintscan.io/juno/account/{}",
+    tx: "https://www.mintscan.io/juno/txs/{}",
+    validator: "https://www.mintscan.io/juno/validators/{}",
+    block: "https://www.mintscan.io/juno/blocks/id/{}",
+  }
 }

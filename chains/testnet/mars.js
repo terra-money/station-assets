@@ -14,4 +14,10 @@ module.exports = {
   },
   // used by Station to decide which endpoint to use
   version: '0.46',
+  explorer: {
+    address: "https://testnet-explorer.marsprotocol.io/accounts/{}",
+    tx: "https://testnet-explorer.marsprotocol.io/transactions/{}",
+    validator: "https://testnet-explorer.marsprotocol.io/validators/{}",
+    block: "https://testnet-explorer.marsprotocol.io/blocks/{}",
+  }
 }

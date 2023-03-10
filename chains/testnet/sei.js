@@ -12,4 +12,5 @@ module.exports = {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
   },
+  explorer: {}
 }

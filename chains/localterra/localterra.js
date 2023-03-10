@@ -8,4 +8,10 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'LocalTerra',
   icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
+  explorer: {
+    address: "https://finder.terra.money/localterra/address/{}",
+    tx: "https://finder.terra.money/localterra/tx/{}",
+    validator: "https://finder.terra.money/localterra/validator/{}",
+    block: "https://finder.terra.money/localterra/block/{}",
+  }
 }

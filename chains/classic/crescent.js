@@ -12,5 +12,10 @@ module.exports = {
     fromTerra: 'channel-49',
     toTerra: 'channel-0',
   },
-  isClassic: true,
+  explorer: {
+    address: "https://www.mintscan.io/crescent/account/{}",
+    tx: "https://www.mintscan.io/crescent/txs/{}",
+    validator: "https://www.mintscan.io/crescent/validators/{}",
+    block: "https://www.mintscan.io/crescent/blocks/id/{}",
+  }
 }

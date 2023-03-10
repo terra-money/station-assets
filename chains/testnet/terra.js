@@ -8,4 +8,10 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra',
   icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
+  explorer: {
+    address: "https://terrasco.pe/testnet/address/{}",
+    tx: "https://terrasco.pe/testnet/tx/{}",
+    validator: "https://terrasco.pe/testnet/validator/{}",
+    block: "https://terrasco.pe/testnet/block/{}",
+  }
 }

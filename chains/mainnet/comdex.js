@@ -12,4 +12,10 @@ module.exports = {
     fromTerra: 'channel-39',
     toTerra: 'channel-51',
   },
+  explorer: {
+    address: "https://www.mintscan.io/comdex/account/{}",
+    tx: "https://www.mintscan.io/comdex/txs/{}",
+    validator: "https://www.mintscan.io/comdex/validators/{}",
+    block: "https://www.mintscan.io/comdex/blocks/id/{}",
+  }
 }
