@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'harkonnen-1',
-  lcd: 'https://harkonnen.terra.dev:1317',
+  lcd: 'https://harkonnen.terra.dev',
   gasAdjustment: 2.5,
   gasPrices: { uhar: 0.0 },
   prefix: 'harkonnen',
