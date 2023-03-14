@@ -11,5 +11,14 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-89',
     toTerra: 'channel-9',
-  }
+  },
+  tokens: [
+    {
+      token: 'ncheq',
+      symbol: 'CHEQ',
+      name: 'Cheq',
+      icon: 'https://station-assets.terra.money/img/coins/Cheqd.svg',
+      decimals: 9,
+    },
+  ],
 }

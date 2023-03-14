@@ -19,5 +19,14 @@ module.exports = {
     tx: "https://explorer.marsprotocol.io/transactions/{}",
     validator: "https://explorer.marsprotocol.io/validators/{}",
     block: "https://explorer.marsprotocol.io/blocks/{}",
-  }
+  },
+  tokens: [
+    {
+      token: 'umars',
+      symbol: 'MARS',
+      name: 'Mars',
+      icon: 'https://station-assets.terra.money/img/coins/Mars.svg',
+      decimals: 6,
+    },
+  ],
 }

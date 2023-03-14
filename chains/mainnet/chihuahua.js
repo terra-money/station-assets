@@ -13,9 +13,18 @@ module.exports = {
     toTerra: 'channel-34',
   },
   explorer: {
-    address: "https://www.mintscan.io/chihuahua/account/{}",
-    tx: "https://www.mintscan.io/chihuahua/txs/{}",
-    validator: "https://www.mintscan.io/chihuahua/validators/{}",
-    block: "https://www.mintscan.io/chihuahua/blocks/id/{}",
-  }
+    address: 'https://www.mintscan.io/chihuahua/account/{}',
+    tx: 'https://www.mintscan.io/chihuahua/txs/{}',
+    validator: 'https://www.mintscan.io/chihuahua/validators/{}',
+    block: 'https://www.mintscan.io/chihuahua/blocks/id/{}',
+  },
+  tokens: [
+    {
+      token: 'uhuahua',
+      symbol: 'HUAHUA',
+      name: 'Huahua',
+      icon: 'https://station-assets.terra.money/img/coins/Huahua.png',
+      decimals: 6,
+    },
+  ],
 }

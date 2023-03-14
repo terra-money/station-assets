@@ -24,5 +24,14 @@ module.exports = {
       fromTerra: 'channel-236',
     },
   },
-  explorer: {}
+  explorer: {},
+  tokens: [
+    {
+      token: 'uhar',
+      symbol: 'HAR',
+      name: 'Harkonnen',
+      icon: 'https://station-assets.terra.money/img/coins/Harkonnen.png',
+      decimals: 6,
+    }
+  ],
 }

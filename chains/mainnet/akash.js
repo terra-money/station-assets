@@ -17,5 +17,14 @@ module.exports = {
     tx: "https://www.mintscan.io/akash/txs/{}",
     validator: "https://www.mintscan.io/akash/validators/{}",
     block: "https://www.mintscan.io/akash/blocks/id/{}",
-  }
+  },
+  tokens: [
+    {
+      token: 'uakt',
+      symbol: 'AKT',
+      name: 'Akash',
+      icon: 'https://station-assets.terra.money/img/coins/Akash.svg',
+      decimals: 6,
+    },
+  ],
 }

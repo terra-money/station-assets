@@ -8,5 +8,14 @@ module.exports = {
   baseAsset: 'ujunox',
   name: 'Juno',
   icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
-  explorer: {}
+  explorer: {},
+  tokens: [
+    {
+      token: 'ujunox',
+      symbol: 'JUNO',
+      name: 'Juno',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    }
+  ],
 }
