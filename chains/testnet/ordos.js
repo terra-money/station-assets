@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'ordos-1',
-  lcd: 'https://ordos.terra.dev:1317',
+  lcd: 'https://ordos.terra.dev',
   gasAdjustment: 2.5,
   gasPrices: { uord: 0.0 },
   prefix: 'ordos',

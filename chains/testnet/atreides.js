@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'atreides-1',
-  lcd: 'https://atreides.terra.dev:1317',
+  lcd: 'https://atreides.terra.dev',
   gasAdjustment: 2.5,
   gasPrices: { uatr: 0.0 },
   prefix: 'atreides',

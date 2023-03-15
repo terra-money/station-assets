@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'corrino-1',
-  lcd: 'https://corrino.terra.dev:1317',
+  lcd: 'https://corrino.terra.dev',
   gasAdjustment: 2.5,
   gasPrices: { ucor: 0.0 },
   prefix: 'corrino',
