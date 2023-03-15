@@ -4,6 +4,7 @@
   "description": "🛰️ Assets for Station",
   "main": "index.js",
   "scripts": {
+    "start": "node testingChains.js",
     "build": "node index.js",
     "prettier": "prettier --write './**/*.js'"
   },

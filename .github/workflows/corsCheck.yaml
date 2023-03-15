@@ -1,0 +1,39 @@
+name: Test New Chains for CORs
+
+on:
+  push:
+    paths:
+      - 'chains/**'
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  read_new_pr_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Install dependencies
+        run: npm install
+      - name: Load Script
+        run: |
+          echo SCRIPT=$(find testing -name testingChains.js) >> $GITHUB_ENV
+      - name: Get modified files
+        id: modified-files
+        run: |
+          echo file=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }}) >> $GITHUB_ENV
+      - name: Access code in PR
+        run: |
+          # Access the contents of chain in the PR
+          echo LCD=$(grep 'lcd:' $(find chains -name "*.js")) >> $GITHUB_ENV
+        working-directory: ${{ github.workspace }}
+      - name: Run CORs script
+        env:
+          LCD: ${{ env.LCD }}
+        run: |
+          # Run CORs script over a the PR'd chain
+          node $(find testing -name testingChains.js) $LCD
