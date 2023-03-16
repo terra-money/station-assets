@@ -13,18 +13,9 @@ module.exports = {
     toTerra: 'channel-27',
   },
   explorer: {
-    address: 'https://www.mintscan.io/crescent/account/{}',
-    tx: 'https://www.mintscan.io/crescent/txs/{}',
-    validator: 'https://www.mintscan.io/crescent/validators/{}',
-    block: 'https://www.mintscan.io/crescent/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'ucre',
-      symbol: 'CRE',
-      name: 'Crescent',
-      icon: 'https://station-assets.terra.money/img/coins/Crescent.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/crescent/account/{}",
+    tx: "https://www.mintscan.io/crescent/txs/{}",
+    validator: "https://www.mintscan.io/crescent/validators/{}",
+    block: "https://www.mintscan.io/crescent/blocks/id/{}",
+  }
 }

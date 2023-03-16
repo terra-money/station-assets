@@ -19,34 +19,9 @@ module.exports = {
     },
   },
   explorer: {
-    address: 'https://ping.pub/migaloo/account/{}',
-    tx: 'https://ping.pub/migaloo/txs/{}',
-    validator: 'https://ping.pub/migaloo/validators/{}',
-    block: 'https://ping.pub/migaloo/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'uwhale',
-      symbol: 'WHALE',
-      name: 'Migaloo',
-      icon: 'https://station-assets.terra.money/img/coins/Whale.svg',
-      decimals: 6,
-    },
-    {
-      token:
-        'factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE',
-      symbol: 'ampWHALE',
-      name: 'ERIS Amplified WHALE',
-      icon: 'https://station-assets.terra.money/img/coins/ampWHALE.svg',
-      decimals: 6,
-    },
-    {
-      token:
-        'factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale',
-      symbol: 'bWHALE',
-      name: 'boneWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/bWHALE.png',
-      decimals: 6,
-    },
-  ],
+    address: "https://ping.pub/migaloo/account/{}",
+    tx: "https://ping.pub/migaloo/txs/{}",
+    validator: "https://ping.pub/migaloo/validators/{}",
+    block: "https://ping.pub/migaloo/blocks/id/{}",
+  }
 }

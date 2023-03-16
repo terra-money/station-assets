@@ -25,25 +25,9 @@ module.exports = {
     },
   },
   explorer: {
-    address: 'https://www.mintscan.io/juno/account/{}',
-    tx: 'https://www.mintscan.io/juno/txs/{}',
-    validator: 'https://www.mintscan.io/juno/validators/{}',
-    block: 'https://www.mintscan.io/juno/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'ujuno',
-      symbol: 'JUNO',
-      name: 'Juno',
-      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
-      decimals: 6,
-    },
-    {
-      token: 'juno1a0khag6cfzu5lrwazmyndjgvlsuk7g4vn9jd8ceym8f4jf6v2l9q6d348a',
-      symbol: 'ampJUNO',
-      name: 'ERIS Amplified JUNO',
-      icon: 'https://station-assets.terra.money/img/coins/ampJUNO.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/juno/account/{}",
+    tx: "https://www.mintscan.io/juno/txs/{}",
+    validator: "https://www.mintscan.io/juno/validators/{}",
+    block: "https://www.mintscan.io/juno/blocks/id/{}",
+  }
 }

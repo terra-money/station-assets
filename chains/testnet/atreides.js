@@ -24,14 +24,5 @@ module.exports = {
       fromTerra: 'channel-233',
     },
   },
-  explorer: {},
-  tokens: [
-    {
-      token: 'uatr',
-      symbol: 'ATR',
-      name: 'Atreides',
-      icon: 'https://station-assets.terra.money/img/coins/Atreides.png',
-      decimals: 6,
-    }
-  ],    
+  explorer: {}
 }

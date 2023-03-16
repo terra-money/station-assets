@@ -13,25 +13,9 @@ module.exports = {
     toTerra: 'channel-51',
   },
   explorer: {
-    address: 'https://www.mintscan.io/comdex/account/{}',
-    tx: 'https://www.mintscan.io/comdex/txs/{}',
-    validator: 'https://www.mintscan.io/comdex/validators/{}',
-    block: 'https://www.mintscan.io/comdex/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'ucmdx',
-      symbol: 'CMDX',
-      name: 'Comdex',
-      icon: 'https://station-assets.terra.money/img/coins/Comdex.svg',
-      decimals: 6,
-    },
-    {
-      token: 'ucmst',
-      symbol: 'CMST',
-      name: 'Composite',
-      icon: 'https://station-assets.terra.money/img/coins/CMST.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/comdex/account/{}",
+    tx: "https://www.mintscan.io/comdex/txs/{}",
+    validator: "https://www.mintscan.io/comdex/validators/{}",
+    block: "https://www.mintscan.io/comdex/blocks/id/{}",
+  }
 }

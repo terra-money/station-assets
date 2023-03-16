@@ -13,25 +13,9 @@ module.exports = {
     toTerra: 'channel-52',
   },
   explorer: {
-    address: 'https://www.mintscan.io/stride/account/{}',
-    tx: 'https://www.mintscan.io/stride/txs/{}',
-    validator: 'https://www.mintscan.io/stride/validators/{}',
-    block: 'https://www.mintscan.io/stride/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'ustrd',
-      symbol: 'STRD',
-      name: 'Stride',
-      icon: 'https://station-assets.terra.money/img/coins/Stride.png',
-      decimals: 6,
-    },
-    {
-      token: 'stuluna',
-      symbol: 'stLUNA',
-      name: 'Stride LUNA',
-      icon: 'https://station-assets.terra.money/img/coins/stLUNA.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/stride/account/{}",
+    tx: "https://www.mintscan.io/stride/txs/{}",
+    validator: "https://www.mintscan.io/stride/validators/{}",
+    block: "https://www.mintscan.io/stride/blocks/id/{}",
+  }
 }

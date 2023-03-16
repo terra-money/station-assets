@@ -13,18 +13,9 @@ module.exports = {
     toTerra: 'channel-11',
   },
   explorer: {
-    address: 'https://www.mintscan.io/axelar/account/{}',
-    tx: 'https://www.mintscan.io/axelar/txs/{}',
-    validator: 'https://www.mintscan.io/axelar/validators/{}',
-    block: 'https://www.mintscan.io/axelar/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'uaxl',
-      symbol: 'AXL',
-      name: 'Axelar',
-      icon: 'https://station-assets.terra.money/img/coins/Axelar.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/axelar/account/{}",
+    tx: "https://www.mintscan.io/axelar/txs/{}",
+    validator: "https://www.mintscan.io/axelar/validators/{}",
+    block: "https://www.mintscan.io/axelar/blocks/id/{}",
+  }
 }

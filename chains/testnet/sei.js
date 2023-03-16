@@ -12,14 +12,5 @@ module.exports = {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
   },
-  explorer: {},
-  tokens: [
-    {
-      token: 'usei',
-      symbol: 'SEI',
-      name: 'Sei',
-      icon: 'https://station-assets.terra.money/img/coins/Sei.png',
-      decimals: 6,
-    },
-  ],
+  explorer: {}
 }

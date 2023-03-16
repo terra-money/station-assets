@@ -19,18 +19,9 @@ module.exports = {
     },
   },
   explorer: {
-    address: 'https://www.mintscan.io/osmosis/account/{}',
-    tx: 'https://www.mintscan.io/osmosis/txs/{}',
-    validator: 'https://www.mintscan.io/osmosis/validators/{}',
-    block: 'https://www.mintscan.io/osmosis/blocks/id/{}',
-  },
-  tokens: [
-    {
-      token: 'uosmo',
-      symbol: 'OSMO',
-      name: 'Osmosis',
-      icon: 'https://station-assets.terra.money/img/coins/Osmo.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://www.mintscan.io/osmosis/account/{}",
+    tx: "https://www.mintscan.io/osmosis/txs/{}",
+    validator: "https://www.mintscan.io/osmosis/validators/{}",
+    block: "https://www.mintscan.io/osmosis/blocks/id/{}",
+  }
 }

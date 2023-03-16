@@ -24,14 +24,5 @@ module.exports = {
       fromTerra: 'channel-235',
     },
   },
-  explorer: {},
-  tokens: [
-    {
-      token: 'ucor',
-      symbol: 'COR',
-      name: 'Corrino',
-      icon: 'https://station-assets.terra.money/img/coins/Corrino.png',
-      decimals: 6,
-    },
-  ],
+  explorer: {}
 }

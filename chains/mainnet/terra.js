@@ -10,60 +10,9 @@ module.exports = {
   icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
   // doesn't require IBC channels since it's already on all the other chains
   explorer: {
-    address: 'https://terrasco.pe/mainnet/address/{}',
-    tx: 'https://terrasco.pe/mainnet/tx/{}',
-    validator: 'https://terrasco.pe/mainnet/validator/{}',
-    block: 'https://terrasco.pe/mainnet/block/{}',
-  },
-  tokens: [
-    {
-      token: 'uluna',
-      symbol: 'LUNA',
-      name: 'Terra Luna',
-      icon: 'https://station-assets.terra.money/img/coins/Luna.svg',
-      decimals: 6,
-    },
-    {
-      token: 'terra1e5vchf97lakl6sulztkn54aapekzfzsa6amdt88exvwmu25s3z0sg6hplq',
-      symbol: 'ASTRO-USDC ampLP',
-      name: 'ERIS ASTRO-USDC ampLP',
-      icon: 'https://station-assets.terra.money/img/coins/ampLP.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1ymwcpz20lcaue5kkawj3t2fe7et4xd7xkxtuxzc43at0dvcywrsqcuunk2',
-      symbol: 'LUNA-ampLUNA ampLP',
-      name: 'ERIS LUNA-ampLUNA ampLP',
-      icon: 'https://station-assets.terra.money/img/coins/ampLP.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1zanekgprlqpdhu2nmqq9efcnr5f4f76vph2fykvw94pq8sylltdsll64qj',
-      symbol: 'LUNA-stLUNA ampLP',
-      name: 'ERIS LUNA-stLUNA ampLP',
-      icon: 'https://station-assets.terra.money/img/coins/ampLP.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1m9fvkwjpwd4ddgkxd5ddvc2jst9wtv33u7kj89tq2wr0tjm34j8qyfmpwm',
-      symbol: 'LUNA-TPT ampLP',
-      name: 'ERIS LUNA-TPT ampLP',
-      icon: 'https://station-assets.terra.money/img/coins/ampLP.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1as76h247wvey3aqmw22mlkq8g6vj8zj7qw4wywwn388s2mjt0rtqpp570z',
-      symbol: 'LUNA-USDC ampLP',
-      name: 'ERIS LUNA-USDC ampLP',
-      icon: 'https://station-assets.terra.money/img/coins/ampLP.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct',
-      symbol: 'ampLUNA',
-      name: 'ERIS Amplified LUNA',
-      icon: 'https://station-assets.terra.money/img/coins/ampLUNA.svg',
-      decimals: 6,
-    },
-  ],
+    address: "https://terrasco.pe/mainnet/address/{}",
+    tx: "https://terrasco.pe/mainnet/tx/{}",
+    validator: "https://terrasco.pe/mainnet/validator/{}",
+    block: "https://terrasco.pe/mainnet/block/{}",
+  }
 }
