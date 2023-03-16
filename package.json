@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/terra-money/station-assets#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
     "@keplr-wallet/crypto": "^0.11.32",
     "@terra-money/feather.js": "^1.0.0-beta.8",
     "buffer": "^6.0.3",
     "glob": "^8.0.3",
     "glob-promise": "^6.0.1"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.3.0"
   }
 }
