@@ -57,7 +57,7 @@ const axelar = require('./axelar.js')
       ibcDenomMapOut[network] = {}
     }
 
-    coinsOut[network][coinData.token] = coinData
+    coinsOut[network][coinData.token] = { ...coinData, chains: [ chainID ] }
 
     if (coinData.isAxelar) {
       axelar[network].forEach((axelarChain) => {
