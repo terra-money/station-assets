@@ -34,9 +34,26 @@ module.exports = {
     },
   },
   explorer: {
-    address: "https://www.mintscan.io/kujira/account/{}",
-    tx: "https://www.mintscan.io/kujira/txs/{}",
-    validator: "https://www.mintscan.io/kujira/validators/{}",
-    block: "https://www.mintscan.io/kujira/blocks/id/{}",
-  }
+    address: 'https://www.mintscan.io/kujira/account/{}',
+    tx: 'https://www.mintscan.io/kujira/txs/{}',
+    validator: 'https://www.mintscan.io/kujira/validators/{}',
+    block: 'https://www.mintscan.io/kujira/blocks/id/{}',
+  },
+  tokens: [
+    {
+      token: 'ukuji',
+      symbol: 'KUJI',
+      name: 'Kujira',
+      icon: 'https://station-assets.terra.money/img/coins/Kuji.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk',
+      symbol: 'USK',
+      name: 'USK',
+      icon: 'https://station-assets.terra.money/img/coins/USK.svg',
+      decimals: 6,
+    },
+  ],
 }

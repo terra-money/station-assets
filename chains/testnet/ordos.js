@@ -24,5 +24,14 @@ module.exports = {
       fromTerra: 'channel-234',
     },
   },
-  explorer: {}
+  explorer: {},
+  tokens: [
+    {
+      token: 'uord',
+      symbol: 'ORD',
+      name: 'Ordos',
+      icon: 'https://station-assets.terra.money/img/coins/Ordos.png',
+      decimals: 6,
+    }
+  ],
 }
