@@ -1,6 +1,6 @@
 module.exports = {
     chainID: 'qamar',
-    lcd: 'https://rpc-dev.qamar.fi/',
+    lcd: 'https://rpc-dev1.qamar.fi/',
     gasAdjustment: 1.75,
     gasPrices: { uqamar: 0.015 },
     prefix: 'qamar',
