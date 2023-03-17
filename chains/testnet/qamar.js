@@ -9,5 +9,63 @@ module.exports = {
     name: 'Qamar',
     icon: 'https://assets.terra.money/icon/svg/TerraClassic.svg',
     explorer: {}
+    tokens: [
+    {
+      token: 'uqamar',
+      symbol: 'Qamar',
+      name: 'Qamar',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uwusdc',
+      symbol: 'WUSDC',
+      name: 'Wrapped USDC',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uwusdt',
+      symbol: 'WUSDT',
+      name: 'Wrapped USDT',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uwdai',
+      symbol: 'WDAI',
+      name: 'Wrapped DAI',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uwbusd',
+      symbol: 'WBUSD',
+      name: 'Wrapped BUSD',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uwbtc',
+      symbol: 'WBTC',
+      name: 'Wrapped Bitcoin',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uqusd',
+      symbol: 'QUSD',
+      name: 'Qamar USD',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'uqbtc',
+      symbol: 'QBTC',
+      name: 'Qamar Bitcoin',
+      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      decimals: 6,
+    }
+  ],
 }
 
