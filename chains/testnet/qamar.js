@@ -54,14 +54,14 @@ module.exports = {
     },
     {
       token: 'uqusd',
-      symbol: 'QUSD',
+      symbol: 'qUSD',
       name: 'Qamar USD',
       icon: 'https://assets.terra.money/icon/svg/TerraClassic.svg',
       decimals: 6,
     },
     {
       token: 'uqbtc',
-      symbol: 'QBTC',
+      symbol: 'qBTC',
       name: 'Qamar Bitcoin',
       icon: 'https://assets.terra.money/icon/svg/TerraClassic.svg',
       decimals: 6,
