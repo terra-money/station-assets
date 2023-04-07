@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'atlantic-1',
-  lcd: 'https://sei-chain-incentivized.com/sei-chain-app',
+  lcd: 'https://sei-testnet-rpc.polkachu.com',
   gasAdjustment: 2,
   gasPrices: { usei: 0.01 },
   prefix: 'sei',
