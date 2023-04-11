@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'migaloo-1',
   lcd: 'https://ww-migaloo-rest.polkachu.com',
   gasAdjustment: 1.75,
-  gasPrices: { uwhale: 0 },
+  gasPrices: { uwhale: 0.25 },
   prefix: 'migaloo',
   coinType: '118',
   baseAsset: 'uwhale',
