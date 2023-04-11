@@ -57,7 +57,7 @@ module.exports = {
     },
     {
       token:
-        'factory/kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty/ampKUJI',
+        'factory:kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty:ampKUJI',
       symbol: 'ampKUJI',
       name: 'ERIS Amplified KUJI',
       icon: 'https://station-assets.terra.money/img/coins/ampKUJI.svg',
