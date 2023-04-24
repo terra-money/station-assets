@@ -22,5 +22,12 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/Luna.svg',
       decimals: 6,
     },
+    {
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/utest766e',
+      symbol: 'ALL',
+      name: 'Alliance Test',
+      icon: 'https://station-assets.terra.money/img/chains/Atreides.png',
+      decimals: 6,
+    }
   ],
 }
