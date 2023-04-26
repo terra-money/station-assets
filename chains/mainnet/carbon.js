@@ -8,6 +8,7 @@ module.exports = {
   baseAsset: 'swth',
   name: 'Carbon',
   icon: 'https://switcheo-assets.s3.ap-southeast-1.amazonaws.com/Carbon.svg',
+  alliance: true,
   ibc: {
     fromTerra: 'channel-36',
     toTerra: 'channel-12',

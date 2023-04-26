@@ -33,6 +33,7 @@ module.exports = {
       fromTerra: 'channel-28',
     },
   },
+  alliance: true,
   explorer: {
     address: 'https://www.mintscan.io/kujira/account/{}',
     tx: 'https://www.mintscan.io/kujira/txs/{}',

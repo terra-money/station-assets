@@ -8,6 +8,7 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra',
   icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
+  alliance: true,
   // doesn't require IBC channels since it's already on all the other chains
   explorer: {
     address: 'https://terrasco.pe/mainnet/address/{}',
