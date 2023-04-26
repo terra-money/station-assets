@@ -8,6 +8,7 @@ module.exports = {
   baseAsset: 'uwhale',
   name: 'Migaloo',
   icon: 'https://station-assets.terra.money/img/chains/Migaloo.svg',
+  alliance: true,
   ibc: {
     fromTerra: 'channel-86',
     toTerra: 'channel-0',
