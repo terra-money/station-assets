@@ -67,5 +67,13 @@ module.exports = {
       decimals: 6,
       lsd: 'uluna',
     },
+    {
+      token: "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+      symbol: "bLUNA",
+      name: "boneLuna",
+      icon: "https://gravedigger.backbonelabs.io/boneluna.png",
+      decimals: 6,
+      lsd: 'uluna',
+    }
   ],
 }
