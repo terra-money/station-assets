@@ -65,6 +65,7 @@ module.exports = {
       name: 'ERIS Amplified LUNA',
       icon: 'https://station-assets.terra.money/img/coins/ampLuna.svg',
       decimals: 6,
+      lsd: 'uluna',
     },
   ],
 }
