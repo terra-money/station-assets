@@ -21,7 +21,7 @@ module.exports = {
   },
   explorer: {
     address: 'https://ping.pub/migaloo/account/{}',
-    tx: 'https://ping.pub/migaloo/txs/{}',
+    tx: 'https://ping.pub/migaloo/tx/{}',
     validator: 'https://ping.pub/migaloo/validators/{}',
     block: 'https://ping.pub/migaloo/blocks/id/{}',
   },
