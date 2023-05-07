@@ -25,9 +25,9 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: 'Lion Cub DAO',
+      token: 'terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t',
       symbol: 'CUB',
-      name: 'Lion Cub',
+      name: 'Lion Cub Dao',
       icon: 'https://station-assets.terra.money/img/coins/cub.png',
       decimals: 6,
     },    
