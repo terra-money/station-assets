@@ -27,7 +27,7 @@ module.exports = {
     {
       token: 'Lion Cub DAO',
       symbol: 'CUB',
-      name: '"Lion Cub',
+      name: 'Lion Cub',
       icon: 'https://station-assets.terra.money/img/coins/cub.png',
       decimals: 6,
     },    
