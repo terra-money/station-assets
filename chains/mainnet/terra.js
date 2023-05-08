@@ -25,6 +25,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t',
+      symbol: 'CUB',
+      name: 'Lion Cub Dao',
+      icon: 'https://station-assets.terra.money/img/coins/cub.png',
+      decimals: 6,
+    },    
+    {
       token: 'terra1e5vchf97lakl6sulztkn54aapekzfzsa6amdt88exvwmu25s3z0sg6hplq',
       symbol: 'ASTRO-USDC ampLP',
       name: 'ERIS ASTRO-USDC ampLP',
