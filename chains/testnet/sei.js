@@ -1,5 +1,5 @@
 module.exports = {
-  chainID: 'atlantic-1',
+  chainID: 'atlantic-2',
   lcd: 'https://sei-testnet-api.polkachu.com',
   gasAdjustment: 2,
   gasPrices: { usei: 0.01 },
