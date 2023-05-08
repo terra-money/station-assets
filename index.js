@@ -38,7 +38,10 @@ const axelar = require('./axelar.js')
         network,
       }))
     )
-    chains[network][chainData.chainID] = { ...chainData, tokens: null }
+
+    delete chainData['tokens']
+
+    chains[network][chainData.chainID] = chainData
   })
 
   // convert coins to json
