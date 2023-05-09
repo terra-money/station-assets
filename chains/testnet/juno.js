@@ -8,7 +8,12 @@ module.exports = {
   baseAsset: 'ujunox',
   name: 'Juno',
   icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
-  explorer: {},
+  explorer: {
+    address: "https://testnet.juno.explorers.guru/account/{}",
+    tx: "https://testnet.juno.explorers.guru/transaction/{}",
+    validator: "https://testnet.juno.explorers.guru/validator/{}",
+    block: "https://testnet.juno.explorers.guru/block/{}",
+  },
   tokens: [
     {
       token: 'ujunox',
