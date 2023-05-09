@@ -2,15 +2,15 @@ module.exports = {
   chainID: 'noble-1',
   lcd: 'https://noble-api.polkachu.com',
   gasAdjustment: 1.75,
-  gasPrices: { uosmo: 0.025 }, // <-- update this
+  gasPrices: { uusdc: 0 }, 
   prefix: 'noble',
   coinType: '118',
-  baseAsset: 'uosmo', // <-- update this
+  baseAsset: 'ustake',
   name: 'Noble',
-  icon: 'https://station-assets.terra.money/img/chains/Noble.svg',
+  icon: 'https://station-assets.terra.money/img/chains/Noble.png',
   ibc: {
-    toTerra: 'channel-',   // <-- update this
-    fromTerra: 'channel-',   // <-- update this
+    toTerra: 'channel-', // <-- update this
+    fromTerra: 'channel-', // <-- update this
   },
   explorer: {
     address: 'https://www.mintscan.io/noble/account/{}',
@@ -19,14 +19,26 @@ module.exports = {
     block: 'https://www.mintscan.io/noble/blocks/id/{}',
   },
   tokens: [
-    // add your NATIVE tokens here (do NOT add IBC tokens, our build script calculate them automatically using the provided channel-id)
-    // this is an example of how a token should look like:
     {
-      token: 'uosmo',
-      symbol: 'OSMO',
-      name: 'Osmosis',
-      icon: 'https://station-assets.terra.money/img/coins/Noble.svg',
+      token: 'ustake',
+      symbol: 'STAKE',
+      name: 'Stake',
+      icon: `https://station-assets.terra.money/img/coins/Noble.png`,
+      decimals: 6,
+    },
+    {
+      token: 'ufrienzies',
+      symbol: 'FRNZ',
+      name: 'frienzies',
+      icon: `https://station-assets.terra.money/img/coins/Frnz.svg`,
+      decimals: 6,
+    },
+    {
+      token: 'uusdc',
+      symbol: 'USDC',
+      name: 'usdc',
+      icon: `https://station-assets.terra.money/img/coins/axlUSDC.svg`,
       decimals: 6,
     },
   ],
-}
+};
