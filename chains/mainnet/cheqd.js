@@ -12,6 +12,12 @@ module.exports = {
     fromTerra: 'channel-89',
     toTerra: 'channel-9',
   },
+  explorer: {
+    address: 'https://explorer.cheqd.io/accounts/{}',
+    tx: 'https://explorer.cheqd.io/transactions/{}',
+    validator: 'https://explorer.cheqd.io/validators/{}',
+    block: 'https://explorer.cheqd.io/blocks/{}',
+  },
   tokens: [
     {
       token: 'ncheq',
