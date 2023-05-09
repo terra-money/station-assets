@@ -1,5 +1,5 @@
 module.exports = {
-  chainID: 'atlantic-1',
+  chainID: 'atlantic-2',
   lcd: 'https://sei-testnet-api.polkachu.com',
   gasAdjustment: 2,
   gasPrices: { usei: 0.01 },
@@ -12,7 +12,12 @@ module.exports = {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
   },
-  explorer: {},
+  explorer: {
+    address: "https://sei.explorers.guru/account/{}",
+    tx: "https://sei.explorers.guru/transaction/{}",
+    validator: "https://sei.explorers.guru/validator/{}",
+    block: "https://sei.explorers.guru/block/{}",
+  },
   tokens: [
     {
       token: 'usei',
