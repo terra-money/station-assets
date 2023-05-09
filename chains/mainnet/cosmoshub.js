@@ -1,7 +1,6 @@
 module.exports = {
   chainID: 'cosmoshub-4',
-  //lcd: 'https://cosmoshub-4.terra.dev',
-  lcd: '',
+  lcd: 'https://cosmoshub-4.terra.dev',
   gasAdjustment: 1.75,
   gasPrices: { uatom: 0.025 },
   prefix: 'cosmos',
