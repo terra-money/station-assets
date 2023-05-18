@@ -45,9 +45,9 @@ const axelar = require('./axelar.js')
   })
 
   // convert coins to json
-  const coinsOutPath = './build/denoms.json'
+  const coinsOutPath = './build/coins.json'
   const coinsOut = {}
-  const ibcDenomMapOutPath = './build/ibc.json'
+  const ibcDenomMapOutPath = './build/ibc_denoms.json'
   const ibcDenomMapOut = {}
 
   tokens.forEach((token) => {
@@ -60,15 +60,13 @@ const axelar = require('./axelar.js')
       ibcDenomMapOut[network] = {}
     }
 
-    const tokenId = [chainID, coinData.token].join(':')
-
-    coinsOut[network][tokenId] = { ...coinData, chains: [ chainID ] }
+    coinsOut[network][coinData.token] = { ...coinData, chains: [ chainID ] }
 
     if (coinData.isAxelar) {
       axelar[network].forEach((axelarChain) => {
         const ibcDenom = calculateIBCDenom(axelarChain.toAxelar, coinData.token)
         ibcDenomMapOut[network][ibcDenom] = {
-          token: tokenId,
+          token: coinData.token,
           chainID: axelarChain.chainID,
         }
       })
@@ -89,7 +87,7 @@ const axelar = require('./axelar.js')
         const nonHashedDenom = `transfer/${channel}/${coinData.token}`
 
         ibcDenomMapOut[network][ibcDenomOnTerra] = {
-          token: tokenId,
+          token: coinData.token,
           chainID: Object.values(chains[network]).find(
             ({ prefix }) => prefix === 'terra'
           ).chainID,
@@ -102,7 +100,7 @@ const axelar = require('./axelar.js')
           const channel = chains[network][chainID2].ibc.toTerra
           const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
           ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
+            token: coinData.token,
             chainID: chainID2,
           }
         })
@@ -113,7 +111,7 @@ const axelar = require('./axelar.js')
         const nonHashedDenom = `transfer/${channel}/${denom}`
 
         ibcDenomMapOut[network][ibcDenomOnTerra] = {
-          token: tokenId,
+          token: coinData.token,
           chainID: Object.values(chains[network]).find(
             ({ prefix }) => prefix === 'terra'
           ).chainID,
@@ -127,7 +125,7 @@ const axelar = require('./axelar.js')
           const channel = chains[network][chainID2].ibc.toTerra
           const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
           ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
+            token: coinData.token,
             chainID: chainID2,
           }
         })
@@ -142,7 +140,7 @@ const axelar = require('./axelar.js')
               coinData.token
             )
             ibcDenomMapOut[network][ibcDenomOnOther] = {
-              token: tokenId,
+              token: coinData.token,
               chainID: chainID2,
             }
           })
@@ -158,7 +156,7 @@ const axelar = require('./axelar.js')
 
             const ibcDenomOnOther = calculateIBCDenom(channel, denom)
             ibcDenomMapOut[network][ibcDenomOnOther] = {
-              token: tokenId,
+              token: coinData.token,
               chainID: chainID2,
               icsChannel: channel,
             }
