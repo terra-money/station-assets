@@ -79,6 +79,7 @@ module.exports = {
       symbol: "axlUSDC",
       name: "Axelar USD Coin",
       icon: "https://station-assets.terra.money/img/coins/axlUSDC.svg",
+      decimals: 6,
       isAxelar: true,
     },
     {
@@ -86,6 +87,7 @@ module.exports = {
       symbol: "axlUSDT",
       name: "Axelar USD Tether",
       icon: "https://station-assets.terra.money/img/coins/axlUSDT.svg",
+      decimals: 6,
       isAxelar: true,
     },
     {
