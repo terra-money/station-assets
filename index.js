@@ -62,7 +62,7 @@ const axelar = require("./axelar.js");
 
     const tokenId = [chainID, coinData.token].join(":");
 
-    coinsOut[network][tokenId] = { ...coinData, chains: chainID };
+    coinsOut[network][tokenId] = { ...coinData, chainID };
 
     // add IBC denom on Terra
 
