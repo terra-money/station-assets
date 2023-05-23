@@ -56,5 +56,13 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/USK.svg',
       decimals: 6,
     },
+    {
+      token:
+        'factory:kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty:ampKUJI',
+      symbol: 'ampKUJI',
+      name: 'ERIS Amplified KUJI',
+      icon: 'https://station-assets.terra.money/img/coins/ampKUJI.svg',
+      decimals: 6,
+    },
   ],
 }
