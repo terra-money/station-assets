@@ -108,3 +108,6 @@ build
 
 # OSX files
 .DS_Store
+
+# IntelliJ IDEA folder - webstorm, pycharm, etc
+.idea/
