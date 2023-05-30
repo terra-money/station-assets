@@ -32,6 +32,7 @@ module.exports = {
       name: 'Stride LUNA',
       icon: 'https://station-assets.terra.money/img/coins/stLUNA.svg',
       decimals: 6,
+      lsd: 'uluna',
     },
   ],
 }
