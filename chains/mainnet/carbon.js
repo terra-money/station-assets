@@ -12,6 +12,12 @@ module.exports = {
   ibc: {
     fromTerra: 'channel-36',
     toTerra: 'channel-12',
+    icsFromTerra: {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      toTerra: 'channel-16',
+      fromTerra: 'channel-41',
+    },
   },
   explorer: {
     address: 'https://scan.carbon.network/account/{}?net=main',
