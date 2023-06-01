@@ -331,6 +331,13 @@ module.exports = {
       name: 'WYND',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/WYND.svg',
       decimals: 6
+    },
+    {
+      token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
+      symbol: 'bJUNO',
+      name: 'boneJUNO',
+      icon: 'https://station-assets.terra.money/img/coins/bJUNO.png',
+      decimals: 6
     }
   ],
 }
