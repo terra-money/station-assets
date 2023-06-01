@@ -33,11 +33,19 @@ module.exports = {
       decimals: 6,
     },
     {
-        "token": "uion",
-        "symbol": "ION",
-        "name": "Ion",
-        "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg",
-        "decimals": "6"
-    }
+      token: 'uion',
+      symbol: 'ION',
+      name: 'Ion',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx',
+      symbol: 'IBCX',
+      name: 'IBCX',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ibcx.svg',
+      decimals: 6,
+    },
   ],
 }
