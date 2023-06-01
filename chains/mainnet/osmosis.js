@@ -32,5 +32,12 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/Osmo.svg',
       decimals: 6,
     },
+    {
+        "token": "uion",
+        "symbol": "ION",
+        "name": "Ion",
+        "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg",
+        "decimals": "6"
+    }
   ],
 }
