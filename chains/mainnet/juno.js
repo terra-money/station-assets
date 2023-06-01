@@ -50,294 +50,490 @@ module.exports = {
       symbol: 'STEAK',
       name: 'Steak Token',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/Steak.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1hnftys64ectjfynm6qjk9my8jd3f6l9dq9utcd3dy8ehwrsx9q4q7n9uxt',
       symbol: 'AQUA',
       name: 'Aqua',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/AQUA.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1w7kspnu3j4hmzvsltsk00xujfa84sf502vs2zjcawl03vgn7vj3sww9mh7',
       symbol: 'AQUA',
       name: 'Aqua',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/AQUA.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1hy0ky3pe742phd4w55tdfej0ez55h4jx4g06rp4wsa0mne9wzudqy4hum2',
       symbol: 'ARTO',
       name: 'Arto DAO',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/arto.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
       symbol: 'bJuno',
       name: 'bJuno',
       icon: 'https://app.whitewhale.money/logos/bJUNO.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq',
       symbol: 'BLOCK',
       name: 'Block',
       icon: 'https://raw.githubusercontent.com/MarbleDAO/brand-assets/main/block.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno17r2vpc5enkyfe2xle9sedxdq3msfpacwcfp9rnr6jc3e7v6av0jqmfyfzp',
       symbol: 'BOOB',
       name: 'BOOBA',
       icon: '',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1vaeuky9hqacenay9nmuualugvv54tdhyt2wsvhnjasx9s946hhmqaq3kh7',
       symbol: 'BFOT',
       name: 'Burned Fortis Oeconomia Token',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/bFOT.png',
-      decimals: 10
+      decimals: 10,
     },
     {
       token: 'juno1vn38rzq0wc7zczp4dhy0h5y5kxh2jjzeahwe30c9cc6dw3lkyk5qn5rmfa',
       symbol: 'CANLAB',
       name: 'CANLAB',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/cannalabs.png',
-      decimals: 3
+      decimals: 3,
     },
     {
       token: 'juno1t8dnpktypue65q0hjz7tr3cvqypgj5vkxhd2twvng4a2ywa3j25spjuk6z',
       symbol: 'PRIMO',
       name: 'Cardinal Finance ',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/primo.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1ju8k8sqwsqu5k6umrypmtyqu2wqcpnrkf4w4mntvl0javt4nma7s8lzgss',
       symbol: 'CASA',
       name: 'CASA',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/CASA.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1cl2ewl842wcnagz5psd68z4dpp4gfxrrm9atm807uvyyg235h85stg7awy',
       symbol: 'COIN',
       name: 'CoinDex',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/coindex.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1x02k67asfmjawgc96dj8nxq6se3fmx36gedgs5hvkjegdhfy97rs3jgj2h',
       symbol: 'CZAR',
       name: 'CZAR',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/czar.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1p32te9zfhd99ehpxfd06hka6hc9p7tv5kyl5909mzedg5klze09qrg08ry',
       symbol: 'DAISY',
       name: 'Daisy Finance ',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/daisy.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1gzys54drag6753qq75mkt3yhjwyv4rp698kfvesh0wcy5737z4tsn0chtm',
       symbol: 'FUTURE',
       name: 'FUTURE OF',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/futuretoken.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se',
       symbol: 'GLTO',
       name: 'Gelotto',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/glto.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno10ynpq4wchr4ruu6mhrfh29495ep4cja5vjnkhz3j5lrgcsap9vtssyeekl',
       symbol: 'gFOT',
       name: 'Grand Fortis Oeconomia Token',
       icon: '',
-      decimals: 10
+      decimals: 10,
     },
     {
       token: 'juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z',
       symbol: 'HOPE',
       name: 'HOPE Galaxy',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/hopelogo.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz',
       symbol: 'HOWL',
       name: 'HOWL',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/HOWL.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1pshrvuw5ng2q4nwcsuceypjkp48d95gmcgjdxlus2ytm4k5kvz2s7t9ldx',
       symbol: 'HULC',
       name: 'Hulcat',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/hulcat.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3',
       symbol: 'JOE',
       name: 'JoeDAO',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/joedao.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy',
       symbol: 'KLEO',
       name: 'Kleomedes',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/KLEO.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup',
       symbol: 'Loop',
       name: 'Loop',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/a46f3a10b8e67105233f358aa1de114fc34df221/images/loop.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl',
       symbol: 'MARBLE',
       name: 'MARBLE',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/marble.png',
-      decimals: 3
+      decimals: 3,
     },
     {
       token: 'juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3',
       symbol: 'MUSE',
       name: 'MUSE',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/MUSE.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr',
       symbol: 'NETA',
       name: 'NETA',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/neta.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno17r8dyxuj25muaudhgqgx4xrg6gzr6tvzem6gwtpprnfld58yggcqjhhkjy',
       symbol: 'NMN',
       name: 'OpenNMN',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/nmn.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
       symbol: 'PHMN',
       name: 'POSTHUMAN',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/PHMN.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno13926947pmrjly5p9hf5juey65c6rget0gqrnx3us3r6pvnpf4hwqm8mchy',
       symbol: 'PUNK',
       name: 'PUNK',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/punk.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa',
       symbol: 'RAC',
       name: 'RAC',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/racoon.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g',
       symbol: 'RAW',
       name: 'Raw',
       icon: 'https://raw.githubusercontent.com/CosmosContracts/junoswap-asset-list/main/images/Raw.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k',
       symbol: 'SGNL',
       name: 'Signal',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/sgnl.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno17c7zyezg3m8p2tf9hqgue9jhahvle70d59e8j9nmrvhw9anrpk8qxlrghx',
       symbol: 'sFOT',
       name: 'Stable Fortis Oeconomia Token',
       icon: '',
-      decimals: 10
+      decimals: 10,
     },
     {
       token: 'juno147t4fd3tny6hws6rha9xs5gah9qa6g7hrjv9tuvv6ce6m25sy39sq6yv52',
       symbol: 'DRGN',
       name: 'Stake Dragons',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/drgn.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3',
       symbol: 'bJUNO',
       name: 'StakeEasy bJUNO',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/bjuno.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf',
       symbol: 'SEASY',
       name: 'StakeEasy governance token',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/seasy.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv',
       symbol: 'seJUNO',
       name: 'StakeEasy seJUNO',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/sejuno.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1wurfx334prlceydmda3aecldn2xh4axhqtly05n8gptgl69ee7msrewg6y',
       symbol: 'TUCK',
       name: 'Tuckermint',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/tuckermint.png',
-      decimals: 3
+      decimals: 3,
     },
     {
       token: 'juno1kqx9rhc8ksx52tukdx797k4rjrhkgfh4gljs04ql97hmnnkgyvxs5cqt7d',
       symbol: 'VERSE',
       name: 'UniverseDAO',
       icon: 'https://raw.githubusercontent.com/cosmoscontracts/junoswap-asset-list/main/images/VERSE.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1naunqzk6jseqeqhq43nm6kdneraws2rkmteprjzppw6j9xcrurxqx0ld9e',
       symbol: 'wyJUNO',
       name: 'wyJUNO',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/wyJUNO.png',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9',
       symbol: 'WYND',
       name: 'WYND',
       icon: 'https://raw.githubusercontent.com/cosmorama/wynd-assets-list/main/images/WYND.svg',
-      decimals: 6
+      decimals: 6,
     },
     {
       token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
       symbol: 'bJUNO',
       name: 'boneJUNO',
       icon: 'https://station-assets.terra.money/img/coins/bJUNO.png',
-      decimals: 6
-    }
+      decimals: 6,
+    },
+    {
+      token: 'juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49',
+      symbol: 'DHK',
+      name: 'DHK',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg',
+      decimals: 0,
+    },
+    {
+      token: 'juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w',
+      symbol: 'ASVT',
+      name: 'Another.Software Validator Token',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/asvt.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh',
+      symbol: 'GKEY',
+      name: 'GKey',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3',
+      symbol: 'BJUNO',
+      name: 'StakeEasy bJUNO',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse',
+      symbol: 'SOLAR',
+      name: 'Solarbank DAO',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz',
+      symbol: 'FURY',
+      name: 'Fanfury',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fanfury.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n',
+      symbol: 'HOPERS',
+      name: 'Hopers',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq',
+      symbol: 'NRIDE',
+      name: 'nRide Token',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x',
+      symbol: 'FOX',
+      name: 'Juno Fox',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fox.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1xekkh27punj0uxruv3gvuydyt856fax0nu750xns99t2qcxp7xmsqwhfma',
+      symbol: 'GRDN',
+      name: 'Guardian',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/guardian.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno166heaxlyntd33a5euh4rrz26svhean4klzw594esmd02l4atan6sazy2my',
+      symbol: 'MNPU',
+      name: 'Mini Punks',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mnpu.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1x5qt47rw84c4k6xvvywtrd40p8gxjt8wnmlahlqg07qevah3f8lqwxfs7z',
+      symbol: 'SHIBAC',
+      name: 'ShibaCosmos',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/shibacosmos.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1qqwf3lkfjhp77yja7gmg3y95pda0e5xctqrdhf3wvwdd79flagvqfgrgxp',
+      symbol: 'SKOJ',
+      name: 'Sikoba Token',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sikoba.svg',
+      decimals: 6,
+    },
+    {
+      token: 'juno1ngww7zxak55fql42wmyqrr4rhzpne24hhs4p3w4cwhcdgqgr3hxsmzl9zg',
+      symbol: 'CLST',
+      name: 'Celestims',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/celestims.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1ytymtllllsp3hfmndvcp802p2xmy5s8m59ufel8xv9ahyxyfs4hs4kd4je',
+      symbol: 'OSDOGE',
+      name: 'Osmosis Doge',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/osdoge.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1jrr0tuuzxrrwcg6hgeqhw5wqpck2y55734e7zcrp745aardlp0qqg8jz06',
+      symbol: 'APEMOS',
+      name: 'Apemos',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/apemos.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1jwdy7v4egw36pd84aeks3ww6n8k7zhsumd4ac8q5lts83ppxueus4626e8',
+      symbol: 'INVDRS',
+      name: 'Invaders',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/invdrs.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1k2ruzzvvwwtwny6gq6kcwyfhkzahaunp685wmz4hafplduekj98q9hgs6d',
+      symbol: 'DOGA',
+      name: 'Doge Apr',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/doga.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1zqrj3ta4u7ylv0wqzd8t8q3jrr9rdmn43zuzp9zemeunecnhy8fss778g7',
+      symbol: 'PEPE',
+      name: 'Osmo Pepe',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepe.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1f5datjdse3mdgrapwuzs3prl7pvxxht48ns6calnn0t77v2s9l8s0qu488',
+      symbol: 'CATMOS',
+      name: 'Catmos',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catmos.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1j4ux0f6gt7e82z7jdpm25v4g2gts880ap64rdwa49989wzhd0dfqed6vqm',
+      symbol: 'SUMMIT',
+      name: 'Summit',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/summit.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1dyyf7pxeassxvftf570krv7fdf5r8e4r04mp99h0mllsqzp3rs4q7y8yqg',
+      symbol: 'SPACER',
+      name: 'Spacer',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/spacer.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l',
+      symbol: 'LIGHT',
+      name: 'LIGHT',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/light.png',
+      decimals: 9,
+    },
+    {
+      token: 'juno1llg7q2d5dqlrqzh5dxv8c7kzzjszld34s5vktqmlmaaxqjssz43sxyhq0d',
+      symbol: 'MILE',
+      name: 'Mille',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mille.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno13ca2g36ng6etcfhr9qxx352uw2n5e92np54thfkm3w3nzlhsgvwsjaqlyq',
+      symbol: 'MANNA',
+      name: 'Manna',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/manna.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1lpvx3mv2a6ddzfjc7zzz2v2cm5gqgqf0hx67hc5p5qwn7hz4cdjsnznhu8',
+      symbol: 'VOID',
+      name: 'Void',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/void.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno10vgf2u03ufcf25tspgn05l7j3tfg0j63ljgpffy98t697m5r5hmqaw95ux',
+      symbol: 'SLCA',
+      name: 'Silica',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/silica.png',
+      decimals: 6,
+    },
+    {
+      token: 'juno1epxnvge53c4hkcmqzlxryw5fp7eae2utyk6ehjcfpwajwp48km3sgxsh9k',
+      symbol: 'PEPEC',
+      name: 'Pepec',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepec.png',
+      decimals: 6,
+    },
   ],
 }
