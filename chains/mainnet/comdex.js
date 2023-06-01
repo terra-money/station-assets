@@ -33,5 +33,12 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/CMST.svg',
       decimals: 6,
     },
+    {
+      token: 'uharbor',
+      symbol: 'HARBOR',
+      name: 'Harbor',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg',
+      decimals: 6,
+    },
   ],
 }
