@@ -15,10 +15,10 @@ module.exports = {
     toTerra: 'channel-2',
   },
   explorer: {
-    address: "https://explorer.marsprotocol.io/accounts/{}",
-    tx: "https://explorer.marsprotocol.io/transactions/{}",
-    validator: "https://explorer.marsprotocol.io/validators/{}",
-    block: "https://explorer.marsprotocol.io/blocks/{}",
+    address: 'https://explorer.marsprotocol.io/accounts/{}',
+    tx: 'https://explorer.marsprotocol.io/transactions/{}',
+    validator: 'https://explorer.marsprotocol.io/validators/{}',
+    block: 'https://explorer.marsprotocol.io/blocks/{}',
   },
   tokens: [
     {

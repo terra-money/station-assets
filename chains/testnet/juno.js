@@ -9,10 +9,10 @@ module.exports = {
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   explorer: {
-    address: "https://testnet.juno.explorers.guru/account/{}",
-    tx: "https://testnet.juno.explorers.guru/transaction/{}",
-    validator: "https://testnet.juno.explorers.guru/validator/{}",
-    block: "https://testnet.juno.explorers.guru/block/{}",
+    address: 'https://testnet.juno.explorers.guru/account/{}',
+    tx: 'https://testnet.juno.explorers.guru/transaction/{}',
+    validator: 'https://testnet.juno.explorers.guru/validator/{}',
+    block: 'https://testnet.juno.explorers.guru/block/{}',
   },
   tokens: [
     {
@@ -21,6 +21,6 @@ module.exports = {
       name: 'Juno',
       icon: process.env.CF_PAGES_URL + '/img/coins/Juno.svg',
       decimals: 6,
-    }
+    },
   ],
 }

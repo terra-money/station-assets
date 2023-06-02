@@ -69,21 +69,22 @@ module.exports = {
       symbol: 'LOCAL',
       name: 'Local Money',
       icon: process.env.CF_PAGES_URL + '/img/coins/Local.png',
-      decimals: 6
+      decimals: 6,
     },
     {
-        token: 'factory/kujira13y8hs83sk0la7na2w5g5nzrnjjpnkvmd7e87yd35g8dcph7dn0ksenay2a/ulp',
-        symbol: 'LP KUJI-ATOM',
-        name: 'LP KUJI-ATOM',
-        icon: '',
-        decimals: 6
+      token:
+        'factory/kujira13y8hs83sk0la7na2w5g5nzrnjjpnkvmd7e87yd35g8dcph7dn0ksenay2a/ulp',
+      symbol: 'LP KUJI-ATOM',
+      name: 'LP KUJI-ATOM',
+      icon: '',
+      decimals: 6,
     },
     {
-        token: 'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta',
-        symbol: 'MNTA',
-        name: 'MNTA',
-        icon: '',
-        decimals: 6
-    }
+      token: 'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta',
+      symbol: 'MNTA',
+      name: 'MNTA',
+      icon: '',
+      decimals: 6,
+    },
   ],
 }

@@ -36,7 +36,7 @@ module.exports = {
       token: 'uion',
       symbol: 'ION',
       name: 'Ion',
-      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Ion.svg',
       decimals: 6,
     },
     {
@@ -44,7 +44,7 @@ module.exports = {
         'factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx',
       symbol: 'IBCX',
       name: 'IBCX',
-      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ibcx.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Ibcx.svg',
       decimals: 6,
     },
   ],

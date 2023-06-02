@@ -9,9 +9,18 @@ module.exports = {
   name: 'LocalTerra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   explorer: {
-    address: "https://finder.terra.money/localterra/address/{}",
-    tx: "https://finder.terra.money/localterra/tx/{}",
-    validator: "https://finder.terra.money/localterra/validator/{}",
-    block: "https://finder.terra.money/localterra/block/{}",
-  }
+    address: 'https://finder.terra.money/localterra/address/{}',
+    tx: 'https://finder.terra.money/localterra/tx/{}',
+    validator: 'https://finder.terra.money/localterra/validator/{}',
+    block: 'https://finder.terra.money/localterra/block/{}',
+  },
+  tokens: [
+    {
+      token: 'uluna',
+      symbol: 'LUNA',
+      name: 'Terra Luna',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
+      decimals: 6,
+    },
+  ],
 }

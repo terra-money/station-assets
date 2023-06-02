@@ -10,10 +10,10 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   explorer: {
-    address: "https://terrasco.pe/testnet/address/{}",
-    tx: "https://terrasco.pe/testnet/tx/{}",
-    validator: "https://terrasco.pe/testnet/validator/{}",
-    block: "https://terrasco.pe/testnet/block/{}",
+    address: 'https://terrasco.pe/testnet/address/{}',
+    tx: 'https://terrasco.pe/testnet/tx/{}',
+    validator: 'https://terrasco.pe/testnet/validator/{}',
+    block: 'https://terrasco.pe/testnet/block/{}',
   },
   tokens: [
     {
@@ -29,6 +29,6 @@ module.exports = {
       name: 'Alliance Test',
       icon: process.env.CF_PAGES_URL + '/img/chains/Atreides.png',
       decimals: 6,
-    }
+    },
   ],
 }

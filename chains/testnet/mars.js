@@ -15,10 +15,10 @@ module.exports = {
   // used by Station to decide which endpoint to use
   version: '0.46',
   explorer: {
-    address: "https://testnet-explorer.marsprotocol.io/accounts/{}",
-    tx: "https://testnet-explorer.marsprotocol.io/transactions/{}",
-    validator: "https://testnet-explorer.marsprotocol.io/validators/{}",
-    block: "https://testnet-explorer.marsprotocol.io/blocks/{}",
+    address: 'https://testnet-explorer.marsprotocol.io/accounts/{}',
+    tx: 'https://testnet-explorer.marsprotocol.io/transactions/{}',
+    validator: 'https://testnet-explorer.marsprotocol.io/validators/{}',
+    block: 'https://testnet-explorer.marsprotocol.io/blocks/{}',
   },
   tokens: [
     {
@@ -27,6 +27,6 @@ module.exports = {
       name: 'Mars',
       icon: process.env.CF_PAGES_URL + '/img/coins/Mars.svg',
       decimals: 6,
-    }
+    },
   ],
 }

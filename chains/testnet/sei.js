@@ -13,10 +13,10 @@ module.exports = {
     toTerra: 'channel-11',
   },
   explorer: {
-    address: "https://sei.explorers.guru/account/{}",
-    tx: "https://sei.explorers.guru/transaction/{}",
-    validator: "https://sei.explorers.guru/validator/{}",
-    block: "https://sei.explorers.guru/block/{}",
+    address: 'https://sei.explorers.guru/account/{}',
+    tx: 'https://sei.explorers.guru/transaction/{}',
+    validator: 'https://sei.explorers.guru/validator/{}',
+    block: 'https://sei.explorers.guru/block/{}',
   },
   tokens: [
     {
