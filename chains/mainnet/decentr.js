@@ -7,7 +7,7 @@ module.exports = {
     coinType: '118',
     baseAsset: 'udec',
     name: 'Decentr',
-    icon: 'https://station-assets.terra.money/img/chains/Decentr.svg',
+    icon: process.env.CF_PAGES_URL + '/img/chains/Decentr.svg',
     ibc: {
         toTerra: 'channel-99',
         fromTerra: 'channel-5',
@@ -23,7 +23,7 @@ module.exports = {
             token: 'udec',
             symbol: 'DEC',
             name: 'Decentr',
-            icon: 'https://station-assets.terra.money/img/coins/Decentr.svg',
+            icon: process.env.CF_PAGES_URL + '/img/coins/Decentr.svg',
             decimals: 6,
         },
     ],

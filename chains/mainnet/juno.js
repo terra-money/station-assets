@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ujuno',
   name: 'Juno',
-  icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   ibc: {
     fromTerra: 'channel-2',
     toTerra: 'channel-86',
@@ -35,14 +35,14 @@ module.exports = {
       token: 'ujuno',
       symbol: 'JUNO',
       name: 'Juno',
-      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Juno.svg',
       decimals: 6,
     },
     {
       token: 'juno1a0khag6cfzu5lrwazmyndjgvlsuk7g4vn9jd8ceym8f4jf6v2l9q6d348a',
       symbol: 'ampJUNO',
       name: 'ERIS Amplified JUNO',
-      icon: 'https://station-assets.terra.money/img/coins/ampJuno.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampJuno.svg',
       decimals: 6,
     },
     {
@@ -336,7 +336,7 @@ module.exports = {
       token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
       symbol: 'bJUNO',
       name: 'boneJUNO',
-      icon: 'https://station-assets.terra.money/img/coins/bJUNO.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bJUNO.png',
       decimals: 6,
     },
     {

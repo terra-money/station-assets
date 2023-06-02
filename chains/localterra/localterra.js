@@ -7,7 +7,7 @@ module.exports = {
   coinType: '330',
   baseAsset: 'uluna',
   name: 'LocalTerra',
-  icon: 'https://station-assets.terra.money/img/chains/Terra.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   explorer: {
     address: "https://finder.terra.money/localterra/address/{}",
     tx: "https://finder.terra.money/localterra/tx/{}",

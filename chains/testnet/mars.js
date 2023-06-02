@@ -7,7 +7,7 @@ module.exports = {
   coinType: '330',
   baseAsset: 'umars',
   name: 'Mars',
-  icon: 'https://station-assets.terra.money/img/chains/Mars.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
   ibc: {
     toTerra: 'channel-0',
     fromTerra: 'channel-189',
@@ -25,7 +25,7 @@ module.exports = {
       token: 'umars',
       symbol: 'MARS',
       name: 'Mars',
-      icon: 'https://station-assets.terra.money/img/coins/Mars.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Mars.svg',
       decimals: 6,
     }
   ],

@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uakt',
   name: 'Akash',
-  icon: 'https://station-assets.terra.money/img/chains/Akash.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Akash.svg',
   ibc: {
     fromTerra: 'channel-45',
     toTerra: 'channel-56',
@@ -23,7 +23,7 @@ module.exports = {
       token: 'uakt',
       symbol: 'AKT',
       name: 'Akash',
-      icon: 'https://station-assets.terra.money/img/coins/Akash.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Akash.svg',
       decimals: 6,
     },
   ],

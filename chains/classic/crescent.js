@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ucre',
   name: 'Crescent',
-  icon: 'https://station-assets.terra.money/img/chains/Crescent.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
   ibc: {
     fromTerra: 'channel-49',
     toTerra: 'channel-0',

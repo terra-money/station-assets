@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'usei',
   name: 'Sei',
-  icon: 'https://station-assets.terra.money/img/chains/Sei.png',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Sei.png',
   ibc: {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
@@ -23,7 +23,7 @@ module.exports = {
       token: 'usei',
       symbol: 'SEI',
       name: 'Sei',
-      icon: 'https://station-assets.terra.money/img/coins/Sei.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Sei.png',
       decimals: 6,
     },
   ],

@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uosmo',
   name: 'Osmosis',
-  icon: 'https://station-assets.terra.money/img/chains/Osmosis.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Osmosis.svg',
   ibc: {
     toTerra: 'channel-251',
     fromTerra: 'channel-1',
@@ -29,7 +29,7 @@ module.exports = {
       token: 'uosmo',
       symbol: 'OSMO',
       name: 'Osmosis',
-      icon: 'https://station-assets.terra.money/img/coins/Osmo.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Osmo.svg',
       decimals: 6,
     },
     {

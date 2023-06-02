@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ujuno',
   name: 'Juno',
-  icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   ibc: {
     fromTerra: 'channel-20',
     toTerra: 'channel-27',
