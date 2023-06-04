@@ -30,7 +30,14 @@ module.exports = {
       name: 'Lion Cub Dao',
       icon: 'https://station-assets.terra.money/img/coins/cub.png',
       decimals: 6,
-    },    
+    },  
+    {
+      token: 'terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584',
+      symbol: 'BLUE',
+      name: 'BLUE CUB Dao',
+      icon: 'https://station-assets.terra.money/img/coins/blue.png',
+      decimals: 6,
+    },
     {
       token: 'terra1e5vchf97lakl6sulztkn54aapekzfzsa6amdt88exvwmu25s3z0sg6hplq',
       symbol: 'ASTRO-USDC ampLP',
