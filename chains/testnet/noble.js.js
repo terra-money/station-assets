@@ -1,5 +1,5 @@
 module.exports = {
-  chainID: "noble-1",
+  chainID: "grand-1",
   lcd: "https://noble-testnet-api.polkachu.com",
   gasAdjustment: 1.75,
   gasPrices: { uusdc: 0 },
