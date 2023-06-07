@@ -34,5 +34,13 @@ module.exports = {
       decimals: 6,
       lsd: 'uluna',
     },
+    {
+      token: 'stuatom',
+      symbol: 'stATOM',
+      name: 'Stride ATOM',
+      icon: 'https://raw.githubusercontent.com/cosmos/chain-registry/114ce77d49c52d0f4dc44ec92872d5a07de33634/stride/images/statom.svg',
+      decimals: 6,
+      lsd: 'uatom',
+    },
   ],
 }
