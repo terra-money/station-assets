@@ -10,7 +10,7 @@ module.exports = {
   icon: "https://station-assets.terra.money/img/chains/Noble.svg",
   ibc: {
     toTerra: "channel-11",
-    fromTerra: "connection-330",
+    fromTerra: "channel-281",
   },
   explorer: {
     address: "https://testnet.mintscan.io/noble-testnet/account/{}",
