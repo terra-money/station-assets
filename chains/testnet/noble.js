@@ -9,8 +9,8 @@ module.exports = {
   name: "Noble",
   icon: "https://station-assets.terra.money/img/chains/Noble.svg",
   ibc: {
-    toTerra: "channel-TBD",
-    fromTerra: "channel-TBD",
+    toTerra: "channel-11",
+    fromTerra: "connection-330",
   },
   explorer: {
     address: "https://testnet.mintscan.io/noble-testnet/account/{}",
