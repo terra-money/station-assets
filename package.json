@@ -22,6 +22,7 @@
     "@terra-money/feather.js": "^1.0.0-beta.8",
     "buffer": "^6.0.3",
     "glob": "^8.0.3",
-    "glob-promise": "^6.0.1"
+    "glob-promise": "^6.0.1",
+    "request": "^2.88.2"
   }
 }

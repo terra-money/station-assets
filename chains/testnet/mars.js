@@ -7,7 +7,7 @@ module.exports = {
   coinType: '330',
   baseAsset: 'umars',
   name: 'Mars',
-  icon: 'https://station-assets.terra.money/img/chains/Mars.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
   ibc: {
     toTerra: 'channel-0',
     fromTerra: 'channel-189',
@@ -15,18 +15,18 @@ module.exports = {
   // used by Station to decide which endpoint to use
   version: '0.46',
   explorer: {
-    address: "https://testnet-explorer.marsprotocol.io/accounts/{}",
-    tx: "https://testnet-explorer.marsprotocol.io/transactions/{}",
-    validator: "https://testnet-explorer.marsprotocol.io/validators/{}",
-    block: "https://testnet-explorer.marsprotocol.io/blocks/{}",
+    address: 'https://testnet-explorer.marsprotocol.io/accounts/{}',
+    tx: 'https://testnet-explorer.marsprotocol.io/transactions/{}',
+    validator: 'https://testnet-explorer.marsprotocol.io/validators/{}',
+    block: 'https://testnet-explorer.marsprotocol.io/blocks/{}',
   },
   tokens: [
     {
       token: 'umars',
       symbol: 'MARS',
       name: 'Mars',
-      icon: 'https://station-assets.terra.money/img/coins/Mars.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Mars.svg',
       decimals: 6,
-    }
+    },
   ],
 }
