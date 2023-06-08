@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ncheq',
   name: 'cheqd',
-  icon: 'https://station-assets.terra.money/img/chains/Cheqd.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
   ibc: {
     fromTerra: 'channel-89',
     toTerra: 'channel-9',
@@ -23,7 +23,7 @@ module.exports = {
       token: 'ncheq',
       symbol: 'CHEQ',
       name: 'Cheq',
-      icon: 'https://station-assets.terra.money/img/coins/Cheqd.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Cheqd.svg',
       decimals: 9,
     },
   ],

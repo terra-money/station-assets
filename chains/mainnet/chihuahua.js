@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
-  icon: 'https://station-assets.terra.money/img/chains/Huahua.png',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
   ibc: {
     fromTerra: 'channel-44',
     toTerra: 'channel-34',
@@ -23,7 +23,15 @@ module.exports = {
       token: 'uhuahua',
       symbol: 'HUAHUA',
       name: 'Huahua',
-      icon: 'https://station-assets.terra.money/img/coins/Huahua.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Huahua.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w',
+      symbol: 'bHUAHUA',
+      name: 'boneHUAHUA',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bHUAHUA.png',
       decimals: 6,
     },
   ],

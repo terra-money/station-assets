@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uwhale',
   name: 'Migaloo',
-  icon: 'https://station-assets.terra.money/img/chains/Migaloo.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   alliance: true,
   ibc: {
     fromTerra: 'channel-86',
@@ -30,7 +30,7 @@ module.exports = {
       token: 'uwhale',
       symbol: 'WHALE',
       name: 'Migaloo',
-      icon: 'https://station-assets.terra.money/img/coins/Whale.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Whale.svg',
       decimals: 6,
     },
     {
@@ -38,7 +38,7 @@ module.exports = {
         'factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE',
       symbol: 'ampWHALE',
       name: 'ERIS Amplified WHALE',
-      icon: 'https://station-assets.terra.money/img/coins/ampWHALE.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampWHALE.svg',
       decimals: 6,
     },
     {
@@ -46,7 +46,7 @@ module.exports = {
         'factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale',
       symbol: 'bWHALE',
       name: 'boneWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/bWHALE.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
       decimals: 6,
     },
   ],
