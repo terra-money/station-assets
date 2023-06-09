@@ -349,5 +349,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/LUNC(Portal).png',
       decimals: 6,
     },
+    {
+      token: 'terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3',
+      symbol: 'NICO',
+      name: 'NICO MONEY',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Nico.png',
+      decimals: 18,
+    },
   ],
 }
