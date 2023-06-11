@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'kaiyo-1',
-  lcd: 'https://lcd.kaiyo.kujira.setten.io',
+  lcd: 'https://kujira-api.nodes.defiantlabs.net',
   gasAdjustment: 1.75,
   gasPrices: {
     ukuji: 0.00119,
