@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'kaiyo-1',
-  lcd: 'https://lcd.kaiyo.kujira.setten.io',
+  lcd: 'https://kujira-api.nodes.defiantlabs.net',
   gasAdjustment: 1.75,
   gasPrices: {
     ukuji: 0.00119,
@@ -22,7 +22,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ukuji',
   name: 'Kujira',
-  icon: 'https://station-assets.terra.money/img/chains/Kujira.png',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Kujira.png',
   ibc: {
     fromTerra: 'channel-10',
     toTerra: 'channel-5',
@@ -45,7 +45,7 @@ module.exports = {
       token: 'ukuji',
       symbol: 'KUJI',
       name: 'Kujira',
-      icon: 'https://station-assets.terra.money/img/coins/Kuji.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Kuji.svg',
       decimals: 6,
     },
     {
@@ -53,7 +53,7 @@ module.exports = {
         'factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk',
       symbol: 'USK',
       name: 'USK',
-      icon: 'https://station-assets.terra.money/img/coins/USK.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/USK.svg',
       decimals: 6,
     },
     {
@@ -61,7 +61,29 @@ module.exports = {
         'factory:kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty:ampKUJI',
       symbol: 'ampKUJI',
       name: 'ERIS Amplified KUJI',
-      icon: 'https://station-assets.terra.money/img/coins/ampKUJI.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampKUJI.svg',
+      decimals: 6,
+    },
+    {
+      token: 'factory:kujira1swkuyt08z74n5jl7zr6hx0ru5sa2yev5v896p6:local',
+      symbol: 'LOCAL',
+      name: 'Local Money',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Local.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory:kujira13y8hs83sk0la7na2w5g5nzrnjjpnkvmd7e87yd35g8dcph7dn0ksenay2a:ulp',
+      symbol: 'LP KUJI-ATOM',
+      name: 'LP KUJI-ATOM',
+      icon: '',
+      decimals: 6,
+    },
+    {
+      token: 'factory:kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7:umnta',
+      symbol: 'MNTA',
+      name: 'MNTA',
+      icon: '',
       decimals: 6,
     },
   ],

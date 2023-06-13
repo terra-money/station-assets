@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'swth',
   name: 'Carbon',
-  icon: 'https://station-assets.terra.money/img/chains/Carbon.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Carbon.svg',
   alliance: true,
   ibc: {
     fromTerra: 'channel-36',
@@ -30,7 +30,7 @@ module.exports = {
       token: 'swth',
       symbol: 'SWTH',
       name: 'Carbon',
-      icon: 'https://station-assets.terra.money/img/coins/Carbon.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
       decimals: 8,
     },
   ],

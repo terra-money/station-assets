@@ -7,20 +7,20 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ujunox',
   name: 'Juno',
-  icon: 'https://station-assets.terra.money/img/chains/Juno.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   explorer: {
-    address: "https://testnet.juno.explorers.guru/account/{}",
-    tx: "https://testnet.juno.explorers.guru/transaction/{}",
-    validator: "https://testnet.juno.explorers.guru/validator/{}",
-    block: "https://testnet.juno.explorers.guru/block/{}",
+    address: 'https://testnet.juno.explorers.guru/account/{}',
+    tx: 'https://testnet.juno.explorers.guru/transaction/{}',
+    validator: 'https://testnet.juno.explorers.guru/validator/{}',
+    block: 'https://testnet.juno.explorers.guru/block/{}',
   },
   tokens: [
     {
       token: 'ujunox',
       symbol: 'JUNO',
       name: 'Juno',
-      icon: 'https://station-assets.terra.money/img/coins/Juno.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Juno.svg',
       decimals: 6,
-    }
+    },
   ],
 }

@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uatom',
   name: 'Cosmos',
-  icon: 'https://station-assets.terra.money/img/chains/Cosmos.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Cosmos.svg',
   ibc: {
     toTerra: 'channel-339',
     fromTerra: 'channel-0',
@@ -23,7 +23,7 @@ module.exports = {
       token: 'uatom',
       symbol: 'ATOM',
       name: 'Cosmos',
-      icon: 'https://station-assets.terra.money/img/coins/Cosmos.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Cosmos.svg',
       decimals: 6,
     },
   ],
