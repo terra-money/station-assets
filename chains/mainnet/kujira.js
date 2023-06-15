@@ -36,9 +36,6 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-5',
   },
-  icsChannelsIn: {
-    'phoenix-1': 'channel-36',
-  },
   alliance: true,
   explorer: {
     address: 'https://www.mintscan.io/kujira/account/{}',

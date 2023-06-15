@@ -22,9 +22,6 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-0',
   },
-  icsChannelsIn: {
-    'phoenix-1': 'channel-2',
-  },
   explorer: {
     address: 'https://ping.pub/migaloo/account/{}',
     tx: 'https://ping.pub/migaloo/tx/{}',

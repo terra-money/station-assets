@@ -21,9 +21,6 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-251',
   },
-  icsChannelsIn: {
-    'phoenix-1': 'channel-341',
-  },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
     tx: 'https://www.mintscan.io/osmosis/txs/{}',

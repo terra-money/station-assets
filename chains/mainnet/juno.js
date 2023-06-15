@@ -27,14 +27,12 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-86',
   },
-  icsChannelsIn: {
-    'phoenix-1': 'channel-153',
-  },
-  icsChannelsOut: {
+  icsChannels: {
     'phoenix-1': {
       contract:
         'juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn',
       channel: 'channel-154',
+      otherChannel: 'channel-33'
     },
   },
   explorer: {

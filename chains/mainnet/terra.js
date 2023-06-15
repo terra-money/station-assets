@@ -26,34 +26,36 @@ module.exports = {
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
   },
-  icsChannelsIn: {
-    'juno-1': 'channel-33',
-  },
-  icsChannelsOut: {
+  icsChannels: {
     'carbon-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-41',
+      otherChannel: 'channel-16'
     },
     'juno-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-32',
+      otherChannel: 'channel-153'
     },
     'kaiyo-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-28',
+      otherChannel: 'channel-36'
     },
     'migaloo-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-87',
+      otherChannel: 'channel-2'
     },
     'osmosis-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-26',
+      otherChannel: 'channel-341'
     },
   },
 
