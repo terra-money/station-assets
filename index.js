@@ -67,8 +67,8 @@ const fs = require('fs').promises
       lpsOut[network] = {}
     }
 
-    const lpId = [chainID, coinData.token].join(':')
-    lpsOut[network][tokenId] = { ...coinData, chainID, chains: [chainID] }
+    const lpId = [chainID, lpData.token].join(':')
+    lpsOut[network][lpId] = { ...lpData, chainID }
   })
 
   tokens.forEach((token) => {
