@@ -35,6 +35,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-5',
+    'axelar-dojo-1': 'channel-9',
   },
   alliance: true,
   explorer: {

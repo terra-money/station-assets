@@ -26,6 +26,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-86',
+    'axelar-dojo-1': 'channel-71',
   },
   icsChannels: {
     'phoenix-1': {

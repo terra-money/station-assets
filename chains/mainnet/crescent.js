@@ -14,6 +14,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-27',
+    'axelar-dojo-1': 'channel-4',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',

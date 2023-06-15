@@ -14,6 +14,14 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-11',
+    'kaiyo-1': 'channel-14',
+    'crescent-1': 'channel-7',
+    'juno-1': 'channel-4',
+    'osmosis-1': 'channel-3',
+    'cosmoshub-4': 'channel-2',
+    'carbon-1': 'channel-37',
+    'comdex-1': 'channel-31',
+    'stride-1': 'channel-64',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',

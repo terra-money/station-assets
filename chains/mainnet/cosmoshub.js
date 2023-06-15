@@ -14,6 +14,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-339',
+    'axelar-dojo-1': 'channel-293',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',

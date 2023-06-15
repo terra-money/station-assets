@@ -14,6 +14,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-51',
+    'axelar-dojo-1': 'channel-34',
   },
   explorer: {
     address: 'https://www.mintscan.io/comdex/account/{}',

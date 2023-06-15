@@ -21,6 +21,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-12',
+    'axelar-dojo-1': 'channel-7',
   },
   explorer: {
     address: 'https://scan.carbon.network/account/{}?net=main',
