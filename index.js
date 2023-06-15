@@ -15,6 +15,7 @@ const fs = require('fs').promises
 
   const chainFiles = await glob('./chains/*/*.js')
   const tokens = []
+  const lps = []
 
   chainFiles.forEach((file) => {
     const [_, folder, network, fileName] = file.split('/')
@@ -37,8 +38,16 @@ const fs = require('fs').promises
         network,
       }))
     )
+    lps.push(
+      ...(chainData.lps ?? []).map((lp) => ({
+        ...lp,
+        chainID: chainData.chainID,
+        network,
+      }))
+    )
 
     delete chainData['tokens']
+    delete chainData['lps']
 
     chains[network][chainData.chainID] = chainData
   })
@@ -48,6 +57,19 @@ const fs = require('fs').promises
   const coinsOut = {}
   const ibcDenomMapOutPath = './build/ibc.json'
   const ibcDenomMapOut = {}
+  const lpsOutPath = './build/lps.json'
+  const lpsOut = {}
+
+  lps.forEach((lp) => {
+    const { network, chainID, ...lpData } = lp
+
+    if (typeof lpsOut[network] === 'undefined') {
+      lpsOut[network] = {}
+    }
+
+    const lpId = [chainID, coinData.token].join(':')
+    lpsOut[network][tokenId] = { ...coinData, chainID, chains: [chainID] }
+  })
 
   tokens.forEach((token) => {
     const { network, chainID, ...coinData } = token
@@ -166,6 +188,8 @@ const fs = require('fs').promises
   await fs.writeFile(coinsOutPath, coinsList)
   const ibcList = JSON.stringify(ibcDenomMapOut, null, 2)
   await fs.writeFile(ibcDenomMapOutPath, ibcList)
+  const lpList = JSON.stringify(lpsOut, null, 2)
+  await fs.writeFile(lpsOutPath, lpList)
   const currenciesList = require('./currencies.js')
   await fs.writeFile(
     './build/currencies.json',
