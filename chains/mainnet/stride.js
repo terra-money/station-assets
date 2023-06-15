@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-46',
     toTerra: 'channel-52',
   },
+  channels: {
+    'phoenix-1': 'channel-52',
+  },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
     tx: 'https://www.mintscan.io/stride/txs/{}',

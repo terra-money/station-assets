@@ -12,6 +12,9 @@ module.exports = {
     toTerra: 'channel-0',
     fromTerra: 'channel-189',
   },
+  channels: {
+    'pisco-1': 'channel-0',
+  },
   // used by Station to decide which endpoint to use
   version: '0.46',
   explorer: {

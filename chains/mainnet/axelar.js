@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-6',
     toTerra: 'channel-11',
   },
+  channels: {
+    'phoenix-1': 'channel-11',
+  },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',
     tx: 'https://www.mintscan.io/axelar/txs/{}',

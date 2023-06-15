@@ -19,6 +19,12 @@ module.exports = {
       fromTerra: 'channel-41',
     },
   },
+  channels: {
+    'phoenix-1': 'channel-12',
+  },
+  icsChannelsIn: {
+    'phoenix-1': 'channel-16'
+  },
   explorer: {
     address: 'https://scan.carbon.network/account/{}?net=main',
     tx: 'https://scan.carbon.network/transaction/{}?net=main',

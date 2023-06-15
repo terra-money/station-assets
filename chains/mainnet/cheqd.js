@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-89',
     toTerra: 'channel-9',
   },
+  channels: {
+    'phoenix-1': 'channel-9',
+  },
   explorer: {
     address: 'https://explorer.cheqd.io/accounts/{}',
     tx: 'https://explorer.cheqd.io/transactions/{}',

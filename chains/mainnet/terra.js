@@ -9,6 +9,54 @@ module.exports = {
   name: 'Terra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
+  channels: {
+    'akashnet-2': 'channel-45',
+    'axelar-dojo-1': 'channel-6',
+    'carbon-1': 'channel-36',
+    'cheqd-mainnet-1': 'channel-89',
+    'chihuahua-1': 'channel-44',
+    'comdex-1': 'channel-39',
+    'cosmoshub-4': 'channel-0',
+    'crescent-1': 'channel-37',
+    'mainnet-3': 'channel-5',
+    'juno-1': 'channel-2',
+    'kaiyo-1': 'channel-10',
+    'mars-1': 'channel-78',
+    'migaloo-1': 'channel-86',
+    'osmosis-1': 'channel-1',
+    'stride-1': 'channel-46',
+  },
+  icsChannelsIn: {
+    'juno-1': 'channel-33',
+  },
+  icsChannelsOut: {
+    'carbon-1': {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      channel: 'channel-41',
+    },
+    'juno-1': {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      channel: 'channel-32',
+    },
+    'kaiyo-1': {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      channel: 'channel-28',
+    },
+    'migaloo-1': {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      channel: 'channel-87',
+    },
+    'osmosis-1': {
+      contract:
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+      channel: 'channel-26',
+    },
+  },
+
   // doesn't require IBC channels since it's already on all the other chains
   explorer: {
     address: 'https://terrasco.pe/mainnet/address/{}',

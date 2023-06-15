@@ -9,8 +9,11 @@ module.exports = {
   name: 'Cosmos',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cosmos.svg',
   ibc: {
-    toTerra: 'channel-339',
     fromTerra: 'channel-0',
+    toTerra: 'channel-339',
+  },
+  channels: {
+    'phoenix-1': 'channel-339',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',

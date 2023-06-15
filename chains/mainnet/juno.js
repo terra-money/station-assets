@@ -24,6 +24,19 @@ module.exports = {
       fromTerra: 'channel-32',
     },
   },
+  channels: {
+    'phoenix-1': 'channel-86',
+  },
+  icsChannelsIn: {
+    'phoenix-1': 'channel-153',
+  },
+  icsChannelsOut: {
+    'phoenix-1': {
+      contract:
+        'juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn',
+      channel: 'channel-154',
+    },
+  },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
     tx: 'https://www.mintscan.io/juno/txs/{}',

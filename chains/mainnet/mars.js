@@ -14,6 +14,9 @@ module.exports = {
     fromTerra: 'channel-78',
     toTerra: 'channel-2',
   },
+  channels: {
+    'phoenix-1': 'channel-2',
+  },
   explorer: {
     address: 'https://explorer.marsprotocol.io/accounts/{}',
     tx: 'https://explorer.marsprotocol.io/transactions/{}',

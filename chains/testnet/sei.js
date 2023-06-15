@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
   },
+  channels: {
+    'pisco-1': 'channel-11',
+  },
   explorer: {
     address: 'https://sei.explorers.guru/account/{}',
     tx: 'https://sei.explorers.guru/transaction/{}',
