@@ -9,10 +9,10 @@ module.exports = {
   name: 'LocalTerra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   explorer: {
-    address: 'https://finder.terra.money/localterra/address/{}',
-    tx: 'https://finder.terra.money/localterra/tx/{}',
-    validator: 'https://finder.terra.money/localterra/validator/{}',
-    block: 'https://finder.terra.money/localterra/block/{}',
+    address: 'https://localhost:3200/localterra/address/{}',
+    tx: 'https://localhost:3200/localterra/tx/{}',
+    validator: 'https://localhost:3200/localterra/validator/{}',
+    block: 'https://localhost:3200/localterra/block/{}',
   },
   tokens: [
     {
