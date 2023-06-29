@@ -5,8 +5,11 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
+      args:
+        FDN_BASE_URL: http://localhost:8000
+        CF_PAGES_URL: http://localhost:3001
     image: localterra/assets:latest
     networks:
       - default
     ports:
-      - '3101:3101'
+      - '3001:3001'
