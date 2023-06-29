@@ -12,6 +12,9 @@ RUN set -eux && \
 ###############################################################################
 FROM node:18 as station-assets-builder
 
+ARG CF_PAGES_URL="https://station-assets.pages.dev"
+ENV CF_PAGES_URL=${CF_PAGES_URL}
+
 WORKDIR /assets
 
 COPY . .
