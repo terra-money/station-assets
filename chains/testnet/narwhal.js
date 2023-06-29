@@ -9,10 +9,10 @@ module.exports = {
   name: 'Migaloo Testnet',
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   explorer: {
-    address: 'https://migaloo-testnet-api.polkachu.com/cosmos/auth/v1beta1/accounts/{}',
-    tx: 'https://migaloo-testnet-api.polkachu.com/cosmos/tx/v1beta1/txs/{}',
-    validator: 'https://migaloo-testnet-api.polkachu.com/cosmos/staking/v1beta1/validators/{}',
-    block: 'https://migaloo-testnet-api.polkachu.com/cosmos/base/tendermint/v1beta1/blocks/{}',
+    address: 'https://testnet.migaloo.explorers.guru/account/{}',
+    tx: 'https://testnet.migaloo.explorers.guru/transaction/{}',
+    validator: 'https://testnet.migaloo.explorers.guru/validator/{}',
+    block: 'https://testnet.migaloo.explorers.guru/block/{}',
   },
   tokens: [
     {

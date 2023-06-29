@@ -19,7 +19,7 @@ module.exports = {
     {
       token: 'uluna',
       symbol: 'LUNA',
-      name: 'Testnet Terra Luna',
+      name: 'Test Terra Luna',
       icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
       decimals: 6,
     },
