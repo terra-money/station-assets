@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'sei',
   coinType: '118',
   baseAsset: 'usei',
-  name: 'Sei',
+  name: 'Sei Testnet',
   icon: process.env.CF_PAGES_URL + '/img/chains/Sei.png',
   ibc: {
     fromTerra: 'channel-100',
@@ -22,7 +22,7 @@ module.exports = {
     {
       token: 'usei',
       symbol: 'SEI',
-      name: 'Sei',
+      name: 'Test Sei',
       icon: process.env.CF_PAGES_URL + '/img/coins/Sei.png',
       decimals: 6,
     },

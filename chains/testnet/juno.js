@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'juno',
   coinType: '118',
   baseAsset: 'ujunox',
-  name: 'Juno',
+  name: 'Juno Testnet',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
   explorer: {
     address: 'https://testnet.juno.explorers.guru/account/{}',
@@ -18,7 +18,7 @@ module.exports = {
     {
       token: 'ujunox',
       symbol: 'JUNO',
-      name: 'Juno',
+      name: 'Test Juno',
       icon: process.env.CF_PAGES_URL + '/img/coins/Juno.svg',
       decimals: 6,
     },
