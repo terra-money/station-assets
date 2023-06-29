@@ -1,12 +1,12 @@
 module.exports = {
   chainID: 'pisco-1',
   lcd: 'https://pisco-lcd.terra.dev',
-  gasAdjustment: 3.5,
+  gasAdjustment: 2,
   gasPrices: { uluna: 0.015 },
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
-  name: 'Terra',
+  name: 'Terra Testnet',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   explorer: {
@@ -19,15 +19,15 @@ module.exports = {
     {
       token: 'uluna',
       symbol: 'LUNA',
-      name: 'Terra Luna',
+      name: 'Test Terra Luna',
       icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
       decimals: 6,
     },
     {
       token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/utest766e',
-      symbol: 'ALL',
+      symbol: 'ALLY',
       name: 'Alliance Test',
-      icon: process.env.CF_PAGES_URL + '/img/chains/Atreides.png',
+      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTestnet.png',
       decimals: 6,
     },
   ],
