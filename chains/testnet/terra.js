@@ -22,13 +22,6 @@ module.exports = {
       name: 'Test Terra Luna',
       icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
       decimals: 6,
-    },
-    {
-      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/utest766e',
-      symbol: 'ALLY',
-      name: 'Alliance Test',
-      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTestnet.png',
-      decimals: 6,
-    },
+    }
   ],
 }
