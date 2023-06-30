@@ -4,7 +4,7 @@ module.exports = {
   gasAdjustment: 1.75,
   gasPrices: { ufire: 0.15 },
   prefix: 'firefly',
-  coinType: '330',
+  coinType: '118',
   baseAsset: 'ufire',
   name: 'Firefly',
   icon: process.env.CF_PAGES_URL + '/img/chains/Firefly.png',

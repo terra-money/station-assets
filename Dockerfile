@@ -37,7 +37,11 @@ COPY --from=assets-builder /assets/extensions.json ./public/extensions.json
 
 RUN set -eux && \
     npm init -y && \
-    npm install cors express
+    npm install cors express && \
+    mkdir -p /assets/public/img && \
+    cd /assets/public/img && \
+    ln -s ../coins coins && \
+    ln -s ../chains chains
 
 # Expose port 3001
 EXPOSE 3001
