@@ -24,9 +24,9 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: 'ibc/623CD0B9778AD974713317EA0438A0CCAA72AF0BBE7BEE002205BCA25F1CA3BA',
-      symbol: 'Test IBC tOKEN',
-      name: 'Test IBC tOKEN',
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/utest766e',
+      symbol: 'ALLY',
+      name: 'Alliance Test',
       icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTestnet.png',
       decimals: 6,
     },
