@@ -7,8 +7,8 @@ module.exports = {
     coinType: '118',
     baseAsset: 'untrn',
     name: 'Neutron',
-    stakingDisabled: true,
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.svg',
+    disabledModules: ['staking'],
     ibc: {
       fromTerra: 'channel-167',
       toTerra: 'channel-5',
@@ -41,6 +41,6 @@ module.exports = {
         icon: process.env.CF_PAGES_URL + '/img/coins/axlUSDC.svg',
         decimals: 6,
       },
-    ]
+    ],
   }
   

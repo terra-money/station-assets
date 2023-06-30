@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node legacy.js && node index.js",
+    "serve": "npm run build && rm -rf public && mv build public && node serve.js",
     "prettier": "prettier --write './**/*.js'"
   },
   "repository": {
