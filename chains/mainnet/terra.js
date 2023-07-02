@@ -363,5 +363,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/Nico.png',
       decimals: 18,
     },
+    {
+      token: 'terra1ynvsz80w9xmhdxucv96gkwpxlwvjgsq75xh2f3pf825c4wfmkfxskq6pqv',
+      symbol: 'GEM',
+      name: 'GEM DAO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/gem2.png',
+      decimals: 6,
+    },
   ],
 }
