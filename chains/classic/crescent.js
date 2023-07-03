@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-49',
     toTerra: 'channel-0',
   },
+  channels: {
+    'columbus-5': 'channel-0',
+  },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
     tx: 'https://www.mintscan.io/crescent/txs/{}',
