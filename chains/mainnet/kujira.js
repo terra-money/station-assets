@@ -28,10 +28,14 @@ module.exports = {
     toTerra: 'channel-5',
     icsFromTerra: {
       contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
       toTerra: 'channel-43',
       fromTerra: 'channel-34',
     },
+  },
+  channels: {
+    'phoenix-1': 'channel-5',
+    'axelar-dojo-1': 'channel-9',
   },
   alliance: true,
   explorer: {

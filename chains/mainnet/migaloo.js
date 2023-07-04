@@ -15,9 +15,12 @@ module.exports = {
     icsFromTerra: {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-2',
       fromTerra: 'channel-87',
+      toTerra: 'channel-2',
     },
+  },
+  channels: {
+    'phoenix-1': 'channel-0',
   },
   explorer: {
     address: 'https://ping.pub/migaloo/account/{}',

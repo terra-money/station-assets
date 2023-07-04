@@ -18,6 +18,10 @@ module.exports = {
       fromTerra: 'channel-26',
     },
   },
+  channels: {
+    'phoenix-1': 'channel-251',
+    'axelar-dojo-1': 'channel-208',
+  },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
     tx: 'https://www.mintscan.io/osmosis/txs/{}',

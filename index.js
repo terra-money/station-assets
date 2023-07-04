@@ -73,89 +73,38 @@ const fs = require('fs').promises
 
     const isICS = AccAddress.validate(coinData.token)
 
-    if (!isICS && chains[network][chainID].ibc) {
-      const channel = chains[network][chainID].ibc.fromTerra
-      const ibcDenomOnTerra = calculateIBCDenom(channel, coinData.token)
-      const nonHashedDenom = `transfer/${channel}/${coinData.token}`
-
-      ibcDenomMapOut[network][ibcDenomOnTerra] = {
-        token: tokenId,
-        chainID: Object.values(chains[network]).find(
-          ({ prefix }) => prefix === 'terra'
-        ).chainID,
-      }
-
-      // add IBC denom on other chains
-      if (!coinData.isAxelar) {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (!chains[network][chainID2].ibc || chainID === chainID2) return
-
-          const channel = chains[network][chainID2].ibc.toTerra
-          const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
-            chainID: chainID2,
-          }
-        })
-      }
-    } else if (isICS && chains[network][chainID]?.ibc?.ics) {
-      const channel = chains[network][chainID].ibc.ics.fromTerra
-      const denom = `cw20:${coinData.token}`
-      const ibcDenomOnTerra = calculateIBCDenom(channel, denom)
-      const nonHashedDenom = `transfer/${channel}/${denom}`
-
-      ibcDenomMapOut[network][ibcDenomOnTerra] = {
-        token: tokenId,
-        chainID: Object.values(chains[network]).find(
-          ({ prefix }) => prefix === 'terra'
-        ).chainID,
-        // to send it back on the original chain
-        icsChannel: channel,
-      }
-
-      // add IBC denom on other chains
-      Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-        if (!chains[network][chainID2].ibc || chainID === chainID2) return
-        const channel = chains[network][chainID2].ibc.toTerra
-        const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
-        ibcDenomMapOut[network][ibcDenomOnOther] = {
+    if (!isICS && chains[network][chainID]?.channels) {
+      const channels = chains[network][chainID].channels
+      Object.keys(channels).forEach((otherChainID) => {
+        const channel = chains[network][otherChainID]?.channels?.[chainID]
+        if (!channel) {
+          console.error(
+            `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
+          )
+          return
+        }
+        const ibcDenom = calculateIBCDenom(channel, coinData.token)
+        ibcDenomMapOut[network][ibcDenom] = {
           token: tokenId,
-          chainID: chainID2,
+          chainID: otherChainID,
         }
       })
-    } else if (chains[network][chainID].prefix === 'terra') {
-      // add IBC denom on other chains
-      if (!isICS) {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (!chains[network][chainID2].ibc || chainID === chainID2) return
+    } else if (isICS && chains[network][chainID]?.icsChannels) {
+      const channels = chains[network][chainID].icsChannels
+      const denom = `cw20:${coinData.token}`
 
-          const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.toTerra,
-            coinData.token
-          )
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
-            chainID: chainID2,
-          }
-        })
-      } else {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (
-            !chains[network][chainID2].ibc?.icsFromTerra ||
-            chainID === chainID2
-          )
-            return
-          const denom = `cw20:${coinData.token}`
-          const channel = chains[network][chainID2].ibc.icsFromTerra.toTerra
+      Object.entries(channels).forEach(
+        ([otherChainID, { channel, otherChannel }]) => {
+          const ibcDenom = calculateIBCDenom(otherChannel, denom)
 
-          const ibcDenomOnOther = calculateIBCDenom(channel, denom)
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
+          ibcDenomMapOut[network][ibcDenom] = {
             token: tokenId,
-            chainID: chainID2,
+            chainID: otherChainID,
+            // to send it back on the original chain
             icsChannel: channel,
           }
-        })
-      }
+        }
+      )
     }
   })
 

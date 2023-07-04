@@ -15,6 +15,10 @@ module.exports = {
     validator: 'https://terrasco.pe/testnet/validator/{}',
     block: 'https://terrasco.pe/testnet/block/{}',
   },
+  channels: {
+    'ares-1': 'channel-189',
+    'atlantic-2': 'channel-100',
+  },
   tokens: [
     {
       token: 'uluna',
