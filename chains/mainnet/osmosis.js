@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'osmosis-1',
   lcd: 'https://osmosis-1.terra.dev',
-  gasAdjustment: 1.75,
+  gasAdjustment: 2.2,
   gasPrices: { uosmo: 0.025 },
   prefix: 'osmo',
   coinType: '118',
