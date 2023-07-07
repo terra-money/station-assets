@@ -14,6 +14,7 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-99',
+    'osmosis-1': 'channel-1',
   },
   explorer: {
     address: 'https://ping.pub/decentr/account/{}',

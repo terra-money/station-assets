@@ -21,6 +21,10 @@ module.exports = {
   },
   channels: {
     'phoenix-1': 'channel-0',
+    'chihuahua-1': 'channel-10',
+    'comdex-1': 'channel-12',
+    'kaiyo-1': 'channel-8',
+    'osmosis-1': 'channel-5',
   },
   explorer: {
     address: 'https://ping.pub/migaloo/account/{}',
