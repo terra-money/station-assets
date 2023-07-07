@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'harpoon-4',
-  lcd: 'https://kujira-testnet-rpc.polkachu.com',
+  lcd: 'https://kujira-testnet-api.polkachu.com',
   gasAdjustment: 1.75,
   gasPrices: {
     ukuji: 0.00119,
