@@ -15,6 +15,14 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-27',
     'axelar-dojo-1': 'channel-4',
+    'akashnet-2': 'channel-44',
+    'comdex-1': 'channel-49',
+    'cosmoshub-4': 'channel-1',
+    'juno-1': 'channel-3',
+    'kaiyo-1': 'channel-42',
+    'mars-1': 'channel-35',
+    'osmosis-1': 'channel-9',
+    'stride-1': 'channel-29',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
