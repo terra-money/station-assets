@@ -24,9 +24,9 @@ module.exports = {
     },
     {
       token: 'ibc/623CD0B9778AD974713317EA0438A0CCAA72AF0BBE7BEE002205BCA25F1CA3BA',
-      symbol: 'Test IBC TOKEN',
-      name: 'Test IBC TOKEN',
-      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTestnet.png',
+      symbol: 'aTest',
+      name: 'Alliance Test',
+      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTest.png',
       decimals: 6,
     },
   ],
