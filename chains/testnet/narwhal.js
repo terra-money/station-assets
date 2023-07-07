@@ -26,7 +26,7 @@ module.exports = {
       token: 'ibc/623CD0B9778AD974713317EA0438A0CCAA72AF0BBE7BEE002205BCA25F1CA3BA',
       symbol: 'aTest',
       name: 'Alliance Test',
-      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceTest.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/AllianceTest.png',
       decimals: 6,
     },
   ],
