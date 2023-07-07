@@ -47,6 +47,7 @@ const fs = require('fs').promises
   const coinsOutPath = './build/denoms.json'
   const coinsOut = {}
   const ibcDenomMapOutPath = './build/ibc.json'
+  const ibcDenomMapOutPathV2 = './build/ibc_tokens.json'
   const ibcDenomMapOut = {}
 
   tokens.forEach((token) => {
@@ -84,7 +85,7 @@ const fs = require('fs').promises
           return
         }
         const ibcDenom = calculateIBCDenom(channel, coinData.token)
-        ibcDenomMapOut[network][ibcDenom] = {
+        ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
           token: tokenId,
           chainID: otherChainID,
         }
@@ -97,7 +98,7 @@ const fs = require('fs').promises
         ([otherChainID, { channel, otherChannel }]) => {
           const ibcDenom = calculateIBCDenom(otherChannel, denom)
 
-          ibcDenomMapOut[network][ibcDenom] = {
+          ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
             token: tokenId,
             chainID: otherChainID,
             // to send it back on the original chain
@@ -109,17 +110,28 @@ const fs = require('fs').promises
   })
 
   // Format the JSON with indentions before writing.
-  const jsonList = JSON.stringify(chains, null, 2)
+  const jsonList = JSON.stringify(chains)
   await fs.writeFile(chainsOutPath, jsonList)
-  const coinsList = JSON.stringify(coinsOut, null, 2)
+  const coinsList = JSON.stringify(coinsOut)
   await fs.writeFile(coinsOutPath, coinsList)
-  const ibcList = JSON.stringify(ibcDenomMapOut, null, 2)
-  await fs.writeFile(ibcDenomMapOutPath, ibcList)
-  const currenciesList = require('./currencies.js')
-  await fs.writeFile(
-    './build/currencies.json',
-    JSON.stringify(currenciesList, null, 2)
+  const ibcList = JSON.stringify(
+    Object.fromEntries(
+      Object.keys(ibcDenomMapOut).map((networkName) => [
+        networkName,
+        Object.fromEntries(
+          Object.entries(ibcDenomMapOut[networkName]).map(([k, v]) => [
+            k.split(':')[1],
+            v,
+          ])
+        ),
+      ])
+    )
   )
+  await fs.writeFile(ibcDenomMapOutPath, ibcList)
+  const ibcListV2 = JSON.stringify(ibcDenomMapOut)
+  await fs.writeFile(ibcDenomMapOutPathV2, ibcListV2)
+  const currenciesList = require('./currencies.js')
+  await fs.writeFile('./build/currencies.json', JSON.stringify(currenciesList))
 
   // copy images inside ./build
   const images = [
