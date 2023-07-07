@@ -22,6 +22,20 @@ module.exports = {
       name: 'Test Terra Luna',
       icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
       decimals: 6,
-    }
+    },
+    {
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/stDeck',
+      symbol: 'aDeck',
+      name: 'Alliance Deck',
+      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceDeck.png',
+      decimals: 6,
+    },
+    {
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/stOracle',
+      symbol: 'aOracle',
+      name: 'Alliance Oracle',
+      icon: process.env.CF_PAGES_URL + '/img/chains/AllianceOracle.png',
+      decimals: 6,
+    },
   ],
 }
