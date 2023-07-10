@@ -64,7 +64,6 @@ const fs = require('fs').promises
 
     coinsOut[network][tokenId] = { ...coinData, chainID, chains: [chainID] }
 
-    // add IBC denom on Terra
 
     // chain is disabled
     if (!chains[network][chainID]) {
@@ -84,7 +83,9 @@ const fs = require('fs').promises
           )
           return
         }
-        const ibcDenom = calculateIBCDenom(channel, coinData.token)
+
+        const denom = chains[network][chainID].prefix === "kujira" ? coinData.token?.replaceAll("/", ":") : coinData.token
+        const ibcDenom = calculateIBCDenom(channel, denom)
         ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
           token: tokenId,
           chainID: otherChainID,
