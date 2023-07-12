@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  assets:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: localterra/assets:latest
+    networks:
+      - default
+    ports:
+      - '3001:3001'
