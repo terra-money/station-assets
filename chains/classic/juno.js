@@ -12,6 +12,9 @@ module.exports = {
     fromTerra: 'channel-20',
     toTerra: 'channel-27',
   },
+  channels: {
+    'columbus-5': 'channel-27',
+  },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
     tx: 'https://www.mintscan.io/juno/txs/{}',

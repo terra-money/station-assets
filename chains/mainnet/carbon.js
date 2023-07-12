@@ -19,6 +19,14 @@ module.exports = {
       fromTerra: 'channel-41',
     },
   },
+  channels: {
+    'phoenix-1': 'channel-12',
+    'axelar-dojo-1': 'channel-7',
+    'stride-1': 'channel-8',
+    'cosmoshub-4': 'channel-3',
+    'kaiyo-1': 'channel-9',
+    'osmosis-1': 'channel-0',
+  },
   explorer: {
     address: 'https://scan.carbon.network/account/{}?net=main',
     tx: 'https://scan.carbon.network/transaction/{}?net=main',

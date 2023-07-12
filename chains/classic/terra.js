@@ -39,6 +39,11 @@ module.exports = {
     validator: 'https://finder.terra.money/classic/validator/{}',
     block: 'https://finder.terra.money/classic/block/{}',
   },
+  channels: {
+    'juno-1': 'channel-20',
+    'crescent-1': 'channel-49',
+    'axelar-dojo-1': 'channel-19',
+  },
   tokens: [
     {
       token: 'uaud',

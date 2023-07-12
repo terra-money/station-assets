@@ -12,6 +12,17 @@ module.exports = {
     fromTerra: 'channel-46',
     toTerra: 'channel-52',
   },
+  channels: {
+    'phoenix-1': 'channel-52',
+    'axelar-dojo-1': 'channel-69',
+    'carbon-1': 'channel-47',
+    'comdex-1': 'channel-49',
+    'cosmoshub-4': 'channel-0',
+    'crescent-1': 'channel-51',
+    'juno-1': 'channel-24',
+    'kaiyo-1': 'channel-18',
+    'osmosis-1': 'channel-5',
+  },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
     tx: 'https://www.mintscan.io/stride/txs/{}',

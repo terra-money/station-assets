@@ -12,6 +12,14 @@ module.exports = {
     fromTerra: 'channel-45',
     toTerra: 'channel-56',
   },
+  channels: {
+    'phoenix-1': 'channel-56',
+    'cosmoshub-4': 'channel-17',
+    'crescent-1': 'channel-70',
+    'juno-1': 'channel-35',
+    'kaiyo-1': 'channel-63',
+    'osmosis-1': 'channel-9',
+  },
   explorer: {
     address: 'https://www.mintscan.io/akash/account/{}',
     tx: 'https://www.mintscan.io/akash/txs/{}',
