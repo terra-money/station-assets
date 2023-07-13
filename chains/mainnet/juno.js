@@ -42,6 +42,12 @@ module.exports = {
       channel: 'channel-154',
       otherChannel: 'channel-33',
     },
+    'osmosis-1': {
+      contract:
+        'juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn',
+      channel: 'channel-47',
+      otherChannel: 'channel-169',
+    },
   },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
