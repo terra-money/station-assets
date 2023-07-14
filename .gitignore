@@ -106,6 +106,9 @@ dist
 # build folder
 build
 
+# public folder
+public
+
 # OSX files
 .DS_Store
 
