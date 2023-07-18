@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'usilv',
   name: 'Silverbolt',
   icon: process.env.CF_PAGES_URL + '/img/chains/Silverbolt.png',
-  ibc: {
-    fromTerra: 'channel-0',
-    toTerra: 'channel-0',
-  },
   channels: {
     'localterra': 'channel-0',
     'firefly-1': 'channel-1',
