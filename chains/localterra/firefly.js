@@ -8,6 +8,11 @@ module.exports = {
   baseAsset: 'ufire',
   name: 'Firefly',
   icon: process.env.CF_PAGES_URL + '/img/chains/Firefly.png',
+  channels: {
+    'localterra': 'channel-0',
+    'silverbolt-1': 'channel-1',
+    'skydive-1': 'channel-2',
+  },
   explorer: {
     address: process.env.FND_BASE_URL + '/v1/firefly/address/{}',
     tx: process.env.FND_BASE_URL + '/v1/firefly/tx/{}',

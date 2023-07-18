@@ -8,6 +8,11 @@ module.exports = {
   baseAsset: 'uskyd',
   name: 'Skydive',
   icon: process.env.CF_PAGES_URL + '/img/chains/Skydive.png',
+  channels: {
+    'localterra': 'channel-0',
+    'silverbolt-1': 'channel-1',
+    'firefly-1': 'channel-2',
+  },
   explorer: {
     address: process.env.FND_BASE_URL + '/v1/skydive/address/{}',
     tx: process.env.FND_BASE_URL + '/v1/skydive/tx/{}',

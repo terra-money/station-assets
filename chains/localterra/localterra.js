@@ -8,6 +8,11 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'LocalTerra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
+  channels: {
+    'silverbolt-1': 'channel-0',
+    'firefly-1': 'channel-1',
+    'skydive-1': 'channel-2',
+  },
   explorer: {
     address: process.env.FND_BASE_URL + '/v1/localterra/address/{}',
     tx: process.env.FND_BASE_URL + '/v1/localterra/tx/{}',
