@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'firefly-1',
   lcd: 'http://localhost:41117',
   gasAdjustment: 1.75,
-  gasPrices: { ufire: 0.15 },
+  gasPrices: { ufire: 0.015 },
   prefix: 'firefly',
   coinType: '118',
   baseAsset: 'ufire',

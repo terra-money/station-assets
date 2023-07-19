@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'skydive-1',
   lcd: 'http://localhost:41317',
   gasAdjustment: 1.75,
-  gasPrices: { uskyd: 0.15 },
+  gasPrices: { uskyd: 0.015 },
   prefix: 'skydive',
   coinType: '118',
   baseAsset: 'uskyd',

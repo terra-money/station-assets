@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'silverbolt-1',
   lcd: 'http://localhost:41217',
   gasAdjustment: 1.75,
-  gasPrices: { usilv: 0.15 },
+  gasPrices: { usilv: 0.015 },
   prefix: 'silverbolt',
   coinType: '118',
   baseAsset: 'usilv',
