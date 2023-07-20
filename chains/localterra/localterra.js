@@ -15,7 +15,7 @@ module.exports = {
   },
   explorer: {
     address: process.env.FND_BASE_URL + '/LocalTerra/address/{}',
-    tx: process.env.FND_BASE_URL + '/v1/LocalTerra/tx/{}',
+    tx: process.env.FND_BASE_URL + '/LocalTerra/tx/{}',
     validator: process.env.FND_BASE_URL + '/LocalTerra/validator/{}',
     block: process.env.FND_BASE_URL + '/LocalTerra/block/{}',
   },
