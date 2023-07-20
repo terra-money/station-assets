@@ -14,10 +14,10 @@ module.exports = {
     'skydive-1': 'channel-2',
   },
   explorer: {
-    address: process.env.FND_BASE_URL + '/v1/silverbolt/address/{}',
-    tx: process.env.FND_BASE_URL + '/v1/silverbolt/tx/{}',
-    validator: process.env.FND_BASE_URL + '/v1/silverbolt/validator/{}',
-    block: process.env.FND_BASE_URL + '/silverbolt/block/{}',
+    address: process.env.FND_BASE_URL + '/Silverbolt/address/{}',
+    tx: process.env.FND_BASE_URL + '/Silverbolt/tx/{}',
+    validator: process.env.FND_BASE_URL + '/Silverbolt/validator/{}',
+    block: process.env.FND_BASE_URL + '/Silverbolt/block/{}',
   },
   tokens: [
     {

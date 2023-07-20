@@ -14,10 +14,10 @@ module.exports = {
     'skydive-1': 'channel-2',
   },
   explorer: {
-    address: process.env.FND_BASE_URL + '/v1/firefly/address/{}',
-    tx: process.env.FND_BASE_URL + '/v1/firefly/tx/{}',
-    validator: process.env.FND_BASE_URL + '/v1/firefly/validator/{}',
-    block: process.env.FND_BASE_URL + '/firefly/block/{}',
+    address: process.env.FND_BASE_URL + '/Firefly/address/{}',
+    tx: process.env.FND_BASE_URL + '/Firefly/tx/{}',
+    validator: process.env.FND_BASE_URL + '/Firefly/validator/{}',
+    block: process.env.FND_BASE_URL + '/Firefly/block/{}',
   },
   tokens: [
     {

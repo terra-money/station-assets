@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'localterra',
-  lcd: 'http://localhost:1317',
+  lcd: 'http://localhost:41017',
   gasAdjustment: 1.75,
   gasPrices: { uluna: 0.015 },
   prefix: 'terra',
@@ -14,10 +14,10 @@ module.exports = {
     'skydive-1': 'channel-2',
   },
   explorer: {
-    address: process.env.FND_BASE_URL + '/v1/localterra/address/{}',
-    tx: process.env.FND_BASE_URL + '/v1/localterra/tx/{}',
-    validator: process.env.FND_BASE_URL + '/v1/localterra/validator/{}',
-    block: process.env.FND_BASE_URL + '/localterra/block/{}',
+    address: process.env.FND_BASE_URL + '/LocalTerra/address/{}',
+    tx: process.env.FND_BASE_URL + '/v1/LocalTerra/tx/{}',
+    validator: process.env.FND_BASE_URL + '/LocalTerra/validator/{}',
+    block: process.env.FND_BASE_URL + '/LocalTerra/block/{}',
   },
   tokens: [
     {
