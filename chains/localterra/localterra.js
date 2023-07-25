@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'localterra',
-  lcd: 'http://localhost:41017',
+  lcd: 'http://localhost:3100/api/v1/localterra',
   gasAdjustment: 1.75,
   gasPrices: { uluna: 0.015 },
   prefix: 'terra',

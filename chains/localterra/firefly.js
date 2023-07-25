@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'firefly-1',
-  lcd: 'http://localhost:41117',
+  lcd: 'http://localhost:3100/api/v1/firefly-1',
   gasAdjustment: 1.75,
   gasPrices: { ufire: 0.015 },
   prefix: 'firefly',

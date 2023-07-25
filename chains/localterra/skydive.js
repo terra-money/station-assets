@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'skydive-1',
-  lcd: 'http://localhost:41317',
+  lcd: 'http://localhost:3100/api/v1/skydive-1',
   gasAdjustment: 1.75,
   gasPrices: { uskyd: 0.015 },
   prefix: 'skydive',
