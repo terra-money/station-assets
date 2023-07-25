@@ -27,10 +27,10 @@ module.exports = {
     'osmosis-1': 'channel-5',
   },
   explorer: {
-    address: 'https://ping.pub/migaloo/account/{}',
-    tx: 'https://ping.pub/migaloo/tx/{}',
-    validator: 'https://ping.pub/migaloo/validators/{}',
-    block: 'https://ping.pub/migaloo/blocks/id/{}',
+    address: 'https://ping.pub/Migaloo/account/{}',
+    tx: 'https://ping.pub/Migaloo/tx/{}',
+    validator: 'https://ping.pub/Migaloo/staking/{}',
+    block: 'https://ping.pub/Migaloo/block/{}',
   },
   tokens: [
     {
