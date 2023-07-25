@@ -13,7 +13,9 @@ RUN set -eux && \
 FROM node:18 as station-assets-builder
 
 ARG CF_PAGES_URL="https://station-assets.pages.dev"
+ARG FND_BASE_URL="https://finder.terra.money"
 ENV CF_PAGES_URL=${CF_PAGES_URL}
+ENV FND_BASE_URL=${FND_BASE_URL}
 
 WORKDIR /assets
 
@@ -37,7 +39,11 @@ COPY --from=assets-builder /assets/extensions.json ./public/extensions.json
 
 RUN set -eux && \
     npm init -y && \
-    npm install cors express
+    npm install cors express && \
+    mkdir -p /assets/public/img && \
+    cd /assets/public/img && \
+    ln -s ../coins coins && \
+    ln -s ../chains chains
 
 # Expose port 3001
 EXPOSE 3001
