@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'silverbolt-1',
-  lcd: 'http://localhost:3100/api/v1/silverbolt-1',
+  lcd: 'http://localhost:8000/api/v1/silverbolt-1',
   gasAdjustment: 1.75,
   gasPrices: { usilv: 0.015 },
   prefix: 'silverbolt',
