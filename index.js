@@ -47,6 +47,7 @@ const fs = require('fs').promises
   const coinsOutPath = './build/denoms.json'
   const coinsOut = {}
   const ibcDenomMapOutPath = './build/ibc.json'
+  const ibcDenomMapOutPathV2 = './build/ibc_tokens.json'
   const ibcDenomMapOut = {}
 
   tokens.forEach((token) => {
@@ -63,7 +64,6 @@ const fs = require('fs').promises
 
     coinsOut[network][tokenId] = { ...coinData, chainID, chains: [chainID] }
 
-    // add IBC denom on Terra
 
     // chain is disabled
     if (!chains[network][chainID]) {
@@ -73,104 +73,66 @@ const fs = require('fs').promises
 
     const isICS = AccAddress.validate(coinData.token)
 
-    if (!isICS && chains[network][chainID].ibc) {
-      const channel = chains[network][chainID].ibc.fromTerra
-      const ibcDenomOnTerra = calculateIBCDenom(channel, coinData.token)
-      const nonHashedDenom = `transfer/${channel}/${coinData.token}`
+    if (!isICS && chains[network][chainID]?.channels) {
+      const channels = chains[network][chainID].channels
+      Object.keys(channels).forEach((otherChainID) => {
+        const channel = chains[network][otherChainID]?.channels?.[chainID]
+        if (!channel) {
+          console.error(
+            `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
+          )
+          return
+        }
 
-      ibcDenomMapOut[network][ibcDenomOnTerra] = {
-        token: tokenId,
-        chainID: Object.values(chains[network]).find(
-          ({ prefix }) => prefix === 'terra'
-        ).chainID,
-      }
-
-      // add IBC denom on other chains
-      if (!coinData.isAxelar) {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (!chains[network][chainID2].ibc || chainID === chainID2) return
-
-          const channel = chains[network][chainID2].ibc.toTerra
-          const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
-            chainID: chainID2,
-          }
-        })
-      }
-    } else if (isICS && chains[network][chainID]?.ibc?.ics) {
-      const channel = chains[network][chainID].ibc.ics.fromTerra
-      const denom = `cw20:${coinData.token}`
-      const ibcDenomOnTerra = calculateIBCDenom(channel, denom)
-      const nonHashedDenom = `transfer/${channel}/${denom}`
-
-      ibcDenomMapOut[network][ibcDenomOnTerra] = {
-        token: tokenId,
-        chainID: Object.values(chains[network]).find(
-          ({ prefix }) => prefix === 'terra'
-        ).chainID,
-        // to send it back on the original chain
-        icsChannel: channel,
-      }
-
-      // add IBC denom on other chains
-      Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-        if (!chains[network][chainID2].ibc || chainID === chainID2) return
-        const channel = chains[network][chainID2].ibc.toTerra
-        const ibcDenomOnOther = calculateIBCDenom(channel, nonHashedDenom)
-        ibcDenomMapOut[network][ibcDenomOnOther] = {
+        const denom = chains[network][chainID].prefix === "kujira" ? coinData.token?.replaceAll("/", ":") : coinData.token
+        const ibcDenom = calculateIBCDenom(channel, denom)
+        ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
           token: tokenId,
-          chainID: chainID2,
+          chainID: otherChainID,
         }
       })
-    } else if (chains[network][chainID].prefix === 'terra') {
-      // add IBC denom on other chains
-      if (!isICS) {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (!chains[network][chainID2].ibc || chainID === chainID2) return
+    } else if (isICS && chains[network][chainID]?.icsChannels) {
+      const channels = chains[network][chainID].icsChannels
+      const denom = `cw20:${coinData.token}`
 
-          const ibcDenomOnOther = calculateIBCDenom(
-            chains[network][chainID2].ibc.toTerra,
-            coinData.token
-          )
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
-            token: tokenId,
-            chainID: chainID2,
-          }
-        })
-      } else {
-        Object.values(chains[network]).forEach(({ chainID: chainID2 }) => {
-          if (
-            !chains[network][chainID2].ibc?.icsFromTerra ||
-            chainID === chainID2
-          )
-            return
-          const denom = `cw20:${coinData.token}`
-          const channel = chains[network][chainID2].ibc.icsFromTerra.toTerra
+      Object.entries(channels).forEach(
+        ([otherChainID, { channel, otherChannel }]) => {
+          const ibcDenom = calculateIBCDenom(otherChannel, denom)
 
-          const ibcDenomOnOther = calculateIBCDenom(channel, denom)
-          ibcDenomMapOut[network][ibcDenomOnOther] = {
+          ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
             token: tokenId,
-            chainID: chainID2,
+            chainID: otherChainID,
+            // to send it back on the original chain
             icsChannel: channel,
           }
-        })
-      }
+        }
+      )
     }
   })
 
   // Format the JSON with indentions before writing.
-  const jsonList = JSON.stringify(chains, null, 2)
+  const jsonList = JSON.stringify(chains)
   await fs.writeFile(chainsOutPath, jsonList)
-  const coinsList = JSON.stringify(coinsOut, null, 2)
+  const coinsList = JSON.stringify(coinsOut)
   await fs.writeFile(coinsOutPath, coinsList)
-  const ibcList = JSON.stringify(ibcDenomMapOut, null, 2)
-  await fs.writeFile(ibcDenomMapOutPath, ibcList)
-  const currenciesList = require('./currencies.js')
-  await fs.writeFile(
-    './build/currencies.json',
-    JSON.stringify(currenciesList, null, 2)
+  const ibcList = JSON.stringify(
+    Object.fromEntries(
+      Object.keys(ibcDenomMapOut).map((networkName) => [
+        networkName,
+        Object.fromEntries(
+          Object.entries(ibcDenomMapOut[networkName]).map(([k, v]) => [
+            k.split(':')[1],
+            v,
+          ])
+        ),
+      ])
+    )
   )
+  await fs.writeFile(ibcDenomMapOutPath, ibcList)
+  const ibcListV2 = JSON.stringify(ibcDenomMapOut)
+  await fs.writeFile(ibcDenomMapOutPathV2, ibcListV2)
+  const currenciesList = require('./currencies.js')
+  await fs.writeFile('./build/currencies.json', JSON.stringify(currenciesList))
 
   // copy images inside ./build
   const images = [

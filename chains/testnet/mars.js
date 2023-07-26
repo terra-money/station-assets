@@ -6,11 +6,14 @@ module.exports = {
   prefix: 'mars',
   coinType: '330',
   baseAsset: 'umars',
-  name: 'Mars',
+  name: 'Mars Testnet',
   icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
   ibc: {
     toTerra: 'channel-0',
     fromTerra: 'channel-189',
+  },
+  channels: {
+    'pisco-1': 'channel-0',
   },
   // used by Station to decide which endpoint to use
   version: '0.46',
@@ -24,7 +27,7 @@ module.exports = {
     {
       token: 'umars',
       symbol: 'MARS',
-      name: 'Mars',
+      name: 'Test Mars',
       icon: process.env.CF_PAGES_URL + '/img/coins/Mars.svg',
       decimals: 6,
     },

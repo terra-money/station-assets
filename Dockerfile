@@ -12,6 +12,9 @@ RUN set -eux && \
 ###############################################################################
 FROM node:18 as station-assets-builder
 
+ARG CF_PAGES_URL="https://station-assets.pages.dev"
+ENV CF_PAGES_URL=${CF_PAGES_URL}
+
 WORKDIR /assets
 
 COPY . .
@@ -36,8 +39,8 @@ RUN set -eux && \
     npm init -y && \
     npm install cors express
 
-# Expose port 3101
-EXPOSE 3101
+# Expose port 3001
+EXPOSE 3001
 
 # Start the Express app
 CMD [ "node", "serve.js" ]

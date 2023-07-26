@@ -12,6 +12,12 @@ module.exports = {
     fromTerra: 'channel-44',
     toTerra: 'channel-34',
   },
+  channels: {
+    'phoenix-1': 'channel-34',
+    'juno-1': 'channel-11',
+    'migaloo-1': 'channel-39',
+    'osmosis-1': 'channel-7',
+  },
   explorer: {
     address: 'https://www.mintscan.io/chihuahua/account/{}',
     tx: 'https://www.mintscan.io/chihuahua/txs/{}',

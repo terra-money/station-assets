@@ -9,4 +9,4 @@ services:
     networks:
       - default
     ports:
-      - '3101:3101'
+      - '3001:3001'

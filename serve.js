@@ -42,6 +42,6 @@ function findJsonFiles(directory, fileList = []) {
   });
 
 // Start the server
-app.listen(3101, () => {
+app.listen(3001, () => {
   console.log('Server is running');
 });

@@ -15,15 +15,22 @@ module.exports = {
     icsFromTerra: {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-2',
       fromTerra: 'channel-87',
+      toTerra: 'channel-2',
     },
   },
+  channels: {
+    'phoenix-1': 'channel-0',
+    'chihuahua-1': 'channel-10',
+    'comdex-1': 'channel-12',
+    'kaiyo-1': 'channel-8',
+    'osmosis-1': 'channel-5',
+  },
   explorer: {
-    address: 'https://ping.pub/migaloo/account/{}',
-    tx: 'https://ping.pub/migaloo/tx/{}',
-    validator: 'https://ping.pub/migaloo/validators/{}',
-    block: 'https://ping.pub/migaloo/blocks/id/{}',
+    address: 'https://ping.pub/Migaloo/account/{}',
+    tx: 'https://ping.pub/Migaloo/tx/{}',
+    validator: 'https://ping.pub/Migaloo/staking/{}',
+    block: 'https://ping.pub/Migaloo/block/{}',
   },
   tokens: [
     {
