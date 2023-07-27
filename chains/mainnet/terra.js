@@ -25,6 +25,7 @@ module.exports = {
     'migaloo-1': 'channel-86',
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
+    'injective-1': '' // TODO: update with correct channel when available
   },
   icsChannels: {
     'carbon-1': {

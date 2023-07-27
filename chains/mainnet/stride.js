@@ -22,6 +22,7 @@ module.exports = {
     'juno-1': 'channel-24',
     'kaiyo-1': 'channel-18',
     'osmosis-1': 'channel-5',
+    'injective-1': 'channel-6',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
