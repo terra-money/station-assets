@@ -7,7 +7,7 @@ module.exports = {
     coinType: '118',
     baseAsset: 'untrn',
     name: 'Neutron',
-    icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.svg',
+    icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.png',
     disabledModules: ['staking'],
     channels: {
       'phoenix-1': 'channel-5',
@@ -29,7 +29,7 @@ module.exports = {
         token: 'untrn',
         symbol: 'NTRN',
         name: 'Neutron',
-        icon: process.env.CF_PAGES_URL + '/img/coins/Neutron.svg',
+        icon: process.env.CF_PAGES_URL + '/img/coins/Neutron.png',
         decimals: 6,
       },
       {
