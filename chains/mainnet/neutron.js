@@ -9,13 +9,18 @@ module.exports = {
     name: 'Neutron',
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.svg',
     disabledModules: ['staking'],
+    channels: {
+      'phoenix-1': 'channel-5',
+      'osmosis-1': 'channel-10',
+      'stride-1': 'channel-8',
+    },
     ibc: {
       fromTerra: 'channel-167',
       toTerra: 'channel-5',
     },
     explorer: {
       address: 'https://www.mintscan.io/neutron/account/{}',
-      tx: 'https://www.mintscan.io/comdex/neutron/{}',
+      tx: 'https://www.mintscan.io/neutron/tx/{}',
       validator: 'https://www.mintscan.io/neutron/validators/{}',
       block: 'https://www.mintscan.io/neutron/blocks/id/{}',
     },
