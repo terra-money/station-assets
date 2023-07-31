@@ -41,7 +41,7 @@ module.exports = {
     },
     'kaiyo-1': {
       contract:
-        'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-34',
       otherChannel: 'channel-43'
     },
