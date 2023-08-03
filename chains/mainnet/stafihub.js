@@ -15,7 +15,6 @@ module.exports = {
   channels: {
     'phoenix-1': 'channel-9',
     'cosmoshub-4': 'channel-0',
-    'irishub-1': 'channel-3',
     'chihuahua-1': 'channel-4',
     'carbon-1': 'channel-5',
     'kaiyo-1': 'channel-6',
