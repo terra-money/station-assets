@@ -29,8 +29,8 @@ module.exports = {
     icsFromTerra: {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-43',
-      fromTerra: 'channel-34',
+      toTerra: 'channel-36',
+      fromTerra: 'channel-28',
     },
   },
   channels: {
