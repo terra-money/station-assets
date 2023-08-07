@@ -42,8 +42,8 @@ module.exports = {
     'kaiyo-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      channel: 'channel-34',
-      otherChannel: 'channel-43'
+      channel: 'channel-28',
+      otherChannel: 'channel-36'
     },
     'migaloo-1': {
       contract:
