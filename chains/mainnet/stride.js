@@ -63,6 +63,14 @@ module.exports = {
       lsd: 'ustars',
     },
     {
+      token: 'stinj',
+      symbol: 'stINJ',
+      name: 'stINJ',
+      icon: process.env.CF_PAGES_URL + '/img/coins/stINJ.svg',
+      decimals: 6,
+      lsd: 'uinj',
+    },
+    {
       token: 'stujuno',
       symbol: 'stJUNO',
       name: 'stJUNO',
