@@ -78,7 +78,7 @@ module.exports = {
       token: 'terra10se906awphtccf4vd83m0ulpmpt9v4msuakmpy0pwvmtxmup3kdq25rayn',
       symbol: 'xxx',
       name: 'xxx',
-      icon: process.env.CF_PAGES_URL + '/img/coins/xxx3f.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/xxx3.png',
       decimals: 10,
     },
     {
