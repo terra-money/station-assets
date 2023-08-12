@@ -76,6 +76,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra10se906awphtccf4vd83m0ulpmpt9v4msuakmpy0pwvmtxmup3kdq25rayn',
+      symbol: 'xxx',
+      name: 'xxx',
+      icon: process.env.CF_PAGES_URL + '/img/coins/xxx3.png',
+      decimals: 10,
+    },
+    {
       token: 'terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t',
       symbol: 'CUB',
       name: 'Lion Cub Dao',
