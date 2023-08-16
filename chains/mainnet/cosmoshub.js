@@ -22,6 +22,7 @@ module.exports = {
     'kaiyo-1': 'channel-343',
     'osmosis-1': 'channel-141',
     'stride-1': 'channel-391',
+    'cosmoshub-1': 'channel-623',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',

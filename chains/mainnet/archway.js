@@ -10,10 +10,12 @@ module.exports = {
     icon: process.env.CF_PAGES_URL + '/img/chains/Archway.png',
     ibc: {},
     channels: {
-        'axelar-dojo-1': 'channel-2',
+        'axelar-dojo-1': 'channel-13',
         'cosmoshub-4': 'channel-0',
         'kaiyo-1': 'channel-11',
         'osmosis-1': 'channel-1',
+        'juno-1': 'channel-15',
+        'crescent-1': 'channel-6',
     },
     explorer: {
         address: 'https://www.mintscan.io/archway/account/{}',
