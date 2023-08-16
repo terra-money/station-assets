@@ -26,37 +26,38 @@ module.exports = {
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
     'neutron-1': 'channel-167',
+    'noble-1': 'channel-151',
   },
   icsChannels: {
     'carbon-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-41',
-      otherChannel: 'channel-16'
+      otherChannel: 'channel-16',
     },
     'juno-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-32',
-      otherChannel: 'channel-153'
+      otherChannel: 'channel-153',
     },
     'kaiyo-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-28',
-      otherChannel: 'channel-36'
+      otherChannel: 'channel-36',
     },
     'migaloo-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-87',
-      otherChannel: 'channel-2'
+      otherChannel: 'channel-2',
     },
     'osmosis-1': {
       contract:
         'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
       channel: 'channel-26',
-      otherChannel: 'channel-341'
+      otherChannel: 'channel-341',
     },
   },
 
@@ -81,7 +82,7 @@ module.exports = {
       name: 'Lion Cub Dao',
       icon: process.env.CF_PAGES_URL + '/img/coins/cub.png',
       decimals: 6,
-    },  
+    },
     {
       token: 'terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584',
       symbol: 'BLUE',
