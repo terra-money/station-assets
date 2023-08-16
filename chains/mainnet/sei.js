@@ -20,7 +20,7 @@ module.exports = {
       {
         token: 'usei',
         symbol: 'SEI',
-        name: 'Test Sei',
+        name: 'Sei',
         icon: process.env.CF_PAGES_URL + '/img/coins/sei.svg',
         decimals: 6,
       },
