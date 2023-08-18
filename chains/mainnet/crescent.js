@@ -23,7 +23,7 @@ module.exports = {
     'mars-1': 'channel-35',
     'osmosis-1': 'channel-9',
     'stride-1': 'channel-29',
-    'crescent-1': 'channel-65',
+    'archway-1': 'channel-65',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
