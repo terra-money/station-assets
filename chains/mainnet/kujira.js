@@ -44,6 +44,7 @@ module.exports = {
     'migaloo-1': 'channel-58',
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-35',
+    'noble-1': 'channel-62',
   },
   alliance: true,
   explorer: {
