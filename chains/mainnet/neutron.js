@@ -8,7 +8,7 @@ module.exports = {
     baseAsset: 'untrn',
     name: 'Neutron',
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.png',
-    disabledModules: ['staking'],
+    disabledModules: ['staking','gov'],
     channels: {
       'phoenix-1': 'channel-5',
       'osmosis-1': 'channel-10',

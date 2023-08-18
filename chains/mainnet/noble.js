@@ -10,7 +10,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ustake',
   name: 'Noble',
-  disabledModules: ['staking'],
+  disabledModules: ['staking','gov'],
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
   ibc: {
     toTerra: 'channel-9',
