@@ -8,13 +8,23 @@ module.exports = {
     baseAsset: 'usei',
     name: 'Sei',
     icon: process.env.CF_PAGES_URL + '/img/chains/sei.svg',
-    ibc: {},
-    channels: {},
+    ibc: {
+      fromTerra: 'channel-158',
+      toTerra: 'channel-3',
+    },
+    channels: {
+      'osmosis-1': 'channel-0',
+      'axelar-dojo-1': 'channel-2',
+      'phoenix-1': 'channel-3',
+      'cosmoshub-4': 'channel-1',
+      'migaloo-1': 'channel-10',
+      'stride-1': 'channel-11',
+    },
     explorer: {
-      address: 'https://sei.explorers.guru/account/{}',
-      tx: 'https://sei.explorers.guru/transaction/{}',
-      validator: 'https://sei.explorers.guru/validator/{}',
-      block: 'https://sei.explorers.guru/block/{}',
+      address: 'https://www.mintscan.io/sei/account/{}',
+      tx: 'https://www.mintscan.io/sei/txs/{}',
+      validator: 'https://www.mintscan.io/sei/validators/{}',
+      block: 'https://www.mintscan.io/sei/blocks/id/{}',
     },
     tokens: [
       {

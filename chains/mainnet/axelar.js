@@ -22,6 +22,7 @@ module.exports = {
     'carbon-1': 'channel-37',
     'comdex-1': 'channel-31',
     'stride-1': 'channel-64',
+    'pacific-1': 'channel-103',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',
