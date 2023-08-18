@@ -35,6 +35,8 @@ module.exports = {
     'migaloo-1': 'channel-642',
     'stride-1': 'channel-326',
     'archway-1': 'channel-1429'
+    'neutron-1': 'channel-874',
+    'noble-1': 'channel-750',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',

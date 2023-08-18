@@ -41,5 +41,33 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
       decimals: 8,
     },
+    {
+      token: 'cgt/1',
+      symbol: 'cgt/1',
+      name: 'Carbon Grouped USD',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
+      decimals: 18,
+    },
+    {
+      token: 'bnb.1.6.773edb',
+      symbol: 'bnb.1.6.773edb',
+      name: 'Carbon Binance Coin',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
+      decimals: 18,
+    },
+    {
+      token: 'eth.1.2.942d87',
+      symbol: 'cibETH',
+      name: 'Carbon Interest Bearing ETH',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
+      decimals: 18,
+    },
+    {
+      token: 'zwap.1.18.393529',
+      symbol: 'ZWAP',
+      name: 'Zilswap',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Zwap.svg',
+      decimals: 12,
+    },
   ],
 }

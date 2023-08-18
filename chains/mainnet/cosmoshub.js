@@ -23,6 +23,7 @@ module.exports = {
     'osmosis-1': 'channel-141',
     'stride-1': 'channel-391',
     'archway-1': 'channel-623',
+    'noble-1': 'channel-536',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',
