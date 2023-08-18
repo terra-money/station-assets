@@ -8,7 +8,7 @@ module.exports = {
   baseAsset: 'uluna',
   name: 'Terra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
-  version: '0.46',
+  // version: '0.46',
   alliance: true,
   channels: {
     'akashnet-2': 'channel-45',
