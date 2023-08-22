@@ -48,6 +48,7 @@ module.exports = {
       name: 'ERIS Amplified WHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/ampWHALE.svg',
       decimals: 6,
+      lsd: 'uwhale',
     },
     {
       token:
@@ -56,6 +57,7 @@ module.exports = {
       name: 'boneWHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
       decimals: 6,
+      lsd: 'uwhale',
     },
   ],
 }
