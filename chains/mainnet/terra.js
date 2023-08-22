@@ -28,6 +28,7 @@ module.exports = {
     'neutron-1': 'channel-167',
     'pacific-1': 'channel-158',
     'noble-1': 'channel-151',
+    'stafihub-1': 'channel-204',
   },
   icsChannels: {
     'carbon-1': {

@@ -24,6 +24,7 @@ module.exports = {
     'stride-1': 'channel-391',
     'pacific-1': 'channel-584',
     'noble-1': 'channel-536',
+    'stafihub-1': 'channel-369',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',

@@ -17,6 +17,7 @@ module.exports = {
     'juno-1': 'channel-11',
     'migaloo-1': 'channel-39',
     'osmosis-1': 'channel-7',
+    'stafihub-1': 'channel-25',
   },
   explorer: {
     address: 'https://www.mintscan.io/chihuahua/account/{}',

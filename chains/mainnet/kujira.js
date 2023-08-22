@@ -45,6 +45,7 @@ module.exports = {
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-35',
     'noble-1': 'channel-62',
+    'stafihub-1': 'channel-63',
   },
   alliance: true,
   explorer: {
