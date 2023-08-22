@@ -28,7 +28,7 @@ module.exports = {
         token: 'aarch',
         symbol: 'ARCH',
         name: 'Archway',
-        icon: process.env.CF_PAGES_URL + '/img/coins/Aarch.svg',
+        icon: process.env.CF_PAGES_URL + '/img/coins/Aarch.png',
         decimals: 18,
       },
     ],
