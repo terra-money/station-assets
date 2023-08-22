@@ -46,6 +46,7 @@ module.exports = {
     'stride-1': 'channel-35',
     'archway-1': 'channel-99',
     'noble-1': 'channel-62',
+    'stafihub-1': 'channel-63',
   },
   alliance: true,
   explorer: {
