@@ -7,6 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ufis',
   name: 'StaFiHub',
+  disabledModules: ['staking'],
   icon: process.env.CF_PAGES_URL + '/img/chains/StaFiHub.png',
   ibc: {
     fromTerra: 'channel-204',
