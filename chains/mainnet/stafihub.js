@@ -61,6 +61,7 @@ module.exports = {
       name: 'rSWTH',
       icon: process.env.CF_PAGES_URL + '/img/coins/rSWTH.svg',
       decimals: 6,
+      lsd: 'swth'
     }
   ],
 }
