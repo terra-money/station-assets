@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
-  name: 'Terra Testnet',
+  name: 'Terra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   explorer: {

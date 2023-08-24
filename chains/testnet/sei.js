@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'sei',
   coinType: '118',
   baseAsset: 'usei',
-  name: 'Sei Testnet',
+  name: 'Sei',
   icon: process.env.CF_PAGES_URL + '/img/chains/sei.svg',
   ibc: {
     fromTerra: 'channel-100',
