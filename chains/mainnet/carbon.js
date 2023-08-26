@@ -114,6 +114,14 @@ module.exports = {
       decimals: 18,
     },
     {
+      token:
+        "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+      symbol: "EVMOS",
+      name: "Evmos",
+      icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
+      decimals: 18,
+    },
+    {
       token: "zil.1.18.1a4a06",
       symbol: "ZIL",
       name: "Zilliqa",
@@ -121,4 +129,4 @@ module.exports = {
       decimals: 12,
     },
   ],
-};
+}
