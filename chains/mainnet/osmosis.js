@@ -34,6 +34,7 @@ module.exports = {
     'mars-1': 'channel-557',
     'migaloo-1': 'channel-642',
     'stride-1': 'channel-326',
+    'archway-1': 'channel-1429',
     'neutron-1': 'channel-874',
     'noble-1': 'channel-750',
   },

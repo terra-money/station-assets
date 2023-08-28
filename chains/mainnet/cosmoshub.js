@@ -23,6 +23,7 @@ module.exports = {
     'osmosis-1': 'channel-141',
     'stride-1': 'channel-391',
     'pacific-1': 'channel-584',
+    'archway-1': 'channel-623',
     'noble-1': 'channel-536',
     'stafihub-1': 'channel-369',
   },

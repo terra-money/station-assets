@@ -23,6 +23,7 @@ module.exports = {
     'comdex-1': 'channel-31',
     'stride-1': 'channel-64',
     'pacific-1': 'channel-103',
+    'archway-1': 'channel-111',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',

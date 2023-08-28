@@ -28,9 +28,9 @@ module.exports = {
     toTerra: 'channel-5',
     icsFromTerra: {
       contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-36',
-      fromTerra: 'channel-28',
+        'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+      toTerra: 'channel-43',
+      fromTerra: 'channel-34',
     },
   },
   channels: {
@@ -44,15 +44,16 @@ module.exports = {
     'migaloo-1': 'channel-58',
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-35',
+    'archway-1': 'channel-99',
     'noble-1': 'channel-62',
     'stafihub-1': 'channel-63',
   },
   alliance: true,
   explorer: {
-    address: 'https://finder.kujira.network/kaiyo-1/address/{}',
-    tx: 'https://finder.kujira.network/kaiyo-1/tx/{}',
-    validator: 'https://blue.kujira.network/stake/{}',
-    block: 'https://finder.kujira.network/kaiyo-1/block/{}',
+    address: 'https://www.mintscan.io/kujira/account/{}',
+    tx: 'https://www.mintscan.io/kujira/txs/{}',
+    validator: 'https://www.mintscan.io/kujira/validators/{}',
+    block: 'https://www.mintscan.io/kujira/blocks/id/{}',
   },
   tokens: [
     {
