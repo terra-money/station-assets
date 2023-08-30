@@ -19,6 +19,7 @@ module.exports = {
     'crescent-1': 'channel-5',
     'kaiyo-1': 'channel-0',
     'osmosis-1': 'channel-1',
+    'mars-1': 'channel-37',
   },
   explorer: {
     address: 'https://explorer.marsprotocol.io/accounts/{}',
