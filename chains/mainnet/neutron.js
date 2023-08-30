@@ -12,7 +12,7 @@ module.exports = {
     channels: {
       'osmosis-1': 'channel-10',
       'stride-1': 'channel-8',
-      'axelar-1': 'channel-2',
+      'axelar-dojo-1': 'channel-2',
       'cosmoshub-4': 'channel-1',
       'mars-1': 'channel-16',
       'kaiyo-1': 'channel-3',
