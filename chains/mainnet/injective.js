@@ -13,7 +13,7 @@ module.exports = {
     fromTerra: '', // TODO: update with correct channel when available
   },
   channels: {
-    'phoenix-1': '', // TODO: update with correct channel when available
+    'phoenix-1': 'channel-144',
     'axelar-dojo-1': 'channel-84',
     'cosmoshub-4': 'channel-1',
     'crescent-1': 'channel-90',
