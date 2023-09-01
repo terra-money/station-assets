@@ -20,6 +20,7 @@ module.exports = {
     'migaloo-1': 'channel-102',
     'osmosis-1': 'channel-8',
     'stride-1': 'channel-89',
+    'kaiyo-1': 'channel-98',
   },
   explorer: {
     address: 'https://www.mintscan.io/injective/account/{}',
