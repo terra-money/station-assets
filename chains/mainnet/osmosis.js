@@ -54,6 +54,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: "ibc/398C49F08338C75D60A82AE78B1D4CA6FAE944ACDBAF3D66FF0D94A85BE77C1C",
+      symbol: 'SWTH',
+      name: 'Carbon',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Carbon.svg',
+      decimals: 8,
+  },
+    {
       token: 'uion',
       symbol: 'ION',
       name: 'Ion',
