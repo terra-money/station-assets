@@ -22,6 +22,8 @@ module.exports = {
     'juno-1': 'channel-24',
     'kaiyo-1': 'channel-18',
     'osmosis-1': 'channel-5',
+    'neutron-1': 'channel-123',
+    'pacific-1': 'channel-149',
     'injective-1': 'channel-6',
   },
   explorer: {
@@ -61,6 +63,14 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/stSTARS.svg',
       decimals: 6,
       lsd: 'ustars',
+    },
+    {
+      token: 'stinj',
+      symbol: 'stINJ',
+      name: 'stINJ',
+      icon: process.env.CF_PAGES_URL + '/img/coins/stINJ.svg',
+      decimals: 6,
+      lsd: 'uinj',
     },
     {
       token: 'stujuno',

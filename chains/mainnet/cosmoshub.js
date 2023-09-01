@@ -22,6 +22,11 @@ module.exports = {
     'kaiyo-1': 'channel-343',
     'osmosis-1': 'channel-141',
     'stride-1': 'channel-391',
+    'pacific-1': 'channel-584',
+    'archway-1': 'channel-623',
+    'noble-1': 'channel-536',
+    'stafihub-1': 'channel-369',
+    'neutron-1': 'channel-569',
     'injective-1': 'channel-220',
   },
   explorer: {

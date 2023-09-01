@@ -25,6 +25,7 @@ module.exports = {
     'comdex-1': 'channel-12',
     'kaiyo-1': 'channel-8',
     'osmosis-1': 'channel-5',
+    'pacific-1': 'channel-52',
     'injective-1': 'channel-3',
   },
   explorer: {
@@ -48,6 +49,7 @@ module.exports = {
       name: 'ERIS Amplified WHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/ampWHALE.svg',
       decimals: 6,
+      lsd: 'uwhale',
     },
     {
       token:
@@ -56,6 +58,7 @@ module.exports = {
       name: 'boneWHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
       decimals: 6,
+      lsd: 'uwhale',
     },
   ],
 }

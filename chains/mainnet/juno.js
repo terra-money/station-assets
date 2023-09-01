@@ -34,6 +34,8 @@ module.exports = {
     'crescent-1': 'channel-81',
     'osmosis-1': 'channel-0',
     'stride-1': 'channel-139',
+    'archway-1': 'channel-290',
+    'noble-1': 'channel-224',
   },
   icsChannels: {
     'phoenix-1': {

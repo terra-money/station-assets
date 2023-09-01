@@ -22,6 +22,9 @@ module.exports = {
     'carbon-1': 'channel-37',
     'comdex-1': 'channel-31',
     'stride-1': 'channel-64',
+    'pacific-1': 'channel-103',
+    'archway-1': 'channel-111',
+    'neutron-1': 'channel-78',
     'injective-1': 'channel-10',
   },
   explorer: {
