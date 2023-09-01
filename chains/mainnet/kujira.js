@@ -47,6 +47,7 @@ module.exports = {
     'archway-1': 'channel-99',
     'noble-1': 'channel-62',
     'stafihub-1': 'channel-63',
+    'neutron-1': 'channel-75',
   },
   alliance: true,
   explorer: {

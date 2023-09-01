@@ -25,7 +25,6 @@ module.exports = {
     'migaloo-1': 'channel-86',
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
-    'neutron-1': 'channel-167',
     'pacific-1': 'channel-158',
     'noble-1': 'channel-151',
     'stafihub-1': 'channel-204',

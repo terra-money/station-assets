@@ -10,13 +10,14 @@ module.exports = {
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.png',
     disabledModules: ['staking'],
     channels: {
-      'phoenix-1': 'channel-5',
       'osmosis-1': 'channel-10',
       'stride-1': 'channel-8',
+      'axelar-dojo-1': 'channel-2',
+      'cosmoshub-4': 'channel-1',
+      'mars-1': 'channel-16',
+      'kaiyo-1': 'channel-3',
     },
-    ibc: {
-      fromTerra: 'channel-167',
-      toTerra: 'channel-5',
+    icsChannels: {
     },
     explorer: {
       address: 'https://www.mintscan.io/neutron/account/{}',

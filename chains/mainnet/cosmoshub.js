@@ -26,6 +26,7 @@ module.exports = {
     'archway-1': 'channel-623',
     'noble-1': 'channel-536',
     'stafihub-1': 'channel-369',
+    'neutron-1': 'channel-569',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',
