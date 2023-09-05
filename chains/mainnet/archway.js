@@ -8,7 +8,6 @@ module.exports = {
     baseAsset: 'aarch',
     name: 'Archway',
     icon: process.env.CF_PAGES_URL + '/img/chains/Archway.png',
-    ibc: {},
     channels: {
         'axelar-dojo-1': 'channel-13',
         'cosmoshub-4': 'channel-0',

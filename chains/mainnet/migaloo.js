@@ -9,16 +9,6 @@ module.exports = {
   name: 'Migaloo',
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   alliance: true,
-  ibc: {
-    fromTerra: 'channel-86',
-    toTerra: 'channel-0',
-    icsFromTerra: {
-      contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      fromTerra: 'channel-87',
-      toTerra: 'channel-2',
-    },
-  },
   channels: {
     'phoenix-1': 'channel-0',
     'chihuahua-1': 'channel-10',

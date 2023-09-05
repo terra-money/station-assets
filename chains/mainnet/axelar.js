@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uaxl',
   name: 'Axelar',
   icon: process.env.CF_PAGES_URL + '/img/chains/Axelar.svg',
-  ibc: {
-    fromTerra: 'channel-6',
-    toTerra: 'channel-11',
-  },
   channels: {
     'phoenix-1': 'channel-11',
     'kaiyo-1': 'channel-14',

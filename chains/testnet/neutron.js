@@ -10,8 +10,6 @@ module.exports = {
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.png',
     disabledModules: ['staking'],
     channels: {},
-    ibc: {
-    },
     explorer: {
       address: 'https://testnet.mintscan.io/neutron-testnet/account/{}',
       tx: 'https://testnet.mintscan.io/neutron-testnet/tx/{}',

@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uakt',
   name: 'Akash',
   icon: process.env.CF_PAGES_URL + '/img/chains/Akash.svg',
-  ibc: {
-    fromTerra: 'channel-45',
-    toTerra: 'channel-56',
-  },
   channels: {
     'phoenix-1': 'channel-56',
     'cosmoshub-4': 'channel-17',

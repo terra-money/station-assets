@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
   icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
-  ibc: {
-    fromTerra: 'channel-44',
-    toTerra: 'channel-34',
-  },
   channels: {
     'phoenix-1': 'channel-34',
     'juno-1': 'channel-11',
