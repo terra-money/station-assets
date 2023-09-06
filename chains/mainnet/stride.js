@@ -24,6 +24,7 @@ module.exports = {
     'osmosis-1': 'channel-5',
     'neutron-1': 'channel-123',
     'pacific-1': 'channel-149',
+    'injective-1': 'channel-6',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',

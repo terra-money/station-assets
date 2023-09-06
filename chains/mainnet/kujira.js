@@ -48,6 +48,7 @@ module.exports = {
     'noble-1': 'channel-62',
     'stafihub-1': 'channel-63',
     'neutron-1': 'channel-75',
+    'injective-1': 'channel-54',
   },
   alliance: true,
   explorer: {

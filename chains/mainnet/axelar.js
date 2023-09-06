@@ -25,6 +25,7 @@ module.exports = {
     'pacific-1': 'channel-103',
     'archway-1': 'channel-111',
     'neutron-1': 'channel-78',
+    'injective-1': 'channel-10',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',
