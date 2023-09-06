@@ -1,8 +1,8 @@
 module.exports = {
   chainID: "carbon-1",
   lcd: "https://query-api.carbon.network/",
-  gasAdjustment: 1.75,
-  gasPrices: { swth: 1000 },
+  gasAdjustment: 1,
+  gasPrices: { swth: 1 },
   prefix: "swth",
   coinType: "118",
   baseAsset: "swth",
