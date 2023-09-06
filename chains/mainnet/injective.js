@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'inj',
   name: 'Injective',
   icon: process.env.CF_PAGES_URL + '/img/chains/Injective.svg',
-  ibc: {
-    toTerra: '', // TODO: update with correct channel when available
-    fromTerra: '', // TODO: update with correct channel when available
-  },
   channels: {
     'phoenix-1': 'channel-144',
     'axelar-dojo-1': 'channel-84',
