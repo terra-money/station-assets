@@ -432,5 +432,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/gem2.png',
       decimals: 6,
     },
+    {
+      token: 'terra1aecddsx0lvmylpzgq9le8uw4apnplhswp44vznecll6ccu044gnqsgcsga',
+      symbol: 'FIRE',
+      name: 'Phoenix DAO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/PhoenixDAO.png',
+      decimals: 6,
+    },
   ],
 }
