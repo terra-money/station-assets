@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ucmdx',
   name: 'Comdex',
   icon: process.env.CF_PAGES_URL + '/img/chains/Comdex.svg',
-  ibc: {
-    fromTerra: 'channel-39',
-    toTerra: 'channel-51',
-  },
   channels: {
     'phoenix-1': 'channel-51',
     'axelar-dojo-1': 'channel-34',

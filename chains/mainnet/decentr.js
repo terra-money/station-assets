@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'udec',
   name: 'Decentr',
   icon: process.env.CF_PAGES_URL + '/img/chains/Decentr.svg',
-  ibc: {
-    fromTerra: 'channel-5',
-    toTerra: 'channel-99',
-  },
   channels: {
     'phoenix-1': 'channel-99',
     'osmosis-1': 'channel-1',

@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ustrd',
   name: 'Stride',
   icon: process.env.CF_PAGES_URL + '/img/chains/Stride.png',
-  ibc: {
-    fromTerra: 'channel-46',
-    toTerra: 'channel-52',
-  },
   channels: {
     'phoenix-1': 'channel-52',
     'axelar-dojo-1': 'channel-69',

@@ -12,10 +12,6 @@ module.exports = {
   name: 'Noble',
   disabledModules: ['staking'],
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
-  ibc: {
-    toTerra: 'channel-9',
-    fromTerra: 'channel-151',
-  },
   channels: {
     'phoenix-1': 'channel-9',
     'cosmoshub-4': 'channel-4',

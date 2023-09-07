@@ -9,10 +9,6 @@ module.exports = {
   name: 'StaFiHub',
   disabledModules: ['staking'],
   icon: process.env.CF_PAGES_URL + '/img/chains/StaFiHub.png',
-  ibc: {
-    fromTerra: 'channel-204',
-    toTerra: 'channel-9',
-  },
   channels: {
     'phoenix-1': 'channel-9',
     'cosmoshub-4': 'channel-0',

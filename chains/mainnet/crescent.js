@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ucre',
   name: 'Crescent',
   icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
-  ibc: {
-    fromTerra: 'channel-37',
-    toTerra: 'channel-27',
-  },
   channels: {
     'phoenix-1': 'channel-27',
     'axelar-dojo-1': 'channel-4',

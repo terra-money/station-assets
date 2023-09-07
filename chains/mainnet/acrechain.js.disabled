@@ -8,9 +8,5 @@ module.exports = {
   baseAsset: 'aacre',
   name: 'Acrechain',
   icon: process.env.CF_PAGES_URL + '/img/chains/Acre.svg',
-  ibc: {
-    fromTerra: 'channel-77',
-    toTerra: 'channel-9',
-  }
 }
 
