@@ -2,15 +2,23 @@ module.exports = {
   chainID: 'noble-1',
   lcd: 'https://noble-api.polkachu.com',
   gasAdjustment: 1.75,
-  gasPrices: { uusdc: 0 },
+  gasPrices: {
+    uusdc: 0,
+    'ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0': 0.001,
+  },
   prefix: 'noble',
   coinType: '118',
   baseAsset: 'ustake',
   name: 'Noble',
+  disabledModules: ['staking'],
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
-  ibc: {
-    toTerra: 'channel-9',
-    fromTerra: 'channel-151',
+  channels: {
+    'phoenix-1': 'channel-9',
+    'cosmoshub-4': 'channel-4',
+    'crescent-1': 'channel-0',
+    'juno-1': 'channel-3',
+    'osmosis-1': 'channel-1',
+    'kaiyo-1': 'channel-2',
   },
   explorer: {
     address: 'https://www.mintscan.io/noble/account/{}',

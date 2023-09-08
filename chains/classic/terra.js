@@ -34,10 +34,10 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/TerraClassic.svg',
   isClassic: true,
   explorer: {
-    address: 'https://finder.terra.money/classic/address/{}',
-    tx: 'https://finder.terra.money/classic/tx/{}',
-    validator: 'https://finder.terra.money/classic/validator/{}',
-    block: 'https://finder.terra.money/classic/block/{}',
+    address: 'https://finder.station.money/classic/address/{}',
+    tx: 'https://finder.station.money/classic/tx/{}',
+    validator: 'https://finder.station.money/classic/validator/{}',
+    block: 'https://finder.station.money/classic/block/{}',
   },
   channels: {
     'juno-1': 'channel-20',

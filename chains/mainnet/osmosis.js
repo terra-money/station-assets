@@ -8,16 +8,6 @@ module.exports = {
   baseAsset: 'uosmo',
   name: 'Osmosis',
   icon: process.env.CF_PAGES_URL + '/img/chains/Osmosis.svg',
-  ibc: {
-    toTerra: 'channel-251',
-    fromTerra: 'channel-1',
-    icsFromTerra: {
-      contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-341',
-      fromTerra: 'channel-26',
-    },
-  },
   channels: {
     'phoenix-1': 'channel-251',
     'axelar-dojo-1': 'channel-208',
@@ -34,6 +24,11 @@ module.exports = {
     'mars-1': 'channel-557',
     'migaloo-1': 'channel-642',
     'stride-1': 'channel-326',
+    'archway-1': 'channel-1429',
+    'neutron-1': 'channel-874',
+    'noble-1': 'channel-750',
+    'pacific-1': 'channel-782',
+    'injective-1': 'channel-122',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',

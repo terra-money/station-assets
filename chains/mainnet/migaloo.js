@@ -9,22 +9,14 @@ module.exports = {
   name: 'Migaloo',
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   alliance: true,
-  ibc: {
-    fromTerra: 'channel-86',
-    toTerra: 'channel-0',
-    icsFromTerra: {
-      contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      fromTerra: 'channel-87',
-      toTerra: 'channel-2',
-    },
-  },
   channels: {
     'phoenix-1': 'channel-0',
     'chihuahua-1': 'channel-10',
     'comdex-1': 'channel-12',
     'kaiyo-1': 'channel-8',
     'osmosis-1': 'channel-5',
+    'pacific-1': 'channel-52',
+    'injective-1': 'channel-3',
   },
   explorer: {
     address: 'https://ping.pub/Migaloo/account/{}',
@@ -47,6 +39,7 @@ module.exports = {
       name: 'ERIS Amplified WHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/ampWHALE.svg',
       decimals: 6,
+      lsd: 'uwhale',
     },
     {
       token:
@@ -55,6 +48,7 @@ module.exports = {
       name: 'boneWHALE',
       icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
       decimals: 6,
+      lsd: 'uwhale',
     },
   ],
 }

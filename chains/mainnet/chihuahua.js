@@ -2,21 +2,18 @@ module.exports = {
   chainID: 'chihuahua-1',
   lcd: 'https://api.chihuahua.wtf',
   gasAdjustment: 2,
-  gasPrices: { uhuahua: 1 },
+  gasPrices: { uhuahua: 1250 },
   prefix: 'chihuahua',
   coinType: '118',
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
   icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
-  ibc: {
-    fromTerra: 'channel-44',
-    toTerra: 'channel-34',
-  },
   channels: {
     'phoenix-1': 'channel-34',
     'juno-1': 'channel-11',
     'migaloo-1': 'channel-39',
     'osmosis-1': 'channel-7',
+    'stafihub-1': 'channel-25',
   },
   explorer: {
     address: 'https://www.mintscan.io/chihuahua/account/{}',

@@ -23,16 +23,6 @@ module.exports = {
   baseAsset: 'ukuji',
   name: 'Kujira',
   icon: process.env.CF_PAGES_URL + '/img/chains/Kujira.png',
-  ibc: {
-    fromTerra: 'channel-10',
-    toTerra: 'channel-5',
-    icsFromTerra: {
-      contract:
-        'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
-      toTerra: 'channel-43',
-      fromTerra: 'channel-34',
-    },
-  },
   channels: {
     'phoenix-1': 'channel-5',
     'axelar-dojo-1': 'channel-9',
@@ -44,6 +34,11 @@ module.exports = {
     'migaloo-1': 'channel-58',
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-35',
+    'archway-1': 'channel-99',
+    'noble-1': 'channel-62',
+    'stafihub-1': 'channel-63',
+    'neutron-1': 'channel-75',
+    'injective-1': 'channel-54',
   },
   alliance: true,
   explorer: {

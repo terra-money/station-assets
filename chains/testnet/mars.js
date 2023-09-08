@@ -6,12 +6,8 @@ module.exports = {
   prefix: 'mars',
   coinType: '330',
   baseAsset: 'umars',
-  name: 'Mars Testnet',
+  name: 'Mars',
   icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
-  ibc: {
-    toTerra: 'channel-0',
-    fromTerra: 'channel-189',
-  },
   channels: {
     'pisco-1': 'channel-0',
   },

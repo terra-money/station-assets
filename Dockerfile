@@ -13,7 +13,7 @@ RUN set -eux && \
 FROM node:18 as station-assets-builder
 
 ARG CF_PAGES_URL="https://station-assets.pages.dev"
-ARG FND_BASE_URL="https://finder.terra.money"
+ARG FND_BASE_URL="https://finder.station.money"
 ENV CF_PAGES_URL=${CF_PAGES_URL}
 ENV FND_BASE_URL=${FND_BASE_URL}
 

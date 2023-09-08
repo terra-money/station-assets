@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uaxl',
   name: 'Axelar',
   icon: process.env.CF_PAGES_URL + '/img/chains/Axelar.svg',
-  ibc: {
-    fromTerra: 'channel-6',
-    toTerra: 'channel-11',
-  },
   channels: {
     'phoenix-1': 'channel-11',
     'kaiyo-1': 'channel-14',
@@ -22,6 +18,10 @@ module.exports = {
     'carbon-1': 'channel-37',
     'comdex-1': 'channel-31',
     'stride-1': 'channel-64',
+    'pacific-1': 'channel-103',
+    'archway-1': 'channel-111',
+    'neutron-1': 'channel-78',
+    'injective-1': 'channel-10',
   },
   explorer: {
     address: 'https://www.mintscan.io/axelar/account/{}',

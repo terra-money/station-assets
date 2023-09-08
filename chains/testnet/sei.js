@@ -6,12 +6,8 @@ module.exports = {
   prefix: 'sei',
   coinType: '118',
   baseAsset: 'usei',
-  name: 'Sei Testnet',
-  icon: process.env.CF_PAGES_URL + '/img/chains/Sei.png',
-  ibc: {
-    fromTerra: 'channel-100',
-    toTerra: 'channel-11',
-  },
+  name: 'Sei',
+  icon: process.env.CF_PAGES_URL + '/img/chains/sei.svg',
   channels: {
     'pisco-1': 'channel-11',
   },
@@ -26,7 +22,7 @@ module.exports = {
       token: 'usei',
       symbol: 'SEI',
       name: 'Test Sei',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Sei.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/sei.svg',
       decimals: 6,
     },
   ],

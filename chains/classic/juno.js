@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ujuno',
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
-  ibc: {
-    fromTerra: 'channel-20',
-    toTerra: 'channel-27',
-  },
   channels: {
     'columbus-5': 'channel-27',
   },

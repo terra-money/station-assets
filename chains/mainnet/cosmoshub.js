@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uatom',
   name: 'Cosmos',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cosmos.svg',
-  ibc: {
-    fromTerra: 'channel-0',
-    toTerra: 'channel-339',
-  },
   channels: {
     'phoenix-1': 'channel-339',
     'axelar-dojo-1': 'channel-293',
@@ -22,6 +18,12 @@ module.exports = {
     'kaiyo-1': 'channel-343',
     'osmosis-1': 'channel-141',
     'stride-1': 'channel-391',
+    'pacific-1': 'channel-584',
+    'archway-1': 'channel-623',
+    'noble-1': 'channel-536',
+    'stafihub-1': 'channel-369',
+    'neutron-1': 'channel-569',
+    'injective-1': 'channel-220',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',

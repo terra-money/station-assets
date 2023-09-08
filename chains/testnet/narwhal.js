@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'migaloo',
   coinType: '118',
   baseAsset: 'uwhale',
-  name: 'Migaloo Testnet',
+  name: 'Migaloo',
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   explorer: {
     address: 'https://testnet.migaloo.explorers.guru/account/{}',

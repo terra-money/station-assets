@@ -2,16 +2,12 @@ module.exports = {
   chainID: 'stride-1',
   lcd: 'https://stride-fleet.main.stridenet.co/api',
   gasAdjustment: 1.75,
-  gasPrices: { ustrd: 0 },
+  gasPrices: { ustrd: 0.005 },
   prefix: 'stride',
   coinType: '118',
   baseAsset: 'ustrd',
   name: 'Stride',
   icon: process.env.CF_PAGES_URL + '/img/chains/Stride.png',
-  ibc: {
-    fromTerra: 'channel-46',
-    toTerra: 'channel-52',
-  },
   channels: {
     'phoenix-1': 'channel-52',
     'axelar-dojo-1': 'channel-69',
@@ -22,6 +18,9 @@ module.exports = {
     'juno-1': 'channel-24',
     'kaiyo-1': 'channel-18',
     'osmosis-1': 'channel-5',
+    'neutron-1': 'channel-123',
+    'pacific-1': 'channel-149',
+    'injective-1': 'channel-6',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
@@ -60,6 +59,14 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/stSTARS.svg',
       decimals: 6,
       lsd: 'ustars',
+    },
+    {
+      token: 'stinj',
+      symbol: 'stINJ',
+      name: 'stINJ',
+      icon: process.env.CF_PAGES_URL + '/img/coins/stINJ.svg',
+      decimals: 6,
+      lsd: 'uinj',
     },
     {
       token: 'stujuno',

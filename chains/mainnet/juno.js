@@ -8,22 +8,6 @@ module.exports = {
   baseAsset: 'ujuno',
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
-  ibc: {
-    fromTerra: 'channel-2',
-    toTerra: 'channel-86',
-    ics: {
-      contract:
-        'juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn',
-      toTerra: 'channel-154',
-      fromTerra: 'channel-33',
-    },
-    icsFromTerra: {
-      contract:
-        'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
-      toTerra: 'channel-153',
-      fromTerra: 'channel-32',
-    },
-  },
   channels: {
     'phoenix-1': 'channel-86',
     'axelar-dojo-1': 'channel-71',
@@ -34,6 +18,8 @@ module.exports = {
     'crescent-1': 'channel-81',
     'osmosis-1': 'channel-0',
     'stride-1': 'channel-139',
+    'archway-1': 'channel-290',
+    'noble-1': 'channel-224',
   },
   icsChannels: {
     'phoenix-1': {

@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ncheq',
   name: 'cheqd',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
-  ibc: {
-    fromTerra: 'channel-89',
-    toTerra: 'channel-9',
-  },
   channels: {
     'phoenix-1': 'channel-9',
     'osmosis-1': 'channel-0',

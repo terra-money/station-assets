@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ucre',
   name: 'Crescent',
   icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
-  ibc: {
-    fromTerra: 'channel-37',
-    toTerra: 'channel-27',
-  },
   channels: {
     'phoenix-1': 'channel-27',
     'axelar-dojo-1': 'channel-4',
@@ -23,6 +19,9 @@ module.exports = {
     'mars-1': 'channel-35',
     'osmosis-1': 'channel-9',
     'stride-1': 'channel-29',
+    'archway-1': 'channel-65',
+    'noble-1': 'channel-38',
+    'injective-1': 'channel-23',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
