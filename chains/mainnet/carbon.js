@@ -118,5 +118,13 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
       decimals: 12,
     },
+    {
+      token:
+        "cibt/ibc/0BA1FA7A554B4347A87BD37AFF331683298730F9F8FCECB4896D58BED4B31F00",
+      symbol: "cibstEVMOS",
+      name: "Carbon Interest Bearing stEVMOS",
+      icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
+      decimals: 18,
+    }
   ],
 }
