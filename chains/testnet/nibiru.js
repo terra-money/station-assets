@@ -10,10 +10,10 @@ module.exports = {
   icon: 'https://nibiru.fi/assets/nibi-logo-smooth.727efedc.svg',
   alliance: false,
   explorer: {
-    address: 'https://nibiru.fi/testnet/address/{}',
-    tx: 'https://nibiru.fi/testnet/tx/{}',
-    validator: 'https://nibiru.fi/testnet/validator/{}',
-    block: 'https://nibiru.fi/testnet/block/{}',
+    address: 'https://explorer.nibiru.fi/nibiru-itn-2/account/{}',
+    tx: 'https://explorer.nibiru.fi/nibiru-itn-2/tx/{}',
+    validator: 'https://explorer.nibiru.fi/nibiru-itn-2/staking/{}',
+    block: 'https://explorer.nibiru.fi/nibiru-itn-2/blocks/{}',
   },
   channels: {},
   tokens: [
