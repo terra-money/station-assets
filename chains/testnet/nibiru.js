@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'nibiru-itn-2',
   lcd: 'https://lcd.itn-2.nibiru.fi',
   gasAdjustment: 2,
-  gasPrices: { unibi: 0.015 },
+  gasPrices: { unibi: 0.15 },
   prefix: 'nibi',
   coinType: '118',
   baseAsset: 'unibi',
@@ -20,7 +20,7 @@ module.exports = {
     {
       token: 'unibi',
       symbol: 'NIBI',
-      name: 'Nibiru',
+      name: 'NIBI',
       icon: 'https://nibiru.fi/assets/nibi-logo-smooth.727efedc.svg',
       decimals: 6,
     },
