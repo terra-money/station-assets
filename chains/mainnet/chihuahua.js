@@ -37,5 +37,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/bHUAHUA.png',
       decimals: 6,
     },
+    {
+      token:
+        'chihuahua1nktfhalzvtx82kyn4dh6l8htcl0prfpnu380a39zj52nzu3j467qqg23ry',
+      symbol: 'ampHUAHUA',
+      name: 'ampHUAHUA',
+      decimals: 6,
+    },
   ],
 }
