@@ -439,5 +439,21 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/PhoenixDAO.png',
       decimals: 6,
     },
+    {
+      token:
+        'factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt',
+      symbol: 'ampWHALEt',
+      name: 'ERIS Alliance Staked ampWHALE',
+      icon: 'https://station-assets.terra.money/img/coins/ampwhalet.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt',
+      symbol: 'boneWHALEt',
+      name: 'ERIS Alliance Staked boneWHALE',
+      icon: 'https://station-assets.terra.money/img/coins/bonewhalet.svg',
+      decimals: 6,
+    },
   ],
 }
