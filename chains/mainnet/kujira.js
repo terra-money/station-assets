@@ -1,4 +1,5 @@
 module.exports = {
+  version: '0.46',
   chainID: 'kaiyo-1',
   lcd: 'https://kujira-api.polkachu.com',
   gasAdjustment: 1.75,
