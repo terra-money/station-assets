@@ -455,5 +455,13 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/bonewhalet.svg',
       decimals: 6,
     },
+    {
+      token:
+        'factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR',
+      symbol: 'ampROAR',
+      name: 'ERIS Amplified ROAR',
+      icon: 'https://station-assets.terra.money/img/coins/ampROAR.png',
+      decimals: 6,
+    },
   ],
 }
