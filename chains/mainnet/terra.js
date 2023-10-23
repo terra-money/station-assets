@@ -30,6 +30,7 @@ module.exports = {
     'stafihub-1': 'channel-204',
     'neutron-1': 'channel-229',
     'injective-1': 'channel-144',
+    'kava_2222-10': 'channel-216',
   },
   icsChannels: {
     'carbon-1': {

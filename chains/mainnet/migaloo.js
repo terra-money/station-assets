@@ -17,6 +17,7 @@ module.exports = {
     'osmosis-1': 'channel-5',
     'pacific-1': 'channel-52',
     'injective-1': 'channel-3',
+    'kava_2222-10': 'channel-48',
   },
   explorer: {
     address: 'https://ping.pub/Migaloo/account/{}',
