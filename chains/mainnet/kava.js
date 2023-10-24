@@ -1,6 +1,6 @@
 module.exports = {
     chainID: 'kava_2222-10',
-    lcd: 'https://lcd-kava.keplr.app',
+    lcd: 'https://api.data.kava.io',
     gasAdjustment: 1.75,
     gasPrices:
     {
