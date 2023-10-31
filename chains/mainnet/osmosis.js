@@ -29,6 +29,7 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
+    'celestia': 'channel-6994',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
