@@ -26,7 +26,7 @@ module.exports = {
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
     'pacific-1': 'channel-158',
-    'noble-1': 'channel-151',
+    'noble-1': 'channel-253',
     'stafihub-1': 'channel-204',
     'neutron-1': 'channel-229',
     'injective-1': 'channel-144',
