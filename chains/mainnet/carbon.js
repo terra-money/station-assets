@@ -1,6 +1,6 @@
 module.exports = {
   chainID: "carbon-1",
-  lcd: "https://query-api.carbon.network/",
+  lcd: "https://api.carbon.network/",
   gasAdjustment: 1.75,
   gasPrices: { swth: 1000 },
   prefix: "swth",
