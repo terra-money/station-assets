@@ -491,5 +491,13 @@ module.exports = {
       icon: 'https://station-assets.terra.money/img/coins/ampROAR.png',
       decimals: 6,
     },
+    {
+      token:
+        'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
+      symbol: 'BITZ',
+      name: 'Bitz DAO Token',
+      icon: process.env.CF_PAGES_URL + 'img/coins/BitzDAO.png',
+      decimals: 6,
+    },
   ],
 }
