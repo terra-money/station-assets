@@ -140,6 +140,13 @@ module.exports = {
       lsd: 'uluna',
     },
     {
+      token: 'terra1uxk0lgyktspxlen3a2f2dnyclj8gjta2mwg0murwcyxflrlqk4aqey3pqt',
+      symbol: 'QUEEN',
+      name: 'QUEEN',
+      icon: process.env.CF_PAGES_URL + '/img/coins/queen1.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
       name: 'alentejo.money',
