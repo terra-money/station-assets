@@ -511,7 +511,7 @@ module.exports = {
       symbol: 'BNB',
       name: 'Binance Coin (Portal)',
       icon: process.env.CF_PAGES_URL + '/img/coins/wBNB.png',
-      decimals: 18,
+      decimals: 8,
     },
     {
       token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
