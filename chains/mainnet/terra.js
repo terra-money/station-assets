@@ -472,7 +472,7 @@ module.exports = {
         'factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt',
       symbol: 'ampWHALEt',
       name: 'ERIS Alliance Staked ampWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/ampwhalet.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampwhalet.svg',
       decimals: 6,
     },
     {
@@ -480,7 +480,7 @@ module.exports = {
         'factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt',
       symbol: 'boneWHALEt',
       name: 'ERIS Alliance Staked boneWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/bonewhalet.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bonewhalet.svg',
       decimals: 6,
     },
     {
@@ -488,7 +488,7 @@ module.exports = {
         'factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR',
       symbol: 'ampROAR',
       name: 'ERIS Amplified ROAR',
-      icon: 'https://station-assets.terra.money/img/coins/ampROAR.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampROAR.png',
       decimals: 6,
     },
     {
@@ -496,8 +496,36 @@ module.exports = {
         'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
       symbol: 'BITZ',
       name: 'Bitz DAO Token',
-      icon: 'https://station-assets.terra.money/img/coins/BitzDAO_Token.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/BitzDAO_Token.png',
       decimals: 6,
     },
+    {
+      token: 'terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg',
+      symbol: 'SOL',
+      name: 'Solana (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wSOL.png',
+      decimals: 8,
+    },
+    {
+      token: 'terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388',
+      symbol: 'BNB',
+      name: 'Binance Coin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wBNB.png',
+      decimals: 18,
+    },
+    {
+      token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
+      symbol: 'TON',
+      name: 'Toncoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/TON.svg',
+      decimals: 8,
+    },
+    {
+      token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
+      symbol: 'DOGE',
+      name: 'Dogecoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/DOGE.svg',
+      decimals: 8,
+    }
   ],
 }
