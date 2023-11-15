@@ -94,5 +94,13 @@ module.exports = {
       icon: '',
       decimals: 6,
     },
+    {
+      token:
+        'factory/kujira175yatpvkpgw07w0chhzuks3zrrae9z9g2y6r7u5pzqesyau4x9eqqyv0rr/ampMNTA',
+      symbol: 'ampMNTA',
+      name: 'ampMNTA',
+      icon: '',
+      decimals: 6,
+    },
   ],
 }
