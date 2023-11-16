@@ -533,6 +533,13 @@ module.exports = {
       name: 'Dogecoin (Portal)',
       icon: process.env.CF_PAGES_URL + '/img/coins/DOGE.svg',
       decimals: 8,
-    }
+    },
+    {
+      token: 'factory/terra1kkv72sv5zfx539garpych7x5xuq9m9d2a9dnvt863gk3n3g02husc2vxeu/URA',
+      symbol: 'URA',
+      name: 'URA Utility Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
   ],
 }
