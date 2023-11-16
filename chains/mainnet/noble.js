@@ -44,7 +44,7 @@ module.exports = {
     {
       token: 'uusdc',
       symbol: 'USDC',
-      name: 'usdc',
+      name: 'Noble USDC',
       icon: process.env.CF_PAGES_URL + '/img/coins/axlUSDC.svg',
       decimals: 6,
     },
