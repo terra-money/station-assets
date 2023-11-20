@@ -28,7 +28,7 @@ module.exports = {
     {
       token: 'uwhale',
       symbol: 'WHALE',
-      name: 'Migaloo',
+      name: 'Whale',
       icon: process.env.CF_PAGES_URL + '/img/coins/Whale.svg',
       decimals: 6,
     },
