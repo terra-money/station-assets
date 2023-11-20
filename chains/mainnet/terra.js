@@ -528,7 +528,7 @@ module.exports = {
       decimals: 8,
     },
     {
-      token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
+      token: 'terra1z2cn5r7p7sezmq5ttwrutvqnczqa9244syd4w2uu2tvjarv68dqqlwx48v',
       symbol: 'DOGE',
       name: 'Dogecoin (Portal)',
       icon: process.env.CF_PAGES_URL + '/img/coins/DOGE.svg',
