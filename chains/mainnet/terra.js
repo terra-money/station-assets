@@ -541,5 +541,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+      token: 'ibc/E262CAE3F7F6EDC47267CEA6B5BD2A199CBBA77215DA5FF2C1866436B5361DBA',
+      symbol: 'rFUZN',
+      name: 'Fuzion (Kujira)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/rfuzn.svg',
+      decimals: 6,
+    },
+    {
+      token: 'terra1uaha4gdzn5dz5ela76x74rlah8954m8ehwjyq4v75hq7relx49tszzsh36',
+      symbol: 'PYTH',
+      name: 'Pyth Network (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/pyth.svg',
+      decimals: 6,
+    },
   ],
 }
