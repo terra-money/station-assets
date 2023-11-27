@@ -541,5 +541,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+    token: 'terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l',
+      symbol: 'SEUL',
+      name: 'SEUL',
+      icon: process.env.CF_PAGES_URL + '/img/coins/seul.png',
+      decimals: 6,
+    },
+    {
+    token: 'terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5',
+      symbol: 'xSEUL',
+      name: 'xSEUL',
+      icon: process.env.CF_PAGES_URL + '/img/coins/xseul.png',
+      decimals: 6,
+    },
   ],
 }
