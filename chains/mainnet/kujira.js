@@ -91,7 +91,7 @@ module.exports = {
       token: 'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta',
       symbol: 'MNTA',
       name: 'MNTA',
-      icon: '',
+      icon: process.env.CF_PAGES_URL + '/img/coins/MNTA.svg',
       decimals: 6,
     },
     {
@@ -99,7 +99,7 @@ module.exports = {
         'factory/kujira175yatpvkpgw07w0chhzuks3zrrae9z9g2y6r7u5pzqesyau4x9eqqyv0rr/ampMNTA',
       symbol: 'ampMNTA',
       name: 'ampMNTA',
-      icon: '',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampMNTA.png',
       decimals: 6,
     },
   ],
