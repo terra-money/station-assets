@@ -541,5 +541,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+      token: 'ibc/E262CAE3F7F6EDC47267CEA6B5BD2A199CBBA77215DA5FF2C1866436B5361DBA',
+      symbol: 'rFUZN',
+      name: 'FUZN',
+      icon: process.env.CF_PAGES_URL + '/img/coins/fuzn.png',
+      decimals: 6,
+    },
+    {
+      token: 'ibc/21F3876A6F5A1A1231768FE8A065C04B5C728632B9B8BA8CA418829E0214D8EE',
+      symbol: 'DYDX',
+      name: 'DYDX',
+      icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
+      decimals: 6,
+    },
   ],
 }
