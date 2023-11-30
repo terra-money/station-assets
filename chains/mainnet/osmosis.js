@@ -2,7 +2,15 @@ module.exports = {
   chainID: 'osmosis-1',
   lcd: 'https://osmosis-1.terra.dev',
   gasAdjustment: 2.2,
-  gasPrices: { uosmo: 0.025 },
+  gasPrices: {
+    uosmo: {
+      type: 'OSMOSIS',
+      url: '/osmosis/txfees/v1beta1/cur_eip_base_fee',
+      adjustment: 5,
+      // value to be used if the request to the LCD fails
+      defaultValue: 0.0025 * 5,
+    },
+  },
   prefix: 'osmo',
   coinType: '118',
   baseAsset: 'uosmo',
