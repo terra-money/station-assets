@@ -40,6 +40,7 @@ module.exports = {
     'stafihub-1': 'channel-63',
     'neutron-1': 'channel-75',
     'injective-1': 'channel-54',
+    'dydx-mainnet-1': 'channel-118',
   },
   alliance: true,
   explorer: {
