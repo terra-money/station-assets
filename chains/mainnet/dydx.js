@@ -33,13 +33,5 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
       decimals: 18,
     },
-    {
-      token:
-        'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
-      symbol: 'USDC',
-      name: 'USDC',
-      icon: process.env.CF_PAGES_URL + '/img/coins/axlUSDC.svg',
-      decimals: 6,
-    },
   ],
 }
