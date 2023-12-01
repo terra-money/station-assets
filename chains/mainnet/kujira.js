@@ -103,5 +103,29 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ampMNTA.png',
       decimals: 6,
     },
+    {
+      token:
+        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn',
+      symbol: 'FUZN',
+      name: 'Fuzion',
+      icon: process.env.CF_PAGES_URL + '/img/coins/fuzn.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn',
+      symbol: 'rFUZN',
+      name: 'Fuzion Receipt',
+      icon: process.env.CF_PAGES_URL + '/img/coins/rfuzn.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk',
+      symbol: 'NSTK',
+      name: 'Unstake Fi',
+      icon: process.env.CF_PAGES_URL + '/img/coins/nstk.svg',
+      decimals: 6,
+    },
   ],
 }
