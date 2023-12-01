@@ -30,6 +30,7 @@ module.exports = {
     'stafihub-1': 'channel-204',
     'neutron-1': 'channel-229',
     'injective-1': 'channel-144',
+    'dydx-mainnet-1': 'channel-299',
   },
   icsChannels: {
     'carbon-1': {
@@ -106,14 +107,14 @@ module.exports = {
       name: 'real',
       icon: process.env.CF_PAGES_URL + '/img/coins/Reis.png',
       decimals: 6,
-    },    
+    },
     {
       token: 'terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg',
       symbol: 'Escudos',
       name: 'escudo',
       icon: process.env.CF_PAGES_URL + '/img/coins/Escudos.png',
       decimals: 6,
-    },    
+    },
     {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
@@ -499,8 +500,7 @@ module.exports = {
       decimals: 6,
     },
     {
-      token:
-        'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
+      token: 'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
       symbol: 'BITZ',
       name: 'Bitz DAO Token',
       icon: process.env.CF_PAGES_URL + '/img/coins/BitzDAO_Token.png',
@@ -535,7 +535,8 @@ module.exports = {
       decimals: 8,
     },
     {
-      token: 'factory/terra1kkv72sv5zfx539garpych7x5xuq9m9d2a9dnvt863gk3n3g02husc2vxeu/URA',
+      token:
+        'factory/terra1kkv72sv5zfx539garpych7x5xuq9m9d2a9dnvt863gk3n3g02husc2vxeu/URA',
       symbol: 'URA',
       name: 'URA Utility Token',
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
@@ -554,6 +555,20 @@ module.exports = {
       name: 'xSEUL',
       icon: process.env.CF_PAGES_URL + '/img/coins/xseul.png',
       decimals: 6,
+      token:
+        'ibc/E262CAE3F7F6EDC47267CEA6B5BD2A199CBBA77215DA5FF2C1866436B5361DBA',
+      symbol: 'rFUZN',
+      name: 'FUZN',
+      icon: process.env.CF_PAGES_URL + '/img/coins/fuzn.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'ibc/21F3876A6F5A1A1231768FE8A065C04B5C728632B9B8BA8CA418829E0214D8EE',
+      symbol: 'DYDX',
+      name: 'dYdX',
+      icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
+      decimals: 18,
     },
   ],
 }
