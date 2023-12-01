@@ -554,7 +554,7 @@ module.exports = {
       token:
         'ibc/21F3876A6F5A1A1231768FE8A065C04B5C728632B9B8BA8CA418829E0214D8EE',
       symbol: 'DYDX',
-      name: 'DYDX',
+      name: 'dYdX',
       icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
       decimals: 18,
     },
