@@ -19,6 +19,7 @@ module.exports = {
     'juno-1': 'channel-3',
     'osmosis-1': 'channel-1',
     'kaiyo-1': 'channel-2',
+    'dydx-mainnet-1': 'channel-33',
   },
   explorer: {
     address: 'https://www.mintscan.io/noble/account/{}',

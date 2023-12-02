@@ -28,7 +28,7 @@ module.exports = {
     {
       token: 'uwhale',
       symbol: 'WHALE',
-      name: 'Migaloo',
+      name: 'Whale',
       icon: process.env.CF_PAGES_URL + '/img/coins/Whale.svg',
       decimals: 6,
     },
@@ -50,5 +50,12 @@ module.exports = {
       decimals: 6,
       lsd: 'uwhale',
     },
+    {
+      token:'migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v',
+      symbol: 'mUSDC',
+      name: 'mUSDC',
+      icon: process.env.CF_PAGES_URL + '/img/coins/mUSDC.svg',
+      decimals: 6
+    }
   ],
 }

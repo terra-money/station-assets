@@ -40,6 +40,7 @@ module.exports = {
     'stafihub-1': 'channel-63',
     'neutron-1': 'channel-75',
     'injective-1': 'channel-54',
+    'dydx-mainnet-1': 'channel-118',
   },
   alliance: true,
   explorer: {
@@ -91,7 +92,39 @@ module.exports = {
       token: 'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta',
       symbol: 'MNTA',
       name: 'MNTA',
-      icon: '',
+      icon: process.env.CF_PAGES_URL + '/img/coins/MNTA.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira175yatpvkpgw07w0chhzuks3zrrae9z9g2y6r7u5pzqesyau4x9eqqyv0rr/ampMNTA',
+      symbol: 'ampMNTA',
+      name: 'ampMNTA',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampMNTA.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn',
+      symbol: 'FUZN',
+      name: 'Fuzion',
+      icon: process.env.CF_PAGES_URL + '/img/coins/fuzn.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn',
+      symbol: 'rFUZN',
+      name: 'Fuzion Receipt',
+      icon: process.env.CF_PAGES_URL + '/img/coins/rfuzn.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk',
+      symbol: 'NSTK',
+      name: 'Unstake Fi',
+      icon: process.env.CF_PAGES_URL + '/img/coins/nstk.svg',
       decimals: 6,
     },
   ],
