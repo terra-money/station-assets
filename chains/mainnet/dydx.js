@@ -4,7 +4,8 @@ module.exports = {
   gasAdjustment: 1.75,
   gasPrices: {
     adydx: 12500000000,
-    'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5': 0.025,
+    // uncomment this when noble is supported
+    // 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5': 0.025,
   },
   prefix: 'dydx',
   coinType: '118',
