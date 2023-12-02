@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'celestia',
-  lcd: 'https://celestia-rpc.mesa.newmetric.xyz',
+  lcd: 'https://celestia-rest.mesa.newmetric.xyz',
   gasAdjustment: 1.75,
   gasPrices: { utia: 0.2 },
   prefix: 'celestia',
