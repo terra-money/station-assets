@@ -44,10 +44,10 @@ module.exports = {
   },
   alliance: true,
   explorer: {
-    address: 'https://www.mintscan.io/kujira/account/{}',
-    tx: 'https://www.mintscan.io/kujira/txs/{}',
-    validator: 'https://www.mintscan.io/kujira/validators/{}',
-    block: 'https://www.mintscan.io/kujira/blocks/id/{}',
+    address: 'https://finder.kujira.network/kaiyo-1/address/{}',
+    tx: 'https://finder.kujira.network/kaiyo-1/tx/{}',
+    validator: 'https://blue.kujira.network/stake/{}',
+    block: 'https://finder.kujira.network/kaiyo-1/block/{}',
   },
   tokens: [
     {
