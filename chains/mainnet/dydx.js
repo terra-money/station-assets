@@ -3,13 +3,13 @@ module.exports = {
   lcd: 'https://dydx-rest.publicnode.com',
   gasAdjustment: 1.75,
   gasPrices: {
-    adydx: 12500000000,
+    uadydx: 12500000000,
     // uncomment this when noble is supported
     // 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5': 0.025,
   },
   prefix: 'dydx',
   coinType: '118',
-  baseAsset: 'adydx',
+  baseAsset: 'uadydx',
   name: 'dYdX Protocol',
   icon: process.env.CF_PAGES_URL + '/img/chains/dydx.svg',
   channels: {
@@ -28,7 +28,7 @@ module.exports = {
   },
   tokens: [
     {
-      token: 'adydx',
+      token: 'uadydx',
       symbol: 'DYDX',
       name: 'dYdX',
       icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
