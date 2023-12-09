@@ -65,5 +65,12 @@ module.exports = {
       icon    : process.env.CF_PAGES_URL + '/img/coins/mUSDC.svg',
       decimals: 6,
     },
+    {
+      token   : 'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac',
+      symbol  : 'RAC',
+      name    : 'RAC',
+      icon    : process.env.CF_PAGES_URL + '/img/coins/rac.webp',
+      decimals: 6,
+    },
   ],
 }
