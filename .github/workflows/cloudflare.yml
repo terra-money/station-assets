@@ -1,8 +1,6 @@
 name: cloudflare-pages
 
 on:
-  schedule:
-    - cron: '15,45 * * * *'
   push:
     branches:
       - main
