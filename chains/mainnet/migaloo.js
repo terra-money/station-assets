@@ -56,6 +56,20 @@ module.exports = {
       name: 'mUSDC',
       icon: process.env.CF_PAGES_URL + '/img/coins/mUSDC.svg',
       decimals: 6
+    },
+    {
+      token:'factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash',
+      symbol: 'ASH',
+      name: 'ASH',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ash.svg',
+      decimals: 6
+    },
+    {
+      token:'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac',
+      symbol: 'RAC',
+      name: 'RAC',
+      icon: process.env.CF_PAGES_URL + '/img/coins/rac.webp',
+      decimals: 6
     }
   ],
 }
