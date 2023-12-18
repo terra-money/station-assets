@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'mars-1',
-  lcd: 'https://rest.marsprotocol.io',
+  lcd: 'https://lcd-mars.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { umars: 0 },
   prefix: 'mars',

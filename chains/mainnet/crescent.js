@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'crescent-1',
-  lcd: 'https://mainnet.crescent.network:1317',
+  lcd: 'https://lcd-crescent.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ucre: 0.01 },
   prefix: 'cre',
