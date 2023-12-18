@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'migaloo-1',
-  lcd: 'https://ww-migaloo-rest.polkachu.com',
+  lcd: 'https://lcd-migaloo.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { uwhale: 1 },
   prefix: 'migaloo',
