@@ -2,10 +2,10 @@ module.exports = {
   chainID: "carbon-1",
   lcd: "https://api.carbon.network/",
   gasAdjustment: 1.75,
-  gasPrices: { swth: 1000 },
+  gasPrices: { uswth: 1000 },
   prefix: "swth",
   coinType: "118",
-  baseAsset: "swth",
+  baseAsset: "uswth",
   name: "Carbon",
   icon: process.env.CF_PAGES_URL + "/img/chains/Carbon.svg",
   alliance: true,
@@ -26,7 +26,7 @@ module.exports = {
   },
   tokens: [
     {
-      token: "swth",
+      token: "uswth",
       symbol: "SWTH",
       name: "Carbon",
       icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
