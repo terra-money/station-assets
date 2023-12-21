@@ -2,7 +2,7 @@ module.exports = {
     chainID: 'neutron-1',
     lcd: 'https://lcd-neutron.tfl.foundation',
     gasAdjustment: 1.75,
-    gasPrices: { untrn: 0.01 },
+    gasPrices: { untrn: 0.84 },
     prefix: 'neutron',
     coinType: '118',
     baseAsset: 'untrn',
