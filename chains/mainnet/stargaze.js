@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'stargaze-1',
   lcd: 'https://lcd-stargaze.tfl.foundation',
   gasAdjustment: 2.2,
-  gasPrices: { ustars: 1 },
+  gasPrices: { ustars: 1.2 },
   prefix: 'stars',
   coinType: '118',
   baseAsset: 'ustars',
