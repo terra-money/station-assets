@@ -6,9 +6,9 @@ module.exports = {
     uosmo: {
       type: 'OSMOSIS',
       url: '/osmosis/txfees/v1beta1/cur_eip_base_fee',
-      adjustment: 5,
+      adjustment: 10,
       // value to be used if the request to the LCD fails
-      defaultValue: 0.0025 * 5,
+      defaultValue: 0.0025 * 10,
     },
   },
   prefix: 'osmo',
@@ -37,7 +37,7 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
-    'celestia': 'channel-6994',
+    celestia: 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
   },
   explorer: {
