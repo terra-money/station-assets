@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ustars',
   name: 'Stargaze',
-  icon: process.env.CF_PAGES_URL + '/img/chains/Stargaze.svg',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Stargaze.png',
   channels: {
     'phoenix-1': 'channel-266',
     'carbon-1': 'channel-123',
@@ -30,7 +30,7 @@ module.exports = {
       token: 'ustars',
       symbol: 'STARS',
       name: 'Stargaze',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Stargaze.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Stargaze.png',
       decimals: 6,
     },
     {
