@@ -9,7 +9,7 @@ module.exports = {
   name: 'cheqd',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
   channels: {
-    'phoenix-1': 'channel-9',
+    'phoenix-1': 'channel-34',
     'osmosis-1': 'channel-0',
   },
   explorer: {

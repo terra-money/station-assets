@@ -9,7 +9,7 @@ module.exports = {
   name: 'Decentr',
   icon: process.env.CF_PAGES_URL + '/img/chains/Decentr.svg',
   channels: {
-    'phoenix-1': 'channel-99',
+    'phoenix-1': 'channel-9',
     'osmosis-1': 'channel-1',
   },
   explorer: {
