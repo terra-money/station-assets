@@ -20,6 +20,7 @@ module.exports = {
     'stride-1': 'channel-139',
     'archway-1': 'channel-290',
     'noble-1': 'channel-224',
+    'stargaze-1': 'channel-20',
   },
   icsChannels: {
     'phoenix-1': {

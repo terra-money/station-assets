@@ -17,6 +17,7 @@ module.exports = {
     "kaiyo-1": "channel-9",
     "osmosis-1": "channel-0",
     "stafihub-1": "channel-13",
+    "stargaze-1": "channel-15",
   },
   explorer: {
     address: "https://scan.carbon.network/account/{}?net=main",

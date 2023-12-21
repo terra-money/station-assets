@@ -22,6 +22,7 @@ module.exports = {
     'archway-1': 'channel-65',
     'noble-1': 'channel-38',
     'injective-1': 'channel-23',
+    'stargaze-1': 'channel-21',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',

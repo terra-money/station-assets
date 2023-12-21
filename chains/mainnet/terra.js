@@ -31,7 +31,8 @@ module.exports = {
     'neutron-1': 'channel-229',
     'injective-1': 'channel-255',
     'dydx-mainnet-1': 'channel-299',
-    'celestia': 'channel-300',
+    celestia: 'channel-300',
+    'stargaze-1': 'channel-324',
   },
   icsChannels: {
     'carbon-1': {

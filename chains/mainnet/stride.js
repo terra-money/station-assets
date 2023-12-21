@@ -22,6 +22,7 @@ module.exports = {
     'pacific-1': 'channel-149',
     'injective-1': 'channel-6',
     'dydx-mainnet-1': 'channel-160',
+    'stargaze-1': 'channel-19',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
