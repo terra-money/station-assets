@@ -17,6 +17,7 @@ module.exports = {
       'mars-1': 'channel-16',
       'kaiyo-1': 'channel-3',
       'phoenix-1': 'channel-25',
+      'stargaze-1': 'channel-18',
     },
     icsChannels: {
     },
