@@ -6,9 +6,9 @@ module.exports = {
     uosmo: {
       type: 'OSMOSIS',
       url: '/osmosis/txfees/v1beta1/cur_eip_base_fee',
-      adjustment: 10,
+      adjustment: 15,
       // value to be used if the request to the LCD fails
-      defaultValue: 0.0025 * 10,
+      defaultValue: 0.0025 * 15,
     },
   },
   prefix: 'osmo',
