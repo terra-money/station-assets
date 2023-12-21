@@ -1,14 +1,14 @@
 module.exports = {
   chainID: 'osmosis-1',
   lcd: 'https://lcd-osmosis.tfl.foundation',
-  gasAdjustment: 2.2,
+  gasAdjustment: 3,
   gasPrices: {
     uosmo: {
       type: 'OSMOSIS',
       url: '/osmosis/txfees/v1beta1/cur_eip_base_fee',
-      adjustment: 15,
+      adjustment: 10,
       // value to be used if the request to the LCD fails
-      defaultValue: 0.0025 * 15,
+      defaultValue: 0.0025 * 10,
     },
   },
   prefix: 'osmo',
