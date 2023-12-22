@@ -147,6 +147,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun',
+      symbol: 'DROGO',
+      name: 'DROGO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/drogo.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
       name: 'alentejo.money',
