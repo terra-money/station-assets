@@ -1,8 +1,8 @@
 module.exports = {
     chainID: 'neutron-1',
-    lcd: 'https://rest-kralum.neutron-1.neutron.org',
+    lcd: 'https://lcd-neutron.tfl.foundation',
     gasAdjustment: 1.75,
-    gasPrices: { untrn: 0.01 },
+    gasPrices: { untrn: 0.84 },
     prefix: 'neutron',
     coinType: '118',
     baseAsset: 'untrn',
@@ -17,6 +17,7 @@ module.exports = {
       'mars-1': 'channel-16',
       'kaiyo-1': 'channel-3',
       'phoenix-1': 'channel-25',
+      'stargaze-1': 'channel-18',
     },
     icsChannels: {
     },

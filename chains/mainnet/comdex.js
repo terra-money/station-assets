@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'comdex-1',
-  lcd: 'https://rest.comdex.one',
+  lcd: 'https://lcd-comdex.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ucmdx: 0.0025 },
   prefix: 'comdex',

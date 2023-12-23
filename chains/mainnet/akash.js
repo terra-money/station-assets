@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'akashnet-2',
-  lcd: 'https://rest.cosmos.directory/akash',
+  lcd: 'https://lcd-akash.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { uakt: 0.025 },
   prefix: 'akash',
@@ -9,7 +9,7 @@ module.exports = {
   name: 'Akash',
   icon: process.env.CF_PAGES_URL + '/img/chains/Akash.svg',
   channels: {
-    'phoenix-1': 'channel-56',
+    'phoenix-1': 'channel-116',
     'cosmoshub-4': 'channel-17',
     'crescent-1': 'channel-70',
     'juno-1': 'channel-35',

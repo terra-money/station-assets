@@ -9,7 +9,7 @@ module.exports = {
   name: 'Injective',
   icon: process.env.CF_PAGES_URL + '/img/chains/Injective.svg',
   channels: {
-    'phoenix-1': 'channel-144',
+    'phoenix-1': 'channel-151',
     'axelar-dojo-1': 'channel-84',
     'cosmoshub-4': 'channel-1',
     'crescent-1': 'channel-90',

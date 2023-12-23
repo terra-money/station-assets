@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'cheqd-mainnet-1',
-  lcd: 'https://api.cheqd.net',
+  lcd: 'https://lcd-cheqd.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ncheq: 50 },
   prefix: 'cheqd',
@@ -9,7 +9,7 @@ module.exports = {
   name: 'cheqd',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
   channels: {
-    'phoenix-1': 'channel-9',
+    'phoenix-1': 'channel-34',
     'osmosis-1': 'channel-0',
   },
   explorer: {

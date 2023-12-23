@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'dydx-mainnet-1',
-  lcd: 'https://dydx-rest.publicnode.com',
+  lcd: 'https://lcd-dydx.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: {
     uadydx: 12500000000,

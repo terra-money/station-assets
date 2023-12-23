@@ -1,14 +1,14 @@
 module.exports = {
   chainID: 'osmosis-1',
-  lcd: 'https://osmosis-1.terra.dev',
-  gasAdjustment: 2.2,
+  lcd: 'https://lcd-osmosis.tfl.foundation',
+  gasAdjustment: 3,
   gasPrices: {
     uosmo: {
       type: 'OSMOSIS',
       url: '/osmosis/txfees/v1beta1/cur_eip_base_fee',
-      adjustment: 5,
+      adjustment: 10,
       // value to be used if the request to the LCD fails
-      defaultValue: 0.0025 * 5,
+      defaultValue: 0.0025 * 10,
     },
   },
   prefix: 'osmo',
@@ -39,6 +39,7 @@ module.exports = {
     'injective-1': 'channel-122',
     'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
+    'stargaze-1': 'channel-75',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',

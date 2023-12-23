@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'juno-1',
-  lcd: 'https://juno-rest.publicnode.com',
+  lcd: 'https://lcd-juno.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ujuno: 0.075 },
   prefix: 'juno',
@@ -20,6 +20,7 @@ module.exports = {
     'stride-1': 'channel-139',
     'archway-1': 'channel-290',
     'noble-1': 'channel-224',
+    'stargaze-1': 'channel-20',
   },
   icsChannels: {
     'phoenix-1': {

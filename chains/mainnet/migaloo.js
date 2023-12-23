@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'migaloo-1',
-  lcd: 'https://ww-migaloo-rest.polkachu.com',
+  lcd: 'https://lcd-migaloo.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { uwhale: 1 },
   prefix: 'migaloo',
@@ -68,7 +68,7 @@ module.exports = {
       token:'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac',
       symbol: 'RAC',
       name: 'RAC',
-      icon: process.env.CF_PAGES_URL + '/img/coins/rac.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/RAC.png',
       decimals: 6
     }
   ],

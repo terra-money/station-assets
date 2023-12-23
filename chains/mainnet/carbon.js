@@ -1,6 +1,6 @@
 module.exports = {
   chainID: "carbon-1",
-  lcd: "https://api.carbon.network/",
+  lcd: "https://lcd-carbon.tfl.foundation",
   gasAdjustment: 1.75,
   gasPrices: { swth: 1000 },
   prefix: "swth",
@@ -17,6 +17,7 @@ module.exports = {
     "kaiyo-1": "channel-9",
     "osmosis-1": "channel-0",
     "stafihub-1": "channel-13",
+    "stargaze-1": "channel-15",
   },
   explorer: {
     address: "https://scan.carbon.network/account/{}?net=main",

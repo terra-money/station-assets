@@ -1,7 +1,7 @@
 module.exports = {
   version: '0.46',
   chainID: 'kaiyo-1',
-  lcd: 'https://kujira-api.polkachu.com',
+  lcd: 'https://lcd-kujira.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: {
     ukuji: 0.00119,
@@ -41,6 +41,7 @@ module.exports = {
     'neutron-1': 'channel-75',
     'injective-1': 'channel-54',
     'dydx-mainnet-1': 'channel-118',
+    'stargaze-1': 'channel-7',
   },
   alliance: true,
   explorer: {
