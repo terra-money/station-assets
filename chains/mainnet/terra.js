@@ -544,5 +544,13 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+      token:
+        'terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s',
+      symbol: 'ITO',
+      name: 'ITO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/I.png',
+      decimals: 6,
+    },
   ],
 }
