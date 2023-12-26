@@ -36,7 +36,14 @@ module.exports = {
       token: 'factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism',
       symbol: 'AUTISM',
       name: 'AUTISM',
-      icon: process.env.CF_PAGES_URL + '/img/coins/AUTISM.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/AUTISM.png',
+      decimals: 6,
+    },
+    {
+      token: 'factory/inj1cdwt8g7nxgtg2k4fn8sj363mh9ahkw2qt0vrnc/ampINJ',
+      symbol: 'ampINJ',
+      name: 'ERIS Amplified INJ',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampINJ.png',
       decimals: 6,
     }
   ],
