@@ -32,5 +32,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/Injective.svg',
       decimals: 18,
     },
+    {
+      token: 'factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism',
+      symbol: 'AUTISM',
+      name: 'AUTISM',
+      icon: process.env.CF_PAGES_URL + '/img/coins/AUTISM.svg',
+      decimals: 6,
+    }
   ],
 }
