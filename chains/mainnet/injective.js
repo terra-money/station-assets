@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'injective-1',
   lcd: 'https://sentry.lcd.injective.network',
   gasAdjustment: 1.75,
-  gasPrices: { inj: 1000000000 },
+  gasPrices: { inj: 700000000 },
   prefix: 'inj',
   coinType: '60',
   baseAsset: 'inj',
@@ -37,6 +37,13 @@ module.exports = {
       symbol: 'AUTISM',
       name: 'AUTISM',
       icon: process.env.CF_PAGES_URL + '/img/coins/AUTISM.png',
+      decimals: 6,
+    },
+    {
+      token: 'factory/inj1cdwt8g7nxgtg2k4fn8sj363mh9ahkw2qt0vrnc/ampINJ',
+      symbol: 'ampINJ',
+      name: 'ERIS Amplified INJ',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampINJ.png',
       decimals: 6,
     },
     {

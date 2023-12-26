@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'celestia',
   lcd: 'https://lcd-celestia.tfl.foundation',
   gasAdjustment: 1.75,
-  gasPrices: { utia: 0.2 },
+  gasPrices: { utia: 0.02 },
   prefix: 'celestia',
   coinType: '118',
   baseAsset: 'utia',

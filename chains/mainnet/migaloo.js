@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'migaloo-1',
   lcd: 'https://lcd-migaloo.tfl.foundation',
   gasAdjustment: 1.75,
-  gasPrices: { uwhale: 1 },
+  gasPrices: { uwhale: 2 },
   prefix: 'migaloo',
   coinType: '118',
   baseAsset: 'uwhale',
