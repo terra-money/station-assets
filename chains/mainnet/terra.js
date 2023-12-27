@@ -559,5 +559,13 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/I.png',
       decimals: 6,
     },
+    {
+      token:
+        'terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8',
+      symbol: 'ARMANI',
+      name: 'Chris Armani Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/armani.png',
+      decimals: 6,
+    },
   ],
 }
