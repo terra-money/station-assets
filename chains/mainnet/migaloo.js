@@ -70,6 +70,20 @@ module.exports = {
       name: 'RAC',
       icon: process.env.CF_PAGES_URL + '/img/coins/RAC.png',
       decimals: 6
-    }
+    },
+    {
+      token:'factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir',
+      symbol: 'OPHIR',
+      name: 'OPHIR',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ophir.png',
+      decimals: 6
+    },
+    {
+      token:'factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy',
+      symbol: 'GUPPY',
+      name: 'GUPPY',
+      icon: process.env.CF_PAGES_URL + '/img/coins/guppy.png',
+      decimals: 6
+    },
   ],
 }
