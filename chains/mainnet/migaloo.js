@@ -85,5 +85,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/guppy.png',
       decimals: 6
     },
+    {
+      token: "factory/migaloo18a9m9stu3dyvewwcq9qmp85euxqcvln5mefync/fable",
+      name: "FABLE",
+      symbol: "FABLE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/fable.svg"
+    }
   ],
 }

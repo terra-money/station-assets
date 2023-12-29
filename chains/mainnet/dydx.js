@@ -28,11 +28,11 @@ module.exports = {
   },
   tokens: [
     {
-      token: 'uadydx',
-      symbol: 'DYDX',
-      name: 'dYdX',
-      icon: process.env.CF_PAGES_URL + '/img/coins/dydx.svg',
+      token: "adydx",
+      name: "dYdX",
+      symbol: "DYDX",
       decimals: 18,
-    },
+      icon: process.env.CF_PAGES_URL + "/img/coins/dydx.svg"
+    }
   ],
 }

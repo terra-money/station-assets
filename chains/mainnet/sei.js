@@ -30,6 +30,20 @@ module.exports = {
         icon: process.env.CF_PAGES_URL + '/img/coins/sei.svg',
         decimals: 6,
       },
+      {
+        token: "factory/sei1thgp6wamxwqt7rthfkeehktmq0ujh5kspluw6w/OIN",
+        name: "OIN STORE OF VALUE",
+        symbol: "OIN",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/oin.png"
+      }, 
+      {
+        token: "factory/sei1x2fgaaqecvk8kwuqkjqcj27clw5p5g99uawdzy9sc4rku8avumcq3cky4k/ampSEI",
+        name: "ERIS Amplified SEI",
+        symbol: "ampSEI",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/ampsei.svg"
+      }
     ],
   }
   

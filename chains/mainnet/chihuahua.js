@@ -44,5 +44,12 @@ module.exports = {
       name: 'ampHUAHUA',
       decimals: 6,
     },
+    {
+      token: "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+      name: "Puppy",
+      symbol: "PUPPY",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/puppyhuahua_logo.png"
+    }
   ],
 }

@@ -94,5 +94,26 @@ module.exports = {
       decimals: 18,
       lsd: 'aevmos',
     },
+    {
+      token: "stuumee",
+      name: "Stride Staked UMEE",
+      symbol: "stUMEE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stumee.svg"
+    }, 
+    {
+      token: "stucmdx",
+      name: "Stride Staked CMDX",
+      symbol: "stCMDX",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stcmdx.svg"
+    }, 
+    {
+      token: "stusomm",
+      name: "Stride Staked SOMM",
+      symbol: "stSOMM",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stsomm.svg"
+    }
   ],
 }

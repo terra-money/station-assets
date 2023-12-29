@@ -60,6 +60,27 @@ module.exports = {
         icon: process.env.CF_PAGES_URL + '/img/coins/WstETH.svg',
         decimals: 18,
       },
+      {
+        token: "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+        name: "AstroPepe",
+        symbol: "ASTROPEPE",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/astropepe.png"
+      }, 
+      {
+        token: "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+        name: "Newt",
+        symbol: "NEWT",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/newt.png"
+      }, 
+      {
+        token: "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+        name: "Baby Corgi",
+        symbol: "CORGI",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/babycorgi.png"
+      }
     ],
   }
   
