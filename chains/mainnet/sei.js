@@ -43,6 +43,13 @@ module.exports = {
         symbol: "ampSEI",
         decimals: 6,
         icon: process.env.CF_PAGES_URL + "/img/coins/ampsei.svg"
+      },
+      {
+        token: "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye", 
+        name: "Popeye", 
+        symbol: "POPEYE", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/popeye.png"
       }
     ],
   }
