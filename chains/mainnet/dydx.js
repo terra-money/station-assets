@@ -9,7 +9,7 @@ module.exports = {
   },
   prefix: 'dydx',
   coinType: '118',
-  baseAsset: 'uadydx',
+  baseAsset: 'adydx',
   name: 'dYdX Protocol',
   icon: process.env.CF_PAGES_URL + '/img/chains/dydx.svg',
   channels: {
