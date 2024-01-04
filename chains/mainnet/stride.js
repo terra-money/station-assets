@@ -67,8 +67,8 @@ module.exports = {
       symbol: 'stINJ',
       name: 'stINJ',
       icon: process.env.CF_PAGES_URL + '/img/coins/stINJ.svg',
-      decimals: 6,
-      lsd: 'uinj',
+      decimals: 18,
+      lsd: 'inj',
     },
     {
       token: 'stujuno',
