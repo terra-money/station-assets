@@ -76,6 +76,13 @@ module.exports = {
         otherChannel: 'channel-341',
       },
     ],
+    'chihuahua-1': [
+      {
+        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-114',
+        otherChannel: 'channel-42',
+      }
+    ],
     'pacific-1': [
       {
         contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
@@ -98,6 +105,11 @@ module.exports = {
         channel: 'channel-91',
         otherChannel: 'channel-104',
         tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      },
+      {
+        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-116',
+        otherChannel: 'channel-118',
       }
     ]
   },
