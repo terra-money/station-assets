@@ -91,6 +91,14 @@ module.exports = {
         otherChannel: 'channel-5',
         tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
       }
+    ],
+    'injective-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-91',
+        otherChannel: 'channel-104',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
     ]
   },
   // LEGACY ICS CHANNELS (to be removed soon)
