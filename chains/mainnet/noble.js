@@ -14,6 +14,7 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
   channels: {
     'phoenix-1': 'channel-30',
+    'migaloo-1': 'channel-14',
     'cosmoshub-4': 'channel-4',
     'crescent-1': 'channel-0',
     'juno-1': 'channel-3',
@@ -46,8 +47,8 @@ module.exports = {
     {
       token: 'uusdc',
       symbol: 'USDC',
-      name: 'usdc',
-      icon: process.env.CF_PAGES_URL + '/img/coins/axlUSDC.svg',
+      name: 'USD Coin',
+      icon: process.env.CF_PAGES_URL + '/img/coins/USDC.svg',
       decimals: 6,
     },
   ],
