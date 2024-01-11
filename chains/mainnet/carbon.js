@@ -1,6 +1,6 @@
 module.exports = {
   chainID: "carbon-1",
-  lcd: "https://query-api.carbon.network/",
+  lcd: "https://lcd-carbon.tfl.foundation",
   gasAdjustment: 1.75,
   gasPrices: { swth: 1000 },
   prefix: "swth",
@@ -9,16 +9,6 @@ module.exports = {
   name: "Carbon",
   icon: process.env.CF_PAGES_URL + "/img/chains/Carbon.svg",
   alliance: true,
-  ibc: {
-    fromTerra: "channel-36",
-    toTerra: "channel-12",
-    icsFromTerra: {
-      contract:
-        "terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
-      toTerra: "channel-16",
-      fromTerra: "channel-41",
-    },
-  },
   channels: {
     "phoenix-1": "channel-12",
     "axelar-dojo-1": "channel-7",
@@ -27,6 +17,7 @@ module.exports = {
     "kaiyo-1": "channel-9",
     "osmosis-1": "channel-0",
     "stafihub-1": "channel-13",
+    "stargaze-1": "channel-15",
   },
   explorer: {
     address: "https://scan.carbon.network/account/{}?net=main",
@@ -127,6 +118,49 @@ module.exports = {
       name: "Zilliqa",
       icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
       decimals: 12,
+    },
+    {
+      token:
+        "cibt/ibc/0BA1FA7A554B4347A87BD37AFF331683298730F9F8FCECB4896D58BED4B31F00",
+      symbol: "cibstEVMOS",
+      name: "Carbon Interest Bearing stEVMOS",
+      icon: process.env.CF_PAGES_URL + "/img/coins/Carbon.svg",
+      decimals: 18,
+    },
+    { 
+      token: "usc", 
+      name: "Carbon USD Coin", 
+      symbol: "USC", 
+      decimals: 8, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/usc.svg" 
+    }, 
+    { 
+      token: "bneo.1.14.e2e5f6", 
+      name: "BurgerNEO", 
+      symbol: "bNEO", 
+      decimals: 8, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/bneo.svg" 
+    }, 
+    { 
+      token: "eth.1.19.c3b805", 
+      name: "Ethereum (Arbitrum)", 
+      symbol: "ETH", 
+      decimals: 18, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/eth.svg" 
+    }, 
+    { 
+      token: "usdc.1.2.343151", 
+      name: "Circle USD", 
+      symbol: "USDC", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/usdc.svg" 
+    }, 
+    { 
+      token: "usdc.1.6.53ff75", 
+      name: "USD Coin (BEP-20)", 
+      symbol: "USDC", 
+      decimals: 18, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/usdc.svg" 
     },
   ],
 }

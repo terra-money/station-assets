@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'mars-1',
-  lcd: 'https://rest.marsprotocol.io',
+  lcd: 'https://lcd-mars.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { umars: 0 },
   prefix: 'mars',
@@ -10,15 +10,12 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
   // used by Station to decide which endpoint to use
   version: '0.46',
-  ibc: {
-    fromTerra: 'channel-78',
-    toTerra: 'channel-2',
-  },
   channels: {
     'phoenix-1': 'channel-2',
     'crescent-1': 'channel-5',
     'kaiyo-1': 'channel-0',
     'osmosis-1': 'channel-1',
+    'neutron-1': 'channel-37',
   },
   explorer: {
     address: 'https://explorer.marsprotocol.io/accounts/{}',

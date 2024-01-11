@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'axelar-dojo-1',
-  lcd: 'https://lcd-axelar.imperator.co',
+  lcd: 'https://lcd-axelar.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { uaxl: 0.007 },
   prefix: 'axelar',
@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'uaxl',
   name: 'Axelar',
   icon: process.env.CF_PAGES_URL + '/img/chains/Axelar.svg',
-  ibc: {
-    fromTerra: 'channel-19',
-    toTerra: 'channel-0',
-  },
   channels: {
     'columbus-5': 'channel-0',
   },

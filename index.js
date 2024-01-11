@@ -1,5 +1,6 @@
 const glob = require('glob-promise')
 const path = require('path')
+const axios = require('axios')
 const { Buffer } = require('buffer')
 const { Hash } = require('@keplr-wallet/crypto')
 const { AccAddress } = require('@terra-money/feather.js')
@@ -16,32 +17,59 @@ const fs = require('fs').promises
   const chainFiles = await glob('./chains/*/*.js')
   const tokens = []
 
-  chainFiles.forEach((file) => {
-    const [_, folder, network, fileName] = file.split('/')
+  await Promise.all(
+    chainFiles.map(async (file) => {
+      const [_, folder, network, fileName] = file.split('/')
 
-    if (typeof chains[network] === 'undefined') {
-      chains[network] = {}
-    }
+      if (typeof chains[network] === 'undefined') {
+        chains[network] = {}
+      }
 
-    const fullPath = `./${file}`
-    const chainData = require(fullPath)
+      const fullPath = `./${file}`
+      const chainData = require(fullPath)
 
-    if (network !== 'localterra' && !isValidUrl(chainData.lcd)) {
-      console.log(`${chainData.chainID}: Invalid LCD URL: ${chainData.lcd}`)
-      return
-    }
-    tokens.push(
-      ...(chainData.tokens ?? []).map((t) => ({
-        ...t,
-        chainID: chainData.chainID,
-        network,
-      }))
-    )
+      if (network !== 'localterra' && !isValidUrl(chainData.lcd)) {
+        console.log(`${chainData.chainID}: Invalid LCD URL: ${chainData.lcd}`)
+        return
+      }
+      tokens.push(
+        ...(chainData.tokens ?? []).map((t) => ({
+          ...t,
+          chainID: chainData.chainID,
+          network,
+        }))
+      )
 
-    delete chainData['tokens']
+      delete chainData['tokens']
 
-    chains[network][chainData.chainID] = chainData
-  })
+      const gasPrices = Object.fromEntries(
+        await Promise.all(
+          Object.entries(chainData.gasPrices).map(async ([key, value]) => {
+            if (typeof value === 'number') {
+              return [key, value]
+            } else {
+              if (value.type === 'OSMOSIS') {
+                try {
+                  const { data } = await axios.get(value.url, {
+                    baseURL: chainData.lcd,
+                  })
+                  return [key, Number(data.base_fee) * value.adjustment]
+                } catch (e) {
+                  console.error(e)
+                  console.error(
+                    `Failed to get the gas price from ${value.url} on ${chainData.lcd}`
+                  )
+                  return [key, value.defaultValue]
+                }
+              }
+            }
+          })
+        )
+      )
+
+      chains[network][chainData.chainID] = { ...chainData, gasPrices }
+    })
+  )
 
   // convert coins to json
   const coinsOutPath = './build/denoms.json'

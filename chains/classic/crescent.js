@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'crescent-1',
-  lcd: 'https://mainnet.crescent.network:1317',
+  lcd: 'https://lcd-crescent.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ucre: 0.01 },
   prefix: 'cre',
@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'ucre',
   name: 'Crescent',
   icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
-  ibc: {
-    fromTerra: 'channel-49',
-    toTerra: 'channel-0',
-  },
   channels: {
     'columbus-5': 'channel-0',
   },

@@ -1,22 +1,29 @@
 module.exports = {
     chainID: 'neutron-1',
-    lcd: 'https://rest-kralum.neutron-1.neutron.org',
+    lcd: 'https://lcd-neutron.tfl.foundation',
     gasAdjustment: 1.75,
-    gasPrices: { untrn: 0.01 },
+    gasPrices: { 
+      untrn: 0.84,
+      'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9': 0.03,
+      'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349': 0.3,
+    },
     prefix: 'neutron',
     coinType: '118',
     baseAsset: 'untrn',
     name: 'Neutron',
     icon: process.env.CF_PAGES_URL + '/img/chains/Neutron.png',
-    disabledModules: ['staking'],
+    disabledModules: ['staking', 'gov'],
     channels: {
-      'phoenix-1': 'channel-5',
       'osmosis-1': 'channel-10',
       'stride-1': 'channel-8',
+      'axelar-dojo-1': 'channel-2',
+      'cosmoshub-4': 'channel-1',
+      'mars-1': 'channel-16',
+      'kaiyo-1': 'channel-3',
+      'phoenix-1': 'channel-25',
+      'stargaze-1': 'channel-18',
     },
-    ibc: {
-      fromTerra: 'channel-167',
-      toTerra: 'channel-5',
+    icsChannels: {
     },
     explorer: {
       address: 'https://www.mintscan.io/neutron/account/{}',
@@ -46,6 +53,34 @@ module.exports = {
         icon: process.env.CF_PAGES_URL + '/img/coins/axlUSDC.svg',
         decimals: 6,
       },
+      {
+        token: 'factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH',
+        symbol: 'wstETH',
+        name: 'Wrapped Lido Staked Ether',
+        icon: process.env.CF_PAGES_URL + '/img/coins/WstETH.svg',
+        decimals: 18,
+      },
+      {
+        token: "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+        name: "AstroPepe",
+        symbol: "ASTROPEPE",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/astropepe.png"
+      }, 
+      {
+        token: "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+        name: "Newt",
+        symbol: "NEWT",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/newt.png"
+      }, 
+      {
+        token: "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+        name: "Baby Corgi",
+        symbol: "CORGI",
+        decimals: 6,
+        icon: process.env.CF_PAGES_URL + "/img/coins/babycorgi.png"
+      }
     ],
   }
   

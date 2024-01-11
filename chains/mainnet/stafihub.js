@@ -2,17 +2,13 @@ module.exports = {
   chainID: 'stafihub-1',
   lcd: 'https://public-rest-rpc1.stafihub.io',
   gasAdjustment: 1.75,
-  gasPrices: { ufis: 0.02 },
+  gasPrices: { ufis: 0.025 },
   prefix: 'stafi',
   coinType: '118',
   baseAsset: 'ufis',
   name: 'StaFiHub',
   disabledModules: ['staking'],
   icon: process.env.CF_PAGES_URL + '/img/chains/StaFiHub.png',
-  ibc: {
-    fromTerra: 'channel-204',
-    toTerra: 'channel-9',
-  },
   channels: {
     'phoenix-1': 'channel-9',
     'cosmoshub-4': 'channel-0',

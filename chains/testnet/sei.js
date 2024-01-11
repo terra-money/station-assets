@@ -8,10 +8,6 @@ module.exports = {
   baseAsset: 'usei',
   name: 'Sei',
   icon: process.env.CF_PAGES_URL + '/img/chains/sei.svg',
-  ibc: {
-    fromTerra: 'channel-100',
-    toTerra: 'channel-11',
-  },
   channels: {
     'pisco-1': 'channel-11',
   },

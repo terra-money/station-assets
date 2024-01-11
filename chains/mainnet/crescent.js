@@ -1,17 +1,13 @@
 module.exports = {
   chainID: 'crescent-1',
-  lcd: 'https://mainnet.crescent.network:1317',
+  lcd: 'https://lcd-crescent.tfl.foundation',
   gasAdjustment: 1.75,
-  gasPrices: { ucre: 0.01 },
+  gasPrices: { ucre: 0.025 },
   prefix: 'cre',
   coinType: '118',
   baseAsset: 'ucre',
   name: 'Crescent',
   icon: process.env.CF_PAGES_URL + '/img/chains/Crescent.svg',
-  ibc: {
-    fromTerra: 'channel-37',
-    toTerra: 'channel-27',
-  },
   channels: {
     'phoenix-1': 'channel-27',
     'axelar-dojo-1': 'channel-4',
@@ -25,6 +21,8 @@ module.exports = {
     'stride-1': 'channel-29',
     'archway-1': 'channel-65',
     'noble-1': 'channel-38',
+    'injective-1': 'channel-23',
+    'stargaze-1': 'channel-21',
   },
   explorer: {
     address: 'https://www.mintscan.io/crescent/account/{}',
@@ -40,5 +38,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/Crescent.svg',
       decimals: 6,
     },
+    {
+      token: "ubcre",
+      name: "Bonded Crescent",
+      symbol: "bCRE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/bcre.svg"
+    }
   ],
 }
