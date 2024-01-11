@@ -6,7 +6,7 @@ module.exports = {
   prefix: 'cheqd',
   coinType: '118',
   baseAsset: 'ncheq',
-  name: 'cheqd',
+  name: 'Cheqd',
   icon: process.env.CF_PAGES_URL + '/img/chains/Cheqd.svg',
   channels: {
     'phoenix-1': 'channel-34',
