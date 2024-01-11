@@ -20,6 +20,7 @@
   "dependencies": {
     "@keplr-wallet/crypto": "^0.11.32",
     "@terra-money/feather.js": "^1.0.0-beta.8",
+    "axios": "^1.6.2",
     "buffer": "^6.0.3",
     "glob": "^8.0.3",
     "glob-promise": "^6.0.1",

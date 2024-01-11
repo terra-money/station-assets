@@ -1,10 +1,10 @@
 module.exports = {
   chainID: 'noble-1',
-  lcd: 'https://noble-api.polkachu.com',
+  lcd: 'https://lcd-noble.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: {
-    uusdc: 0,
-    'ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0': 0.002,
+    uusdc: 0.1,
+    'ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0': 0.01,
   },
   prefix: 'noble',
   coinType: '118',
@@ -20,6 +20,8 @@ module.exports = {
     'juno-1': 'channel-3',
     'osmosis-1': 'channel-1',
     'kaiyo-1': 'channel-2',
+    'dydx-mainnet-1': 'channel-33',
+    'stargaze-1': 'channel-11',
   },
   explorer: {
     address: 'https://www.mintscan.io/noble/account/{}',

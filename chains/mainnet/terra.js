@@ -10,15 +10,15 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   channels: {
-    'akashnet-2': 'channel-45',
+    'akashnet-2': 'channel-273',
     'axelar-dojo-1': 'channel-6',
     'carbon-1': 'channel-36',
-    'cheqd-mainnet-1': 'channel-89',
+    'cheqd-mainnet-1': 'channel-301',
     'chihuahua-1': 'channel-44',
     'comdex-1': 'channel-39',
     'cosmoshub-4': 'channel-0',
     'crescent-1': 'channel-37',
-    'mainnet-3': 'channel-5',
+    'mainnet-3': 'channel-315',
     'juno-1': 'channel-2',
     'kaiyo-1': 'channel-10',
     'mars-1': 'channel-78',
@@ -29,7 +29,10 @@ module.exports = {
     'noble-1': 'channel-253',
     'stafihub-1': 'channel-204',
     'neutron-1': 'channel-229',
-    'injective-1': 'channel-144',
+    'injective-1': 'channel-255',
+    'dydx-mainnet-1': 'channel-299',
+    'celestia': 'channel-300',
+    'stargaze-1': 'channel-324',
   },
   icsChannels: {
     'carbon-1': {
@@ -106,14 +109,14 @@ module.exports = {
       name: 'real',
       icon: process.env.CF_PAGES_URL + '/img/coins/Reis.png',
       decimals: 6,
-    },    
+    },
     {
       token: 'terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg',
       symbol: 'Escudos',
       name: 'escudo',
       icon: process.env.CF_PAGES_URL + '/img/coins/Escudos.png',
       decimals: 6,
-    },    
+    },
     {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
@@ -178,6 +181,20 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/bLuna.png',
       decimals: 6,
       lsd: 'uluna',
+    },
+    {
+      token: 'terra1uxk0lgyktspxlen3a2f2dnyclj8gjta2mwg0murwcyxflrlqk4aqey3pqt',
+      symbol: 'QUEEN',
+      name: 'QUEEN',
+      icon: process.env.CF_PAGES_URL + '/img/coins/queen1.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun',
+      symbol: 'DROGO',
+      name: 'DROGO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/drogo.png',
+      decimals: 6,
     },
     {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
@@ -472,7 +489,7 @@ module.exports = {
         'factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt',
       symbol: 'ampWHALEt',
       name: 'ERIS Alliance Staked ampWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/ampwhalet.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampwhalet.svg',
       decimals: 6,
     },
     {
@@ -480,7 +497,7 @@ module.exports = {
         'factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt',
       symbol: 'boneWHALEt',
       name: 'ERIS Alliance Staked boneWHALE',
-      icon: 'https://station-assets.terra.money/img/coins/bonewhalet.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bonewhalet.svg',
       decimals: 6,
     },
     {
@@ -488,8 +505,80 @@ module.exports = {
         'factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR',
       symbol: 'ampROAR',
       name: 'ERIS Amplified ROAR',
-      icon: 'https://station-assets.terra.money/img/coins/ampROAR.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampROAR.png',
       decimals: 6,
     },
+    {
+      token: 'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
+      symbol: 'BITZ',
+      name: 'Bitz DAO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/BitzDAO_Token.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg',
+      symbol: 'SOL',
+      name: 'Solana (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wSOL.png',
+      decimals: 8,
+    },
+    {
+      token: 'terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388',
+      symbol: 'BNB',
+      name: 'Binance Coin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wBNB.png',
+      decimals: 8,
+    },
+    {
+      token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
+      symbol: 'TON',
+      name: 'Toncoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/TON.svg',
+      decimals: 8,
+    },
+    {
+      token: 'terra1z2cn5r7p7sezmq5ttwrutvqnczqa9244syd4w2uu2tvjarv68dqqlwx48v',
+      symbol: 'DOGE',
+      name: 'Dogecoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/DOGE.svg',
+      decimals: 8,
+    },
+    {
+      token:
+        'factory/terra1kkv72sv5zfx539garpych7x5xuq9m9d2a9dnvt863gk3n3g02husc2vxeu/URA',
+      symbol: 'URA',
+      name: 'URA Utility Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s',
+      symbol: 'ITO',
+      name: 'ITO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/I.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8',
+      symbol: 'ARMANI',
+      name: 'Chris Armani Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/armani.png',
+      decimals: 6,
+    },
+    {
+      token: "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
+      name: "seul",
+      symbol: "SEUL",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/seul.png"
+    }, {
+      token: "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
+      name: "xseul",
+      symbol: "xSEUL",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/xseul.png"
+    }
   ],
 }

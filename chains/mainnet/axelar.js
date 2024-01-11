@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'axelar-dojo-1',
-  lcd: 'https://lcd-axelar.imperator.co',
+  lcd: 'https://lcd-axelar.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { uaxl: 0.007 },
   prefix: 'axelar',
@@ -264,5 +264,26 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/WstETH.svg',
       decimals: 18,
     },
+    {
+      token: "steth-wei",
+      name: "Lido Staked Ether",
+      symbol: "stETH",
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + "/img/coins/steth.svg"
+    },
+    {
+      token: "xcn-wei",
+      name: "Chain",
+      symbol: "XCN",
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + "/img/coins/xcn.svg"
+    },
+    {
+      token: "yieldeth-wei",
+      name: "Real Yield Eth",
+      symbol: "YieldETH",
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + "/img/coins/yieldeth.svg"
+    }
   ],
 }

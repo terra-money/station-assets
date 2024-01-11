@@ -21,6 +21,8 @@ module.exports = {
     'neutron-1': 'channel-123',
     'pacific-1': 'channel-149',
     'injective-1': 'channel-6',
+    'dydx-mainnet-1': 'channel-160',
+    'stargaze-1': 'channel-19',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
@@ -65,8 +67,8 @@ module.exports = {
       symbol: 'stINJ',
       name: 'stINJ',
       icon: process.env.CF_PAGES_URL + '/img/coins/stINJ.svg',
-      decimals: 6,
-      lsd: 'uinj',
+      decimals: 18,
+      lsd: 'inj',
     },
     {
       token: 'stujuno',
@@ -92,5 +94,26 @@ module.exports = {
       decimals: 18,
       lsd: 'aevmos',
     },
+    {
+      token: "stuumee",
+      name: "Stride Staked UMEE",
+      symbol: "stUMEE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stumee.svg"
+    }, 
+    {
+      token: "stucmdx",
+      name: "Stride Staked CMDX",
+      symbol: "stCMDX",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stcmdx.svg"
+    }, 
+    {
+      token: "stusomm",
+      name: "Stride Staked SOMM",
+      symbol: "stSOMM",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/stsomm.svg"
+    }
   ],
 }

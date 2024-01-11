@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'mainnet-3',
-  lcd: 'https://rest.mainnet.decentr.xyz',
+  lcd: 'https://lcd-decentr.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { udec: 0.025 },
   prefix: 'decentr',
@@ -9,7 +9,7 @@ module.exports = {
   name: 'Decentr',
   icon: process.env.CF_PAGES_URL + '/img/chains/Decentr.svg',
   channels: {
-    'phoenix-1': 'channel-99',
+    'phoenix-1': 'channel-9',
     'osmosis-1': 'channel-1',
   },
   explorer: {
