@@ -15,7 +15,7 @@ module.exports = {
     'juno-1': 'channel-5',
     'kaiyo-1': 'channel-49',
     'neutron-1': 'channel-191',
-    // 'noble-1': 'channel-204',
+    'noble-1': 'channel-204',
     'osmosis-1': 'channel-0',
     'stride-1': 'channel-106',
   },
