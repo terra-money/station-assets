@@ -105,9 +105,11 @@ const fs = require('fs').promises
       Object.keys(channels).forEach((otherChainID) => {
         const channel = chains[network][otherChainID]?.channels?.[chainID]
         if (!channel) {
-          console.error(
-            `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
-          )
+          // throw error only if the other chain exists
+          !!chains[network][otherChainID] &&
+            console.error(
+              `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
+            )
           return
         }
 
@@ -121,22 +123,32 @@ const fs = require('fs').promises
           chainID: otherChainID,
         }
       })
-    } else if (isICS && chains[network][chainID]?.icsChannels) {
-      const channels = chains[network][chainID].icsChannels
+    } else if (isICS && chains[network][chainID]?.ics20Channels) {
+      const channels = chains[network][chainID].ics20Channels
       const denom = `cw20:${coinData.token}`
 
-      Object.entries(channels).forEach(
-        ([otherChainID, { channel, otherChannel }]) => {
-          const ibcDenom = calculateIBCDenom(otherChannel, denom)
+      Object.entries(channels).forEach(([otherChainID, icsChannels]) => {
+        const icsChannel =
+          // specific ICS channel for that token
+          icsChannels.find(
+            ({ tokens }) => !!tokens && tokens.includes(coinData.token)
+          ) ||
+          // generic ICS channel for that chain
+          icsChannels.find(({ tokens }) => !tokens)
 
-          ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
-            token: tokenId,
-            chainID: otherChainID,
-            // to send it back on the original chain
-            icsChannel: channel,
-          }
+        // no valid ICS channel found for this token
+        if (!icsChannel) return
+
+        const { channel, otherChannel } = icsChannel
+        const ibcDenom = calculateIBCDenom(otherChannel, denom)
+
+        ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
+          token: tokenId,
+          chainID: otherChainID,
+          // to send it back on the original chain
+          icsChannel: channel,
         }
-      )
+      })
     }
   })
 

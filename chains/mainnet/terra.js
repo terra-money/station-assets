@@ -34,6 +34,74 @@ module.exports = {
     'celestia': 'channel-300',
     'stargaze-1': 'channel-324',
   },
+  // NEW ICS CHANNELS
+  ics20Channels: {
+    'carbon-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-41',
+        otherChannel: 'channel-16',
+      },
+    ],
+    'juno-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-32',
+        otherChannel: 'channel-153',
+      },
+    ],
+    'kaiyo-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-28',
+        otherChannel: 'channel-36',
+      },
+    ],
+    'migaloo-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-87',
+        otherChannel: 'channel-2',
+      },
+    ],
+    'osmosis-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-26',
+        otherChannel: 'channel-341',
+      },
+    ],
+    'pacific-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-171',
+        otherChannel: 'channel-8',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
+    ],
+    'neutron-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-167',
+        otherChannel: 'channel-5',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
+    ],
+    'injective-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-91',
+        otherChannel: 'channel-104',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
+    ]
+  },
+  // LEGACY ICS CHANNELS (to be removed soon)
   icsChannels: {
     'carbon-1': {
       contract:
@@ -66,7 +134,6 @@ module.exports = {
       otherChannel: 'channel-341',
     },
   },
-
   // doesn't require IBC channels since it's already on all the other chains
   explorer: {
     address: 'https://terrasco.pe/mainnet/address/{}',
