@@ -8,7 +8,7 @@ module.exports = {
   },
   prefix: 'noble',
   coinType: '118',
-  baseAsset: 'ustake',
+  baseAsset: 'uusdc',
   name: 'Noble',
   disabledModules: ['staking', 'gov'],
   icon: process.env.CF_PAGES_URL + '/img/chains/Noble.svg',
