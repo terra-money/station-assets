@@ -80,6 +80,27 @@ module.exports = {
         symbol: "CORGI",
         decimals: 6,
         icon: process.env.CF_PAGES_URL + "/img/coins/babycorgi.png"
+      },
+      {
+        token: "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus", 
+        name: "AtomEconomicZone69JaeKwonInu", 
+        symbol: "CIRCUS", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/circus.png"
+      }, 
+      {
+        token: "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY", 
+        name: "jimmy", 
+        symbol: "JIMMY", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/jimmy.png"
+      }, 
+      {
+        token: "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad", 
+        name: "Badcoin", 
+        symbol: "BAD", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/bad.png"
       }
     ],
   }
