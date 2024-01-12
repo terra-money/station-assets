@@ -50,6 +50,20 @@ module.exports = {
       symbol: "PUPPY",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/puppyhuahua_logo.png"
+    },
+    {
+      token: "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat", 
+      name: "Chihuahuawifhat", 
+      symbol: "BADDOG", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/baddog.png"
+    }, 
+    {
+      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof", 
+      name: "WOOF", 
+      symbol: "WOOF", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/woof.png"
     }
   ],
 }
