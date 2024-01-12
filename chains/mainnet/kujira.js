@@ -173,6 +173,13 @@ module.exports = {
       symbol: "PLNK",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/PLNK_drk.png"
+    },
+    {
+      token: "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt", 
+      name: "qcFUZN", 
+      symbol: "qcFUZN", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/qcfuzn.svg"
     }
   ],
 }
