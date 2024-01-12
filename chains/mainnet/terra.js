@@ -658,6 +658,13 @@ module.exports = {
       symbol: "xSEUL",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/xseul.png"
+    },
+    {
+      token: "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu", 
+      name: "ADO", 
+      symbol: "ADO", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ADO.png"
     }
   ],
 }

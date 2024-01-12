@@ -132,6 +132,13 @@ module.exports = {
       symbol: "milkTIA",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/milktia.svg"
+    },
+    {
+      token: "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc", 
+      name: "Wrapped Bitcoin", 
+      symbol: "WBTC", 
+      decimals: 8, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/wbtc.svg"
     }
   ],
 }
