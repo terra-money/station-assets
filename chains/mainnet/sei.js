@@ -50,6 +50,13 @@ module.exports = {
         symbol: "POPEYE", 
         decimals: 6, 
         icon: process.env.CF_PAGES_URL + "/img/coins/popeye.png"
+      },
+      {
+        token: "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei", 
+        name: "Sensei Dog", 
+        symbol: "SENSEI", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/SenseiDog.png"
       }
     ],
   }

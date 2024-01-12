@@ -696,6 +696,13 @@ module.exports = {
       symbol: "POIL",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/poil.png"
+    },
+    {
+      token: "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava", 
+      name: "Hava Coin", 
+      symbol: "HAVA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/hava.png"
     }
-  ],
+  ]
 }
