@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'mainnet-3',
   lcd: 'https://lcd-decentr.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { udec: 0.025 },
   prefix: 'decentr',
   coinType: '118',

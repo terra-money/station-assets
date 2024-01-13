@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'stafihub-1',
   lcd: 'https://public-rest-rpc1.stafihub.io',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { ufis: 0.025 },
   prefix: 'stafi',
   coinType: '118',

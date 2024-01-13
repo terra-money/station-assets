@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'axelar-dojo-1',
   lcd: 'https://lcd-axelar.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { uaxl: 0.007 },
   prefix: 'axelar',
   coinType: '118',

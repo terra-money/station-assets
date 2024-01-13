@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'noble-1',
   lcd: 'https://lcd-noble.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: {
     uusdc: 0.1,
     'ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0': 0.01,

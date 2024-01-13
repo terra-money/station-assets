@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'injective-1',
   lcd: 'https://sentry.lcd.injective.network',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { inj: 1000000000 },
   prefix: 'inj',
   coinType: '60',

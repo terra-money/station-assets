@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'mars-1',
   lcd: 'https://lcd-mars.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { umars: 0 },
   prefix: 'mars',
   coinType: '330',

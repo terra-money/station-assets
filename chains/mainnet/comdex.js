@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'comdex-1',
   lcd: 'https://lcd-comdex.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { ucmdx: 0.025 },
   prefix: 'comdex',
   coinType: '118',

@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'juno-1',
   lcd: 'https://lcd-juno.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { ujuno: 0.1 },
   prefix: 'juno',
   coinType: '118',

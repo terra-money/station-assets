@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'cosmoshub-4',
   lcd: 'https://lcd-cosmoshub.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: { uatom: 0.025 },
   prefix: 'cosmos',
   coinType: '118',

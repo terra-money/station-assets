@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'dydx-mainnet-1',
   lcd: 'https://lcd-dydx.tfl.foundation',
-  gasAdjustment: 1.75,
+  gasAdjustment: 1.5,
   gasPrices: {
     adydx: 12500000000,
     // uncomment this when noble is supported

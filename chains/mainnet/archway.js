@@ -1,7 +1,7 @@
 module.exports = {
     chainID: 'archway-1',
     lcd: 'https://lcd-archway.tfl.foundation',
-    gasAdjustment: 1.75,
+    gasAdjustment: 1.5,
     gasPrices: { aarch: 1500000000000 },
     prefix: 'archway',
     coinType: '118',

@@ -1,7 +1,7 @@
 module.exports = {
     chainID: 'pacific-1',
     lcd: 'https://sei-api.polkachu.com/',
-    gasAdjustment: 2,
+    gasAdjustment: 1.5,
     gasPrices: { usei: 0.1 },
     prefix: 'sei',
     coinType: '118',
