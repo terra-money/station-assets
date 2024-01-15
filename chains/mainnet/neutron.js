@@ -101,7 +101,14 @@ module.exports = {
         symbol: "BAD", 
         decimals: 6, 
         icon: process.env.CF_PAGES_URL + "/img/coins/bad.png"
-      }
+      },
+      {
+        token: "neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj", 
+        name: "Bitcosmos", 
+        symbol: "BTC", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/bitcosmos.png"
+      },
     ],
   }
   
