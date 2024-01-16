@@ -54,6 +54,13 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/ninja.png"
     }, 
     {
+      token: "factory/inj1esz96ru3guug4ctmn5chjmkymt979sfvufq0hs/PUNK",
+      name: "Punk DAO Token",
+      symbol: "PUNK",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "img/coins/Inj_PUNK.png"
+    },
+    {
       token: "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI", 
       name: "WGMI", 
       symbol: "WGMI", 
