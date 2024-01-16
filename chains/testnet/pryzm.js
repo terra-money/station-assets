@@ -1,0 +1,40 @@
+module.exports = {
+  chainID: 'indigo-1',
+  lcd: 'https://testnet-api.pryzm.zone',
+  gasAdjustment: 1.6,
+  gasPrices: { upryzm: 0.015 },
+  prefix: 'pryzm',
+  coinType: '118',
+  baseAsset: 'upryzm',
+  name: 'Pryzm',
+  icon: process.env.CF_PAGES_URL + '/img/chains/Pryzm.svg',
+  alliance: true,
+  explorer: {
+    address: 'https://testnet.chainsco.pe/pryzm/address/{}',
+    tx: 'https://testnet.chainsco.pe/pryzm/tx/{}',
+    validator: 'https://testnet.chainsco.pe/pryzm/validator/{}',
+    block: 'https://testnet.chainsco.pe/pryzm/block/{}',
+  },
+  channels: {
+    'theta-testnet-001': 'channel-0',
+    'pisco-1': 'channel-1',
+    'osmo-test-5': 'channel-8',
+    'injective-888': 'channel-9',
+  },
+  tokens: [
+    {
+      token: 'upryzm',
+      symbol: 'PRYZM',
+      name: 'Test Pryzm',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Pryzm.svg',
+      decimals: 6,
+    },
+    {
+      token: 'factory/pryzm15k9s9p0ar0cx27nayrgk6vmhyec3lj7vkry7rx/uusdsim',
+      symbol: 'USDsim',
+      name: 'USD Sim',
+      icon: process.env.CF_PAGES_URL + '/img/coins/usdc.svg',
+      decimals: 6,
+    },
+  ],
+}
