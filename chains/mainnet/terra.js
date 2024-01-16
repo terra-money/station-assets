@@ -276,6 +276,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces',
+      symbol: 'GUGU',
+      name: 'GUGU',
+      icon: process.env.CF_PAGES_URL + '/img/coins/gugu.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
       name: 'alentejo.money',
