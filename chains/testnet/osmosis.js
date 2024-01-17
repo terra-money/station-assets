@@ -17,6 +17,7 @@ module.exports = {
     name: 'Osmosis',
     icon: process.env.CF_PAGES_URL + '/img/chains/Osmosis.svg',
     channels: {
+        'indigo-1': 'channel-4495',
     },
     explorer: {
       address: 'https://testnet.mintscan.io/osmosis-testnet/account/{}',

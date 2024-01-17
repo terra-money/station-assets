@@ -9,6 +9,7 @@ module.exports = {
     name: 'Cosmos',
     icon: process.env.CF_PAGES_URL + '/img/chains/Cosmos.svg',
     channels: {
+        'indigo-1': 'channel-3385',
     },
     explorer: {
       address: 'https://testnet.mintscan.io/cosmoshub-testnet/account/{}',

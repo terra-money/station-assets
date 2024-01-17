@@ -8,7 +8,9 @@ module.exports = {
   baseAsset: 'inj',
   name: 'Injective',
   icon: process.env.CF_PAGES_URL + '/img/chains/Injective.svg',
-  channels: {},
+  channels: {
+    'indigo-1': 'channel-151'
+  },
   explorer: {
     address: 'https://testnet.explorer.injective.network/account/{}',
     tx: 'https://testnet.explorer.injective.network/transaction/{}',
