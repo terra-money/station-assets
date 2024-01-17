@@ -58,7 +58,7 @@ module.exports = {
       name: "Punk DAO Token",
       symbol: "PUNK",
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "img/coins/Inj_PUNK.png"
+      icon: process.env.CF_PAGES_URL + "/img/coins/PunkDAO.png"
     },
     {
       token: "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI", 
