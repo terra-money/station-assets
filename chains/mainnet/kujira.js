@@ -2,7 +2,7 @@ module.exports = {
   version: '0.46',
   chainID: 'kaiyo-1',
   // lcd: 'https://lcd-kujira.tfl.foundation',
-  lcd: 'https://kujira-api.polkachu.com',
+  lcd: 'https://kujira-archive.api.kjnodes.com',
   gasAdjustment: 1.75,
   gasPrices: {
     ukuji: 0.0051,

@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'juno-1',
   // lcd: 'https://lcd-juno.tfl.foundation',
-  lcd: 'https://juno-rest.publicnode.com',
+  lcd: 'https://rest-juno.ecostake.com',
   gasAdjustment: 1.75,
   gasPrices: { ujuno: 0.0025 },
   prefix: 'juno',

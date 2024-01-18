@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'stargaze-1',
   // lcd: 'https://lcd-stargaze.tfl.foundation',
-  lcd: 'https://rest.cosmos.directory/stargaze',
+  lcd: 'http://144.76.223.202:1317',
   gasAdjustment: 1.5,
   gasPrices: { ustars: 1.2 },
   prefix: 'stars',

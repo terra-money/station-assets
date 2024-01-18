@@ -1,7 +1,7 @@
 module.exports = {
   chainID: 'cheqd-mainnet-1',
   // lcd: 'https://lcd-cheqd.tfl.foundation',
-  lcd: 'https://api.cheqd.net',
+  lcd: 'https://api-cheqd-ia.cosmosia.notional.ventures',
   gasAdjustment: 1.75,
   gasPrices: { ncheq: 75 },
   prefix: 'cheqd',
