@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'akashnet-2',
-  lcd: 'https://lcd-akash.tfl.foundation',
+  // lcd: 'https://lcd-akash.tfl.foundation',
+  lcd: 'https://rest.cosmos.directory/akash',
   gasAdjustment: 1.75,
   gasPrices: { uakt: 0.0025 },
   prefix: 'akash',

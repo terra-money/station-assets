@@ -1,6 +1,7 @@
 module.exports = {
   chainID: "carbon-1",
-  lcd: "https://lcd-carbon.tfl.foundation",
+  // lcd: "https://lcd-carbon.tfl.foundation",
+  lcd: 'https://api.carbon.network',
   gasAdjustment: 1.75,
   gasPrices: { swth: 1000 },
   prefix: "swth",

@@ -1,6 +1,7 @@
 module.exports = {
     chainID: 'archway-1',
-    lcd: 'https://lcd-archway.tfl.foundation',
+    // lcd: 'https://lcd-archway.tfl.foundation',
+    lcd: 'https://api.mainnet.archway.io',
     gasAdjustment: 1.75,
     gasPrices: { aarch: 1500000000000 },
     prefix: 'archway',

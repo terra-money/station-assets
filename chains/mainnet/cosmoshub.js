@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'cosmoshub-4',
-  lcd: 'https://lcd-cosmoshub.tfl.foundation',
+  // lcd: 'https://lcd-cosmoshub.tfl.foundation',
+  lcd: 'https://mainnet.crescent.network:1317',
   gasAdjustment: 1.75,
   gasPrices: { uatom: 0.025 },
   prefix: 'cosmos',

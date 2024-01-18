@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'axelar-dojo-1',
-  lcd: 'https://lcd-axelar.tfl.foundation',
+  // lcd: 'https://lcd-axelar.tfl.foundation',
+  lcd: 'https://lcd-axelar.imperator.co',
   gasAdjustment: 1.75,
   gasPrices: { uaxl: 0.007 },
   prefix: 'axelar',
