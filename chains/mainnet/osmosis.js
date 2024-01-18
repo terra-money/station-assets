@@ -1,7 +1,6 @@
 module.exports = {
   chainID: 'osmosis-1',
-  // lcd: 'https://lcd-osmosis.tfl.foundation',
-  lcd: 'https://api-osmosis-ia.cosmosia.notional.ventures',
+  lcd: 'https://lcd-osmosis.tfl.foundation',
   gasAdjustment: 1.5,
   gasPrices: {
     uosmo: {
