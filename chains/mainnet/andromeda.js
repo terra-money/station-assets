@@ -1,7 +1,7 @@
 module.exports = {
     chainID: 'andromeda-1',
     lcd: 'https://andromeda.api.kjnodes.com',
-    gasAdjustment: 1.5,
+    gasAdjustment: 1.75,
     gasPrices: { uandr: 0.25 },
     prefix: 'andr',
     coinType: '118',
