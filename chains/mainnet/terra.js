@@ -33,7 +33,7 @@ module.exports = {
     'dydx-mainnet-1': 'channel-299',
     'celestia': 'channel-300',
     'stargaze-1': 'channel-324',
-    'andromeda-1': 'channel-316',
+    'andromeda-1': 'channel-351',
   },
   // NEW ICS CHANNELS
   ics20Channels: {

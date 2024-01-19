@@ -10,8 +10,8 @@ module.exports = {
     icon: process.env.CF_PAGES_URL + '/img/chains/Andromeda.png',
     channels: {
         // 'secret-1': 'channel-2',
-        'phoenix-1': 'channel-4',
-        'kaiyo-1': 'channel-5',
+        'phoenix-1': 'channel-12',
+        // 'kaiyo-1': 'channel-5',
     },
     explorer: {
         address: 'https://explorer.stavr.tech/Andromeda-Mainnet/account/{}',
