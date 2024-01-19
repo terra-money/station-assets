@@ -15,6 +15,7 @@ module.exports = {
         'osmosis-1': 'channel-1',
         'juno-1': 'channel-15',
         'crescent-1': 'channel-6',
+        'andromeda-1': 'channel-97',
     },
     explorer: {
         address: 'https://www.mintscan.io/archway/account/{}',
