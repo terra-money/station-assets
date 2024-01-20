@@ -265,25 +265,25 @@ module.exports = {
       decimals: 18,
     },
     {
-      token: "steth-wei",
-      name: "Lido Staked Ether",
-      symbol: "stETH",
+      token: 'steth-wei',
+      name: 'Lido Staked Ether',
+      symbol: 'stETH',
       decimals: 18,
-      icon: process.env.CF_PAGES_URL + "/img/coins/steth.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/steth.svg',
     },
     {
-      token: "xcn-wei",
-      name: "Chain",
-      symbol: "XCN",
+      token: 'xcn-wei',
+      name: 'Chain',
+      symbol: 'XCN',
       decimals: 18,
-      icon: process.env.CF_PAGES_URL + "/img/coins/xcn.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/xcn.svg',
     },
     {
-      token: "yieldeth-wei",
-      name: "Real Yield Eth",
-      symbol: "YieldETH",
+      token: 'yieldeth-wei',
+      name: 'Real Yield Eth',
+      symbol: 'YieldETH',
       decimals: 18,
-      icon: process.env.CF_PAGES_URL + "/img/coins/yieldeth.svg"
-    }
+      icon: process.env.CF_PAGES_URL + '/img/coins/yieldeth.svg',
+    },
   ],
 }

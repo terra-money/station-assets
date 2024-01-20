@@ -580,129 +580,130 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "juno1ur4jx0sxchdevahep7fwq28yk4tqsrhshdtylz46yka3uf6kky5qllqp4k",
-      name: "IBC HNS (Handshake)",
-      symbol: "HNS",
+      token: 'juno1ur4jx0sxchdevahep7fwq28yk4tqsrhshdtylz46yka3uf6kky5qllqp4k',
+      name: 'IBC HNS (Handshake)',
+      symbol: 'HNS',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/hns.svg"
-    }, 
-    {
-      token: "juno1sfwye65qxcfsc837gu5qcprcz7w49gkv3wnat04764ld76hy3arqs779tr",
-      name: "Digital Land Acquisition DAO",
-      symbol: "DLA",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/dla.svg"
-    }, 
-    {
-      token: "juno1t46z6hg8vvsena7sue0vg6w85ljar3cundplkre9sz0skeqkap9sxyyy6m",
-      name: "BlackHole",
-      symbol: "HOLE",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/hole.svg"
-    }, 
-    {
-      token: "juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
-      name: "Red",
-      symbol: "RED",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/red.png"
-    }, 
-    {
-      token: "juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
-      name: "Blue",
-      symbol: "BLUE",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/blue.png"
-    }, 
-    {
-      token: "juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
-      name: "Junø Apes",
-      symbol: "JAPE",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/jape.png"
-    }, 
-    {
-      token: "juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
-      name: "Catom",
-      symbol: "CATOM",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/catom.png"
-    }, 
-    {
-      token: "juno1m4h8q4p305wgy7vkux0w6e5ylhqll3s6pmadhxkhqtuwd5wlxhxs8xklsw",
-      name: "WATR",
-      symbol: "WATR",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/watr.png"
-    }, {
-      token: "juno12etxwkxvms0uy9ak8g3pyq6a53myukufdnx82pakzmjmpm77a0ksr9gs5v",
-      name: "EMPWR",
-      symbol: "EMPWR",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/empwr.png"
-    }, 
-    {
-      token: "juno1525fuspletvzykpgr2atxpymu9le4mghd7qq4a4u23uwqzc2f3fq7fmafd",
-      name: "Middle",
-      symbol: "MIDDLE",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/middle.png"
-    }, 
-    {
-      token: "juno17703kcxtsg37hryxnestejyyycuv5yyvnghp2e7w0kqvafnnyetsgzq62w",
-      name: "Sunset",
-      symbol: "SUNSET",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/sunset.png"
-    }, 
-    {
-      token: "juno1uu3rxu7w7fpfj4sl4xpxppgymk57mzdzn6kg7492jdxh5dwk7d2qq9429e",
-      name: "Living Tree",
-      symbol: "TREE",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/livingtree.png"
-    }, 
-    {
-      token: "juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp",
-      name: "Palantin",
-      symbol: "PLTN",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/pltn.png"
-    }, 
-    {
-      token: "factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/NEXX",
-      name: "NEXX GEN AI",
-      symbol: "NEXX",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/nexx.png"
-    }, 
-    {
-      token: "factory/juno1u805lv20qc6jy7c3ttre7nct6uyl20pfky5r7e/DGL",
-      name: "Licorice",
-      symbol: "DGL",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/dgl.png"
-    }, 
-    {
-      token: "juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h",
-      name: "BITS",
-      symbol: "BITS",
-      decimals: 8,
-      icon: process.env.CF_PAGES_URL + "/img/coins/bits.png"
-    }, 
-    {
-      token: "juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw",
-      name: "POIL",
-      symbol: "POIL",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/poil.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/hns.svg',
     },
     {
-      token: "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava", 
-      name: "Hava Coin", 
-      symbol: "HAVA", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/hava.png"
-    }
-  ]
+      token: 'juno1sfwye65qxcfsc837gu5qcprcz7w49gkv3wnat04764ld76hy3arqs779tr',
+      name: 'Digital Land Acquisition DAO',
+      symbol: 'DLA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/dla.svg',
+    },
+    {
+      token: 'juno1t46z6hg8vvsena7sue0vg6w85ljar3cundplkre9sz0skeqkap9sxyyy6m',
+      name: 'BlackHole',
+      symbol: 'HOLE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/hole.svg',
+    },
+    {
+      token: 'juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za',
+      name: 'Red',
+      symbol: 'RED',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/red.png',
+    },
+    {
+      token: 'juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7',
+      name: 'Blue',
+      symbol: 'BLUE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/blue.png',
+    },
+    {
+      token: 'juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps',
+      name: 'Junø Apes',
+      symbol: 'JAPE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/jape.png',
+    },
+    {
+      token: 'juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa',
+      name: 'Catom',
+      symbol: 'CATOM',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/catom.png',
+    },
+    {
+      token: 'juno1m4h8q4p305wgy7vkux0w6e5ylhqll3s6pmadhxkhqtuwd5wlxhxs8xklsw',
+      name: 'WATR',
+      symbol: 'WATR',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/watr.png',
+    },
+    {
+      token: 'juno12etxwkxvms0uy9ak8g3pyq6a53myukufdnx82pakzmjmpm77a0ksr9gs5v',
+      name: 'EMPWR',
+      symbol: 'EMPWR',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/empwr.png',
+    },
+    {
+      token: 'juno1525fuspletvzykpgr2atxpymu9le4mghd7qq4a4u23uwqzc2f3fq7fmafd',
+      name: 'Middle',
+      symbol: 'MIDDLE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/middle.png',
+    },
+    {
+      token: 'juno17703kcxtsg37hryxnestejyyycuv5yyvnghp2e7w0kqvafnnyetsgzq62w',
+      name: 'Sunset',
+      symbol: 'SUNSET',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sunset.png',
+    },
+    {
+      token: 'juno1uu3rxu7w7fpfj4sl4xpxppgymk57mzdzn6kg7492jdxh5dwk7d2qq9429e',
+      name: 'Living Tree',
+      symbol: 'TREE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/livingtree.png',
+    },
+    {
+      token: 'juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp',
+      name: 'Palantin',
+      symbol: 'PLTN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/pltn.png',
+    },
+    {
+      token: 'factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/NEXX',
+      name: 'NEXX GEN AI',
+      symbol: 'NEXX',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/nexx.png',
+    },
+    {
+      token: 'factory/juno1u805lv20qc6jy7c3ttre7nct6uyl20pfky5r7e/DGL',
+      name: 'Licorice',
+      symbol: 'DGL',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/dgl.png',
+    },
+    {
+      token: 'juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h',
+      name: 'BITS',
+      symbol: 'BITS',
+      decimals: 8,
+      icon: process.env.CF_PAGES_URL + '/img/coins/bits.png',
+    },
+    {
+      token: 'juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw',
+      name: 'POIL',
+      symbol: 'POIL',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/poil.png',
+    },
+    {
+      token: 'factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava',
+      name: 'Hava Coin',
+      symbol: 'HAVA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/hava.png',
+    },
+  ],
 }

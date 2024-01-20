@@ -47,25 +47,25 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja", 
-      name: "Dog wif nunchucks", 
-      symbol: "NINJA", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/ninja.png"
-    }, 
-    {
-      token: "factory/inj1esz96ru3guug4ctmn5chjmkymt979sfvufq0hs/PUNK",
-      name: "Punk DAO Token",
-      symbol: "PUNK",
+      token: 'factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja',
+      name: 'Dog wif nunchucks',
+      symbol: 'NINJA',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/PunkDAO.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/ninja.png',
     },
     {
-      token: "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI", 
-      name: "WGMI", 
-      symbol: "WGMI", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/wgmi.png"
-    }
+      token: 'factory/inj1esz96ru3guug4ctmn5chjmkymt979sfvufq0hs/PUNK',
+      name: 'Punk DAO Token',
+      symbol: 'PUNK',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/PunkDAO.png',
+    },
+    {
+      token: 'factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI',
+      name: 'WGMI',
+      symbol: 'WGMI',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/wgmi.png',
+    },
   ],
 }
