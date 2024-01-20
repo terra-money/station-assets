@@ -1,6 +1,6 @@
 module.exports = {
     chainID: 'pacific-1',
-    lcd: 'https://sei-api.polkachu.com/',
+    lcd: 'https://lcd-sei.tfl.foundation',
     gasAdjustment: 2,
     gasPrices: { usei: 0.1 },
     prefix: 'sei',
