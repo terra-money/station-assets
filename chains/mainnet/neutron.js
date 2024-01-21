@@ -109,6 +109,20 @@ module.exports = {
         decimals: 6, 
         icon: process.env.CF_PAGES_URL + "/img/coins/bitcosmos.png"
       },
+      {
+        token: "neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf", 
+        name: "wtf", 
+        symbol: "WTF", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/WTF.png"
+      }, 
+      {
+        token: "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard", 
+        name: "Goddard", 
+        symbol: "GODDARD", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/goddardntrn.png"
+      },
     ],
   }
   

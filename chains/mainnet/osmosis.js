@@ -139,6 +139,20 @@ module.exports = {
       symbol: "WBTC", 
       decimals: 8, 
       icon: process.env.CF_PAGES_URL + "/img/coins/wbtc.svg"
+    },
+    {
+      token: "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO", 
+      name: "WOSMO", 
+      symbol: "WOSMO", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/WOSMO.png"
+    }, 
+    {
+      token: "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia", 
+      name: "TIA Squared", 
+      symbol: "sqTIA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/sqtia.svg"
     }
   ],
 }
