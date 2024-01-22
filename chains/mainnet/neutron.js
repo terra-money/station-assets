@@ -123,6 +123,13 @@ module.exports = {
         decimals: 6, 
         icon: process.env.CF_PAGES_URL + "/img/coins/goddardntrn.png"
       },
+      {
+        token: "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO", 
+        name: "Apollo", 
+        symbol: "APOLLO", 
+        decimals: 6, 
+        icon: process.env.CF_PAGES_URL + "/img/coins/apollo.png"
+      },
     ],
   }
   
