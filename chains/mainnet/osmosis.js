@@ -153,6 +153,13 @@ module.exports = {
       symbol: "sqTIA", 
       decimals: 6, 
       icon: process.env.CF_PAGES_URL + "/img/coins/sqtia.svg"
+    },
+    {
+      token: "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail", 
+      name: "Sail", 
+      symbol: "SAIL", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/sail.png"
     }
   ],
 }
