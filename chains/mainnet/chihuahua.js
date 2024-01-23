@@ -64,6 +64,34 @@ module.exports = {
       symbol: "WOOF", 
       decimals: 6, 
       icon: process.env.CF_PAGES_URL + "/img/coins/woof.png"
+    },
+    {
+      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos", 
+      name: "TACOS", 
+      symbol: "TACOS", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/tacos.png"
+    }, 
+    {
+      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed", 
+      name: "WEED", 
+      symbol: "WEED", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/weed.png"
+    }, 
+    {
+      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog", 
+      name: "BDOG", 
+      symbol: "BDOG", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/bdog.png"
+    }, 
+    {
+      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso", 
+      name: "CORSO", 
+      symbol: "CORSO", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/corso.png"
     }
   ],
 }
