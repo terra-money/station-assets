@@ -673,6 +673,13 @@ module.exports = {
       symbol: "ADO", 
       decimals: 6, 
       icon: process.env.CF_PAGES_URL + "/img/coins/ADO.png"
+    },
+    {
+      token: "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+      name: "ERIS Amplified CAPA",
+      symbol: "ampCAPA",
+      decimals: 6,
+      icons: process.env.CF_PAGES_URL + "/img/coins/ampCapa.svg"
     }
   ],
 }
