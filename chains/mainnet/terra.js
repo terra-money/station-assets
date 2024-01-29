@@ -2,7 +2,11 @@ module.exports = {
   chainID: 'phoenix-1',
   lcd: 'https://phoenix-lcd.terra.dev',
   gasAdjustment: 1.75,
-  gasPrices: { uluna: 0.015 },
+  gasPrices: { 
+    uluna: 0.015,
+    "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4": 0.018, // axlUSDC
+    "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": 0.018, // noble USDC
+  },
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
