@@ -130,6 +130,13 @@ module.exports = {
         decimals: 6, 
         icon: process.env.CF_PAGES_URL + "/img/coins/apollo.png"
       },
+      {
+      token: "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
+      name: "DNA DAO",
+      symbol: "DNA",
+      decimals: 6,
+      icons: process.env.CF_PAGES_URL + "/img/coins/DNA.png"
+    },  
     ],
   }
   
