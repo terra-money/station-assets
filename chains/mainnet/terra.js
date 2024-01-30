@@ -691,6 +691,6 @@ module.exports = {
       symbol: "DNA",
       decimals: 6,
       icons: process.env.CF_PAGES_URL + "/img/coins/DNA.png"
-    }
+    },
   ],
 }
