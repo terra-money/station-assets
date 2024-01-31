@@ -1,8 +1,8 @@
 module.exports = {
-  version: '0.46',
   chainID: 'kaiyo-1',
   lcd: 'https://lcd-kujira.tfl.foundation',
   gasAdjustment: 1.75,
+  version: "0.46",
   gasPrices: {
     ukuji: 0.0051,
   'ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986': 0.02243,
