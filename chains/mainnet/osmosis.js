@@ -41,6 +41,7 @@ module.exports = {
     'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
+    'dymension_1100-1': 'channel-19774',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',

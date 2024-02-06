@@ -24,6 +24,7 @@ module.exports = {
     'stafihub-1': 'channel-369',
     'neutron-1': 'channel-569',
     'injective-1': 'channel-220',
+    'dymension_1100-1': 'channel-794',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',
