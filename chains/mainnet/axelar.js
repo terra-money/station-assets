@@ -285,5 +285,12 @@ module.exports = {
       decimals: 18,
       icon: process.env.CF_PAGES_URL + '/img/coins/yieldeth.svg',
     },
+    {
+      token: 'ox-wei',
+      name: 'Open Exchange Token',
+      symbol: 'OX',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/ox.svg',
+    },
   ],
 }

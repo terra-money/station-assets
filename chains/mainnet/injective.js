@@ -7,7 +7,7 @@ module.exports = {
   coinType: '60',
   baseAsset: 'inj',
   name: 'Injective',
-  version: "0.46",
+  version: '0.46',
   icon: process.env.CF_PAGES_URL + '/img/chains/Injective.svg',
   channels: {
     'phoenix-1': 'channel-151',
@@ -67,6 +67,13 @@ module.exports = {
       symbol: 'WGMI',
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/wgmi.png',
+    },
+    {
+      token: 'peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2',
+      name: 'Gelotto',
+      symbol: 'GLTO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/glto.svg',
     },
   ],
 }
