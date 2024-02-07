@@ -7,7 +7,6 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uwhale',
   name: 'Migaloo',
-  
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   alliance: true,
   channels: {

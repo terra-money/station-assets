@@ -9,7 +9,6 @@ module.exports = {
   name: "Carbon",
   icon: process.env.CF_PAGES_URL + "/img/chains/Carbon.svg",
   alliance: true,
-  
   channels: {
     "phoenix-1": "channel-12",
     "axelar-dojo-1": "channel-7",
