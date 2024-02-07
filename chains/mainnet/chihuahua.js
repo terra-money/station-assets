@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
-  version: "0.46",
+  
   icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
   channels: {
     'phoenix-1': 'channel-34',

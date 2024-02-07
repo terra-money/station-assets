@@ -11,7 +11,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'adydx',
   name: 'dYdX Protocol',
-  version: "0.46",
+  
   icon: process.env.CF_PAGES_URL + '/img/chains/dydx.svg',
   channels: {
     'kaiyo-1': 'channel-5',
