@@ -7,7 +7,6 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ustrd',
   name: 'Stride',
-  
   icon: process.env.CF_PAGES_URL + '/img/chains/Stride.png',
   channels: {
     'phoenix-1': 'channel-52',
@@ -96,25 +95,39 @@ module.exports = {
       lsd: 'aevmos',
     },
     {
-      token: "stuumee",
-      name: "Stride Staked UMEE",
-      symbol: "stUMEE",
+      token: 'stuumee',
+      name: 'Stride Staked UMEE',
+      symbol: 'stUMEE',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/stumee.svg"
-    }, 
+      icon: process.env.CF_PAGES_URL + '/img/coins/stumee.svg',
+    },
     {
-      token: "stucmdx",
-      name: "Stride Staked CMDX",
-      symbol: "stCMDX",
+      token: 'stucmdx',
+      name: 'Stride Staked CMDX',
+      symbol: 'stCMDX',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/stcmdx.svg"
-    }, 
+      icon: process.env.CF_PAGES_URL + '/img/coins/stcmdx.svg',
+    },
     {
-      token: "stusomm",
-      name: "Stride Staked SOMM",
-      symbol: "stSOMM",
+      token: 'stusomm',
+      name: 'Stride Staked SOMM',
+      symbol: 'stSOMM',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/stsomm.svg"
-    }
+      icon: process.env.CF_PAGES_URL + '/img/coins/stsomm.svg',
+    },
+    {
+      token: 'stadydx',
+      name: 'Stride Staked DYDX',
+      symbol: 'stDYDX',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/stdydx.svg',
+    },
+    {
+      token: 'stutia',
+      name: 'Stride Staked TIA',
+      symbol: 'stTIA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sttia.svg',
+    },
   ],
 }

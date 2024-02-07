@@ -2,7 +2,6 @@ module.exports = {
   chainID: 'osmosis-1',
   lcd: 'https://lcd-osmosis.tfl.foundation',
   gasAdjustment: 1.5,
-  
   gasPrices: {
     uosmo: {
       type: 'OSMOSIS',
@@ -38,7 +37,7 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
-    'celestia': 'channel-6994',
+    celestia: 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
   },
@@ -72,95 +71,110 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "factory/osmo1xqw2sl9zk8a6pch0csaw78n4swg5ws8t62wc5qta4gnjxfqg6v2qcs243k/stuibcx",
-      name: "Staked IBCX",
-      symbol: "stIBCX",
+      token:
+        'factory/osmo1xqw2sl9zk8a6pch0csaw78n4swg5ws8t62wc5qta4gnjxfqg6v2qcs243k/stuibcx',
+      name: 'Staked IBCX',
+      symbol: 'stIBCX',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/stibcx.svg"
-    }, 
-    {
-      token: "factory/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9/ampOSMO",
-      name: "ERIS Amplified OSMO",
-      symbol: "ampOSMO",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/amposmo.png"
-    }, 
-    {
-      token: "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
-      name: "CDT Stablecoin",
-      symbol: "CDT",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/CDT.svg"
-    }, 
-    {
-      token: "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
-      name: "Membrane",
-      symbol: "MBRN",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/MBRN.svg"
-    }, 
-    {
-      token: "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
-      name: "OSMO Squared",
-      symbol: "sqOSMO",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/sqosmo.svg"
-    }, 
-    {
-      token: "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc",
-      name: "BTC Squared",
-      symbol: "sqBTC",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/sqbtc.svg"
-    }, 
-    {
-      token: "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom",
-      name: "ATOM Squared",
-      symbol: "sqATOM",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/sqatom.svg"
-    }, 
-    {
-      token: "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
-      name: "Levana",
-      symbol: "LVN",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/levana.svg"
-    }, 
-    {
-      token: "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
-      name: "milkTIA",
-      symbol: "milkTIA",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/milktia.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/stibcx.svg',
     },
     {
-      token: "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc", 
-      name: "Wrapped Bitcoin", 
-      symbol: "WBTC", 
-      decimals: 8, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/wbtc.svg"
+      token:
+        'factory/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9/ampOSMO',
+      name: 'ERIS Amplified OSMO',
+      symbol: 'ampOSMO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/amposmo.png',
     },
     {
-      token: "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO", 
-      name: "WOSMO", 
-      symbol: "WOSMO", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/WOSMO.png"
-    }, 
-    {
-      token: "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia", 
-      name: "TIA Squared", 
-      symbol: "sqTIA", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/sqtia.svg"
+      token:
+        'factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt',
+      name: 'CDT Stablecoin',
+      symbol: 'CDT',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/CDT.svg',
     },
     {
-      token: "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail", 
-      name: "Sail", 
-      symbol: "SAIL", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/sail.png"
-    }
+      token:
+        'factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn',
+      name: 'Membrane',
+      symbol: 'MBRN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/MBRN.svg',
+    },
+    {
+      token: 'factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo',
+      name: 'OSMO Squared',
+      symbol: 'sqOSMO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sqosmo.svg',
+    },
+    {
+      token: 'factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc',
+      name: 'BTC Squared',
+      symbol: 'sqBTC',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sqbtc.svg',
+    },
+    {
+      token: 'factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom',
+      name: 'ATOM Squared',
+      symbol: 'sqATOM',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sqatom.svg',
+    },
+    {
+      token:
+        'factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn',
+      name: 'Levana',
+      symbol: 'LVN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/levana.svg',
+    },
+    {
+      token:
+        'factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA',
+      name: 'milkTIA',
+      symbol: 'milkTIA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/milktia.svg',
+    },
+    {
+      token:
+        'factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc',
+      name: 'Wrapped Bitcoin',
+      symbol: 'WBTC',
+      decimals: 8,
+      icon: process.env.CF_PAGES_URL + '/img/coins/wbtc.svg',
+    },
+    {
+      token: 'factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO',
+      name: 'WOSMO',
+      symbol: 'WOSMO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/WOSMO.png',
+    },
+    {
+      token: 'factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia',
+      name: 'TIA Squared',
+      symbol: 'sqTIA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sqtia.svg',
+    },
+    {
+      token:
+        'factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail',
+      name: 'Sail',
+      symbol: 'SAIL',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sail.png',
+    },
+    {
+      token: 'factory/osmo1279xudevmf5cw83vkhglct7jededp86k90k2le/RAPTR',
+      name: 'RAPTR',
+      symbol: 'RAPTR',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/RAPTR.png',
+    },
   ],
 }
