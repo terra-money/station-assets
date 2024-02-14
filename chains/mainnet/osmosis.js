@@ -177,5 +177,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/RAPTR.png',
     },
+    {
+      token: "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID", 
+      name: "BADKID", 
+      symbol: "BADKID", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/badkid.png"
+    },
   ],
 }

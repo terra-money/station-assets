@@ -75,5 +75,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/glto.svg',
     },
+    {
+      token: "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava", 
+      name: "Hava Coin", 
+      symbol: "HAVA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/hava.png"
+    },
   ],
 }

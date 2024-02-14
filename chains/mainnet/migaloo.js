@@ -95,11 +95,18 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/fable.svg"
     },
     {
-    token: "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash", 
-    symbol: "gASH", 
-    name: "gASH",
-    icon: process.env.CF_PAGES_URL + "/img/coins/gASH.png",
-    decimals: 6
-  }
+      token: "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash", 
+      symbol: "gASH", 
+      name: "gASH",
+      icon: process.env.CF_PAGES_URL + "/img/coins/gASH.png",
+      decimals: 6
+    },
+    {
+      token: "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark", 
+      name: "SHARK", 
+      symbol: "SHARK", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/shark.png"
+    },
   ],
 }
