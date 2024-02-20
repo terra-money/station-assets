@@ -8,8 +8,6 @@ module.exports = {
   baseAsset: 'umars',
   name: 'Mars',
   icon: process.env.CF_PAGES_URL + '/img/chains/Mars.svg',
-  // used by Station to decide which endpoint to use
-  version: '0.46',
   channels: {
     'phoenix-1': 'channel-2',
     'crescent-1': 'channel-5',

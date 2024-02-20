@@ -39,7 +39,8 @@ const fs = require('fs').promises
           network,
         }))
       )
-
+      const version = await getSDKVersion(chainData.lcd)
+      if (version) chainData.version = version
       delete chainData['tokens']
 
       const gasPrices = Object.fromEntries(
@@ -208,3 +209,28 @@ function isValidUrl(url) {
     return false
   }
 }
+
+const getSDKVersion = async (lcd) => {
+  try {
+    const response = await axios.get(`${lcd}/node_info`);
+    if (response.status === 200) {
+      let version = response.data.application_version.cosmos_sdk_version;
+      version = version.substring(1); // remove the 'v'
+      version = version.split('.').slice(0, 2).join('.'); // keep only the first two parts
+      return parseFloat(version);
+    }
+  } catch (error) {
+    console.error(`Failed to get the SDK version from ${lcd} using /node_info, error: ${error.message}`);
+    // Attempt the second request if the first fails
+    try {
+      const response = await axios.get(`${lcd}/cosmos/gov/v1/proposals?pagination.limit=1`);
+      if (response.status === 200) {
+        return 0.46; // if supports v1 proposals then at least 0.46
+      }
+    } catch (error) {
+      console.error(`Failed to get the SDK version from ${lcd} using /cosmos/gov/v1/proposals, error: ${error.message}`);;
+    }
+  }
+}
+  
+  

@@ -7,7 +7,6 @@ module.exports = {
     coinType: '118',
     baseAsset: 'uandr',
     name: 'Andromeda',
-    version: "0.46",
     icon: process.env.CF_PAGES_URL + '/img/chains/Andromeda.png',
     channels: {
         // 'secret-1': 'channel-2',

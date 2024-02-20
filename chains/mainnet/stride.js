@@ -7,7 +7,6 @@ module.exports = {
   coinType: '118',
   baseAsset: 'ustrd',
   name: 'Stride',
-  version: '0.46',
   icon: process.env.CF_PAGES_URL + '/img/chains/Stride.png',
   channels: {
     'phoenix-1': 'channel-52',
