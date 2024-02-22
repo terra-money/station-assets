@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'skydive-1',
-  lcd: 'http://localhost:8000/api/v1/skydive-1',
+  lcd: 'http://localhost:8000/api/v1/lcd-skydive-1',
   gasAdjustment: 1.75,
   gasPrices: { uskyd: 0.015 },
   prefix: 'skydive',
@@ -9,7 +9,7 @@ module.exports = {
   name: 'Skydive',
   icon: process.env.CF_PAGES_URL + '/img/chains/Skydive.png',
   channels: {
-    'localterra': 'channel-0',
+    localterra: 'channel-0',
     'silverbolt-1': 'channel-1',
     'firefly-1': 'channel-2',
   },

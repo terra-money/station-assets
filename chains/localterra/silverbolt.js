@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'silverbolt-1',
-  lcd: 'http://localhost:8000/api/v1/silverbolt-1',
+  lcd: 'http://localhost:8000/api/v1/lcd-silverbolt-1',
   gasAdjustment: 1.75,
   gasPrices: { usilv: 0.015 },
   prefix: 'silverbolt',
@@ -9,7 +9,7 @@ module.exports = {
   name: 'Silverbolt',
   icon: process.env.CF_PAGES_URL + '/img/chains/Silverbolt.png',
   channels: {
-    'localterra': 'channel-0',
+    localterra: 'channel-0',
     'firefly-1': 'channel-1',
     'skydive-1': 'channel-2',
   },
