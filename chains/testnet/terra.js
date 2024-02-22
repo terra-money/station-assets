@@ -18,6 +18,7 @@ module.exports = {
   channels: {
     'ares-1': 'channel-189',
     'atlantic-2': 'channel-100',
+    'indigo-1': 'channel-506',
   },
   tokens: [
     {

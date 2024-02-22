@@ -1,12 +1,13 @@
 module.exports = {
   chainID: 'comdex-1',
-  lcd: 'https://rest.comdex.one',
+  lcd: 'https://lcd-comdex.tfl.foundation',
   gasAdjustment: 1.75,
-  gasPrices: { ucmdx: 0.0025 },
+  gasPrices: { ucmdx: 0.025 },
   prefix: 'comdex',
   coinType: '118',
   baseAsset: 'ucmdx',
   name: 'Comdex',
+  version: "0.46",
   icon: process.env.CF_PAGES_URL + '/img/chains/Comdex.svg',
   channels: {
     'phoenix-1': 'channel-51',

@@ -1,5 +1,6 @@
 const glob = require('glob-promise')
 const path = require('path')
+const axios = require('axios')
 const { Buffer } = require('buffer')
 const { Hash } = require('@keplr-wallet/crypto')
 const { AccAddress } = require('@terra-money/feather.js')
@@ -16,32 +17,59 @@ const fs = require('fs').promises
   const chainFiles = await glob('./chains/*/*.js')
   const tokens = []
 
-  chainFiles.forEach((file) => {
-    const [_, folder, network, fileName] = file.split('/')
+  await Promise.all(
+    chainFiles.map(async (file) => {
+      const [_, folder, network, fileName] = file.split('/')
 
-    if (typeof chains[network] === 'undefined') {
-      chains[network] = {}
-    }
+      if (typeof chains[network] === 'undefined') {
+        chains[network] = {}
+      }
 
-    const fullPath = `./${file}`
-    const chainData = require(fullPath)
+      const fullPath = `./${file}`
+      const chainData = require(fullPath)
 
-    if (network !== 'localterra' && !isValidUrl(chainData.lcd)) {
-      console.log(`${chainData.chainID}: Invalid LCD URL: ${chainData.lcd}`)
-      return
-    }
-    tokens.push(
-      ...(chainData.tokens ?? []).map((t) => ({
-        ...t,
-        chainID: chainData.chainID,
-        network,
-      }))
-    )
+      if (network !== 'localterra' && !isValidUrl(chainData.lcd)) {
+        console.log(`${chainData.chainID}: Invalid LCD URL: ${chainData.lcd}`)
+        return
+      }
+      tokens.push(
+        ...(chainData.tokens ?? []).map((t) => ({
+          ...t,
+          chainID: chainData.chainID,
+          network,
+        }))
+      )
 
-    delete chainData['tokens']
+      delete chainData['tokens']
 
-    chains[network][chainData.chainID] = chainData
-  })
+      const gasPrices = Object.fromEntries(
+        await Promise.all(
+          Object.entries(chainData.gasPrices).map(async ([key, value]) => {
+            if (typeof value === 'number') {
+              return [key, value]
+            } else {
+              if (value.type === 'OSMOSIS') {
+                try {
+                  const { data } = await axios.get(value.url, {
+                    baseURL: chainData.lcd,
+                  })
+                  return [key, Number(data.base_fee) * value.adjustment]
+                } catch (e) {
+                  console.error(e)
+                  console.error(
+                    `Failed to get the gas price from ${value.url} on ${chainData.lcd}`
+                  )
+                  return [key, value.defaultValue]
+                }
+              }
+            }
+          })
+        )
+      )
+
+      chains[network][chainData.chainID] = { ...chainData, gasPrices }
+    })
+  )
 
   // convert coins to json
   const coinsOutPath = './build/denoms.json'
@@ -64,7 +92,6 @@ const fs = require('fs').promises
 
     coinsOut[network][tokenId] = { ...coinData, chainID, chains: [chainID] }
 
-
     // chain is disabled
     if (!chains[network][chainID]) {
       console.log(`${chainID} used by ${coinData.token} is disabled.`)
@@ -78,35 +105,50 @@ const fs = require('fs').promises
       Object.keys(channels).forEach((otherChainID) => {
         const channel = chains[network][otherChainID]?.channels?.[chainID]
         if (!channel) {
-          console.error(
-            `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
-          )
+          // throw error only if the other chain exists
+          !!chains[network][otherChainID] &&
+            console.error(
+              `${otherChainID} doesn't have an IBC channel configured with ${chainID}.`
+            )
           return
         }
 
-        const denom = chains[network][chainID].prefix === "kujira" ? coinData.token?.replaceAll("/", ":") : coinData.token
+        const denom =
+          chains[network][chainID].prefix === 'kujira'
+            ? coinData.token?.replaceAll('/', ':')
+            : coinData.token
         const ibcDenom = calculateIBCDenom(channel, denom)
         ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
           token: tokenId,
           chainID: otherChainID,
         }
       })
-    } else if (isICS && chains[network][chainID]?.icsChannels) {
-      const channels = chains[network][chainID].icsChannels
+    } else if (isICS && chains[network][chainID]?.ics20Channels) {
+      const channels = chains[network][chainID].ics20Channels
       const denom = `cw20:${coinData.token}`
 
-      Object.entries(channels).forEach(
-        ([otherChainID, { channel, otherChannel }]) => {
-          const ibcDenom = calculateIBCDenom(otherChannel, denom)
+      Object.entries(channels).forEach(([otherChainID, icsChannels]) => {
+        const icsChannel =
+          // specific ICS channel for that token
+          icsChannels.find(
+            ({ tokens }) => !!tokens && tokens.includes(coinData.token)
+          ) ||
+          // generic ICS channel for that chain
+          icsChannels.find(({ tokens }) => !tokens)
 
-          ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
-            token: tokenId,
-            chainID: otherChainID,
-            // to send it back on the original chain
-            icsChannel: channel,
-          }
+        // no valid ICS channel found for this token
+        if (!icsChannel) return
+
+        const { channel, otherChannel } = icsChannel
+        const ibcDenom = calculateIBCDenom(otherChannel, denom)
+
+        ibcDenomMapOut[network][`${otherChainID}:${ibcDenom}`] = {
+          token: tokenId,
+          chainID: otherChainID,
+          // to send it back on the original chain
+          icsChannel: channel,
         }
-      )
+      })
     }
   })
 

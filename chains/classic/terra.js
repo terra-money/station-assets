@@ -206,5 +206,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/TerraUSDClassic.svg',
       decimals: 6,
     },
+    {
+      token: 'ibc/7F8A299575858D452509369851605DCD9D4595EB967E805388347FD54852AA62',
+      symbol: 'LCG',
+      name: 'Lunc Goblins Token',
+      icon: 'https://raw.githubusercontent.com/luncgoblins/assets/main/lcg.png',
+      decimals: 6,
+    },
   ],
 }

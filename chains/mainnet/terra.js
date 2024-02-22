@@ -2,7 +2,11 @@ module.exports = {
   chainID: 'phoenix-1',
   lcd: 'https://phoenix-lcd.terra.dev',
   gasAdjustment: 1.75,
-  gasPrices: { uluna: 0.015 },
+  gasPrices: { 
+    uluna: 0.015,
+    "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4": 0.018, // axlUSDC
+    "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": 0.018, // noble USDC
+  },
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
@@ -10,15 +14,15 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   channels: {
-    'akashnet-2': 'channel-45',
+    'akashnet-2': 'channel-273',
     'axelar-dojo-1': 'channel-6',
     'carbon-1': 'channel-36',
-    'cheqd-mainnet-1': 'channel-89',
+    'cheqd-mainnet-1': 'channel-301',
     'chihuahua-1': 'channel-44',
     'comdex-1': 'channel-39',
     'cosmoshub-4': 'channel-0',
     'crescent-1': 'channel-37',
-    'mainnet-3': 'channel-5',
+    'mainnet-3': 'channel-315',
     'juno-1': 'channel-2',
     'kaiyo-1': 'channel-10',
     'mars-1': 'channel-78',
@@ -26,11 +30,95 @@ module.exports = {
     'osmosis-1': 'channel-1',
     'stride-1': 'channel-46',
     'pacific-1': 'channel-158',
-    'noble-1': 'channel-151',
+    'noble-1': 'channel-253',
     'stafihub-1': 'channel-204',
     'neutron-1': 'channel-229',
-    'injective-1': 'channel-144',
+    'injective-1': 'channel-255',
+    'dydx-mainnet-1': 'channel-299',
+    'celestia': 'channel-300',
+    'stargaze-1': 'channel-324',
+    'andromeda-1': 'channel-351',
   },
+  // NEW ICS CHANNELS
+  ics20Channels: {
+    'carbon-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-41',
+        otherChannel: 'channel-16',
+      },
+    ],
+    'juno-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-32',
+        otherChannel: 'channel-153',
+      },
+    ],
+    'kaiyo-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-28',
+        otherChannel: 'channel-36',
+      },
+    ],
+    'migaloo-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-87',
+        otherChannel: 'channel-2',
+      },
+    ],
+    'osmosis-1': [
+      {
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-26',
+        otherChannel: 'channel-341',
+      },
+    ],
+    'chihuahua-1': [
+      {
+        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-114',
+        otherChannel: 'channel-42',
+      }
+    ],
+    'pacific-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-171',
+        otherChannel: 'channel-8',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
+    ],
+    'neutron-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-167',
+        otherChannel: 'channel-5',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      }
+    ],
+    'injective-1': [
+      {
+        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        channel: 'channel-91',
+        otherChannel: 'channel-104',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+      },
+      {
+        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        channel: 'channel-116',
+        otherChannel: 'channel-118',
+      }
+    ]
+  },
+  // LEGACY ICS CHANNELS (to be removed soon)
   icsChannels: {
     'carbon-1': {
       contract:
@@ -63,7 +151,6 @@ module.exports = {
       otherChannel: 'channel-341',
     },
   },
-
   // doesn't require IBC channels since it's already on all the other chains
   explorer: {
     address: 'https://terrasco.pe/mainnet/address/{}',
@@ -91,6 +178,34 @@ module.exports = {
       symbol: 'CUB',
       name: 'Lion Cub Dao',
       icon: process.env.CF_PAGES_URL + '/img/coins/cub.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k',
+      symbol: 'Dinheiros',
+      name: 'dinheiro',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Dinheiros.png',
+      decimals: 0,
+    },
+    {
+      token: 'terra1sdglum2dt4f3fmq7jrt2phf2tegmnudc7qqqqujkpqcm9ujuxxkqakv5u8',
+      symbol: 'Reis',
+      name: 'real',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Reis.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg',
+      symbol: 'Escudos',
+      name: 'escudo',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Escudos.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
+      symbol: 'Alem',
+      name: 'alentejo.money',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Alem.png',
       decimals: 6,
     },
     {
@@ -150,6 +265,27 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/bLuna.png',
       decimals: 6,
       lsd: 'uluna',
+    },
+    {
+      token: 'terra1uxk0lgyktspxlen3a2f2dnyclj8gjta2mwg0murwcyxflrlqk4aqey3pqt',
+      symbol: 'QUEEN',
+      name: 'QUEEN',
+      icon: process.env.CF_PAGES_URL + '/img/coins/queen1.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun',
+      symbol: 'DROGO',
+      name: 'DROGO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/drogo.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces',
+      symbol: 'GUGU',
+      name: 'GUGU',
+      icon: process.env.CF_PAGES_URL + '/img/coins/gugu.png',
+      decimals: 6,
     },
     {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
@@ -438,6 +574,123 @@ module.exports = {
       name: 'Phoenix DAO Token',
       icon: process.env.CF_PAGES_URL + '/img/coins/PhoenixDAO.png',
       decimals: 6,
+    },
+    {
+      token:
+        'factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt',
+      symbol: 'ampWHALEt',
+      name: 'ERIS Alliance Staked ampWHALE',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampwhalet.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt',
+      symbol: 'boneWHALEt',
+      name: 'ERIS Alliance Staked boneWHALE',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bonewhalet.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR',
+      symbol: 'ampROAR',
+      name: 'ERIS Amplified ROAR',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampROAR.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v',
+      symbol: 'BITZ',
+      name: 'Bitz DAO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/BitzDAO_Token.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg',
+      symbol: 'SOL',
+      name: 'Solana (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wSOL.png',
+      decimals: 8,
+    },
+    {
+      token: 'terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388',
+      symbol: 'BNB',
+      name: 'Binance Coin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/wBNB.png',
+      decimals: 8,
+    },
+    {
+      token: 'terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2',
+      symbol: 'TON',
+      name: 'Toncoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/TON.svg',
+      decimals: 8,
+    },
+    {
+      token: 'terra1z2cn5r7p7sezmq5ttwrutvqnczqa9244syd4w2uu2tvjarv68dqqlwx48v',
+      symbol: 'DOGE',
+      name: 'Dogecoin (Portal)',
+      icon: process.env.CF_PAGES_URL + '/img/coins/DOGE.svg',
+      decimals: 8,
+    },
+    {
+      token:
+        'factory/terra1kkv72sv5zfx539garpych7x5xuq9m9d2a9dnvt863gk3n3g02husc2vxeu/URA',
+      symbol: 'URA',
+      name: 'URA Utility Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s',
+      symbol: 'ITO',
+      name: 'ITO Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/I.png',
+      decimals: 6,
+    },
+    {
+      token:
+        'terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8',
+      symbol: 'ARMANI',
+      name: 'Chris Armani Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/armani.png',
+      decimals: 6,
+    },
+    {
+      token: "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
+      name: "seul",
+      symbol: "SEUL",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/seul.png"
+    }, {
+      token: "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
+      name: "xseul",
+      symbol: "xSEUL",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/xseul.png"
+    },
+    {
+      token: "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu", 
+      name: "ADO", 
+      symbol: "ADO", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ADO.png"
+    },
+    {
+      token: "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+      name: "ERIS Amplified CAPA",
+      symbol: "ampCAPA",
+      decimals: 6,
+      icons: process.env.CF_PAGES_URL + "/img/coins/ampCapa.svg"
+    },
+    {
+      token: "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
+      name: "DNA DAO",
+      symbol: "DNA",
+      decimals: 6,
+      icons: process.env.CF_PAGES_URL + "/img/coins/DNA.png"
     },
   ],
 }
