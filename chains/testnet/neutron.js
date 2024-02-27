@@ -1,6 +1,6 @@
 module.exports = {
     chainID: 'pion-1',
-    lcd: 'https://rest-palvus.pion-1.ntrn.tech',
+    lcd: 'https://neutron-testnet-api.polkachu.com',
     gasAdjustment: 1.75,
     gasPrices: { untrn: 0.05 },
     prefix: 'neutron',
