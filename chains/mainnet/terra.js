@@ -692,5 +692,12 @@ module.exports = {
       decimals: 6,
       icons: process.env.CF_PAGES_URL + "/img/coins/DNA.png"
     },
+    {
+      token: 'factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR',
+      symbol: 'MOAR',
+      name: 'ERIS Amplified ampROAR',
+      icon: process.env.CF_PAGES_URL + '/img/coins/MOAR.png',
+      decimals: 6,
+    },
   ],
 }
