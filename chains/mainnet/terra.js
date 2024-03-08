@@ -181,6 +181,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra1en42e2vsvtdsvrcqg5s5e5e4djejjaed6fxmvtpweg3tu33h6k5qkg9c40',
+      symbol: 'AMG',
+      name: 'almagem',
+      icon: process.env.CF_PAGES_URL + '/img/coins/almagem.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k',
       symbol: 'Dinheiros',
       name: 'dinheiro',
