@@ -2,7 +2,7 @@ module.exports = {
   chainID: 'phoenix-1',
   lcd: 'https://phoenix-lcd.terra.dev',
   gasAdjustment: 1.75,
-  gasPrices: { 
+  gasPrices: {
     uluna: 0.015,
     "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4": 0.018, // axlUSDC
     "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": 0.018, // noble USDC
@@ -261,8 +261,8 @@ module.exports = {
     {
       token: 'terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml',
       symbol: 'bLUNA',
-      name: 'boneLuna',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bLuna.png',
+      name: 'boneLUNA',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bLUNA.webp',
       decimals: 6,
       lsd: 'uluna',
     },
@@ -672,10 +672,10 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/xseul.png"
     },
     {
-      token: "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu", 
-      name: "ADO", 
-      symbol: "ADO", 
-      decimals: 6, 
+      token: "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
+      name: "ADO",
+      symbol: "ADO",
+      decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/ADO.png"
     },
     {
