@@ -214,5 +214,26 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/lcg.png",
       decimals: 6,
     },
+    {
+      token: "terra17q57jnwrqd6fgvt267lpgnw5muuua2awgq0k6zhkuwryregr827sxljafx",
+      symbol: "TESSLA",
+      name: "Tessla Token",
+      icon: "https://i.ibb.co/LQQ36tq/Tessla.png",
+      decimals: 6,
+    },
+    {
+      token: "terra13d6xlk4d6cfa6c5c7n2ffua5d5fk5ggfq8vsxr34xnxr07nmke0qajzu8y",
+      symbol: "ELON",
+      name: "Elon Token",
+      icon: "https://i.ibb.co/bgtD1rS/Elon.png",
+      decimals: 6,
+    },
+    {
+      token:"terra14mqjm7n23ky3479hmaarzqnwrlmapje08runh5m7a29rz6sunhpsn9pq27",
+      symbol: "SPACEX",
+      name: "SpaceX Token",
+      icon: "https://i.ibb.co/cTPkh0Q/SpaceX.png",
+      decimals: 6,
+    },
   ],
 };
