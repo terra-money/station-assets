@@ -25,6 +25,7 @@ module.exports = {
     'kaiyo-1': 'channel-3',
     'phoenix-1': 'channel-25',
     'stargaze-1': 'channel-18',
+    'kava_2222-10': 'channel-36',
   },
   icsChannels: {},
   explorer: {

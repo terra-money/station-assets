@@ -11,7 +11,8 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Celestia.svg',
   channels: {
     'osmosis-1': 'channel-2',
-    'phoenix-1': 'channel-15'
+    'phoenix-1': 'channel-15',
+    'kava_2222-10': 'channel-13',
   },
   icsChannels: {},
   explorer: {

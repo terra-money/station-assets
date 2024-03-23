@@ -38,6 +38,7 @@ module.exports = {
     'celestia': 'channel-300',
     'stargaze-1': 'channel-324',
     'andromeda-1': 'channel-351',
+    'kava_2222-10': 'channel-272',
   },
   // NEW ICS CHANNELS
   ics20Channels: {
