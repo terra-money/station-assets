@@ -1,21 +1,25 @@
 module.exports = {
-  chainID: 'terra',
-  lcd: 'http://a15f3be10859e4a70b8a1f156a4e8cd5-624465546.us-east-1.elb.amazonaws.com:1317',
-  gasAdjustment: 3,
-  gasPrices: { uluna: 0.15 },
+  chainID: 'pisco-1',
+  lcd: 'https://pisco-lcd.terra.dev',
+  gasAdjustment: 2,
+  gasPrices: { uluna: 0.015 },
   prefix: 'terra',
   coinType: '330',
   baseAsset: 'uluna',
-  name: 'Account Abstraction Testnet',
+  name: 'Terra',
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   explorer: {
-    address: 'http://a15f3be10859e4a70b8a1f156a4e8cd5-624465546.us-east-1.elb.amazonaws.com:1317/cosmos/auth/v1beta1/account_info/{}',
-    tx: 'http://a15f3be10859e4a70b8a1f156a4e8cd5-624465546.us-east-1.elb.amazonaws.com:1317/cosmos/tx/v1beta1/txs/{}',
-    validator: 'http://a15f3be10859e4a70b8a1f156a4e8cd5-624465546.us-east-1.elb.amazonaws.com:1317/cosmos/distribution/v1beta1/validators/{}',
-    block: 'http://a15f3be10859e4a70b8a1f156a4e8cd5-624465546.us-east-1.elb.amazonaws.com:1317/cosmos/tx/v1beta1/txs/block/{}',
+    address: 'https://terrasco.pe/testnet/address/{}',
+    tx: 'https://terrasco.pe/testnet/tx/{}',
+    validator: 'https://terrasco.pe/testnet/validator/{}',
+    block: 'https://terrasco.pe/testnet/block/{}',
   },
-  channels: {},
+  channels: {
+    'ares-1': 'channel-189',
+    'atlantic-2': 'channel-100',
+    'indigo-1': 'channel-506',
+  },
   tokens: [
     {
       token: 'uluna',
@@ -23,6 +27,20 @@ module.exports = {
       name: 'Test Terra Luna',
       icon: process.env.CF_PAGES_URL + '/img/coins/Luna.svg',
       decimals: 6,
-    }
+    },
+    {
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/stDeck',
+      symbol: 'aDeck',
+      name: 'Alliance Deck',
+      icon: process.env.CF_PAGES_URL + '/img/coins/AllianceDeck.png',
+      decimals: 6,
+    },
+    {
+      token: 'factory/terra1zdpgj8am5nqqvht927k3etljyl6a52kwqup0je/stOracle',
+      symbol: 'aOracle',
+      name: 'Alliance Oracle',
+      icon: process.env.CF_PAGES_URL + '/img/coins/AllianceOracle.png',
+      decimals: 6,
+    },
   ],
 }
