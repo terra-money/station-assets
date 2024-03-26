@@ -712,5 +712,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/moar.png',
       decimals: 6,
     },
+    {
+      token: 'factory/terra1hj8vslywgrgwuluajuggzpgcudk5fc9d4e6la08426dffgyl7ujs8a3e88/mjj',
+      symbol: 'MJJ',
+      name: 'Mini Jiooji',
+      icon: process.env.CF_PAGES_URL + '/img/coins/MJJ.png',
+      decimals: 6,
+    },
   ],
 }
