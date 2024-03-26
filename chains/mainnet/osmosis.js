@@ -178,11 +178,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/RAPTR.png',
     },
     {
-      token: "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID", 
-      name: "BADKID", 
-      symbol: "BADKID", 
-      decimals: 6, 
+      token: "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+      name: "BADKID",
+      symbol: "BADKID",
+      decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/badkid.png"
+    },
+    {
+      token: 'factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo',
+      symbol: 'bOSMO',
+      name: 'boneOSMO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bOSMO.webp',
+      decimals: 6,
+      lsd: 'uluna',
     },
   ],
 }

@@ -139,35 +139,35 @@ module.exports = {
       symbol: "qcKUJI",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/qckuji.svg"
-    }, 
+    },
     {
       token: "factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt",
       name: "qcMNTA",
       symbol: "qcMNTA",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/qcmnta.svg"
-    }, 
+    },
     {
       token: "factory/kujira12cjjeytrqcj25uv349thltcygnp9k0kukpct0e/uwink",
       name: "WINK",
       symbol: "WINK",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/wink.svg"
-    }, 
+    },
     {
       token: "factory/kujira1slueerjz7mx9jp45u3y0rjwtvhcf8a68wf2mjt/ublend",
       name: "BLEND",
       symbol: "BLEND",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/blend.svg"
-    }, 
+    },
     {
       token: "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn",
       name: "Fuzion Yield",
       symbol: "yFUZN",
       decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/fuziony.svg"
-    }, 
+    },
     {
       token: "factory/kujira166ysf07ze5suazfzj0r05tv8amk2yn8zvsfuu7/uplnk",
       name: "Plankton",
@@ -176,11 +176,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + "/img/coins/PLNK_drk.png"
     },
     {
-      token: "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt", 
-      name: "qcFUZN", 
-      symbol: "qcFUZN", 
-      decimals: 6, 
+      token: "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt",
+      name: "qcFUZN",
+      symbol: "qcFUZN",
+      decimals: 6,
       icon: process.env.CF_PAGES_URL + "/img/coins/qcfuzn.svg"
-    }
+    },
+    {
+      token:
+        'factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji',
+      symbol: 'bKUJI',
+      name: 'boneKUJI',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bKUJI.webp',
+      decimals: 6,
+    },
   ],
 }
