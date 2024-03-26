@@ -172,7 +172,7 @@ const axelar = require("./axelar.js");
   );
 
   // copy images inside ./build
-  const images = await glob("./img/*/*.{png,svg}");
+  const images = await glob("./img/*/*.{png,svg,webp}");
 
   await Promise.all(
     images.map(async (file) => {
