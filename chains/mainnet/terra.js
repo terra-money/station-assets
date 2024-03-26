@@ -59,6 +59,12 @@ module.exports = {
     ],
     'kaiyo-1': [
       {
+        contract: 'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+        channel: 'channel-34',
+        otherChannel: 'channel-43',
+        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26', 'terra1x62mjnme4y0rdnag3r8rfgjuutsqlkkyuh4ndgex0wl3wue25uksau39q8'],
+      },
+      {
         contract:
           'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
         channel: 'channel-28',
