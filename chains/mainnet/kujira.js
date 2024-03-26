@@ -2,15 +2,15 @@ module.exports = {
   chainID: 'kaiyo-1',
   lcd: 'https://lcd-kujira.tfl.foundation',
   gasAdjustment: 1.75,
-  version: "0.46",
+  version: '0.46',
   gasPrices: {
     ukuji: 0.0051,
-  'ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986': 0.02243,
-  'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F': 0.01785,
-  'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2': 0.00193,
-  'ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23': 0.02692,
-  'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta': 0.02711,
-  'factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk': 0.01779,
+    'ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986': 0.02243,
+    'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F': 0.01785,
+    'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2': 0.00193,
+    'ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23': 0.02692,
+    'factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta': 0.02711,
+    'factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk': 0.01779,
     /*
     'ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07': 0.98915,
     'ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10': 240624594296,
@@ -110,77 +110,77 @@ module.exports = {
       decimals: 6,
     },
     {
-      token:
-        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn',
+      token: 'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn',
       symbol: 'FUZN',
       name: 'Fuzion',
       icon: process.env.CF_PAGES_URL + '/img/coins/fuzn.png',
       decimals: 6,
     },
     {
-      token:
-        'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn',
+      token: 'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn',
       symbol: 'rFUZN',
       name: 'Fuzion Receipt',
       icon: process.env.CF_PAGES_URL + '/img/coins/rfuzn.png',
       decimals: 6,
     },
     {
-      token:
-        'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk',
+      token: 'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk',
       symbol: 'NSTK',
       name: 'Unstake Fi',
       icon: process.env.CF_PAGES_URL + '/img/coins/nstk.svg',
       decimals: 6,
     },
     {
-      token: "factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt",
-      name: "qcKUJI",
-      symbol: "qcKUJI",
+      token:
+        'factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt',
+      name: 'qcKUJI',
+      symbol: 'qcKUJI',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/qckuji.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/qckuji.svg',
     },
     {
-      token: "factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt",
-      name: "qcMNTA",
-      symbol: "qcMNTA",
+      token:
+        'factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt',
+      name: 'qcMNTA',
+      symbol: 'qcMNTA',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/qcmnta.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/qcmnta.svg',
     },
     {
-      token: "factory/kujira12cjjeytrqcj25uv349thltcygnp9k0kukpct0e/uwink",
-      name: "WINK",
-      symbol: "WINK",
+      token: 'factory/kujira12cjjeytrqcj25uv349thltcygnp9k0kukpct0e/uwink',
+      name: 'WINK',
+      symbol: 'WINK',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/wink.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/wink.svg',
     },
     {
-      token: "factory/kujira1slueerjz7mx9jp45u3y0rjwtvhcf8a68wf2mjt/ublend",
-      name: "BLEND",
-      symbol: "BLEND",
+      token: 'factory/kujira1slueerjz7mx9jp45u3y0rjwtvhcf8a68wf2mjt/ublend',
+      name: 'BLEND',
+      symbol: 'BLEND',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/blend.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/blend.svg',
     },
     {
-      token: "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn",
-      name: "Fuzion Yield",
-      symbol: "yFUZN",
+      token: 'factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn',
+      name: 'Fuzion Yield',
+      symbol: 'yFUZN',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/fuziony.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/fuziony.svg',
     },
     {
-      token: "factory/kujira166ysf07ze5suazfzj0r05tv8amk2yn8zvsfuu7/uplnk",
-      name: "Plankton",
-      symbol: "PLNK",
+      token: 'factory/kujira166ysf07ze5suazfzj0r05tv8amk2yn8zvsfuu7/uplnk',
+      name: 'Plankton',
+      symbol: 'PLNK',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/PLNK_drk.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/PLNK_drk.png',
     },
     {
-      token: "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt",
-      name: "qcFUZN",
-      symbol: "qcFUZN",
+      token:
+        'factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt',
+      name: 'qcFUZN',
+      symbol: 'qcFUZN',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/qcfuzn.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/qcfuzn.svg',
     },
     {
       token:

@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uhuahua',
   name: 'Chihuahua',
-  version: "0.46",
+  version: '0.46',
   icon: process.env.CF_PAGES_URL + '/img/chains/Huahua.png',
   channels: {
     'phoenix-1': 'channel-34',
@@ -46,53 +46,55 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
-      name: "Puppy",
-      symbol: "PUPPY",
+      token:
+        'chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef',
+      name: 'Puppy',
+      symbol: 'PUPPY',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/puppyhuahua_logo.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/puppyhuahua_logo.png',
     },
     {
-      token: "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat",
-      name: "Chihuahuawifhat",
-      symbol: "BADDOG",
+      token:
+        'factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat',
+      name: 'Chihuahuawifhat',
+      symbol: 'BADDOG',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/baddog.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/baddog.png',
     },
     {
-      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
-      name: "WOOF",
-      symbol: "WOOF",
+      token: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof',
+      name: 'WOOF',
+      symbol: 'WOOF',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/woof.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/woof.png',
     },
     {
-      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos",
-      name: "TACOS",
-      symbol: "TACOS",
+      token: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos',
+      name: 'TACOS',
+      symbol: 'TACOS',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/tacos.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/tacos.png',
     },
     {
-      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed",
-      name: "WEED",
-      symbol: "WEED",
+      token: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed',
+      name: 'WEED',
+      symbol: 'WEED',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/weed.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/weed.png',
     },
     {
-      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog",
-      name: "BDOG",
-      symbol: "BDOG",
+      token: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog',
+      name: 'BDOG',
+      symbol: 'BDOG',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/bdog.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/bdog.png',
     },
     {
-      token: "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso",
-      name: "CORSO",
-      symbol: "CORSO",
+      token: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso',
+      name: 'CORSO',
+      symbol: 'CORSO',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/corso.png"
-    }
+      icon: process.env.CF_PAGES_URL + '/img/coins/corso.png',
+    },
   ],
 }

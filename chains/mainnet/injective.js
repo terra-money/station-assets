@@ -76,11 +76,32 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/glto.svg',
     },
     {
-      token: "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava", 
-      name: "Hava Coin", 
-      symbol: "HAVA", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/hava.png"
+      token: 'factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava',
+      name: 'Hava Coin',
+      symbol: 'HAVA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/hava.png',
+    },
+    {
+      token: 'inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88',
+      name: 'Ninpo',
+      symbol: 'NINPO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/ninpo.png',
+    },
+    {
+      token: 'inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h',
+      name: 'Judo',
+      symbol: 'JUDO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/judo.png',
+    },
+    {
+      token: 'peggy0xA4426666addBE8c4985377d36683D17FB40c31Be',
+      name: 'Gelotto BEAST',
+      symbol: 'BEAST',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/beast.png',
     },
   ],
 }
