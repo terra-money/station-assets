@@ -187,6 +187,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y',
+      symbol: 'ARK',
+      name: 'arika',
+      icon: process.env.CF_PAGES_URL + '/img/coins/arika.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k',
       symbol: 'Dinheiros',
       name: 'dinheiro',
