@@ -178,19 +178,35 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/RAPTR.png',
     },
     {
-      token: "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
-      name: "BADKID",
-      symbol: "BADKID",
+      token: 'factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID',
+      name: 'BADKID',
+      symbol: 'BADKID',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/badkid.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/badkid.png',
     },
     {
-      token: 'factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo',
+      token:
+        'factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo',
       symbol: 'bOSMO',
       name: 'boneOSMO',
       icon: process.env.CF_PAGES_URL + '/img/coins/bOSMO.webp',
       decimals: 6,
       lsd: 'uluna',
+    },
+    {
+      token:
+        'factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos',
+      name: 'Yieldmos Coin',
+      symbol: 'YMOS',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/ymos.png',
+    },
+    {
+      token: 'factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro',
+      name: 'TORO',
+      symbol: 'TORO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/toro.png',
     },
   ],
 }

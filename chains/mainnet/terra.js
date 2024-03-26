@@ -4,8 +4,8 @@ module.exports = {
   gasAdjustment: 1.75,
   gasPrices: {
     uluna: 0.015,
-    "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4": 0.018, // axlUSDC
-    "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": 0.018, // noble USDC
+    'ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4': 0.018, // axlUSDC
+    'ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB': 0.018, // noble USDC
   },
   prefix: 'terra',
   coinType: '330',
@@ -35,7 +35,7 @@ module.exports = {
     'neutron-1': 'channel-229',
     'injective-1': 'channel-255',
     'dydx-mainnet-1': 'channel-299',
-    'celestia': 'channel-300',
+    celestia: 'channel-300',
     'stargaze-1': 'channel-324',
     'andromeda-1': 'channel-351',
   },
@@ -59,10 +59,14 @@ module.exports = {
     ],
     'kaiyo-1': [
       {
-        contract: 'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+        contract:
+          'terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
         channel: 'channel-34',
         otherChannel: 'channel-43',
-        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26', 'terra1x62mjnme4y0rdnag3r8rfgjuutsqlkkyuh4ndgex0wl3wue25uksau39q8'],
+        tokens: [
+          'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
+          'terra1x62mjnme4y0rdnag3r8rfgjuutsqlkkyuh4ndgex0wl3wue25uksau39q8',
+        ],
       },
       {
         contract:
@@ -89,40 +93,51 @@ module.exports = {
     ],
     'chihuahua-1': [
       {
-        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
         channel: 'channel-114',
         otherChannel: 'channel-42',
-      }
+      },
     ],
     'pacific-1': [
       {
-        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        contract:
+          'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
         channel: 'channel-171',
         otherChannel: 'channel-8',
-        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
-      }
+        tokens: [
+          'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
+        ],
+      },
     ],
     'neutron-1': [
       {
-        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        contract:
+          'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
         channel: 'channel-167',
         otherChannel: 'channel-5',
-        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
-      }
+        tokens: [
+          'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
+        ],
+      },
     ],
     'injective-1': [
       {
-        contract: 'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
+        contract:
+          'terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce',
         channel: 'channel-91',
         otherChannel: 'channel-104',
-        tokens: ['terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26'],
+        tokens: [
+          'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
+        ],
       },
       {
-        contract: 'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+        contract:
+          'terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
         channel: 'channel-116',
         otherChannel: 'channel-118',
-      }
-    ]
+      },
+    ],
   },
   // LEGACY ICS CHANNELS (to be removed soon)
   icsChannels: {
@@ -184,13 +199,6 @@ module.exports = {
       symbol: 'CUB',
       name: 'Lion Cub Dao',
       icon: process.env.CF_PAGES_URL + '/img/coins/cub.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y',
-      symbol: 'ARK',
-      name: 'arika',
-      icon: process.env.CF_PAGES_URL + '/img/coins/arika.png',
       decimals: 6,
     },
     {
@@ -274,8 +282,8 @@ module.exports = {
     {
       token: 'terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml',
       symbol: 'bLUNA',
-      name: 'boneLUNA',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bLUNA.webp',
+      name: 'boneLuna',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bLuna.png',
       decimals: 6,
       lsd: 'uluna',
     },
@@ -656,68 +664,69 @@ module.exports = {
       decimals: 6,
     },
     {
-      token:
-        'terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s',
+      token: 'terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s',
       symbol: 'ITO',
       name: 'ITO Token',
       icon: process.env.CF_PAGES_URL + '/img/coins/I.png',
       decimals: 6,
     },
     {
-      token:
-        'terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8',
+      token: 'terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8',
       symbol: 'ARMANI',
       name: 'Chris Armani Token',
       icon: process.env.CF_PAGES_URL + '/img/coins/armani.png',
       decimals: 6,
     },
     {
-      token: "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
-      name: "seul",
-      symbol: "SEUL",
+      token: 'terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l',
+      name: 'seul',
+      symbol: 'SEUL',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/seul.png"
-    }, {
-      token: "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
-      name: "xseul",
-      symbol: "xSEUL",
-      decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/xseul.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/seul.png',
     },
     {
-      token: "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
-      name: "ADO",
-      symbol: "ADO",
+      token: 'terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5',
+      name: 'xseul',
+      symbol: 'xSEUL',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/ADO.png"
+      icon: process.env.CF_PAGES_URL + '/img/coins/xseul.png',
     },
     {
-      token: "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
-      name: "ERIS Amplified CAPA",
-      symbol: "ampCAPA",
+      token: 'terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu',
+      name: 'ADO',
+      symbol: 'ADO',
       decimals: 6,
-      icons: process.env.CF_PAGES_URL + "/img/coins/ampCapa.svg"
+      icon: process.env.CF_PAGES_URL + '/img/coins/ADO.png',
     },
     {
-      token: "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
-      name: "DNA DAO",
-      symbol: "DNA",
+      token:
+        'factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA',
+      name: 'ERIS Amplified CAPA',
+      symbol: 'ampCAPA',
       decimals: 6,
-      icons: process.env.CF_PAGES_URL + "/img/coins/DNA.png"
+      icons: process.env.CF_PAGES_URL + '/img/coins/ampCapa.svg',
     },
     {
-      token: 'factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR',
+      token: 'terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h',
+      name: 'DNA DAO',
+      symbol: 'DNA',
+      decimals: 6,
+      icons: process.env.CF_PAGES_URL + '/img/coins/DNA.png',
+    },
+    {
+      token:
+        'factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR',
       symbol: 'MOAR',
       name: 'ERIS Amplified ampROAR',
       icon: process.env.CF_PAGES_URL + '/img/coins/moar.png',
       decimals: 6,
     },
     {
-      token: 'factory/terra1hj8vslywgrgwuluajuggzpgcudk5fc9d4e6la08426dffgyl7ujs8a3e88/mjj',
-      symbol: 'MJJ',
-      name: 'Mini Jiooji',
-      icon: process.env.CF_PAGES_URL + '/img/coins/MJJ.png',
+      token: 'terra1sxe8u2hjczlekwfkcq0rs28egt38pg3wqzfx4zcrese4fnvzzupsk9gjkq',
+      name: 'Bitmos',
+      symbol: 'BMOS',
       decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/bitmos.png',
     },
   ],
 }

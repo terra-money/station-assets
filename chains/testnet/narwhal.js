@@ -23,7 +23,8 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: 'ibc/623CD0B9778AD974713317EA0438A0CCAA72AF0BBE7BEE002205BCA25F1CA3BA',
+      token:
+        'ibc/623CD0B9778AD974713317EA0438A0CCAA72AF0BBE7BEE002205BCA25F1CA3BA',
       symbol: 'aTest',
       name: 'Alliance Test',
       icon: process.env.CF_PAGES_URL + '/img/coins/AllianceTest.png',
