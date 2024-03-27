@@ -15,6 +15,7 @@ module.exports = {
     'cosmoshub-4': 'channel-1',
     'migaloo-1': 'channel-10',
     'stride-1': 'channel-11',
+    'kava_2222-10': 'channel-18'
   },
   explorer: {
     address: 'https://www.mintscan.io/sei/account/{}',

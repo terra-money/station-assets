@@ -19,6 +19,7 @@ module.exports = {
     'pacific-1': 'channel-52',
     'injective-1': 'channel-3',
     'noble-1': 'channel-60',
+    'kava_2222-10': 'channel-48',
   },
   explorer: {
     address: 'https://ping.pub/Migaloo/account/{}',
