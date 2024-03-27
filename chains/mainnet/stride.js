@@ -130,5 +130,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/sttia.svg',
     },
+    {
+      token: 'stadym',
+      name: 'Stride Staked DYM',
+      symbol: 'stDYM',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/stdym.svg',
+    },
   ],
 }

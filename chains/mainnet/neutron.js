@@ -160,11 +160,19 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/goddard.svg',
     },
     {
-      token: "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv", 
-      name: "boy", 
-      symbol: "BOY", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/boy.png"
+      token:
+        'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
+      name: 'boy',
+      symbol: 'BOY',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/boy.png',
+    },
+    {
+      token: 'factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel',
+      name: 'cartel',
+      symbol: 'CARTEL',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/cartel.png',
     },
   ],
 }

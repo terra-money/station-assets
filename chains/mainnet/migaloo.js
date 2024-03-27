@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uwhale',
   name: 'Migaloo',
-  version: "0.46",
+  version: '0.46',
   icon: process.env.CF_PAGES_URL + '/img/chains/Migaloo.svg',
   alliance: true,
   channels: {
@@ -49,65 +49,77 @@ module.exports = {
         'factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale',
       symbol: 'bWHALE',
       name: 'boneWHALE',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.webp',
       decimals: 6,
       lsd: 'uwhale',
     },
     {
-      token:'migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v',
+      token:
+        'migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v',
       symbol: 'mUSDC',
       name: 'mUSDC',
       icon: process.env.CF_PAGES_URL + '/img/coins/mUSDC.svg',
-      decimals: 6
+      decimals: 6,
     },
     {
-      token:'factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash',
+      token:
+        'factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash',
       symbol: 'ASH',
       name: 'ASH',
       icon: process.env.CF_PAGES_URL + '/img/coins/ash.svg',
-      decimals: 6
+      decimals: 6,
     },
     {
-      token:'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac',
+      token: 'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac',
       symbol: 'RAC',
       name: 'RAC',
       icon: process.env.CF_PAGES_URL + '/img/coins/RAC.png',
-      decimals: 6
+      decimals: 6,
     },
     {
-      token:'factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir',
+      token:
+        'factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir',
       symbol: 'OPHIR',
       name: 'OPHIR',
       icon: process.env.CF_PAGES_URL + '/img/coins/ophir.png',
-      decimals: 6
+      decimals: 6,
     },
     {
-      token:'factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy',
+      token: 'factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy',
       symbol: 'GUPPY',
       name: 'GUPPY',
       icon: process.env.CF_PAGES_URL + '/img/coins/guppy.png',
-      decimals: 6
-    },
-    {
-      token: "factory/migaloo18a9m9stu3dyvewwcq9qmp85euxqcvln5mefync/fable",
-      name: "FABLE",
-      symbol: "FABLE",
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/fable.svg"
     },
     {
-      token: "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash", 
-      symbol: "gASH", 
-      name: "gASH",
-      icon: process.env.CF_PAGES_URL + "/img/coins/gASH.png",
-      decimals: 6
+      token: 'factory/migaloo18a9m9stu3dyvewwcq9qmp85euxqcvln5mefync/fable',
+      name: 'FABLE',
+      symbol: 'FABLE',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/fable.svg',
     },
     {
-      token: "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark", 
-      name: "SHARK", 
-      symbol: "SHARK", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/shark.png"
+      token:
+        'factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash',
+      symbol: 'gASH',
+      name: 'gASH',
+      icon: process.env.CF_PAGES_URL + '/img/coins/gASH.png',
+      decimals: 6,
+    },
+    {
+      token: 'factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark',
+      name: 'SHARK',
+      symbol: 'SHARK',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/shark.png',
+    },
+    {
+      token:
+        'factory/migaloo1p3aj9f09d7c4jxhgue0hpdpw370j6gzc59nxxx6l8d0gc9f9rfwsdwetus/lsdSHARK',
+      name: 'lsdSHARK',
+      symbol: 'lsdSHARK',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/lsdshark.png',
     },
   ],
 }

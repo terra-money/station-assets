@@ -178,8 +178,8 @@ const fs = require('fs').promises
 
   // copy images inside ./build
   const images = [
-    ...(await glob('./img/*/*.{png,svg}')),
-    ...(await glob('./img/*.{png,svg}')),
+    ...(await glob('./img/*/*.{png,svg,webp}')),
+    ...(await glob('./img/*.{png,svg,webp}')),
   ]
 
   await Promise.all(
