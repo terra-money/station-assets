@@ -21,6 +21,7 @@ module.exports = {
     'osmosis-1': 'channel-1',
     'pacific-1': 'channel-132',
     'phoenix-1': 'channel-138',
+    'akashnet-2': 'channel-5',
   },
   explorer: {
     address: 'https://www.mintscan.io/kava/account/{}',
@@ -37,12 +38,12 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: 'usdt',
+      token: 'erc20/tether/usdt',
       symbol: 'USDT',
       name: 'Tether USD',
       icon: process.env.CF_PAGES_URL + '/img/coins/USDT.svg',
       decimals: 6,
-    },
+  },
     {
       token: 'hard',
       symbol: 'HARD',
@@ -57,5 +58,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/SWP.svg',
       decimals: 6,
     },
+    {
+      token: 'usdx',
+      symbol: 'USDX',
+      name: 'USDX',
+      icon: process.env.CF_PAGES_URL + '/img/coins/usdx.svg',
+      decimals: 6,
+  },
   ],
 };
