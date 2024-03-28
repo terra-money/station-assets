@@ -242,5 +242,19 @@ module.exports = {
       icon: 'https://luncbingo.com/icon.png',
       decimals: 6,
     },
+    {
+      token: "terra12nj5wddk9rr7nzrq5zxgr5wnas2alfrneau6svvcnpak4xa0n3qs2pjq7c",
+      symbol: "PILOT",
+      name: "Pilot Meme Token",
+      icon: "https://i.ibb.co/k8ZQgBP/pilot.png",
+      decimals: 6,
+    },
+    {
+      token: "terra1cdgta6yjmqxfq0wu784g449qvf3xfesryl38h47geklfyhr4wt0qfcz47j",
+      symbol: "FORCE",
+      name: "Force Token",
+      icon: "https://i.ibb.co/6BCq2Gy/force.png",
+      decimals: 6,
+    },
   ],
 }
