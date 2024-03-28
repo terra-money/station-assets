@@ -256,5 +256,19 @@ module.exports = {
       icon: "https://i.ibb.co/6BCq2Gy/force.png",
       decimals: 6,
     },
+    {
+      token: "terra15gjgmln8xj72rf69tx2zlrtcjzzvkcrdvrvfnmxja6kacz07pg0ssflecz",
+      symbol: "FOOD",
+      name: "Food Token",
+      icon: "https://raw.githubusercontent.com/TerraFarming/cw20-assets/main/food_logo.png",
+      decimals: 6,
+    },
+    {
+      token: "terra1uc87rulm4j32jk7575c8rhwqfr838jx4a22azvknmfhwzzealkzsg4yw6t",
+      symbol: "LWM",
+      name: "Lunc Warriors Meme Token",
+      icon: "https://raw.githubusercontent.com/LUNC-Warriors-NFT/cw20-token-assets/main/lwm_small.png",
+      decimals: 6,
+    },
   ],
 }
