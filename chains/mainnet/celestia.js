@@ -7,11 +7,11 @@ module.exports = {
   coinType: '118',
   baseAsset: 'utia',
   name: 'Celestia',
-  version: "0.46",
+  version: '0.46',
   icon: process.env.CF_PAGES_URL + '/img/chains/Celestia.svg',
   channels: {
     'osmosis-1': 'channel-2',
-    'phoenix-1': 'channel-15'
+    'phoenix-1': 'channel-15',
   },
   icsChannels: {},
   explorer: {

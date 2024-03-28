@@ -39,11 +39,11 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "ubcre",
-      name: "Bonded Crescent",
-      symbol: "bCRE",
+      token: 'ubcre',
+      name: 'Bonded Crescent',
+      symbol: 'bCRE',
       decimals: 6,
-      icon: process.env.CF_PAGES_URL + "/img/coins/bcre.svg"
-    }
+      icon: process.env.CF_PAGES_URL + '/img/coins/bcre.svg',
+    },
   ],
 }
