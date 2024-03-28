@@ -14,6 +14,11 @@ module.exports = {
   channels: {
     'cosmoshub-4': 'channel-1',
     'osmosis-1': 'channel-2',
+    'archway-1': 'channel-45',
+    'axelar-dojo-1': 'channel-5',
+    'kaiyo-1': 'channel-10',
+    'noble-1': 'channel-6',
+    'stride-1': 'channel-0',
   },
   icsChannels: {},
   explorer: {

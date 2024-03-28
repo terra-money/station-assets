@@ -46,6 +46,7 @@ module.exports = {
     'injective-1': 'channel-54',
     'dydx-mainnet-1': 'channel-118',
     'stargaze-1': 'channel-7',
+    'dymension_1100-1': 'channel-160',
     // 'andromeda-1': 'channel-123',
   },
   alliance: true,

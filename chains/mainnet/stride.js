@@ -24,6 +24,7 @@ module.exports = {
     'injective-1': 'channel-6',
     'dydx-mainnet-1': 'channel-160',
     'stargaze-1': 'channel-19',
+    'dymension_1100-1': 'channel-197',
   },
   explorer: {
     address: 'https://www.mintscan.io/stride/account/{}',
