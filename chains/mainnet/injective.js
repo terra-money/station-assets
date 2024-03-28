@@ -18,6 +18,7 @@ module.exports = {
     'osmosis-1': 'channel-8',
     'stride-1': 'channel-89',
     'kaiyo-1': 'channel-98',
+    'Oraichain': 'channel-147',
   },
   explorer: {
     address: 'https://www.mintscan.io/injective/account/{}',
