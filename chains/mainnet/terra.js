@@ -728,5 +728,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/bitmos.png',
     },
+    {
+      token: 'terra1eh8eq60cjy997w5dc3a6exfzanlaurupav8klx7m9u9ddfgh25mqjwl5vj',
+      name: 'Steady Lads',
+      symbol: 'LADS',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/LADS.png',
+    },
   ],
 }
