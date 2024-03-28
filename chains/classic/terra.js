@@ -235,5 +235,12 @@ module.exports = {
       icon: 'https://i.ibb.co/cTPkh0Q/SpaceX.png',
       decimals: 6,
     },
+    {
+      token: 'terra193q9yuywvzwmwt4nc7dnxh87vupkpe90ezaj44fcgytvd8dek2nqphp97h',
+      symbol: 'BNGO',
+      name: 'LUNC Bingo',
+      icon: 'https://luncbingo.com/icon.png',
+      decimals: 6,
+    },
   ],
 }
