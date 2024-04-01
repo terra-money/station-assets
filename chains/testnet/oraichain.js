@@ -1,5 +1,5 @@
 module.exports = {
-    chainID: 'Oraichain',
+    chainID: 'Oraichain-testnet',
     lcd: 'https://testnet-lcd.orai.io',
     gasAdjustment: 1.5,
     gasPrices: { orai: 0.005 },
