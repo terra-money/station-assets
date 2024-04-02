@@ -42,6 +42,7 @@ module.exports = {
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
     'kava_2222-10': 'channel-143',
+    'Oraichain': 'channel-216',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',

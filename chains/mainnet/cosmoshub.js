@@ -25,6 +25,7 @@ module.exports = {
     'neutron-1': 'channel-569',
     'injective-1': 'channel-220',
     'kava_2222-10': 'channel-277',
+    'Oraichain': 'channel-301',
   },
   explorer: {
     address: 'https://www.mintscan.io/cosmos/account/{}',
