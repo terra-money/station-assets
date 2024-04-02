@@ -38,9 +38,10 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
-    celestia: 'channel-6994',
+    'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
+    'kava_2222-10': 'channel-143',
     'Oraichain': 'channel-216',
   },
   explorer: {

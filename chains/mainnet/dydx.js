@@ -19,6 +19,7 @@ module.exports = {
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-1',
     'phoenix-1': 'channel-9',
+    'kava_2222-10': 'channel-7',
   },
   icsChannels: {},
   explorer: {
