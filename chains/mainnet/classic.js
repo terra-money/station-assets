@@ -40,9 +40,11 @@ module.exports = {
     block: 'https://finder.station.money/classic/block/{}',
   },
   channels: {
+    'phoenix-1': 'channel-85',
     'juno-1': 'channel-20',
     'crescent-1': 'channel-49',
     'axelar-dojo-1': 'channel-19',
+    'osmosis-1': 'channel-1',
   },
   tokens: [
     {
@@ -214,61 +216,5 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/lcg.png',
       decimals: 6,
     },
-    {
-      token: 'terra17q57jnwrqd6fgvt267lpgnw5muuua2awgq0k6zhkuwryregr827sxljafx',
-      symbol: 'TESSLA',
-      name: 'Tessla Token',
-      icon: 'https://i.ibb.co/LQQ36tq/Tessla.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra13d6xlk4d6cfa6c5c7n2ffua5d5fk5ggfq8vsxr34xnxr07nmke0qajzu8y',
-      symbol: 'ELON',
-      name: 'Elon Token',
-      icon: 'https://i.ibb.co/bgtD1rS/Elon.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra14mqjm7n23ky3479hmaarzqnwrlmapje08runh5m7a29rz6sunhpsn9pq27',
-      symbol: 'SPACEX',
-      name: 'SpaceX Token',
-      icon: 'https://i.ibb.co/cTPkh0Q/SpaceX.png',
-      decimals: 6,
-    },
-    {
-      token: 'terra193q9yuywvzwmwt4nc7dnxh87vupkpe90ezaj44fcgytvd8dek2nqphp97h',
-      symbol: 'BNGO',
-      name: 'LUNC Bingo',
-      icon: 'https://luncbingo.com/icon.png',
-      decimals: 6,
-    },
-    {
-      token: "terra12nj5wddk9rr7nzrq5zxgr5wnas2alfrneau6svvcnpak4xa0n3qs2pjq7c",
-      symbol: "PILOT",
-      name: "Pilot Meme Token",
-      icon: "https://i.ibb.co/k8ZQgBP/pilot.png",
-      decimals: 6,
-    },
-    {
-      token: "terra1cdgta6yjmqxfq0wu784g449qvf3xfesryl38h47geklfyhr4wt0qfcz47j",
-      symbol: "FORCE",
-      name: "Force Token",
-      icon: "https://i.ibb.co/6BCq2Gy/force.png",
-      decimals: 6,
-    },
-    {
-      token: "terra15gjgmln8xj72rf69tx2zlrtcjzzvkcrdvrvfnmxja6kacz07pg0ssflecz",
-      symbol: "FOOD",
-      name: "Food Token",
-      icon: "https://raw.githubusercontent.com/TerraFarming/cw20-assets/main/food_logo.png",
-      decimals: 6,
-    },
-    {
-      token: "terra1uc87rulm4j32jk7575c8rhwqfr838jx4a22azvknmfhwzzealkzsg4yw6t",
-      symbol: "LWM",
-      name: "Lunc Warriors Meme Token",
-      icon: "https://raw.githubusercontent.com/LUNC-Warriors-NFT/cw20-token-assets/main/lwm_small.png",
-      decimals: 6,
-    },
   ],
-}
+};

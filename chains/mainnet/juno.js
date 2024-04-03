@@ -21,6 +21,7 @@ module.exports = {
     'archway-1': 'channel-290',
     'noble-1': 'channel-224',
     'stargaze-1': 'channel-20',
+    'columbus-5': 'channel-27',
   },
   // NEW ICS CHANNELS
   ics20Channels: {

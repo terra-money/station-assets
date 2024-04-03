@@ -14,6 +14,7 @@ module.exports = {
   icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
   alliance: true,
   channels: {
+    'columbus-5': 'channel-314',
     'akashnet-2': 'channel-273',
     'axelar-dojo-1': 'channel-6',
     'carbon-1': 'channel-36',
