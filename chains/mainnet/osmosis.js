@@ -43,6 +43,7 @@ module.exports = {
     'stargaze-1': 'channel-75',
     'kava_2222-10': 'channel-143',
     'Oraichain': 'channel-216',
+    'columbus-5': 'channel-72',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
