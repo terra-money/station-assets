@@ -743,5 +743,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/LADS.png',
     },
+    {
+      token: 'terra1snxd2zatvm37l8wxvnfj5u24k3k6qqtx3ut3mv8htmalsy32rkusd4m4ae',
+      symbol: 'LINGO',
+      name: 'Lingo Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Lingotoken.png',
+      decimals: 6,
+    },
   ],
 }
