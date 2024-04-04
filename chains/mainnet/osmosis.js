@@ -210,5 +210,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/toro.png',
     },
+    {
+      token: 'factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB',
+      name: 'LAB',
+      symbol: 'LAB',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/LAB.png',
+    }
   ],
 }
