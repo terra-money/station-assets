@@ -188,7 +188,7 @@ module.exports = {
         'factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji',
       symbol: 'bKUJI',
       name: 'boneKUJI',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bKUJI.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bKUJI.png',
       decimals: 6,
     },
   ],

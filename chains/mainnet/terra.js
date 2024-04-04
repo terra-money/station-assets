@@ -291,7 +291,7 @@ module.exports = {
       token: 'terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml',
       symbol: 'bLUNA',
       name: 'boneLuna',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bLUNA.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bLUNA.png',
       decimals: 6,
       lsd: 'uluna',
     },

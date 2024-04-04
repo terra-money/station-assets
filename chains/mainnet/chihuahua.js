@@ -35,7 +35,7 @@ module.exports = {
         'chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w',
       symbol: 'bHUAHUA',
       name: 'boneHUAHUA',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bHUAHUA.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bHUAHUA.png',
       decimals: 6,
     },
     {

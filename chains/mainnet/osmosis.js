@@ -191,7 +191,7 @@ module.exports = {
         'factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo',
       symbol: 'bOSMO',
       name: 'boneOSMO',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bOSMO.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bOSMO.png',
       decimals: 6,
       lsd: 'uluna',
     },

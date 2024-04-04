@@ -371,7 +371,7 @@ module.exports = {
       token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
       symbol: 'bJUNO',
       name: 'boneJUNO',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bJUNO.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bJUNO.png',
       decimals: 6,
     },
     {

@@ -49,7 +49,7 @@ module.exports = {
         'factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale',
       symbol: 'bWHALE',
       name: 'boneWHALE',
-      icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.webp',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bWHALE.png',
       decimals: 6,
       lsd: 'uwhale',
     },
