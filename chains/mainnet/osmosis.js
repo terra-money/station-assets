@@ -41,6 +41,7 @@ module.exports = {
     'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
+    'pirin-1': 'channel-783',
     'kava_2222-10': 'channel-143',
     'Oraichain': 'channel-216',
   },
