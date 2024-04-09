@@ -38,6 +38,7 @@ module.exports = {
     celestia: 'channel-300',
     'stargaze-1': 'channel-324',
     'andromeda-1': 'channel-351',
+    'kava_2222-10': 'channel-272',
   },
   // NEW ICS CHANNELS
   ics20Channels: {
@@ -227,6 +228,13 @@ module.exports = {
       symbol: 'Alem',
       name: 'alentejo.money',
       icon: process.env.CF_PAGES_URL + '/img/coins/Alem.png',
+      decimals: 6,
+    },
+    {
+      token: 'terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y',
+      symbol: 'ARK',
+      name: 'arika',
+      icon: process.env.CF_PAGES_URL + '/img/coins/arika.png',
       decimals: 6,
     },
     {
@@ -727,6 +735,20 @@ module.exports = {
       symbol: 'BMOS',
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/bitmos.png',
+    },
+    {
+      token: 'terra1eh8eq60cjy997w5dc3a6exfzanlaurupav8klx7m9u9ddfgh25mqjwl5vj',
+      name: 'Steady Lads',
+      symbol: 'LADS',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/LADS.png',
+    },
+    {
+      token: 'terra1snxd2zatvm37l8wxvnfj5u24k3k6qqtx3ut3mv8htmalsy32rkusd4m4ae',
+      symbol: 'LINGO',
+      name: 'Lingo Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/Lingotoken.png',
+      decimals: 6,
     },
   ],
 }

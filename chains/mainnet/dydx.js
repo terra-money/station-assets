@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'dydx-mainnet-1',
-  lcd: 'https://lcd-dydx.tfl.foundation',
+  // lcd: 'https://lcd-dydx.tfl.foundation',
+  lcd: 'https://dydx-dao-api.polkachu.com',
   gasAdjustment: 1.75,
   gasPrices: {
     adydx: 12500000000,
@@ -19,6 +20,7 @@ module.exports = {
     'osmosis-1': 'channel-3',
     'stride-1': 'channel-1',
     'phoenix-1': 'channel-9',
+    'kava_2222-10': 'channel-7',
   },
   icsChannels: {},
   explorer: {

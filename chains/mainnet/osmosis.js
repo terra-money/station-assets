@@ -38,9 +38,12 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
-    celestia: 'channel-6994',
+    'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
+    'pirin-1': 'channel-783',
+    'kava_2222-10': 'channel-143',
+    'Oraichain': 'channel-216',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
@@ -208,5 +211,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/toro.png',
     },
+    {
+      token: 'factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB',
+      name: 'LAB',
+      symbol: 'LAB',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/LAB.png',
+    }
   ],
 }
