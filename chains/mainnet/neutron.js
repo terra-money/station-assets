@@ -1,6 +1,5 @@
 module.exports = {
   chainID: 'neutron-1',
-  // lcd: 'https://neutron-rest.publicnode.com',
   lcd: 'https://lcd-neutron.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: {
