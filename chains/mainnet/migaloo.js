@@ -121,5 +121,13 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/lsdshark.png',
     },
+    {
+      token:
+        'factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk',
+      name: 'RESTAKE DAO',
+      symbol: 'RSTK',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/rstk.svg',
+    },
   ],
 }
