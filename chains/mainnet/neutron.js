@@ -178,5 +178,19 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/cartel.png',
     },
+    {
+      token: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro',
+      name: 'Astroport',
+      symbol: 'ASTRO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/AstroportToken.png',
+    },
+    {
+      token: 'factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO',
+      name: 'Staked Astroport Token',
+      symbol: 'xASTRO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/xAstro.svg',
+    },
   ],
 }
