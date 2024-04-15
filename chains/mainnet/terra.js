@@ -332,9 +332,9 @@ module.exports = {
     },
     {
       token: 'terra1x62mjnme4y0rdnag3r8rfgjuutsqlkkyuh4ndgex0wl3wue25uksau39q8',
-      symbol: 'xASTRO',
+      symbol: 'xASTRO.cw20',
       name: 'Staked Astroport Token',
-      icon: process.env.CF_PAGES_URL + '/img/coins/StakedAstroportToken.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/xastro-cw20.svg',
       decimals: 6,
     },
     {
