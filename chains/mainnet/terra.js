@@ -325,9 +325,9 @@ module.exports = {
     },
     {
       token: 'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
-      symbol: 'ASTRO',
+      symbol: 'ASTRO.cw20',
       name: 'Astroport Token',
-      icon: process.env.CF_PAGES_URL + '/img/coins/AstroportToken.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/astro-cw20.svg',
       decimals: 6,
     },
     {
