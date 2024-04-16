@@ -1,7 +1,6 @@
 module.exports = {
   chainID: 'dydx-mainnet-1',
-  // lcd: 'https://lcd-dydx.tfl.foundation',
-  lcd: 'https://dydx-dao-api.polkachu.com',
+  lcd: 'https://lcd-dydx.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: {
     adydx: 12500000000,
