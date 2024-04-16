@@ -1,6 +1,6 @@
 module.exports = {
     chainID: 'Oraichain',
-    lcd: 'https://lcd.orai.io',
+    lcd: 'https://lcd-oraichain.tfl.foundation',
     gasAdjustment: 1.5,
     gasPrices: { orai: 0.005 },
     prefix: 'orai',

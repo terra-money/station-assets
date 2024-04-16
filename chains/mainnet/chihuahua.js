@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'chihuahua-1',
-  lcd: 'https://api.chihuahua.wtf',
+  lcd: 'https://lcd-chihuahua.tfl.foundation',
   gasAdjustment: 2,
   gasPrices: { uhuahua: 1250 },
   prefix: 'chihuahua',

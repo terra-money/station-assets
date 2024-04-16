@@ -25,11 +25,8 @@ module.exports = {
     'kaiyo-1': 'channel-3',
     'phoenix-1': 'channel-25',
     'stargaze-1': 'channel-18',
-<<<<<<< HEAD
     'kava_2222-10': 'channel-36',
-=======
     'pirin-1': 'channel-44',
->>>>>>> add-nolus
   },
   icsChannels: {},
   explorer: {
