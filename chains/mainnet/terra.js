@@ -719,14 +719,14 @@ module.exports = {
       name: 'ERIS Amplified CAPA',
       symbol: 'ampCAPA',
       decimals: 6,
-      icons: process.env.CF_PAGES_URL + '/img/coins/ampCapa.svg',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ampCapa.svg',
     },
     {
       token: 'terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h',
       name: 'DNA DAO',
       symbol: 'DNA',
       decimals: 6,
-      icons: process.env.CF_PAGES_URL + '/img/coins/DNA.png',
+      icon: process.env.CF_PAGES_URL + '/img/coins/DNA.png',
     },
     {
       token:
