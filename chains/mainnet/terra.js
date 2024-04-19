@@ -317,6 +317,13 @@ module.exports = {
       decimals: 6,
     },
     {
+      token: 'terra164ssz60yvsxey0ku9mtcaegdeyxwzuwwqyrp238nvflwqve0pvxsra7fa2',
+      symbol: 'CLON',
+      name: 'CLON',
+      icon: process.env.CF_PAGES_URL + '/img/coins/clon1.png',
+      decimals: 6,
+    },
+    {
       token: 'terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q',
       symbol: 'Alem',
       name: 'alentejo.money',
