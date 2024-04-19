@@ -277,5 +277,12 @@ module.exports = {
       icon: "https://raw.githubusercontent.com/LUNC-Warriors-NFT/cw20-token-assets/main/lwm_small.png",
       decimals: 6,
     },
+    {
+      token: "terra10sfn80av99qkcx3rdpm4rt9hsguadyra5ewyxr",
+      symbol: "SON",
+      name: "Sonic(k) Token",
+      icon: "https://swap.sonikchain.com/sonic32.png",
+      decimals: 6,
+    },
   ],
 }
