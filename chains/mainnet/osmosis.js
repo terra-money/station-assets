@@ -1,7 +1,6 @@
 module.exports = {
   chainID: 'osmosis-1',
-  // lcd: 'https://lcd-osmosis.tfl.foundation',
-  lcd: 'https://osmosis-api.polkachu.com',
+  lcd: 'https://lcd-osmosis.tfl.foundation',
   gasAdjustment: 1.5,
   version: '0.46',
   gasPrices: {
