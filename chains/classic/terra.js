@@ -284,5 +284,12 @@ module.exports = {
       icon: "https://swap.sonikchain.com/sonic32.png",
       decimals: 6,
     },
+    {
+      token: "terra1wez9puj43v4s25vrex7cv3ut3w75w4h6j5e537sujyuxj0r5ne2qp9uwl9",
+      symbol: "FROG",
+      name: "Frogztrik NFT Token",
+      icon: "https://github.com/Fidel2001/station-assets/blob/main/img/coins/FROG.png",
+      decimals: 6,
+    },
   ],
 }
