@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'columbus-5',
-  lcd: 'https://lcd.terra-classic.hexxagon.io',
+  //lcd: 'https://lcd.terra-classic.hexxagon.io', // Let hexxagon know is we use their infra
+  lcd: 'https://lcd-terraclassic.tfl.foundation',
   gasAdjustment: 5,
   gasPrices: {
     uluna: 28.325,
