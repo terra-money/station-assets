@@ -7,7 +7,7 @@ module.exports = {
   coinType: '118',
   baseAsset: 'uxion',
   name: 'XION',
-  icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
+  icon: process.env.CF_PAGES_URL + '/img/coins/XION.png',
   explorer: {
     address: 'https://explorer.burnt.com/xion-testnet-1/account/{}',
     tx: 'https://explorer.burnt.com/xion-testnet-1/transaction/{}',
