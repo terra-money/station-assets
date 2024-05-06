@@ -129,13 +129,5 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/rstk.svg',
     },
-    {
-      token:
-        'ibc/B1BD4EF49A2E051EFC85E8C6A932B559CE62F9519E0E83BE29A8F0BDF89BD1D3',
-      name: 'Frogztrik NFT Token',
-      symbol: 'FROG',
-      decimals: 6,
-      icon: "https://github.com/Fidel2001/station-assets/blob/main/img/coins/FROG.png",
-    },
   ],
 }
