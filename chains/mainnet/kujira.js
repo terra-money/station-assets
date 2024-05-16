@@ -191,5 +191,26 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/bKUJI.webp',
       decimals: 6,
     },
+    {
+      token: "factory/kujira1w4yaama77v53fp0f9343t9w2f932z526vj970n2jv5055a7gt92sxgwypf/urcpt", 
+      name: "Ghost Vault USK", 
+      symbol: "xUSK", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/xusk.png"
+    }, 
+    {
+      token: "factory/kujira1ya42knfcsvy6eztegsn3hz7zpjvhzn05ge85xa2dy2zrjeul9hnspp3c06/urcpt", 
+      name: "Ghost Vault MNTA", 
+      symbol: "xMNTA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/xmnta.png"
+    }, 
+    {
+      token: "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/unami", 
+      name: "NAMI", 
+      symbol: "NAMI", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/nami.svg"
+    }
   ],
 }

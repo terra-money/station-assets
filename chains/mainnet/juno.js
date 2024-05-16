@@ -748,5 +748,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/arena.svg',
     },
+    {
+      token: "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind", 
+      name: "Wind Token", 
+      symbol: "WIND",
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/wind.png",
+    }
   ],
 }

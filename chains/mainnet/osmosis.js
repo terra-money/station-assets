@@ -217,6 +217,69 @@ module.exports = {
       symbol: 'LAB',
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/LAB.png',
+    },
+    {
+      token: "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC", 
+      name: "IBC", 
+      symbol: "IBC", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ibc.png"
+    }, 
+    {
+      token: "factory/osmo13gu58hzw3e9aqpj25h67m7snwcjuccd7v4p55w/brnz", 
+      name: "Branez", 
+      symbol: "BRNZ", 
+      decimals: 0, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/BRNZ.svg"
+    }, 
+    {
+      token: "factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE",
+      name: "BERNESE",
+      symbol: "BERNESE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/bernese.png"
+    }, 
+    {
+      token: "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
+      name: "Wrapped Libra Coin",
+      symbol: "wLIBRA",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/libra.svg"
+    }, 
+    {
+      token: "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/lab.ash",
+      name: "Burned LAB",
+      symbol: "ashLAB",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/ashLAB.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bwh",
+      name: "BeerWifHat",
+      symbol: "BWH",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/bwh.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/cac",
+      name: "Cosmos Airdrop Chat",
+      symbol: "CAC",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/CAC.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/pbb",
+      name: "Power Bottom",
+      symbol: "PBB",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/PBB.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+      name: "Shitmos",
+      symbol: "SHITMOS",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/SHITMOS.png"
     }
   ],
 }

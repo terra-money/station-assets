@@ -129,5 +129,12 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/rstk.svg',
     },
+    {
+      token: "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/ugrac", 
+      name: "Gaming RAC Token", 
+      symbol: "GRAC", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/grac.png"
+    }
   ],
 }

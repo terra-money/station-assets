@@ -189,5 +189,19 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/xAstro.svg',
     },
+    {
+      token: "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG", 
+      name: "ATOM1KLFG", 
+      symbol: "ATOM1KLFG", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ATOM1KLFGc.png"
+    }, 
+    {
+      token: "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD", 
+      name: "WEIRD", 
+      symbol: "WEIRD", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/WEIRD.png"
+    }
   ],
 }

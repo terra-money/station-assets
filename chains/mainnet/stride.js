@@ -138,5 +138,12 @@ module.exports = {
       decimals: 18,
       icon: process.env.CF_PAGES_URL + '/img/coins/stdym.svg',
     },
+    {
+      token: "stusaga", 
+      name: "Stride Staked SAGA", 
+      symbol: "stSAGA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/stsaga.svg"
+    }
   ],
 }
