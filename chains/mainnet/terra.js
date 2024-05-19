@@ -764,5 +764,13 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/Lingotoken.png',
       decimals: 6,
     },
+    {
+      token:
+        'factory/terra1djk2zl83dspt696ex5crhfacu8vm6934576t4zdd2592fzyahr2qma6guq/ULUN-IBC/-LP',
+      symbol: 'ATOM-LUNA LP',
+      name: 'URA ATOM-LUNA LP Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
   ],
 }
