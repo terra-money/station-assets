@@ -772,5 +772,21 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+      token:
+        'factory/terra12jxfw2vg4cu6mxlgf39dp5ccxtuwm468w8eh9cnh2qsxc9t0sffs7ekhft/ULUN-IBC/-LP',
+      symbol: 'LUNA-USDC LP',
+      name: 'URA LUNA-USDC LP Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
+    {
+      token:
+        'factory/terra1w9spejtuac5dt0gympq576uhwde39exhh7hdxwl99rjvaphfukkq6y4cv7/ULUN-IBC/-LP',
+      symbol: 'LUNA-USDT LP',
+      name: 'URA LUNA-USDT LP Token',
+      icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
+      decimals: 6,
+    },
   ],
 }
