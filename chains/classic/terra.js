@@ -292,5 +292,12 @@ module.exports = {
       icon: "https://github.com/Fidel2001/station-assets/blob/main/img/coins/FROG.png",
       decimals: 6,
     },
+    {
+      name: "TeslaX Automobile",
+      symbol: "TeslaX",
+      token: "terra1t9gw5njcx009ud2ke7txq92hx5v75arsctzch9nyxv0096987c4q9fwvzy",
+      icon : "https://i.ibb.co.com/r3dfHWK/IMG-0217.png",
+      decimal: 6,
+    },
   ],
 }
