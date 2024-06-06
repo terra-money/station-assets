@@ -307,7 +307,7 @@ module.exports = {
       decimals: 6,
     },
     {
-      token:"terra12j3xuxx52cg045qk37ee4k4u4fsgvyuf8d89dh7c9mr706jvxdascahqej",
+      token:"terra1vxhnzlr44ajzq84xra07gtvyv5saxmsyz6cd5cewqm479znvsepqzdkk05",
       symbol: "PIZZAB",
       name: "Pizzaboy",
       icon: "https://i.ibb.co.com/YTtCpL9/Pizzaboy.jpg",
