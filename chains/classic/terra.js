@@ -313,5 +313,12 @@ module.exports = {
       icon: "https://i.ibb.co.com/YTtCpL9/Pizzaboy.jpg",
       decimals: 6,
     },
+    {
+      token:"terra1nv36kq4dpxf4d00w4mv4w095ek8kv48f54v46qduruy4fwd2dtzq2uk70j",
+      symbol: "TKMN",
+      name: "TUTAN KHAMUN",
+      icon: "https://i.ibb.co.com/wR2spDZ/TKMN.jpg",
+      decimals: 6,
+    },
   ],
 }
