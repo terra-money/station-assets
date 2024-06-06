@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'stafihub-1',
-  lcd: 'https://public-rest-rpc1.stafihub.io',
+  lcd: 'https://lcd-stafihub.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ufis: 0.025 },
   prefix: 'stafi',
@@ -57,7 +57,7 @@ module.exports = {
       name: 'rSWTH',
       icon: process.env.CF_PAGES_URL + '/img/coins/rSWTH.svg',
       decimals: 8,
-      lsd: 'swth'
-    }
+      lsd: 'swth',
+    },
   ],
 }

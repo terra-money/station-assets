@@ -25,6 +25,8 @@ module.exports = {
     'kaiyo-1': 'channel-3',
     'phoenix-1': 'channel-25',
     'stargaze-1': 'channel-18',
+    'kava_2222-10': 'channel-36',
+    'pirin-1': 'channel-44',
   },
   icsChannels: {},
   explorer: {
@@ -159,11 +161,47 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/goddard.svg',
     },
     {
-      token: "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv", 
-      name: "boy", 
-      symbol: "BOY", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/boy.png"
+      token:
+        'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
+      name: 'boy',
+      symbol: 'BOY',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/boy.png',
     },
+    {
+      token: 'factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel',
+      name: 'cartel',
+      symbol: 'CARTEL',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/cartel.png',
+    },
+    {
+      token: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro',
+      name: 'Astroport',
+      symbol: 'ASTRO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/AstroportToken.png',
+    },
+    {
+      token: 'factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO',
+      name: 'Staked Astroport Token',
+      symbol: 'xASTRO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/xAstro.svg',
+    },
+    {
+      token: "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG", 
+      name: "ATOM1KLFG", 
+      symbol: "ATOM1KLFG", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ATOM1KLFGc.png"
+    }, 
+    {
+      token: "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD", 
+      name: "WEIRD", 
+      symbol: "WEIRD", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/WEIRD.png"
+    }
   ],
 }

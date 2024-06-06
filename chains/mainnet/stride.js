@@ -1,6 +1,7 @@
 module.exports = {
   chainID: 'stride-1',
   lcd: 'https://stride-fleet.main.stridenet.co/api',
+  // lcd: 'https://lcd-stride.tfl.foundation',
   gasAdjustment: 1.75,
   gasPrices: { ustrd: 0.005 },
   prefix: 'stride',
@@ -130,5 +131,19 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/sttia.svg',
     },
+    {
+      token: 'stadym',
+      name: 'Stride Staked DYM',
+      symbol: 'stDYM',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/stdym.svg',
+    },
+    {
+      token: "stusaga", 
+      name: "Stride Staked SAGA", 
+      symbol: "stSAGA", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/stsaga.svg"
+    }
   ],
 }

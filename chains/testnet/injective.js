@@ -9,7 +9,7 @@ module.exports = {
   name: 'Injective',
   icon: process.env.CF_PAGES_URL + '/img/chains/Injective.svg',
   channels: {
-    'indigo-1': 'channel-151'
+    'indigo-1': 'channel-151',
   },
   explorer: {
     address: 'https://testnet.explorer.injective.network/account/{}',

@@ -371,7 +371,7 @@ module.exports = {
       token: 'juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m',
       symbol: 'bJUNO',
       name: 'boneJUNO',
-      icon: '',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bJUNO.webp',
       decimals: 6,
     },
     {
@@ -705,5 +705,55 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/hava.png',
     },
+    {
+      token: 'juno1s2dp05rspeuzzpzyzdchk262szehrtfpz847uvf98cnwh53ulx4qg20qwj',
+      name: 'Banana Token',
+      symbol: 'BANANA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/banana.png',
+    },
+    {
+      token: 'juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82',
+      name: 'MINERVA',
+      symbol: 'MRVA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/minerva.png',
+    },
+    {
+      token: 'juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk',
+      name: 'LUNO',
+      symbol: 'LUNO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/luno.png',
+    },
+    {
+      token: 'juno1elpg96tju8a32vzn25u6asvscajjm4000589z0zthhvks28ajypqzurl7r',
+      name: 'ATEN',
+      symbol: 'ATEN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/aten.png',
+    },
+    {
+      token: 'juno1dtd45vxvv080v9x7hffysnmvrqm6ysecjdnvafqul28646hm04xs9gheh0',
+      name: 'HERA',
+      symbol: 'HERA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/hera.png',
+    },
+    {
+      token:
+        'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA',
+      name: 'Arena Token',
+      symbol: 'ARENA',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/arena.svg',
+    },
+    {
+      token: "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind", 
+      name: "Wind Token", 
+      symbol: "WIND",
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/wind.png",
+    }
   ],
 }

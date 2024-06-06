@@ -38,9 +38,12 @@ module.exports = {
     'noble-1': 'channel-750',
     'pacific-1': 'channel-782',
     'injective-1': 'channel-122',
-    celestia: 'channel-6994',
+    'celestia': 'channel-6994',
     'dydx-mainnet-1': 'channel-6787',
     'stargaze-1': 'channel-75',
+    'pirin-1': 'channel-783',
+    'kava_2222-10': 'channel-143',
+    'Oraichain': 'channel-216',
   },
   explorer: {
     address: 'https://www.mintscan.io/osmosis/account/{}',
@@ -178,11 +181,105 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/RAPTR.png',
     },
     {
-      token: "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID", 
-      name: "BADKID", 
-      symbol: "BADKID", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/badkid.png"
+      token: 'factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID',
+      name: 'BADKID',
+      symbol: 'BADKID',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/badkid.png',
     },
+    {
+      token:
+        'factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo',
+      symbol: 'bOSMO',
+      name: 'boneOSMO',
+      icon: process.env.CF_PAGES_URL + '/img/coins/bOSMO.webp',
+      decimals: 6,
+      lsd: 'uluna',
+    },
+    {
+      token:
+        'factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos',
+      name: 'Yieldmos Coin',
+      symbol: 'YMOS',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/ymos.png',
+    },
+    {
+      token: 'factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro',
+      name: 'TORO',
+      symbol: 'TORO',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/toro.png',
+    },
+    {
+      token: 'factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB',
+      name: 'LAB',
+      symbol: 'LAB',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/LAB.png',
+    },
+    {
+      token: "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC", 
+      name: "IBC", 
+      symbol: "IBC", 
+      decimals: 6, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/ibc.png"
+    }, 
+    {
+      token: "factory/osmo13gu58hzw3e9aqpj25h67m7snwcjuccd7v4p55w/brnz", 
+      name: "Branez", 
+      symbol: "BRNZ", 
+      decimals: 0, 
+      icon: process.env.CF_PAGES_URL + "/img/coins/BRNZ.svg"
+    }, 
+    {
+      token: "factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE",
+      name: "BERNESE",
+      symbol: "BERNESE",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/bernese.png"
+    }, 
+    {
+      token: "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
+      name: "Wrapped Libra Coin",
+      symbol: "wLIBRA",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/libra.svg"
+    }, 
+    {
+      token: "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/lab.ash",
+      name: "Burned LAB",
+      symbol: "ashLAB",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/ashLAB.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bwh",
+      name: "BeerWifHat",
+      symbol: "BWH",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/bwh.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/cac",
+      name: "Cosmos Airdrop Chat",
+      symbol: "CAC",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/CAC.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/pbb",
+      name: "Power Bottom",
+      symbol: "PBB",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/PBB.png"
+    }, 
+    {
+      token: "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+      name: "Shitmos",
+      symbol: "SHITMOS",
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + "/img/coins/SHITMOS.png"
+    }
   ],
 }

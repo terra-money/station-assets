@@ -62,11 +62,11 @@ module.exports = {
       decimals: 6,
     },
     {
-      token: "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky", 
-      name: "Sneaky Productions", 
-      symbol: "SNEAKY", 
-      decimals: 6, 
-      icon: process.env.CF_PAGES_URL + "/img/coins/sneaky.svg"
-    }
+      token: 'factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky',
+      name: 'Sneaky Productions',
+      symbol: 'SNEAKY',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/sneaky.svg',
+    },
   ],
 }

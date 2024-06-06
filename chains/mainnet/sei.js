@@ -15,6 +15,7 @@ module.exports = {
     'cosmoshub-4': 'channel-1',
     'migaloo-1': 'channel-10',
     'stride-1': 'channel-11',
+    'kava_2222-10': 'channel-18'
   },
   explorer: {
     address: 'https://www.mintscan.io/sei/account/{}',
@@ -58,6 +59,20 @@ module.exports = {
       symbol: 'SENSEI',
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/SenseiDog.png',
+    },
+    {
+      token: 'sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda',
+      name: 'Oozaru',
+      symbol: 'OOZARU',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/oozaru.png',
+    },
+    {
+      token: 'sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed',
+      name: 'SEIYAN',
+      symbol: 'SEIYAN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/SEIYAN.png',
     },
   ],
 }
