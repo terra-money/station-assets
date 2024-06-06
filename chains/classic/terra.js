@@ -237,20 +237,6 @@ module.exports = {
       decimals: 6,
     },
     {
-      token:"terra12j3xuxx52cg045qk37ee4k4u4fsgvyuf8d89dh7c9mr706jvxdascahqej",
-      symbol: "ROTTI",
-      name: "Rottweiler",
-      icon: "https://i.ibb.co.com/jRP4s0q/ROTTI.jpg",
-      decimals: 6,
-    },
-    {
-      token:"terra12j3xuxx52cg045qk37ee4k4u4fsgvyuf8d89dh7c9mr706jvxdascahqej",
-      symbol: "PIZZAB",
-      name: "Pizzaboy",
-      icon: "https://i.ibb.co.com/YTtCpL9/Pizzaboy.jpg",
-      decimals: 6,
-    },
-    {
       token: 'terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2',
       symbol: 'Rakoff',
       name: 'RakoffToken',
@@ -312,6 +298,20 @@ module.exports = {
       token: "terra1t9gw5njcx009ud2ke7txq92hx5v75arsctzch9nyxv0096987c4q9fwvzy",
       icon : "https://i.ibb.co.com/r3dfHWK/IMG-0217.png",
       decimal: 6,
+    },
+    {
+      token:"terra12j3xuxx52cg045qk37ee4k4u4fsgvyuf8d89dh7c9mr706jvxdascahqej",
+      symbol: "ROTTI",
+      name: "Rottweiler",
+      icon: "https://i.ibb.co.com/jRP4s0q/ROTTI.jpg",
+      decimals: 6,
+    },
+    {
+      token:"terra12j3xuxx52cg045qk37ee4k4u4fsgvyuf8d89dh7c9mr706jvxdascahqej",
+      symbol: "PIZZAB",
+      name: "Pizzaboy",
+      icon: "https://i.ibb.co.com/YTtCpL9/Pizzaboy.jpg",
+      decimals: 6,
     },
   ],
 }
