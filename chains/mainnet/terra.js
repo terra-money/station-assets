@@ -337,6 +337,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/alentejo.money.png',
       decimals: 6,
     },
+      token: 'terra1vj68f2ntauaj5dfvy5z4tq4we3hsyg363k63js5sae2t7th9aacqan89sr',
+      symbol: 'DANU',
+      name: 'danu',
+      icon: process.env.CF_PAGES_URL + '/img/coins/danu.png',
+      decimals: 6,
+    },
     {
       token: 'terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
       symbol: 'ASTRO.cw20',
