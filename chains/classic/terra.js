@@ -320,5 +320,12 @@ module.exports = {
       icon: "https://i.ibb.co.com/wR2spDZ/TKMN.jpg",
       decimals: 6,
     },
+    {
+      token:"terra1advhdyzja37d3ppgnzgr66p2sgct84kzjdzcaqrx70z8ekj6gd5q6n8a9e",
+      symbol: "BETTING",
+      name: "BETTING TOKEN",
+      icon: "https://i.ibb.co.com/S3hJ6bg/BETTING-Token.jpg",
+      decimals: 6,
+    },
   ],
 }
