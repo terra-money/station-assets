@@ -135,6 +135,12 @@ module.exports = {
       symbol: "GRAC", 
       decimals: 6, 
       icon: process.env.CF_PAGES_URL + "/img/coins/grac.png"
+    },
+    {
+    token: "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH", 
+    symbol: "ampGASH", 
+    name: "Liquid stake gASH",
+    decimals: 6
     }
   ],
 }

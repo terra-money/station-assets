@@ -788,5 +788,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/coins/ura.svg',
       decimals: 6,
     },
+    {
+      token: "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash", 
+      symbol: "ashLUNA", 
+      name: "Burned LUNA",
+      icon: process.env.CF_PAGES_URL + '/img/coins/luna.ash.png',
+      decimals: 6
+    }
   ],
 }
