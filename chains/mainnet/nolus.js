@@ -1,6 +1,6 @@
 module.exports = {
   chainID: 'pirin-1',
-  lcd: 'https://pirin-cl-arc.nolus.network:1317',
+  lcd: 'https://nolus-rest.publicnode.com',
   gasAdjustment: 1.5,
   gasPrices: { unls: 0.025 },
   prefix: 'nolus',
