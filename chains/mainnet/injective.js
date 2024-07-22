@@ -112,5 +112,12 @@ module.exports = {
       decimals: 18,
       icon: process.env.CF_PAGES_URL + '/img/coins/bINJ.png',
     },
+    {
+      token: 'factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN',
+      name: 'Syndicate',
+      symbol: 'SYN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/SYN.png',
+    },
   ],
 }
