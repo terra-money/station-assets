@@ -105,5 +105,19 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/beast.png',
     },
+    {
+      token: 'factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ',
+      name: 'boneInjective',
+      symbol: 'bINJ',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/bINJ.jpg',
+    },
+    {
+      token: 'factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN',
+      name: 'Syndicate',
+      symbol: 'SYN',
+      decimals: 6,
+      icon: process.env.CF_PAGES_URL + '/img/coins/SYN.png',
+    },
   ],
 }
