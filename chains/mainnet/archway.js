@@ -111,6 +111,22 @@ module.exports = {
       decimals: 6,
       icon: process.env.CF_PAGES_URL + '/img/coins/axv.svg',
     },
+    {
+      token:
+        'archway17e3z7cr6d29uj54k4ucs6dtqvlxsxhwnwzetqgnp6zeu40cvq7dsd8q60x',
+      name: 'BackBone Labs Liquid Staked Archway',
+      symbol: 'bARCH',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/barch.png',
+    },
+    {
+      token:
+        'archway12yurzx8zynv3ck7uh4tucre48tqsm4fac4hfk9p3l24qs2cn08dqr684cg',
+      name: '"Architects Token',
+      symbol: 'TOKN',
+      decimals: 18,
+      icon: process.env.CF_PAGES_URL + '/img/coins/tokn.png',
+    },
     // {
     //   token: "archway1yv8uhe795xs4fwz6mjm278yr35ps0yagjchfp39q5x49dty9jgssm5tnkv",
     //   name: "xBLD",
